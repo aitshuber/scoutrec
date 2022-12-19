@@ -1,0 +1,15 @@
+---
+layout: "wrapper"
+---
+
+{% if page.title == "You got this!" %}
+    THis is the first post
+{% elsif page.title == "Welcome to Jekyll!" %}
+    THis is the second post
+{% else %}
+    This is another post
+{% endif %}
+<h2>{{ page.title }}</h2>
+<hr>
+
+{{ content }}
