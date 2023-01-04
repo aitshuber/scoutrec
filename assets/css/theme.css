@@ -5008,7 +5008,7 @@ fieldset:disabled .btn {
 .card-img,
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
-  border-top-right-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius); height: 275px; object-fit: cover; object-position: top;
 }
 
 .card-img,

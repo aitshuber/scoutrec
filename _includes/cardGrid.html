@@ -1,5 +1,5 @@
 <!-- Card Grid -->
-<div class="container content-space-2 content-space-lg-4 align-items-center">
+<div id="ourteam" class="container content-space-2 content-space-lg-4 align-items-center">
     <!-- Heading -->
     <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
         <p>Rock solid work ethic with an emphasis on honesty, integrity and a deep and growing network of professional
@@ -7,171 +7,24 @@
         <h2 class="h1">Meet Your Commercial Real Estate Team</h2>
     </div>
     <!-- End Heading -->
-
     <div class="row gx-3 mb-5 mb-md-9 align-items-center">
+        {% for post in site.data.broker %}
         <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/LANDRY-JEFF-1024x1024.png" alt="Image Description">
+                <img class="card-img-top" src="{{ post.image }}" alt="Image Description">
                 <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Jef Landry, CCIM<br>Managing Broker, Partner</span>
-                    <h5 class="card-text lh-base  text-center">337-257-5380<br>jeff@scoutrec.com</h5>
+                    <span class="card-subtitle text-primary text-center">{{ post.name }}<br>{{ post.title }}</span>
+                    <h5 class="card-text lh-base text-center">{{ post.phone }}<br>{{ post.email }}</h5>
                     <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
-
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/MOROUX-REX.png" alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Rex Moroux, CCIM<br>Partner</span>
-                    <h5 class="card-text lh-base text-center">337-257-8133<br>rex@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/SKINNER-TIM-1024x1024.png" alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Tim Skinner, CCIM<br>Agent</span>
-                    <h5 class="card-text lh-base text-center">337-205-1635<br>tim@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/JCD22941-1638x2048.jpg" alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Diana Stephens<bro>Agent</bro></span>
-                    <h5 class="card-text lh-base text-center">225-235-5755<br>diana@scoutrec.com</bro>
-                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                    </h5>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/SCHEXNAYDER-ERIC-1024x1024.png"
-                    alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Eric Schexnayder<br>Agent</span>
-                    <h5 class="card-text lh-base text-center">337-280-3476<br>eric@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/HIGGINBOTHAM-BRAXTON-1024x1024.png"
-                    alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Braxton Higginbotham<br>Agent</span>
-                    <h5 class="card-text lh-base text-center">337-501-6457<br>braxton@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/TORIAN-ROSS.png" alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Ross Torian<br>Agent</span>
-                    <h5 class="card-text lh-base text-center">337-322-1108<br>ross@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top"
-                    src="assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg"
-                    alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Teddy Beaullieu<br>Agent</span>
-                    <h5 class="card-text lh-base text-center">337-356-1208<br>teddy@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top"
-                    src="assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg"
-                    alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Jacob Anderson<br>Agent</span>
-                    <h5 class="card-text lh-base text-center">337-501-5724<br>jacob@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/MCKINNEY-KENDRA-1022x1024.png"
-                    alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Kendra McKinney<br>Office Manager</span>
-                    <h5 class="card-text lh-base text-center">337-501-5724<br>kendra@scoutrec.com</h5>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 col-lg-3 align-items-center">
-            <!-- Card -->
-            <a class="card card-transition h-100" href="#">
-                <img class="card-img-top" src="assets/img/500x280/MINYARD-CHARLI.png" alt="Image Description">
-                <div class="card-body">
-                    <span class="card-subtitle text-primary text-center">Charley Minyard<br>Adminstrative Assistant</span>
-                    <h5 class="card-text lh-base text-center">337-443-0880<br>charley@scoutrec.com</h5>
-                </div>
-            </a>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
+        {% endfor %}
     </div>
     <!-- End Row -->
-
     <!-- end -->
 </div>
 <!-- End Card Grid -->
