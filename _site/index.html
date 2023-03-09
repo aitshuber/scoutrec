@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <!-- Title -->
-    <title>Marketing | Front - Multipurpose Responsive Template</title>
+    <title>Scout Real Estate Co. - Acadiana's Premier Commercial Real Estate Brokers - Scout Real Estate Co. https://scoutrec.com</title>
   
     <!-- Favicon -->
     <link rel="shortcut icon" href="./favicon.ico">
   
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
   
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
@@ -398,18 +399,18 @@
    <ul class="navbar-nav">
      <!-- Landings -->
      <li class="hs-has-mega-menu nav-item">
-       <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="/listings/" role="button" aria-expanded="false">SEARCH LISTINGS</a>
+       <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link active" aria-current="page" href="/listings/" role="button" aria-expanded="false">SEARCH LISTINGS</a>
       </li>
 
      <!-- Company -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#ourteam" role="button" aria-expanded="false">OUR TEAM</a>
+       <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link active" href="#ourteam" role="button" aria-expanded="false">OUR TEAM</a>
      </li>
      <!-- End Company -->
 
      <!-- Account -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="/newsletter/" role="button" aria-expanded="false">NEWSLETTER</a>
+       <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link active" href="/newsletter/" role="button" aria-expanded="false">NEWSLETTER</a>
 
        <!-- Mega Menu -->
        <div class="hs-sub-menu dropdown-menu" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
@@ -447,19 +448,13 @@
 
      <!-- Pages -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">SERVICES</a>
+       <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" href="#" role="button" aria-expanded="false">SERVICES</a>
 
        <!-- Mega Menu -->
        <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-         <a class="dropdown-item " href="./page-faq.html">FAQ</a>
-         <a class="dropdown-item " href="./page-terms.html">Terms &amp; Conditions</a>
-         <a class="dropdown-item " href="./page-privacy.html">Privacy &amp; Policy</a>
-         <a class="dropdown-item " href="./page-coming-soon.html">Coming Soon</a>
-         <a class="dropdown-item " href="./page-coming-soon-simple.html">Coming Soon: Simple</a>
-         <a class="dropdown-item " href="./page-maintenance-mode.html">Maintenance Mode</a>
-         <a class="dropdown-item " href="./page-status.html">Status</a>
-         <a class="dropdown-item " href="./page-invoice.html">Invoice</a>
-         <a class="dropdown-item " href="./page-error-404.html">Error 404</a>
+         <a class="dropdown-item " href="./brokerage.html">BROKERAGE</a>
+         <a class="dropdown-item " href="./commercial-real-estate-consulting.html">COMMERCIAL REAL ESTATE CONSULTING</a>
+         <a class="dropdown-item " href="./property-management.html">PROPERTY MANAGEMENT</a>
        </div>
        <!-- End Mega Menu -->
      </li>
@@ -467,7 +462,7 @@
 
      <!-- Button -->
      <li class="nav-item">
-       <a class="btn btn-light btn-transition" href="#contact">Contact Us</a>
+       <a class="btn btn-light btn-transition" href="#contact">CONTACT US</a>
      </li>
      <!-- End Button -->
    </ul>
@@ -479,7 +474,66 @@
 </header>
 
 <!-- ========== END HEADER ========== -->
+<script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="./assets/vendor/aos/dist/aos.js"></script>
+  <script src="./assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
+<script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
 
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
+      // INITIALIZATION OF BOOTSTRAP DROPDOWN
+      // =======================================================
+      HSBsDropdown.init()
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF AOS
+      // =======================================================
+      AOS.init({
+        duration: 650,
+        once: true
+      });
+
+
+      // INITIALIZATION OF TOGGLE SWITCH
+      // =======================================================
+      new HSToggleSwitch('.js-toggle-switch')
+    })()
+  </script>
 
 
   <!-- ========== MAIN CONTENT ========== -->
@@ -495,8 +549,9 @@
             <div class="container d-flex align-items-center" style="min-height: 40rem;">
               <div class="w-lg-50 me-3">
                 <div class="mb-7">
-                  <h1 class="display-7 text-white mb-4">Your Commercial<br>Real Estate Partners</h1>
-                  <p class="lead text-white mb-4">BROKERAGE | MANAGEMENT | CONSULTING</p>
+                  <h3 class="display-4 text-white mt-6 mb-1">Your Commercial</h3>
+                  <h3 class="display-4 text-white mb-1">Real Estate Partners</h3>
+                  <p class="lead text-white mt-4 mb-4">BROKERAGE | MANAGEMENT | CONSULTING</p>
                 </div>
 
                 <a class="btn btn-outline-light btn-transition px-6" href="/listings/">SEARCH LISTINGS</a>
@@ -544,9 +599,10 @@
             <div class="flip-card mx-0 px-0">
                 <div class="flip-card-inner mx-0 px-0">
                     <div class="flip-card-front mx-0 px-0">
-                        <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <i class="fa fa-hourglass-half fa-4x centerdiv" aria-hidden="true"></i>
+                        <!-- <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;"> -->
                     </div>
-                    <div class="flip-card-back mx-0 px-0">
+                    <div class="flip-card-back mx-0 px-0 centerdiv">
                         <p>HISTORY</p>
                         <p>OUR STORY</p>
                     </div>
@@ -557,9 +613,12 @@
             <div class="flip-card mx-0 px-0">
                 <div class="flip-card-inner mx-0 px-0">
                     <div class="flip-card-front mx-0 px-0">
-                        <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <div class="containter align-items-center justify-content-center">
+                            <i class="fa fa-user fa-4x centerdiv" aria-hidden="true"></i>
+                            <!-- <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;"> -->
+                        </div>
                     </div>
-                    <div class="flip-card-back mx-0 px-0">
+                    <div class="flip-card-back mx-0 px-0 centerdiv">
                         <p>WHO WE ARE</p>
                         <p>MEET OUR TEAM</p>
                     </div>
@@ -570,9 +629,10 @@
             <div class="flip-card mx-0 px-0">
                 <div class="flip-card-inner mx-0 px-0">
                     <div class="flip-card-front mx-0 px-0">
-                        <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <i class="fa fa-bullseye fa-4x centerdiv" aria-hidden="true"></i>
+                        <!-- <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;"> -->
                     </div>
-                    <div class="flip-card-back mx-0 px-0">
+                    <div class="flip-card-back mx-0 px-0 centerdiv">
                         <p>WHERE WE WORK</p>
                         <p>Rock N' Bowl de Lafayette<br>5th Floor<br>905 Jefferson <br>St. Suite 504<br>Lafayette, LA 70501</p>
                         <p>MAP</p>
@@ -584,9 +644,10 @@
             <div class="flip-card mx-0 px-0">
                 <div class="flip-card-inner mx-0 px-0">
                     <div class="flip-card-front mx-0 px-0">
-                        <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <i class="fa fa-question-circle fa-4x centerdiv" aria-hidden="true"></i>
+                        <!-- <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;"> -->
                     </div>
-                    <div class="flip-card-back mx-0 px-0">
+                    <div class="flip-card-back mx-0 px-0 centerdiv">
                         <p>OUR WHY</p>
                         <p>SEE OUR MISSION</p>
                     </div>
@@ -597,28 +658,28 @@
             <div class="flip-card mx-0 px-0">
                 <div class="flip-card-inner mx-0 px-0">
                     <div class="flip-card-front mx-0 px-0">
-                        <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <i class="fa fa-comments fa-4x centerdiv" aria-hidden="true"></i>
                     </div>
-                    <div class="flip-card-back mx-0 px-0">
+                    <div class="flip-card-back mx-0 px-0 centerdiv">
                         <p>GET IN TOUCH</p>
                         <p>CONTACT US</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="col-sm">
+        <div class="col-sm">
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="../assets/img/380x360/img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        <i class="fa fa-book fa-4x centerdiv" aria-hidden="true"></i>
                     </div>
-                    <div class="flip-card-back">
+                    <div class="flip-card-back mx-0 px-0 centerdiv">
                         <p>NEWSLETTERS</p>
                         <p>SEE REAL ESTATE REPORTS</p>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 </div>
     <!-- Hero -->
@@ -659,7 +720,7 @@
     <!-- End Title & Description -->
 
     <!-- SVG Shape -->
-    <div class="col-lg-7 col-xl-6 d-none d-lg-block position-absolute top-0 end-0 pe-0" style="margin-top: 6.75rem;">
+    <div class="col-lg-7 col-xl-6 d-none d-lg-block position-absolute top-0 end-0 pe-0" style="margin-top: 0rem;">
       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1137.5 979.2">
         <path fill="#F9FBFF" d="M565.5,957.4c81.1-7.4,155.5-49.3,202.4-115.7C840,739.8,857,570,510.7,348.3C-35.5-1.5-4.2,340.3,2.7,389
           c0.7,4.7,1.2,9.5,1.7,14.2l29.3,321c14,154.2,150.6,267.8,304.9,253.8L565.5,957.4z"/>
@@ -678,269 +739,265 @@
   </div>
 </div>
 <!-- End Hero -->
+
     <!-- Card Grid -->
-<div id="ourteam" class="container content-space-2 content-space-lg-4 align-items-center">
+<div id="ourteam" class="container content-space-2 content-space-lg-0 align-items-center">
     <!-- Heading -->
-    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-        <p>Rock solid work ethic with an emphasis on honesty, integrity and a deep and growing network of professional
-            relationships.</p>
+    <h4 class="mb-3 text-left">OUR CULTURE</h4>
+    <h2 class="mb-10 text-left">Rock solid work ethic with an emphasis on honesty, integrity and a deep and growing network of professional
+        relationships.</h2>
+    <div class="w-md-75 w-lg-75 text-center mx-md-auto mb-5 mb-md-9">
+        
         <h2 class="h1">Meet Your Commercial Real Estate Team</h2>
     </div>
     <!-- End Heading -->
-    <div class="row gx-3 mb-5 mb-md-9 align-items-center">
+    <div class="alignments">
+    <div class="row gx-3 mb-5 mb-md-9 align-items-center justify-content-center">
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/LANDRY-JEFF-1024x1024.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Jeff Landry, CCIM<br>Managing Broker, Partner</span>
                     <h5 class="card-text lh-base text-center">337-257-5380<br>jeff@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/MOROUX-REX.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Rex Moroux, CCIM<br>Partner</span>
                     <h5 class="card-text lh-base text-center">337-257-8133<br>rex@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/SKINNER-TIM-1024x1024.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Tim Skinner, CCIM<br>Agent</span>
                     <h5 class="card-text lh-base text-center">337-205-1635<br>tim@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/JCD22941-1638x2048.jpg" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Diana Stephens<br>Agent</span>
                     <h5 class="card-text lh-base text-center">225-235-5755<br>diana@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/SCHEXNAYDER-ERIC-1024x1024.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Eric Schexnayder<br>Agent</span>
                     <h5 class="card-text lh-base text-center">337-280-3476<br>eric@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/HIGGINBOTHAM-BRAXTON-1024x1024.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Braxton Higginbotham<br>Agent</span>
                     <h5 class="card-text lh-base text-center">337-501-6457<br>braxton@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/TORIAN-ROSS.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Ross Torian<br>Agent</span>
                     <h5 class="card-text lh-base text-center">337-322-1108<br>ross@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Teddy Beaullieu<br>Agent</span>
                     <h5 class="card-text lh-base text-center">337-356-1208<br>teddy@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Jacob Anderson<br>Agent</span>
                     <h5 class="card-text lh-base text-center">337-501-5724<br>jacob@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/MCKINNEY-KENDRA-1022x1024.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Kendra Mckinney<br>Office Manager</span>
                     <h5 class="card-text lh-base text-center">337-501-5724<br>kendra@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
-        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-sm-6 col-lg-3 mb-3 mb-lg-3 align-items-center">
             <!-- Card -->
             <a class="card card-transition h-100" href="#">
                 <img class="card-img-top" src="assets/img/500x280/MINYARD-CHARLI.png" alt="Image Description">
-                <div class="card-body">
+                <div class="card-body align-items-center">
                     <span class="card-subtitle text-primary text-center">Charley Minyard<br>Administrative Assistant</span>
                     <h5 class="card-text lh-base text-center">337-443-0880<br>charley@scoutrec.com</h5>
-                    <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    <div class="alignments">
+                        <button type="button" class="btn btn-dark mx-auto">LISTINGS</button>
+                    </div>
                 </div>
             </a>
             <!-- End Card -->
         </div>
         <!-- End Col -->
         
+    </div>
     </div>
     <!-- End Row -->
     <!-- end -->
 </div>
 <!-- End Card Grid -->
 <!-- End Row -->
-</div>
 
     <!-- End Clients -->
 
     <!-- History -->
-<div class="position-relative">
-    <!-- Swiper Main Slider -->
-    <div class="js-swiper-blog-journal-hero swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start" style="background-image: url(../assets/img/SCOUT-DOWNTOWN-VIEW.jpg); min-height: 15rem;">
-            <div class="container position-relative zi-2 content-space-3 content-space-md-5">
-                <div class="w-md-75 w-xl-65 text-center mx-md-auto">
-                    <!-- Heading -->
-                    <div class="mb-7">
-                        <h1 class="display-6 text-white mb-6">Our History</h1>
-        
-        
-                        <div class="container">
-                            <div class="row text-white">
-                                <div class="col-sm">
-                                    In 2018, our partners came together with the idea to build a new
-                                    commercial real estate model. We wanted
-                                    to service Lafayette and shape lasting relationships with client-partners looking to
-                                    succeed,
-                                    while also
-                                    enhancing the quality of life in their local community. Jeff Landry and Hammy Davis founded
-                                    Scout Real
-                                    Estate Co., a full-service commercial real estate, brokerage, management and consulting firm
-                                    based on
-                                    honesty, integrity and a rock-solid work ethic. In 2021, our leadership and management team
-                                    was
-                                    rounded
-                                    out with the addition of Rex Moroux, one of Acadiana’s foremost experts on commercial real
-                                    estate, with
-                                    an emphasis on downtown properties.
-                                </div>
-                                <div class="col-sm">
-                                    Scout is less worried about the number of signs we put in the ground
-                                    and more committed to working on
-                                    projects that have a significant impact for our clients and our community. We are
-                                    experienced
-                                    and we
-                                    have a deep network that comes from years of hard work in the commercial real estate markets
-                                    across
-                                    South Louisiana. We provide our clients access to the most current technology and
-                                    information
-                                    all
-                                    combined with old-school techniques such as actually answering the phone, meeting with
-                                    people in
-                                    person
-                                    and dealing with challenges face-to-face. We know, it’s a radical approach in today’s
-                                    market,
-                                    but one
-                                    that you will immediately appreciate.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Title & Description -->
-                </div>
-            </div>
-        </div>
-  
-        
-      </div>
-  
-      <!-- Swiper Pagination -->
-      <div class="js-swiper-blog-journal-hero-pagination swiper-pagination swiper-pagination-light swiper-pagination-vertical swiper-pagination-middle-y-end me-3 d-lg-none"></div>
-    </div>
-    <!-- End Swiper Main Slider -->
-  
-    <!-- Swiper Thumbs Slider -->
-    <div class="d-none d-lg-block container translate-middle-y position-absolute top-50 start-0 end-0 zi-2">
-      <div class="translate-middle-y position-absolute top-50 end-0">
-        <div class="js-swiper-blog-journal-hero-thumbs swiper" style="opacity:0;max-width: 13rem;">
-          <div class="swiper-wrapper">
-            <!-- Slide -->
-            <div class="swiper-slide swiper-pagination-progress swiper-pagination-progress-light">
-              <p class="text-white">Front Interview with a Lead Designer of the Hubble</p>
-  
-              <div class="swiper-pagination-progress-body">
-                <div class="js-swiper-pagination-progress-body-helper swiper-pagination-progress-body-helper"></div>
-              </div>
-            </div>
-            <!-- End Slide -->
+
+<!-- Swiper Main Slider -->
+
+
+<div class="d-flex gradient-x-overlay-sm-dark bg-img-start"
+  style="background-image: url(../assets/img/SCOUT-DOWNTOWN-VIEW.jpg); min-height: 15rem;">
+  <div class="container blackscreen">
+
+    <!-- Heading -->
+    <div class="mb-7">
+      <h1 class="display-6 text-white mb-6 mt-6 text-center">Our History</h1>
+
+
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-md-6">
+            In 2018, our partners came together with the idea to build a new
+            commercial real estate model. We wanted
+            to service Lafayette and shape lasting relationships with client-partners looking to
+            succeed,
+            while also
+            enhancing the quality of life in their local community. Jeff Landry and Hammy Davis founded
+            Scout Real
+            Estate Co., a full-service commercial real estate, brokerage, management and consulting firm
+            based on
+            honesty, integrity and a rock-solid work ethic. In 2021, our leadership and management team
+            was
+            rounded
+            out with the addition of Rex Moroux, one of Acadiana’s foremost experts on commercial real
+            estate, with
+            an emphasis on downtown properties.
+          </div>
+          <div class="col-md-6">
+            Scout is less worried about the number of signs we put in the ground
+            and more committed to working on
+            projects that have a significant impact for our clients and our community. We are
+            experienced
+            and we
+            have a deep network that comes from years of hard work in the commercial real estate markets
+            across
+            South Louisiana. We provide our clients access to the most current technology and
+            information
+            all
+            combined with old-school techniques such as actually answering the phone, meeting with
+            people in
+            person
+            and dealing with challenges face-to-face. We know, it’s a radical approach in today’s
+            market,
+            but one
+            that you will immediately appreciate.
           </div>
         </div>
       </div>
     </div>
-    <!-- End Swiper Thumbs Slider -->
+    <!-- End Title & Description -->
   </div>
-  <!-- End History -->
+</div>
     <!DOCTYPE html>
 <html lang="en" dir="">
 <head>
@@ -971,7 +1028,7 @@
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Contact Form -->
-    <div id="contact" class="container content-space-t-3 content-space-t-lg-5 content-space-b-2">
+    <div id="contact" class="container content-space-t-3 content-space-t-lg-2 content-space-b-0">
       <div class="row">
         <div class="col-lg-6 mb-9 mb-lg-0">
           <!-- Heading -->
@@ -983,25 +1040,7 @@
 
           <!-- Leaflet -->
           <div class="overflow-hidden">
-            <div id="map" class="leaflet mb-5"
-                 data-hs-leaflet-options='{
-                 "map": {
-                   "scrollWheelZoom": false,
-                   "coords": [37.4040344, -122.0289704]
-                 },
-                 "marker": [
-                   {
-                     "coords": [37.4040344, -122.0289704],
-                     "icon": {
-                       "iconUrl": "./assets/svg/components/map-pin.svg",
-                       "iconSize": [50, 45]
-                     },
-                     "popup": {
-                       "text": "153 Williamson Plaza, Maggieberg"
-                     }
-                   }
-                 ]
-                }'></div>
+            
           </div>
           <!-- End Leaflet -->
 
@@ -1456,7 +1495,7 @@
 
     <!-- Hero -->
 <div class="d-lg-flex position-relative">
-    <div class="container d-lg-flex align-items-lg-center content-space-t-3 content-space-lg-0 min-vh-lg-100">
+    <div class="container d-lg-flex align-items-lg-center content-space-t-0 content-space-lg-0 min-vh-lg-100">
         <!-- Heading -->
         <div class="w-100">
             <div class="row">
@@ -1519,190 +1558,135 @@
 </div>
 <!-- End Hero -->
     <!-- ========== FOOTER ========== -->
-  <footer class="bg-dark">
-    <div class="container pb-1 pb-lg-5">
-      <div class="row content-space-t-2">
-        <div class="col-lg-3 mb-7 mb-lg-0">
-          <!-- Logo -->
-          <div class="mb-5">
-            <a class="navbar-brand" href="./index.html" aria-label="Space">
-              <img class="navbar-brand-logo-second" src="/assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png" alt="Image Description">
-            </a>
-          </div>
-          <!-- End Logo -->
+<footer class="bg-dark">
+  <div class="container pb-1 pb-lg-5">
+    <div class="row content-space-t-2">
+      <div class="col-lg-3 mb-7 mb-lg-0">
+        <!-- Logo -->
+        <div class="mb-2">
+          <a class="navbar-brand" href="./index.html" aria-label="Space">
+            <img class="navbar-brand-logo-second" src="/assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png"
+              alt="Image Description">
+          </a>
+        </div>
+        <!-- End Logo -->
 
-          <!-- List -->
-          <ul class="list-unstyled list-py-1">
-            <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> 905 Jefferson Ave.
+        <!-- List -->
+        <ul class="list-unstyled list-py-1">
+          <h1 class="footeraddress">Address</h1>
+          <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> 905 Jefferson Ave.
               Suite 504
               Lafayette, LA 70501</a></li>
-            <li><a class="link-sm link-light" href="tel:1-062-109-9222"><i class="bi-telephone-inbound-fill me-1"></i>
+          <li><a class="link-sm link-light" href="tel:1-062-109-9222"><i class="bi-telephone-inbound-fill me-1"></i>
               (337) 443-08802</a></li>
-          </ul>
-          <!-- End List -->
+        </ul>
+        <!-- End List -->
 
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Mailing Address</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">P.O. Box 51125<br>Lafayette, LA 70505</a></li>
-            <li><a class="link-sm link-light" href="#">kendra@scoutrec.com</a></li>
-            <li><a class="link-sm link-light" href="http://127.0.0.1:4000/newsletter/">Newsletters</a></li>
-            <li><a class="link-sm link-light" href="#">Customers <i class="bi-box-arrow-up-right small ms-1"></i></a>
-            </li>
-            <li><a class="link-sm link-light" href="#">Hire us</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Features</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">Press <i class="bi-box-arrow-up-right small ms-1"></i></a></li>
-            <li><a class="link-sm link-light" href="#">Release Notes</a></li>
-            <li><a class="link-sm link-light" href="#">Integrations</a></li>
-            <li><a class="link-sm link-light" href="#">Pricing</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Documentation</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">Support</a></li>
-            <li><a class="link-sm link-light" href="#">Docs</a></li>
-            <li><a class="link-sm link-light" href="#">Status</a></li>
-            <li><a class="link-sm link-light" href="#">API Reference</a></li>
-            <li><a class="link-sm link-light" href="#">Tech Requirements</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm">
-          <h5 class="text-white mb-3">Resources</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-5">
-            <li><a class="link-sm link-light" href="#"><i class="bi-question-circle-fill me-1"></i> Help</a></li>
-            <li><a class="link-sm link-light" href="#"><i class="bi-person-circle me-1"></i> Your Account</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
       </div>
-      <!-- End Row -->
+      <!-- End Col -->
 
-      <div class="border-top border-white-10 my-7"></div>
+      <div class="col-sm mb-7 mb-sm-0 mt-lg-3">
+        <h1 class="footeraddress">Mailing Address</h1>
 
-      <div class="row mb-7">
-        <div class="col-sm mb-3 mb-sm-0">
-          <!-- Socials -->
-          <ul class="list-inline list-separator list-separator-light mb-0">
-            <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Privacy &amp; Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Terms</a>
-            </li>
-            <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Site Map</a>
-            </li>
-          </ul>
-          <!-- End Socials -->
+        <!-- List -->
+        <ul class="list-unstyled list-py-1 mb-0">
+          <li><a class="link-sm link-light" href="#">P.O. Box 51125<br>Lafayette, LA 70505</a></li>
+          <li><a class="link-sm link-light" href="#">kendra@scoutrec.com</a></li>
+          <div class="col-sm-auto">
+            <!-- Socials -->
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.facebook.com/scoutrealestateco/" target="_blank">
+                  <i class="bi-facebook"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.instagram.com/scoutrealestateco/" target="_blank">
+                  <i class="bi-instagram"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.linkedin.com/company/scout-real-estate-co/" target="_blank">
+                  <i class="bi-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+        </ul>
+        <!-- End List -->
+      </div>
+      <!-- End Col -->
+      <div class="col-sm mb-7 mb-sm-0 mt-lg-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.559877761767!2d-92.02263770678886!3d30.221106723846948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249d39147dbb39%3A0x8100b2b48fe9e739!2sScout%20Real%20Estate!5e0!3m2!1sen!2sus!4v1678221000514!5m2!1sen!2sus" width="100%" height="100%" style="border:0; padding: 0%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row text-white">
+          <div class="col-lg-15 mt-2 mb-4">
+            Licensed in the State of Louisiana, USA.
+          </div>
+          
         </div>
-
-        <div class="col-sm-auto">
-          <!-- Socials -->
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-facebook"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-google"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-twitter"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-github"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <!-- Button Group -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-soft-light btn-xs dropdown-toggle" id="footerSelectLanguage"
-                  data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-                  <span class="d-flex align-items-center">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16" />
-                    <span>English (US)</span>
-                  </span>
-                </button>
-
-                <div class="dropdown-menu" aria-labelledby="footerSelectLanguage">
-                  <a class="dropdown-item d-flex align-items-center active" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16" />
-                    <span>English (US)</span>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/de.svg" alt="Image description" width="16" />
-                    <span>Deutsch</span>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/es.svg" alt="Image description" width="16" />
-                    <span>Español</span>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/cn.svg" alt="Image description" width="16" />
-                    <span>中文 (繁體)</span>
-                  </a>
-                </div>
-              </div>
-              <!-- End Button Group -->
-            </li>
-          </ul>
-          <!-- End Socials -->
-        </div>
+        <!-- List -->
+        
+        <!-- End List -->
       </div>
 
-      <!-- Copyright -->
-      <div class="w-md-85 text-lg-center mx-lg-auto">
+      <!-- End Col -->
+
+
+      <!-- End Col -->
+
+      <div class="col-sm mt-4">
+        <h5 class="text-white-50 mb-3">DISCLAIMER</h5>
+
+        <!-- List -->
+
+          <div class="row text-white">
+            <div class="col-lg-15">
+              The data relating to real estate for sale on this web site comes in part from the IDX Program of the Realtor® Association of Acadiana’ MLS. IDX information is provided exclusively for consumers’ personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Information deemed reliable, but not guaranteed accurate. Data last updated 2022-06-02T11:11:23.593.
+            </div>
+            
+          </div>
+        
+        <!-- End List -->
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Row -->
+
+    <div class="border-top border-white-10 my-7"></div>
+
+    <div class="row mb-7">
+      <div class="col-sm mb-3 mb-sm-0">
+        <!-- Socials -->
+        <ul class="list-inline list-separator list-separator-light mb-0">
+          <li class="list-inline-item">
+            <a class="link-sm link-light" href="#">Privacy &amp; Policy</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="link-sm link-light" href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="link-sm link-light" href="#">Site Map</a>
+          </li>
+        </ul>
+        <!-- End Socials -->
+      </div>
+
+      
+    </div>
+
+    <!-- Copyright -->
+    <!-- <div class="w-md-85 text-lg-center mx-lg-auto">
         <p class="text-white-50 small">&copy; Front. 2021 Htmlstream. All rights reserved.</p>
         <p class="text-white-50 small">When you visit or interact with our sites, services or tools, we or our
           authorised service providers may use cookies for storing information to help provide you with a better, faster
           and safer experience and for marketing purposes.</p>
-      </div>
-      <!-- End Copyright -->
-    </div>
-  </footer>
+      </div> -->
+    <!-- End Copyright -->
+  </div>
+</footer>
 
-  <!-- ========== END FOOTER ========== -->
+<!-- ========== END FOOTER ========== -->
 
   </main>
   <!-- ========== END MAIN CONTENT ========== -->

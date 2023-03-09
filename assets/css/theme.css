@@ -45,7 +45,7 @@
   --bs-warning-rgb: 245, 202, 153;
   --bs-danger-rgb: 237, 76, 120;
   --bs-light-rgb: 247, 250, 255;
-  --bs-dark-rgb: 0, 0, 0;
+  --bs-dark-rgb: 54, 57, 52;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 103, 119, 136;
@@ -53,7 +53,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Inter, sans-serif;
+  --bs-body-font-family: Jost, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -510,7 +510,7 @@ progress {
 
 .lead {
   font-size: calc(1.25625rem + 0.075vw);
-  font-weight: 400;
+  font-weight: 200;
 }
 
 @media (min-width: 1200px) {
@@ -3396,8 +3396,8 @@ textarea.form-control-lg {
 }
 
 .btn {
-  --bs-btn-padding-x: 1rem;
-  --bs-btn-padding-y: 0.6125rem;
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.4rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
@@ -3406,7 +3406,7 @@ textarea.form-control-lg {
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 0.0625rem;
   --bs-btn-border-color: transparent;
-  --bs-btn-border-radius: 0.3125rem;
+  --bs-btn-border-radius: 0.15rem;
   --bs-btn-hover-border-color: transparent;
   --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   --bs-btn-disabled-opacity: 0.65;
@@ -3591,9 +3591,9 @@ fieldset:disabled .btn {
 }
 
 .btn-light {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #f7faff;
-  --bs-btn-border-color: #f7faff;
+  --bs-btn-color: #f7faff;
+  --bs-btn-bg: #A7B7A9;
+  --bs-btn-border-color: #A7B7A9;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #d2d5d9;
   --bs-btn-hover-border-color: #c6c8cc;
@@ -4381,7 +4381,7 @@ fieldset:disabled .btn {
 
 .navbar {
   --bs-navbar-padding-x: 0;
-  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-padding-y: 1.2rem;
   --bs-navbar-color: #677788;
   --bs-navbar-hover-color: #000;
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
@@ -4436,7 +4436,7 @@ fieldset:disabled .btn {
 
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
-  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-padding-y: 1.2rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
@@ -4875,7 +4875,7 @@ fieldset:disabled .btn {
   --bs-card-title-spacer-y: 0.25rem;
   --bs-card-border-width: 0.0625rem;
   --bs-card-border-color: rgba(33, 50, 91, 0.1);
-  --bs-card-border-radius: 0.5rem;
+  --bs-card-border-radius: 0rem;
   --bs-card-box-shadow: 0rem 0.375rem 1.5rem 0rem rgba(140, 152, 164, 0.125);
   --bs-card-inner-border-radius: 0.4375rem;
   --bs-card-cap-padding-y: 2rem;
@@ -5007,8 +5007,9 @@ fieldset:disabled .btn {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: var(--bs-card-inner-border-radius);
-  border-top-right-radius: var(--bs-card-inner-border-radius); height: 275px; object-fit: cover; object-position: top;
+  /* border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);  */
+  height: 275px; object-fit: cover; object-position: top;
 }
 
 .card-img,
@@ -6437,7 +6438,7 @@ fieldset:disabled .btn {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6562,7 +6563,7 @@ fieldset:disabled .btn {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -24088,7 +24089,7 @@ label.form-control,
 }
 
 .navbar.navbar-scrolled.navbar-dark {
-  background-color: #000;
+  background-color: #363935;
 }
 
 .navbar-brand {
@@ -29638,14 +29639,14 @@ a:hover .text-inherit {
 
 .quill-custom .ql-editor p {
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   color: #1e2022;
 }
 
 .quill-custom .ql-editor.ql-blank::before {
   left: 1rem;
   color: #8c98a4;
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-style: normal;
 }
 
@@ -29698,7 +29699,7 @@ a:hover .text-inherit {
 .quill-custom .ql-snow .ql-tooltip::before {
   display: block;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   border-bottom: 0.0625rem solid rgba(33, 50, 91, 0.1);
@@ -29735,7 +29736,7 @@ a:hover .text-inherit {
 .quill-custom .ql-snow .ql-tooltip.ql-editing input[type=text] {
   height: auto;
   display: block;
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .quill-custom .ql-snow .ql-tooltip.ql-editing input[type=text]:focus {
@@ -30389,8 +30390,8 @@ a:hover .text-inherit {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   perspective: 1000px;
 }
 
@@ -30401,7 +30402,6 @@ a:hover .text-inherit {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -30426,6 +30426,37 @@ a:hover .text-inherit {
   color: white;
   transform: rotateY(180deg);
   align-items: center;
+}
+
+.centerdiv {
+  height: 32vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackscreen {
+  overflow: hidden;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 80rem;
+  max-height: 38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5rem;
+  min-width: none;
+  background-color: #00000077;
+}
+
+.footeraddress {
+  color: rgba(255,255,255,0.5);
 }
 /*------------------------------------
   File for your custom SCSS style

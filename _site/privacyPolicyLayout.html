@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
+
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Privacy &amp; Policy | Front - Multipurpose Responsive Template</title>
+  <title>Marketing | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
 
   <!-- Font -->
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;300;400;500;700&family=Oswald:wght@200&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
   <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="/assets/vendor/aos/dist/aos.css">
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="/assets/css/theme.css">
 </head>
 
 <body>
-     <!-- ========== HEADER ========== -->
+
+  <!-- Navbar -->
+
+   <!-- ========== HEADER ========== -->
  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark navbar-show-hide"
  data-hs-header-options='{
    "fixMoment": 1000,
@@ -393,18 +402,18 @@
    <ul class="navbar-nav">
      <!-- Landings -->
      <li class="hs-has-mega-menu nav-item">
-       <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="/listings/" role="button" aria-expanded="false">SEARCH LISTINGS</a>
+       <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link active" aria-current="page" href="/listings/" role="button" aria-expanded="false">SEARCH LISTINGS</a>
       </li>
 
      <!-- Company -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#ourteam" role="button" aria-expanded="false">OUR TEAM</a>
+       <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link active" href="#ourteam" role="button" aria-expanded="false">OUR TEAM</a>
      </li>
      <!-- End Company -->
 
      <!-- Account -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="/newsletter/" role="button" aria-expanded="false">NEWSLETTER</a>
+       <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link active" href="/newsletter/" role="button" aria-expanded="false">NEWSLETTER</a>
 
        <!-- Mega Menu -->
        <div class="hs-sub-menu dropdown-menu" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
@@ -442,19 +451,13 @@
 
      <!-- Pages -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">SERVICES</a>
+       <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" href="#" role="button" aria-expanded="false">SERVICES</a>
 
        <!-- Mega Menu -->
        <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-         <a class="dropdown-item " href="./page-faq.html">FAQ</a>
-         <a class="dropdown-item " href="./page-terms.html">Terms &amp; Conditions</a>
-         <a class="dropdown-item " href="./page-privacy.html">Privacy &amp; Policy</a>
-         <a class="dropdown-item " href="./page-coming-soon.html">Coming Soon</a>
-         <a class="dropdown-item " href="./page-coming-soon-simple.html">Coming Soon: Simple</a>
-         <a class="dropdown-item " href="./page-maintenance-mode.html">Maintenance Mode</a>
-         <a class="dropdown-item " href="./page-status.html">Status</a>
-         <a class="dropdown-item " href="./page-invoice.html">Invoice</a>
-         <a class="dropdown-item " href="./page-error-404.html">Error 404</a>
+         <a class="dropdown-item " href="./brokerage.html">BROKERAGE</a>
+         <a class="dropdown-item " href="./commercial-real-estate-consulting.html">COMMERCIAL REAL ESTATE CONSULTING</a>
+         <a class="dropdown-item " href="./property-management.html">PROPERTY MANAGEMENT</a>
        </div>
        <!-- End Mega Menu -->
      </li>
@@ -462,7 +465,7 @@
 
      <!-- Button -->
      <li class="nav-item">
-       <a class="btn btn-light btn-transition" href="#contact">Contact Us</a>
+       <a class="btn btn-light btn-transition" href="#contact">CONTACT US</a>
      </li>
      <!-- End Button -->
    </ul>
@@ -474,9 +477,69 @@
 </header>
 
 <!-- ========== END HEADER ========== -->
+<script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="./assets/vendor/aos/dist/aos.js"></script>
+  <script src="./assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
+<script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
 
-    <!-- ========== MAIN CONTENT ========== -->
-  <main id="content" role="main">
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
+      // INITIALIZATION OF BOOTSTRAP DROPDOWN
+      // =======================================================
+      HSBsDropdown.init()
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF AOS
+      // =======================================================
+      AOS.init({
+        duration: 650,
+        once: true
+      });
+
+
+      // INITIALIZATION OF TOGGLE SWITCH
+      // =======================================================
+      new HSToggleSwitch('.js-toggle-switch')
+    })()
+  </script>
+
+  <section>
+    <main id="content" role="main">
     <!-- Hero -->
     <div class="position-relative">
         <!-- Swiper Main Slider -->
@@ -759,519 +822,137 @@
     </div>
     <!-- End Content -->
   </main>
-  <!-- ========== END MAIN CONTENT ========== -->
-  <!-- ========== FOOTER ========== -->
-  <footer class="bg-dark">
-    <div class="container pb-1 pb-lg-5">
-      <div class="row content-space-t-2">
-        <div class="col-lg-3 mb-7 mb-lg-0">
-          <!-- Logo -->
-          <div class="mb-5">
-            <a class="navbar-brand" href="./index.html" aria-label="Space">
-              <img class="navbar-brand-logo-second" src="/assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png" alt="Image Description">
-            </a>
-          </div>
-          <!-- End Logo -->
+  </section>
 
-          <!-- List -->
-          <ul class="list-unstyled list-py-1">
-            <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> 905 Jefferson Ave.
+  <!-- ========== FOOTER ========== -->
+<footer class="bg-dark">
+  <div class="container pb-1 pb-lg-5">
+    <div class="row content-space-t-2">
+      <div class="col-lg-3 mb-7 mb-lg-0">
+        <!-- Logo -->
+        <div class="mb-2">
+          <a class="navbar-brand" href="./index.html" aria-label="Space">
+            <img class="navbar-brand-logo-second" src="/assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png"
+              alt="Image Description">
+          </a>
+        </div>
+        <!-- End Logo -->
+
+        <!-- List -->
+        <ul class="list-unstyled list-py-1">
+          <h1 class="footeraddress">Address</h1>
+          <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> 905 Jefferson Ave.
               Suite 504
               Lafayette, LA 70501</a></li>
-            <li><a class="link-sm link-light" href="tel:1-062-109-9222"><i class="bi-telephone-inbound-fill me-1"></i>
+          <li><a class="link-sm link-light" href="tel:1-062-109-9222"><i class="bi-telephone-inbound-fill me-1"></i>
               (337) 443-08802</a></li>
-          </ul>
-          <!-- End List -->
+        </ul>
+        <!-- End List -->
 
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Mailing Address</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">P.O. Box 51125<br>Lafayette, LA 70505</a></li>
-            <li><a class="link-sm link-light" href="#">kendra@scoutrec.com</a></li>
-            <li><a class="link-sm link-light" href="http://127.0.0.1:4000/newsletter/">Newsletters</a></li>
-            <li><a class="link-sm link-light" href="#">Customers <i class="bi-box-arrow-up-right small ms-1"></i></a>
-            </li>
-            <li><a class="link-sm link-light" href="#">Hire us</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Features</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">Press <i class="bi-box-arrow-up-right small ms-1"></i></a></li>
-            <li><a class="link-sm link-light" href="#">Release Notes</a></li>
-            <li><a class="link-sm link-light" href="#">Integrations</a></li>
-            <li><a class="link-sm link-light" href="#">Pricing</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Documentation</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">Support</a></li>
-            <li><a class="link-sm link-light" href="#">Docs</a></li>
-            <li><a class="link-sm link-light" href="#">Status</a></li>
-            <li><a class="link-sm link-light" href="#">API Reference</a></li>
-            <li><a class="link-sm link-light" href="#">Tech Requirements</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm">
-          <h5 class="text-white mb-3">Resources</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1 mb-5">
-            <li><a class="link-sm link-light" href="#"><i class="bi-question-circle-fill me-1"></i> Help</a></li>
-            <li><a class="link-sm link-light" href="#"><i class="bi-person-circle me-1"></i> Your Account</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
       </div>
-      <!-- End Row -->
+      <!-- End Col -->
 
-      <div class="border-top border-white-10 my-7"></div>
+      <div class="col-sm mb-7 mb-sm-0 mt-lg-3">
+        <h1 class="footeraddress">Mailing Address</h1>
 
-      <div class="row mb-7">
-        <div class="col-sm mb-3 mb-sm-0">
-          <!-- Socials -->
-          <ul class="list-inline list-separator list-separator-light mb-0">
-            <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Privacy &amp; Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Terms</a>
-            </li>
-            <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Site Map</a>
-            </li>
-          </ul>
-          <!-- End Socials -->
+        <!-- List -->
+        <ul class="list-unstyled list-py-1 mb-0">
+          <li><a class="link-sm link-light" href="#">P.O. Box 51125<br>Lafayette, LA 70505</a></li>
+          <li><a class="link-sm link-light" href="#">kendra@scoutrec.com</a></li>
+          <div class="col-sm-auto">
+            <!-- Socials -->
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.facebook.com/scoutrealestateco/" target="_blank">
+                  <i class="bi-facebook"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.instagram.com/scoutrealestateco/" target="_blank">
+                  <i class="bi-instagram"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.linkedin.com/company/scout-real-estate-co/" target="_blank">
+                  <i class="bi-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+        </ul>
+        <!-- End List -->
+      </div>
+      <!-- End Col -->
+      <div class="col-sm mb-7 mb-sm-0 mt-lg-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.559877761767!2d-92.02263770678886!3d30.221106723846948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249d39147dbb39%3A0x8100b2b48fe9e739!2sScout%20Real%20Estate!5e0!3m2!1sen!2sus!4v1678221000514!5m2!1sen!2sus" width="100%" height="100%" style="border:0; padding: 0%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row text-white">
+          <div class="col-lg-15 mt-2 mb-4">
+            Licensed in the State of Louisiana, USA.
+          </div>
+          
         </div>
-
-        <div class="col-sm-auto">
-          <!-- Socials -->
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-facebook"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-google"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-twitter"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                <i class="bi-github"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <!-- Button Group -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-soft-light btn-xs dropdown-toggle" id="footerSelectLanguage"
-                  data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-                  <span class="d-flex align-items-center">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16" />
-                    <span>English (US)</span>
-                  </span>
-                </button>
-
-                <div class="dropdown-menu" aria-labelledby="footerSelectLanguage">
-                  <a class="dropdown-item d-flex align-items-center active" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/us.svg" alt="Image description" width="16" />
-                    <span>English (US)</span>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/de.svg" alt="Image description" width="16" />
-                    <span>Deutsch</span>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/es.svg" alt="Image description" width="16" />
-                    <span>Español</span>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <img class="avatar avatar-xss avatar-circle me-2"
-                      src="./assets/vendor/flag-icon-css/flags/1x1/cn.svg" alt="Image description" width="16" />
-                    <span>中文 (繁體)</span>
-                  </a>
-                </div>
-              </div>
-              <!-- End Button Group -->
-            </li>
-          </ul>
-          <!-- End Socials -->
-        </div>
+        <!-- List -->
+        
+        <!-- End List -->
       </div>
 
-      <!-- Copyright -->
-      <div class="w-md-85 text-lg-center mx-lg-auto">
+      <!-- End Col -->
+
+
+      <!-- End Col -->
+
+      <div class="col-sm mt-4">
+        <h5 class="text-white-50 mb-3">DISCLAIMER</h5>
+
+        <!-- List -->
+
+          <div class="row text-white">
+            <div class="col-lg-15">
+              The data relating to real estate for sale on this web site comes in part from the IDX Program of the Realtor® Association of Acadiana’ MLS. IDX information is provided exclusively for consumers’ personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Information deemed reliable, but not guaranteed accurate. Data last updated 2022-06-02T11:11:23.593.
+            </div>
+            
+          </div>
+        
+        <!-- End List -->
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Row -->
+
+    <div class="border-top border-white-10 my-7"></div>
+
+    <div class="row mb-7">
+      <div class="col-sm mb-3 mb-sm-0">
+        <!-- Socials -->
+        <ul class="list-inline list-separator list-separator-light mb-0">
+          <li class="list-inline-item">
+            <a class="link-sm link-light" href="#">Privacy &amp; Policy</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="link-sm link-light" href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="link-sm link-light" href="#">Site Map</a>
+          </li>
+        </ul>
+        <!-- End Socials -->
+      </div>
+
+      
+    </div>
+
+    <!-- Copyright -->
+    <!-- <div class="w-md-85 text-lg-center mx-lg-auto">
         <p class="text-white-50 small">&copy; Front. 2021 Htmlstream. All rights reserved.</p>
         <p class="text-white-50 small">When you visit or interact with our sites, services or tools, we or our
           authorised service providers may use cookies for storing information to help provide you with a better, faster
           and safer experience and for marketing purposes.</p>
-      </div>
-      <!-- End Copyright -->
-    </div>
-  </footer>
-
-  <!-- ========== END FOOTER ========== -->
-
-  <!-- ========== SECONDARY CONTENTS ========== -->
-  <!-- Sign Up -->
-  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <!-- Header -->
-        <div class="modal-close">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <!-- End Header -->
-
-        <!-- Body -->
-        <div class="modal-body">
-          <!-- Log in -->
-          <div id="signupModalFormLogin" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Log in</h2>
-              <p>Don't have an account yet?
-                <a class="js-animation-link link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="d-grid gap-2">
-              <a class="btn btn-white btn-lg" href="#">
-                <span class="d-flex justify-content-center align-items-center">
-                  <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
-                  Log in with Google
-                </span>
-              </a>
-
-              <a class="js-animation-link btn btn-primary btn-lg" href="#"
-                 data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormLoginWithEmail",
-                       "groupName": "idForm"
-                     }'>Log in with Email</a>
-            </div>
-          </div>
-          <!-- End Log in -->
-
-          <!-- Log in with Modal -->
-          <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Log in</h2>
-              <p>Don't have an account yet?
-                <a class="js-animation-link link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <form class="js-validate needs-validation" novalidate>
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="form-label" for="signupModalFormLoginPassword">Password</label>
-
-                  <a class="js-animation-link form-label-link" href="javascript:;"
-                     data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormResetPassword",
-                       "groupName": "idForm"
-                     }'>Forgot Password?</a>
-                </div>
-
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8">
-                <span class="invalid-feedback">Please enter a valid password.</span>
-              </div>
-              <!-- End Form -->
-
-              <div class="d-grid mb-3">
-                <button type="submit" class="btn btn-primary form-control-lg">Log in</button>
-              </div>
-            </form>
-          </div>
-          <!-- End Log in with Modal -->
-
-          <!-- Sign up -->
-          <div id="signupModalFormSignup">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Sign up</h2>
-              <p>Already have an account?
-                <a class="js-animation-link link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="d-grid gap-3">
-              <a class="btn btn-white btn-lg" href="#">
-                <span class="d-flex justify-content-center align-items-center">
-                  <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
-                  Sign up with Google
-                </span>
-              </a>
-
-              <a class="js-animation-link btn btn-primary btn-lg" href="#"
-                 data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormSignupWithEmail",
-                       "groupName": "idForm"
-                     }'>Sign up with Email</a>
-
-              <div class="text-center">
-                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Sign up -->
-
-          <!-- Sign up with Modal -->
-          <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Sign up</h2>
-              <p>Already have an account?
-                <a class="js-animation-link link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <form class="js-validate need-validate" novalidate>
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormSignupPassword">Password</label>
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required>
-                <span class="invalid-feedback">Your password is invalid. Please try again.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3" data-hs-validation-validate-class>
-                <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm password</label>
-                <input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
-                       data-hs-validation-equal-field="#signupModalFormSignupPassword">
-                <span class="invalid-feedback">Password does not match the confirm password.</span>
-              </div>
-              <!-- End Form -->
-
-              <div class="d-grid mb-3">
-                <button type="submit" class="btn btn-primary form-control-lg">Sign up</button>
-              </div>
-
-              <div class="text-center">
-                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
-              </div>
-            </form>
-          </div>
-          <!-- End Sign up with Modal -->
-
-          <!-- Reset Password -->
-          <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Forgot password?</h2>
-              <p>Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
-            </div>
-            <!-- En dHeading -->
-
-            <form class="js-validate need-validate" novalidate>
-              <div class="mb-3">
-                <!-- Form -->
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="form-label" for="signupModalFormResetPasswordEmail" tabindex="0">Your email</label>
-
-                  <a class="js-animation-link form-label-link" href="javascript:;"
-                     data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>
-                    <i class="bi-chevron-left small"></i> Back to Log in
-                  </a>
-                </div>
-
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-                <!-- End Form -->
-              </div>
-            
-              <div class="d-grid">
-                <button type="submit" class="btn btn-primary form-control-lg">Submit</button>
-              </div>
-            </form>
-          </div>
-          <!-- End Reset Password -->
-        </div>
-        <!-- End Body -->
-
-        <!-- Footer -->
-        <div class="modal-footer d-block text-center py-sm-5">
-          <small class="text-cap mb-4">Trusted by the world's best teams</small>
-
-          <div class="w-85 mx-auto">
-            <div class="row justify-content-between">
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-            </div>
-          </div>
-          <!-- End Row -->
-        </div>
-        <!-- End Footer -->
-      </div>
-    </div>
+      </div> -->
+    <!-- End Copyright -->
   </div>
-  
-  <!-- Go To -->
-  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;"
-     data-hs-go-to-options='{
-       "offsetTop": 700,
-       "position": {
-         "init": {
-           "right": "2rem"
-         },
-         "show": {
-           "bottom": "2rem"
-         },
-         "hide": {
-           "bottom": "-2rem"
-         }
-       }
-     }'>
-    <i class="bi-chevron-up"></i>
-  </a>
-  <!-- ========== END SECONDARY CONTENTS ========== -->
+</footer>
 
-  <!-- JS Global Compulsory  -->
-  <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ========== END FOOTER ========== -->
 
-  <!-- JS Implementing Plugins -->
-  <script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
-  <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-
-  <!-- JS Front -->
-  <script src="./assets/js/theme.min.js"></script>
-
-  <!-- JS Plugins Init. -->
-  <script>
-    (function() {
-      // INITIALIZATION OF HEADER
-      // =======================================================
-      new HSHeader('#header').init()
-
-
-      // INITIALIZATION OF MEGA MENU
-      // =======================================================
-      new HSMegaMenu('.js-mega-menu', {
-          desktop: {
-            position: 'left'
-          }
-        })
-
-
-      // INITIALIZATION OF SHOW ANIMATIONS
-      // =======================================================
-      new HSShowAnimation('.js-animation-link')
-
-
-      // INITIALIZATION OF BOOTSTRAP VALIDATION
-      // =======================================================
-      HSBsValidation.init('.js-validate', {
-        onSubmit: data => {
-          data.event.preventDefault()
-          alert('Submited')
-        }
-      })
-
-
-      // INITIALIZATION OF BOOTSTRAP DROPDOWN
-      // =======================================================
-      HSBsDropdown.init()
-
-
-      // INITIALIZATION OF GO TO
-      // =======================================================
-      new HSGoTo('.js-go-to')
-    })()
-  </script>
 </body>
-</html>
