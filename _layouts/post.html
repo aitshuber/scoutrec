@@ -1,38 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
-
-<head>
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Title -->
-    <title>Marketing | Front - Multipurpose Responsive Template</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-    <link rel="stylesheet" href="/assets/vendor/aos/dist/aos.css">
-
-    <!-- CSS Front Template -->
-    <link rel="stylesheet" href="/assets/css/theme.css">
-</head>
-
+{% include header.html %}
 <body>
-
-    <!-- Navbar -->
-
-    {% include navbar.html %}
-
-
-    <!-- ========== MAIN CONTENT ========== -->
-    <main id="content" role="main">
+  <!-- Navbar -->
+{% include navbar.html %}
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
         <!-- Hero -->
         <div class="position-relative">
             <!-- Swiper Main Slider -->
@@ -87,15 +60,20 @@
 
         <!-- End Clients -->
         <div>
-            {{ content }}
-            {% include footer.html %}
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-12">
+                    {{ content }}
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
-    <!-- ========== END MAIN CONTENT ========== -->
-
-
-
-
+ </main>
+   <!-- ========== END MAIN CONTENT ========== -->
+ {% include footer.html %}
+ {% include scripts.html %}
+ </body>
+ </html>
 
 
 

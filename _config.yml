@@ -1,23 +1,4 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+include: ['_pages', '_data', '_properties']
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -29,20 +10,55 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 subtitle: ""
-
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
-permalink: "/:title/"
+permalink: /:title
 defaults:
- -
-  scope:
-    path: ""
-    type: "post"
-    values:
-      layout: "post"
-      title: "/:title/"
+-scope:
+  path: ""
+  values:
+    layout: default
+    _options:
+      content: &content_defaults
+        uploads_dir: "uploads/:title"
+        format: p h1 h2 h3 h4 h5 h6 div
+        styles: /assets/css/theme.css
+        undo: true
+        redo: true
+        left: text-left
+        center: text-center
+        right: text-right
+        justify: justify-content-center
+        bold: true
+        italic: true
+        underline: true
+        strike: true
+        subscript: false
+        superscript: false
+        blockquote: true
+        table: true
+        copyformatting: true
+        removeformat: true
+        numberedlist: true
+        bulletedlist: true
+        outdent: false
+        indent: false
+        image: true
+        link: true
+        embed: true
+collections:
+ properties:
+   output: true   
+-scope:
+      type: pages
+      path: _pages/index.html
+      values:
+        permalink:
+-scope:
+  path: "_properties"
+  type: "page"
+  values:
+  layout: "properties"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -50,7 +66,6 @@ defaults:
 # the internal "default list".
 #
 # Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
 #
 # exclude:
 #   - .sass-cache/
