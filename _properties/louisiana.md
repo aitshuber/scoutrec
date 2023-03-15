@@ -1,19 +1,19 @@
 ---
-id: 2
+id: 3
 layout: property
-name: Atlanta
+name: Louisiana
 image-1: ../assets/img/1920x1080/img20.jpg
 image-2: ../assets/img/1920x1080/img20.jpg
 image-3: ../assets/img/1920x1080/img20.jpg
-address: 123 Georgia Lane
-city: Atlanta
-state: Tennessee
+address: 123 Johnston St
+city: Lafayette
+state: LA
 country: United States
-price: 1000000
-estimated-mortgage: 6000
-bed: 6
-bath: 3
-footage: 4000
+price: "500,000"
+estimated-mortgage: "6,000"
+bed: "4"
+bath: "2.5"
+footage: "4,000"
 property-id: 123asd
 property-type: House
 year-built: 2020

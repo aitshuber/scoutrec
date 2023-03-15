@@ -1,13 +1,13 @@
 ---
-id: 2
+id: 5
 layout: property
-name: Atlanta
+name: New York
 image-1: ../assets/img/1920x1080/img20.jpg
 image-2: ../assets/img/1920x1080/img20.jpg
 image-3: ../assets/img/1920x1080/img20.jpg
-address: 123 Georgia Lane
-city: Atlanta
-state: Tennessee
+address: 123 Broadway
+city: New York
+state: NY
 country: United States
 price: 1000000
 estimated-mortgage: 6000

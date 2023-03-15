@@ -1,13 +1,13 @@
 ---
-id: 2
+id: 4
 layout: property
-name: Atlanta
+name: Mississippi
 image-1: ../assets/img/1920x1080/img20.jpg
 image-2: ../assets/img/1920x1080/img20.jpg
 image-3: ../assets/img/1920x1080/img20.jpg
-address: 123 Georgia Lane
-city: Atlanta
-state: Tennessee
+address: 123 Delta Lane
+city: Jackson
+state: MS
 country: United States
 price: 1000000
 estimated-mortgage: 6000

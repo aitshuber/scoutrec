@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+{% include header.html %}
+
+<body>
+  <!-- Navbar -->
+  {% include navbar.html %}
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <div class="container content-space-t-4 pb-3">
+      <div class="row align-items-lg-center">
+        <div class="col-lg mb-2 mb-lg-0">
+          <!-- Breadcrumb -->
+          <nav aria-label="breadcrumb">
+  <ol class="breadcrumb mb-0" id="breadcrumb">
+    <!-- Breadcrumb items will be dynamically generated here -->
+  </ol>
+</nav>
+
+
+          <!-- End Breadcrumb -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-lg-auto">
+          <a class="btn btn-sm btn-ghost-secondary" href="javascript:;">
+            <i class="bi-heart me-2"></i> Save
+          </a>
+
+          <a class="btn btn-sm btn-ghost-secondary" href="javascript:;">
+            <i class="bi-share-fill me-2"></i> Share
+          </a>
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Gallery -->
+    <div class="container mb-5">
+      <div class="rounded-2 overflow-hidden">
+        <div class="row gx-2">
+          <div class="col-md-8">
+            <!-- Gallery -->
+            <a class="d-block position-relative" href="../assets/img/1920x1080/img27.jpg"
+              data-fslightbox="propertyOverviewGallery">
+              <img class="img-fluid w-100" src="../assets/img/900x455/img1.jpg" alt="Image Description">
+
+              <div class="position-absolute bottom-0 end-0 mb-3 me-3">
+                <span class="d-md-none btn btn-sm btn-light">
+                  <i class="bi-arrows-fullscreen me-2"></i> View photos
+                </span>
+              </div>
+            </a>
+            <!-- End Gallery -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-md-4 d-none d-md-inline-block">
+            <!-- Gallery -->
+            <a class="d-block mb-2" href="../assets/img/1920x1080/img11.jpg" data-fslightbox="propertyOverviewGallery">
+              <img class="img-fluid w-100" src="../assets/img/450x225/img1.jpg" alt="Image Description">
+            </a>
+            <!-- End Gallery -->
+
+            <!-- Gallery -->
+            <a class="d-block position-relative" href="../assets/img/1920x1080/img14.jpg"
+              data-fslightbox="propertyOverviewGallery">
+              <img class="img-fluid w-100" src="../assets/img/450x225/img2.jpg" alt="Image Description">
+
+              <div class="position-absolute bottom-0 end-0 mb-3 me-3">
+                <span class="d-none d-md-inline-block btn btn-sm btn-light">
+                  <i class="bi-arrows-fullscreen me-2"></i> View photos
+                </span>
+              </div>
+            </a>
+            <!-- End Gallery -->
+
+            <a class="d-none" href="../assets/img/1920x1080/img24.jpg" data-fslightbox="propertyOverviewGallery"></a>
+            <a class="d-none" href="../assets/img/1920x1080/img20.jpg" data-fslightbox="propertyOverviewGallery"></a>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+
+      <div class="d-flex justify-content-end mt-2">
+        <span class="small text-dark fw-semibold">Published:</span>
+        <span class="small ms-1">December 27, 2018</span>
+      </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mb-9 mb-lg-0">
+          <div class="row justify-content-lg-between mb-7">
+            <div class="col-12 col-sm-6 mb-5 mb-sm-0">
+              <h1 class="h2 mb-0">{{page.address}}</h1>
+              <span class="d-block text-dark mb-3">{{page.city}}, {{page.state}}, {{page.country}}</span>
+
+              <ul class="list-inline list-separator font-size-1 text-body">
+                <li class="list-inline-item">
+                  <i class="fas fa-bed text-muted me-1"></i> {{page.bed}} bed
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-bath text-muted me-1"></i> {{page.bath}} bath
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-ruler-combined text-muted me-1"></i> {{page.footage}} sqft
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 column-divider-sm">
+              <div class="pl-md-4">
+                <h2 class="mb-0">&#36;{{page.price}}</h2>
+                <span class="d-block text-dark mb-3">Est. Mortgage &#36;{{page.estimated-mortgage}}/mo</span>
+                <a href="#">Get Pre-Qualified</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Row -->
+
+          <!-- Nav Scroller -->
+          <div class="js-nav-scroller hs-nav-scroller-horizontal">
+            <span class="hs-nav-scroller-arrow-prev" style="display: none;">
+              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
+                <i class="bi-chevron-left"></i>
+              </a>
+            </span>
+
+            <span class="hs-nav-scroller-arrow-next" style="display: none;">
+              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
+                <i class="bi-chevron-right"></i>
+              </a>
+            </span>
+
+            <!-- Nav -->
+            <ul class="nav nav-segment nav-fill mb-7" id="propertyOverviewNavTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" href="#propertyOverviewNavOne" id="propertyOverviewNavOne-tab"
+                  data-bs-toggle="tab" data-bs-target="#propertyOverviewNavOne" role="tab"
+                  aria-controls="propertyOverviewNavOne" aria-selected="true" style="min-width: 7rem;">Details</a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#propertyOverviewNavTwo" id="propertyOverviewNavTwo-tab" data-bs-toggle="tab"
+                  data-bs-target="#propertyOverviewNavTwo" role="tab" aria-controls="propertyOverviewNavTwo"
+                  aria-selected="false" style="min-width: 7rem;">Floorplan</a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavThree-tab"
+                  data-bs-toggle="tab" data-bs-target="#propertyOverviewNavThree" role="tab"
+                  aria-controls="propertyOverviewNavThree" aria-selected="false" style="min-width: 7rem;">Map</a>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavFour-tab"
+                  data-bs-toggle="tab" data-bs-target="#propertyOverviewNavFour" role="tab"
+                  aria-controls="propertyOverviewNavFour" aria-selected="false" style="min-width: 7rem;">Market
+                  stats</a>
+              </li>
+            </ul>
+            <!-- End Nav -->
+          </div>
+          <!-- End Nav Scroller -->
+
+          <!-- Tab Content -->
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="propertyOverviewNavOne" role="tabpanel"
+              aria-labelledby="propertyOverviewNavOne-tab">
+              <div class="mb-4">
+                <h4>Home details</h4>
+              </div>
+
+              <div class="row justify-content-md-between">
+                <div class="col-md-5">
+                  <dl class="row">
+                    <dt class="col-6">Property ID:</dt>
+                    <dd class="col-6">{{page.property-id}}</dd>
+
+                    <dt class="col-6">Property type:</dt>
+                    <dd class="col-6">{{page.property-type}}</dd>
+
+                    <dt class="col-6">Year built:</dt>
+                    <dd class="col-6">{{page.year-built}}</dd>
+                  </dl>
+                  <!-- End Row -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-md-5">
+                  <dl class="row">
+                    <dt class="col-6">Lot size:</dt>
+                    <dd class="col-6">{{page.lot-size}} ac</dd>
+
+                    <dt class="col-6">Rooms:</dt>
+                    <dd class="col-6">{{page.bed}}</dd>
+
+                    <dt class="col-6">Parking:</dt>
+                    <dd class="col-6">{{page.parking}}</dd>
+                  </dl>
+                  <!-- End Row -->
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+
+              <div class="border-top border-bottom py-4 mt-4 mb-7">
+                <div class="row col-sm-divider">
+                  <div class="col-sm-6 text-sm-end mb-2 mb-sm-0">
+                    <div class="pe-md-4">
+                      <span>Last 30 days:</span>
+                      <span class="text-dark fw-semibold">920 page views</span>
+                    </div>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-sm-6">
+                    <div class="ps-md-4">
+                      <span>Since listed:</span>
+                      <span class="text-dark fw-semibold">471 page views</span>
+                    </div>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+
+              <div class="mb-4">
+                <h4>Description</h4>
+              </div>
+
+              <p>{{content}}</p>
+
+              <!-- Collapse Link - Content -->
+              <div class="collapse" id="propertyOverviewDescriptionViewMoreCollapse">
+                <div class="mb-4">
+                  <h4>Directions</h4>
+                </div>
+
+                <p>Proceed up the Otley Road from the Prince Of Wales roundabout and through the traffic lights with the
+                  turning into Harlow Moor Road. Continue ahead where the property can be found on the left hand side.
+                </p>
+
+                <div class="mb-4">
+                  <h4>Strictly by appointment through Front House</h4>
+                </div>
+
+                <p>You may download, store and use the material for your own personal use and research. You may not
+                  republish, retransmit, redistribute or otherwise make the material available to any party or make the
+                  same available on any website, online service or bulletin board of your own or of any other party or
+                  make the same available in hard copy or in any other media without the website owner's express prior
+                  written consent. The website owner's copyright must remain on all reproductions of material taken from
+                  this website.</p>
+              </div>
+              <!-- End Collapse Link - Content -->
+
+              <!-- Collapse Link -->
+              <a class="link link-collapse" data-bs-toggle="collapse"
+                href="#propertyOverviewDescriptionViewMoreCollapse" role="button" aria-expanded="false"
+                aria-controls="propertyOverviewDescriptionViewMoreCollapse">
+                <span class="link-collapse-default">View More</span>
+                <span class="link-collapse-active">View Less</span>
+              </a>
+              <!-- End Collapse Link -->
+
+              <hr class="my-6">
+
+              <div class="mb-4">
+                <h4>Accessibility</h4>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <!-- List -->
+                  <ul class="list-unstyled list-py-1 mb-0">
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Location</h6>
+
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Area safety</h6>
+
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Close to schools</h6>
+
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- End List -->
+                </div>
+
+                <div class="col-sm-6">
+                  <!-- List -->
+                  <ul class="list-unstyled list-py-1 mb-0">
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Low cost</h6>
+
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Built around</h6>
+
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Value</h6>
+
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- End List -->
+                </div>
+              </div>
+              <!-- End Row -->
+
+              <hr class="my-6">
+
+              <h4 class="mb-1">Estimated running costs</h4>
+              <p class="small">Based on available 3rd party data</p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <span class="h1">&#36;810</span>
+                  <p>Approximate costs per month</p>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-md-6">
+                  <dl class="row">
+                    <dt class="col-6">
+                      <i class="bi-bank2 me-2"></i> Mortgage
+                    </dt>
+                    <dd class="col-6 text-end">&#36;700 p/m</dd>
+
+                    <dt class="col-6">
+                      <i class="bi-lightning-charge-fill me-2"></i> Energy
+                    </dt>
+                    <dd class="col-6 text-end">from &#36;72 p/m</dd>
+
+                    <dt class="col-6">
+                      <i class="bi-droplet-half me-2"></i> Water
+                    </dt>
+                    <dd class="col-6 text-end">
+                      from &#36;38 p/m
+                    </dd>
+
+                    <dt class="col-6 text-dark">
+                      <i class="bi-shield-shaded me-2"></i> Home insurance
+                    </dt>
+                    <dd class="col-6 text-end">not known</dd>
+                  </dl>
+                  <!-- End Row -->
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+
+            <div class="tab-pane fade" id="propertyOverviewNavTwo" role="tabpanel"
+              aria-labelledby="propertyOverviewNavTwo-tab">
+              <a href="../assets/img/others/img1.png" data-fslightbox="propertyOverviewFloorplan">
+                <img class="img-fluid" src="../assets/img/others/img1.png" alt="Image Description">
+              </a>
+
+              <small class="form-text">Image source from <a class="link-sm" href="https://floorplanner.com/"
+                  target="_blank">floorplanner.com</a></small>
+            </div>
+
+            <div class="tab-pane fade" id="propertyOverviewNavThree" role="tabpanel"
+              aria-labelledby="propertyOverviewNavThree-tab">
+              <!-- Gmap -->
+              <div id="map" class="leaflet" data-hs-leaflet-options='{
+                     "map": {
+                       "scrollWheelZoom": false,
+                       "coords": [37.4040344, -122.0289704]
+                     },
+                     "marker": [
+                       {
+                         "coords": [37.4040344, -122.0289704],
+                         "icon": {
+                           "iconUrl": "../assets/svg/components/map-pin.svg",
+                           "iconSize": [50, 45]
+                         },
+                         "popup": {
+                           "text": "153 Williamson Plaza, Maggieberg",
+                           "title": "Address"
+                         }
+                       }
+                     ]
+                    }'></div>
+              <!-- End Gmap -->
+            </div>
+
+            <div class="tab-pane fade" id="propertyOverviewNavFour" role="tabpanel"
+              aria-labelledby="propertyOverviewNavFour-tab">
+              <div class="mb-5">
+                <h5>Sale activity</h5>
+                <p>Average estimated value for a flat in HG2:</p>
+
+                <h3 class="text-primary mb-0">&#163;271,401</h3>
+                <i class="bi-arrow-down-right text-danger"></i>
+                <span>&#163;7,710 (-2.762%)</span>
+                <span class="text-muted small ms-1">Over the last 12 months</span>
+              </div>
+
+              <div class="mb-5">
+                <h5>In the last 12 months</h5>
+
+                <div class="row justify-content-sm-between">
+                  <div class="col-sm-6">
+                    <span class="d-block">Average sale price</span>
+                    <h3 class="text-primary mb-0">&#163;267,606</h3>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-sm-6">
+                    <span class="d-block">Properties sold</span>
+                    <h3 class="text-primary mb-0">51</h3>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+            </div>
+          </div>
+          <!-- End Tab Content -->
+
+          <hr class="my-6">
+
+          <div class="mb-4">
+            <h4>Listing agents</h4>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-5 mb-4 mb-sm-0">
+              <!-- Media -->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="avatar avatar-lg avatar-circle" src="../assets/img/160x160/img6.jpg"
+                    alt="Image Description">
+                </div>
+
+                <div class="flex-grow-1 ms-3">
+                  <h4 class="mb-1">
+                    <a class="text-dark" href="#">{{page.agent}}</a>
+                  </h4>
+
+                  <span class="d-block small mb-1">
+                    <i class="bi-telephone-fill me-1"></i>{{page.agent-phone}}
+                  </span>
+
+                  <a class="link" href="#">Contact Agent</a>
+                </div>
+              </div>
+              <!-- End Media -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col-sm-6 col-md-5">
+              <!-- Media -->
+              <div class="d-flex">
+                
+
+                <div class="flex-grow-1 ms-3">
+                  <h4 class="mb-1">
+                    <a class="text-dark" href="#">Scout Real Estate Co.</a>
+                  </h4>
+
+                  <span class="d-block small mb-1">
+                    <i class="bi-telephone-fill me-1"></i> 1+ 337 443 0880
+                  </span>
+
+                  <a class="link" href="#">Contact Office</a>
+                </div>
+              </div>
+              <!-- End Media -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-lg-4">
+          <!-- Sticky Block -->
+          <div id="stickyBlockStartPoint">
+            <div class="js-sticky-block" data-hs-sticky-block-options='{
+                 "parentSelector": "#stickyBlockStartPoint",
+                 "breakpoint": "lg",
+                 "startPoint": "#stickyBlockStartPoint",
+                 "endPoint": "#stickyBlockEndPoint",
+                 "stickyOffsetTop": 24,
+                 "stickyOffsetBottom": 0
+               }'>
+              <!-- Card -->
+              <div class="card card-bordered">
+                <div class="card-body">
+                  <!-- Media -->
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0">
+                      <img class="avatar avatar-circle" src="../assets/img/160x160/img3.jpg" alt="Image Description">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h4 class="card-title">Ask me for more information</h4>
+                    </div>
+                  </div>
+                  <!-- End Media -->
+
+                  <!-- Form -->
+                  <form>
+                    <select class="form-select mb-2">
+                      <option selected disabled>Tell me more about this property</option>
+                      <option value="aboutProperty1">Request a showing</option>
+                      <option value="aboutProperty2">Request neighborhood information</option>
+                      <option value="aboutProperty3">Request recent area sales</option>
+                    </select>
+
+                    <div class="mb-2">
+                      <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Full
+                        Name</label>
+                      <input type="text" class="form-control" id="fullNamePropertyOverviewContactForm"
+                        placeholder="Full Name" aria-label="Full Name">
+                    </div>
+
+                    <div class="mb-2">
+                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Email</label>
+                      <input type="email" class="form-control" id="emailPropertyOverviewContactForm" placeholder="Email"
+                        aria-label="Email">
+                    </div>
+
+                    <div class="mb-2">
+                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Phone
+                        number</label>
+                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm"
+                        placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx">
+                    </div>
+
+                    <div class="mb-2">
+                      <label for="questionPropertyOverviewContactForm" class="form-label visually-hidden">Property
+                        question</label>
+                      <textarea class="form-control" id="questionPropertyOverviewContactForm"
+                        placeholder="I would like more information about ..."
+                        aria-label="I would like more information about ..." rows="4"></textarea>
+                    </div>
+
+                    <div class="d-grid">
+                      <button type="button" class="btn btn-primary">Request info</button>
+                    </div>
+                  </form>
+                  <!-- End Form -->
+                </div>
+                <!-- End Card -->
+              </div>
+            </div>
+          </div>
+          <!-- End Sticky Block -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <!-- Sticky Block End Point -->
+      <div id="stickyBlockEndPoint"></div>
+
+      <hr class="my-6">
+
+      
+    <!-- End Content -->
+
+    <!-- Card Grid -->
+    <div class="container content-space-2">
+      <!-- Heading -->
+      <div class="w-md-75 w-lg-50 mb-4">
+        <h3>Similar properties you may like</h3>
+      </div>
+      <!-- End Heading -->
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-4">
+        {% assign random_properties = site.properties | sample:3 %}
+        {% for property in random_properties %}
+        <div class="col mb-3">
+          <!-- Card -->
+          <div class="card card-flush shadow-none h-100">
+            <a class="card-pinned" href="{{property.url}}" data-fslightbox="propertyGridGallery1">
+              <img class="card-img" src="{{property.image-1}}" alt="Image Description">
+    
+              <div class="card-pinned-top-start">
+                <span class="badge bg-success">New</span>
+              </div>
+    
+              <div class="card-pinned-bottom-end">
+                <span class="btn btn-light btn-xs btn-icon">
+                  <i class="bi-images"></i>
+                </span>
+              </div>
+            </a>
+    
+            <a class="d-none" href="{{property.image-1}}" data-fslightbox="propertyGridGallery1"></a>
+            <a class="d-none" href="../assets/img/1920x1080/img17.jpg" data-fslightbox="propertyGridGallery1"></a>
+            <a class="d-none" href="../assets/img/1920x1080/img16.jpg" data-fslightbox="propertyGridGallery1"></a>
+    
+            <!-- Body -->
+            <a class="card-body" href="{{property.url}}">
+              <span class="card-subtitle text-body">For sale</span>
+    
+              <div class="row align-items-center mb-3">
+                <div class="col">
+                  <h4 class="card-title text-inherit">{{property.name}}</h4>
+                </div>
+                <!-- End Col -->
+    
+                <div class="col-auto">
+                  <h3 class="card-title text-primary">&#163;689,000</h3>
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+    
+              <ul class="list-inline list-separator text-body small">
+                <li class="list-inline-item">
+                  <span class="svg-icon svg-icon-xs svg-inline text-muted me-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M22,19.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V16H4v3.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V4.5A.5.5,0,0,1,2.5,4h1a.5.5,0,0,1,.5.5V13H21a1,1,0,0,1,1,1ZM20,8H12a2,2,0,0,0-2,2v1.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V10A2,2,0,0,0,20,8ZM5.5,12h3a.5.5,0,0,0,.5-.5V11a2,2,0,0,0-4,0v.5A.5.5,0,0,0,5.5,12Z" />
+                    </svg>
+                  </span>
+                  3 bed
+                </li>
+                <li class="list-inline-item">
+                  <span class="svg-icon svg-icon-xs svg-inline text-muted me-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
+                      <path
+                        d="M304,320a16,16,0,1,0,16,16A16,16,0,0,0,304,320Zm32-96a16,16,0,1,0,16,16A16,16,0,0,0,336,224Zm32,64a16,16,0,1,0-16-16A16,16,0,0,0,368,288Zm-32,32a16,16,0,1,0-16-16A16,16,0,0,0,336,320Zm-32-64a16,16,0,1,0,16,16A16,16,0,0,0,304,256Zm128-32a16,16,0,1,0-16-16A16,16,0,0,0,432,224Zm-48,16a16,16,0,1,0,16-16A16,16,0,0,0,384,240Zm-16-48a16,16,0,1,0,16,16A16,16,0,0,0,368,192Zm96,32a16,16,0,1,0,16,16A16,16,0,0,0,464,224Zm32-32a16,16,0,1,0,16,16A16,16,0,0,0,496,192Zm-64,64a16,16,0,1,0,16,16A16,16,0,0,0,432,256Zm-32,32a16,16,0,1,0,16,16A16,16,0,0,0,400,288Zm-64,64a16,16,0,1,0,16,16A16,16,0,0,0,336,352Zm-32,32a16,16,0,1,0,16,16A16,16,0,0,0,304,384Zm64-64a16,16,0,1,0,16,16A16,16,0,0,0,368,320Zm21.65-218.35-11.3-11.31a16,16,0,0,0-22.63,0L350.05,96A111.19,111.19,0,0,0,272,64c-19.24,0-37.08,5.3-52.9,13.85l-10-10A121.72,121.72,0,0,0,123.44,32C55.49,31.5,0,92.91,0,160.85V464a16,16,0,0,0,16,16H48a16,16,0,0,0,16-16V158.4c0-30.15,21-58.2,51-61.93a58.38,58.38,0,0,1,48.93,16.67l10,10C165.3,138.92,160,156.76,160,176a111.23,111.23,0,0,0,32,78.05l-5.66,5.67a16,16,0,0,0,0,22.62l11.3,11.31a16,16,0,0,0,22.63,0L389.65,124.28A16,16,0,0,0,389.65,101.65Z" />
+                    </svg>
+                  </span>
+                  2 bath
+                </li>
+                <li class="list-inline-item">
+                  <i class="bi-rulers text-muted me-1"></i> 1,428 sqft
+                </li>
+              </ul>
+            </a>
+            <!-- End Body -->
+          </div>
+          <!-- End Card -->
+        </div>
+        {% endfor %}
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+
+<script>
+  // Get the current URL and split it into an array of segments
+  var url = window.location.href;
+  var segments = url.split('/');
+
+  // Create an empty array to store the breadcrumb items
+  var breadcrumbs = [];
+
+  // Loop through each segment and create a breadcrumb item
+  for (var i = 0; i < segments.length; i++) {
+    // Skip the first segment (which is always the domain name)
+    if (i === 0) {
+      continue;
+    }
+
+    // Create the breadcrumb item
+    var breadcrumb = document.createElement('li');
+    breadcrumb.classList.add('breadcrumb-item');
+
+    // If this is the last segment, mark it as the active page
+    if (i === segments.length - 1) {
+      breadcrumb.classList.add('active');
+      breadcrumb.setAttribute('aria-current', 'page');
+      breadcrumb.innerText = segments[i];
+    } else {
+      // Otherwise, create a link to the current segment
+      var link = document.createElement('a');
+      link.href = segments.slice(0, i + 1).join('/');
+      link.innerText = segments[i];
+      breadcrumb.appendChild(link);
+    }
+
+    // Add the breadcrumb item to the breadcrumbs array
+    breadcrumbs.push(breadcrumb);
+  }
+
+  // Add the breadcrumbs to the breadcrumb container
+  var breadcrumbContainer = document.getElementById('breadcrumb');
+  for (var i = 0; i < breadcrumbs.length; i++) {
+    breadcrumbContainer.appendChild(breadcrumbs[i]);
+  }
+</script>
+
+</html>
