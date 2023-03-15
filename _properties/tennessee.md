@@ -1,15 +1,15 @@
 ---
-id: 2
+id: 6
 layout: property
-name: Atlanta
+name: Tennessee
 image-1: ../assets/img/1920x1080/img20.jpg
 image-2: ../assets/img/1920x1080/img20.jpg
 image-3: ../assets/img/1920x1080/img20.jpg
-address: 123 Georgia Lane
-city: Atlanta
-state: Tennessee
+address: 123 Delta Pine
+city: Dyersburg
+state: TN
 country: United States
-price: 1000000
+price: "225,000"
 estimated-mortgage: 6000
 bed: 6
 bath: 3
