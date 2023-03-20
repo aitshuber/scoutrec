@@ -36,7 +36,7 @@ permalink: /listings
                   <input type="text" class="form-control form-control-lg" id="searchLocationForm" placeholder="Enter location" aria-label="Enter location">
                 </div>
               </div>
-              <button type="button" class="btn btn-primary btn-lg">Search</button>
+              <button type="button" class="btn btn-primary btn-lg btn-light btn-wide rounded-0">Search</button>
             </div>
             <!-- End Input Card -->
           </form>
@@ -59,7 +59,7 @@ permalink: /listings
     </div>
   </div>
 
-  <div class="col-md-12 position-absolute top-0 start-0 zi-n1 gradient-y-three-sm-primary h-100" style="background-size: calc(1000px + (100vw - 1000px) / 2);"></div>
+<div class="col-md-12 position-absolute top-0 start-0 zi-n1 gradient-y-three-sm-primary h-100" style="background-size: calc(1000px + (100vw - 1000px) / 2);"></div>
 </div>
 <!-- End Hero -->
 <div class="container content-space-t-3 content-space-t-lg-2">
@@ -73,13 +73,9 @@ permalink: /listings
             <i class="bi-search"></i>
           </span>
           <input type="text" class="form-control form-control-sm" id="searchPropertyFilterForm"
-            placeholder="Search property" aria-label="Search property" value="London, England">
+            placeholder="Search property" aria-label="Search property" value="">
         </div>
 
-        <form action="/search.html" method="get">
-          <input type="text" id="search-box" name="query">
-          <input type="submit" value="search">
-        </form>
         <ul id="search-results"></ul>
         <!-- End Form -->
       </div>
@@ -365,8 +361,8 @@ permalink: /listings
   <div class="mb-5">
     <div class="row align-items-center">
       <div class="col-sm mb-3 mb-sm-0">
-        <span class="d-block">128 homes</span>
-        <h1 class="h2 mb-0">Property for sale in London</h1>
+        <span class="d-block">128 Properties</span>
+        <h1 class="h2 mb-0">Property for sale</h1>
       </div>
       <!-- End Col -->
 
@@ -394,22 +390,17 @@ permalink: /listings
       <div class="card card-flush shadow-none h-100">
         <a class="card-pinned" href="{{property.url}}" data-fslightbox="propertyGridGallery1">
           <img class="card-img" src="{{property.image-1}}" alt="Image Description">
-
+          {% if property.featured == true %}
           <div class="card-pinned-top-start">
-            <span class="badge bg-success">New</span>
+            <span class="badge bg-primary">Featured</span>
           </div>
-
+          {% endif %}
           <div class="card-pinned-bottom-end">
             <span class="btn btn-light btn-xs btn-icon">
               <i class="bi-images"></i>
             </span>
           </div>
         </a>
-
-        <a class="d-none" href="{{property.image-1}}" data-fslightbox="propertyGridGallery1"></a>
-        <a class="d-none" href="../assets/img/1920x1080/img17.jpg" data-fslightbox="propertyGridGallery1"></a>
-        <a class="d-none" href="../assets/img/1920x1080/img16.jpg" data-fslightbox="propertyGridGallery1"></a>
-
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">
           <span class="card-subtitle text-body">For sale</span>

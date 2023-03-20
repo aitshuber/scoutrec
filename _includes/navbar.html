@@ -1,6 +1,6 @@
 
  <!-- ========== HEADER ========== -->
- <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark navbar-show-hide"
+ <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark navbar-show-hide {% if page.layout != 'default' %}bg-dark {% endif %}"
  data-hs-header-options='{
    "fixMoment": 1000,
    "fixEffect": "slide"
@@ -50,31 +50,24 @@
    <ul class="navbar-nav">
      <!-- Landings -->
      <li class="hs-has-mega-menu nav-item">
-       <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link active" aria-current="page" href="/listings" role="button" aria-expanded="false">SEARCH LISTINGS</a>
+       <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link " aria-current="page" href="/listings" role="button" aria-expanded="false">SEARCH LISTINGS</a>
       </li>
 
      <!-- Company -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link active" href="/#ourteam" role="button" aria-expanded="false">OUR TEAM</a>
+       <a id="teamMegaMenu" class="hs-mega-menu-invoker nav-link " href="/#ourteam" role="button" aria-expanded="false">OUR TEAM</a>
      </li>
      <!-- End Company -->
 
      <!-- Account -->
      <li class="hs-has-sub-menu nav-item">
-       <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link active" href="/newsletter" role="button" aria-expanded="false">NEWSLETTER</a>
+       <a id="newsletterMegaMenu" class="hs-mega-menu-invoker nav-link " href="/newsletter" role="button" aria-expanded="false">NEWSLETTER</a>
 
      </li>
      <!-- End Account -->
      <!-- Pages -->
      <li class="nav-item dropdown">
-       <a id="pagesMegaMenu" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICES</a>
-       <!-- Mega Menu -->
-       <div class="dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 230px;">
-         <a class="dropdown-item " href="./brokerage.html">BROKERAGE</a>
-         <a class="dropdown-item " href="./commercial-real-estate-consulting.html">COMMERCIAL REAL ESTATE CONSULTING</a>
-         <a class="dropdown-item " href="./property-management.html">PROPERTY MANAGEMENT</a>
-       </div>
-       <!-- End Mega Menu -->
+       <a id="servicesMegaMenu" class="hs-mega-menu-invoker nav-link" href="/services" role="button" aria-expanded="false">SERVICES</a>
      </li>
      <!-- End Pages -->
      <!-- Button -->

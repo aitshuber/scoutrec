@@ -27,5 +27,6 @@ built-around: 3
 value: 4
 agent: Ted Lasso
 agent-phone: "123-123-1234"
+featured: true
 ---
 lorem ipsum
