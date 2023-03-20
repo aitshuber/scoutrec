@@ -8,7 +8,7 @@
   <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
   <script src="./assets/vendor/aos/dist/aos.js"></script>
   <script src="./assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
-
+  <script src="./assets/vendor/typed.js/lib/typed.min.js"></script>
   <!-- JS Front -->
   <script src="./assets/js/theme.min.js"></script>
 
@@ -36,7 +36,6 @@
 		}
 	  })
 
-
 	  // INITIALIZATION OF BOOTSTRAP DROPDOWN
 	  // =======================================================
 	  HSBsDropdown.init()
@@ -46,13 +45,16 @@
 	  // =======================================================
 	  new HSGoTo('.js-go-to')
 
-
+	  // INITIALIZATION OF TEXT ANIMATION (TYPING)
+		// =======================================================
+		
+		
 	  // INITIALIZATION OF AOS
 	  // =======================================================
 	  AOS.init({
 		duration: 650,
 		once: true
 	  });
-
+	  HSCore.components.HSTyped.init('.js-typedjs')
 	})()
   </script>
