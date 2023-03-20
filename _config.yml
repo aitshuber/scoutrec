@@ -47,8 +47,6 @@ defaults:
         link: true
         embed: true
 collections:
- page_banner:
-    output: true 
  properties:
    output: true   
 -scope:
@@ -61,7 +59,12 @@ collections:
   type: "page"
   values:
   layout: "properties"
-
+_structures:
+   page_banner:
+     sub_text:
+     button_link: 
+     button_text: 
+     background_image:
        
 # Exclude from processing.
 # The following items will not be processed, by default.
