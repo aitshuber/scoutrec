@@ -59,7 +59,8 @@ collections:
   type: "page"
   values:
   layout: "properties"
-
+_structures:
+   page_banner:
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
