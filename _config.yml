@@ -59,13 +59,11 @@ collections:
   type: "page"
   values:
   layout: "properties"
-_structures:
-  page_banner:
-    _inputs:
-      sub_text:
-       label: Sub Text
-       comment: The text content of the card.
-       type: markdown
+_inputs:
+  sub_text:
+    type: text
+    label: Secondary text
+    comment: Appears at the bellow title in banner
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
