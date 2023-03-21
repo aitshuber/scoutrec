@@ -11,16 +11,16 @@
       <div class="js-swiper-blog-journal-hero">
         <div class="swiper-wrapper">
           <div class="swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start"
-            style="background-image: url('{{page.background_image}}'); min-height: 47rem;">
+            style="background-image: url('{{page.page_banner.background_image}}'); min-height: 47rem;">
             <!-- Container -->
             <div class="container d-flex align-items-center" style="min-height: 40rem;">
               <div class="col-6 me-3">
                 <div class="mb-7">
                   <h3 class="display-4 text-white mt-6 mb-1">{{page.title}}</h3>
-                  <p class="lead fs-5 text-white mt-4 mb-4">{{page.sub_text}}</p>
+                  <p class="lead fs-5 text-white mt-4 mb-4">{{page.page_banner.sub_text}}</p>
                 </div>
-                {% if button_link %}
-                <a class="btn btn-outline-light btn-transition px-6" href="{{page.button_link}}">{{page.button_text}}</a>
+                {% if page.page_banner.button_link %}
+                <a class="btn btn-outline-light btn-transition px-6" href="{{page.page_banner.button_link}}">{{page.page_banner.button_text}}</a>
                 {% endif %}
               </div>
             </div>
