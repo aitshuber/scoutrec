@@ -47,6 +47,8 @@ defaults:
         link: true
         embed: true
 collections:
+ page_banner:
+    output: true 
  properties:
    output: true   
 -scope:
