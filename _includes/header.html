@@ -2,10 +2,8 @@
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-    <!-- Title -->
-    <title>Scout Real Estate Co. - Acadiana's Premier Commercial Real Estate Brokers - Scout Real Estate Co. https://scoutrec.com</title>
-  
+     {% capture seo %}{% seo %}<meta name="keywords" content="{{page.keywords}}">{% endcapture %}
+     {{seo | remove: "Jekyll"}}
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/img/SCOUT-FAVICON-32x32.png">
   
