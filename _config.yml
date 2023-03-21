@@ -67,7 +67,20 @@ _structures:
      - button_link: 
      - button_text: 
      - background_image:
-
+page_sections: 
+     _inputs:
+       page_banner:
+         type: array
+         options:
+           structures: _structures.components
+           preview:
+             text:
+               - sub_text: name
+             subtext:
+               - key: description
+             image:
+               - key: my_image
+             icon: article
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
