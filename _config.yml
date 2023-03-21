@@ -59,7 +59,7 @@ collections:
   type: "page"
   values:
   layout: "properties"
-_inputs:
+_structures:
   sub_text:
     type: text
     label: Secondary text
