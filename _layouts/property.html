@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
 {% include header.html %}
-
+  <link rel="stylesheet" href="../assets/vendor/leaflet/dist/leaflet.css">
 <body>
   <!-- Navbar -->
   {% include navbar.html %}
@@ -24,10 +24,6 @@
 
         <div class="col-lg-auto">
           <a class="btn btn-sm btn-ghost-secondary" href="javascript:;">
-            <i class="bi-heart me-2"></i> Save
-          </a>
-
-          <a class="btn btn-sm btn-ghost-secondary" href="javascript:;">
             <i class="bi-share-fill me-2"></i> Share
           </a>
         </div>
@@ -36,16 +32,15 @@
       <!-- End Row -->
     </div>
     <!-- End Breadcrumb -->
-
     <!-- Gallery -->
     <div class="container mb-5">
       <div class="rounded-2 overflow-hidden">
         <div class="row gx-2">
           <div class="col-md-8">
             <!-- Gallery -->
-            <a class="d-block position-relative" href="../assets/img/1920x1080/img27.jpg"
+            <a class="d-block position-relative" href="{{page.image-1}}"
               data-fslightbox="propertyOverviewGallery">
-              <img class="img-fluid w-100" src="../assets/img/900x455/img1.jpg" alt="Image Description">
+              <img class="img-fluid w-100" src="{{page.image-1}}" alt="{{page.name}}" style="object-fit: cover;height: 27.5em;object-position: center;">
 
               <div class="position-absolute bottom-0 end-0 mb-3 me-3">
                 <span class="d-md-none btn btn-sm btn-light">
@@ -59,15 +54,14 @@
 
           <div class="col-md-4 d-none d-md-inline-block">
             <!-- Gallery -->
-            <a class="d-block mb-2" href="../assets/img/1920x1080/img11.jpg" data-fslightbox="propertyOverviewGallery">
-              <img class="img-fluid w-100" src="../assets/img/450x225/img1.jpg" alt="Image Description">
+            <a class="d-block mb-2" href="{{page.image-2}}" data-fslightbox="propertyOverviewGallery">
+              <img class="img-fluid w-100" src="{{page.image-2}}" alt="Image Description" style="object-fit: cover;height: 13.5em;object-position: center;">
             </a>
             <!-- End Gallery -->
 
             <!-- Gallery -->
-            <a class="d-block position-relative" href="../assets/img/1920x1080/img14.jpg"
-              data-fslightbox="propertyOverviewGallery">
-              <img class="img-fluid w-100" src="../assets/img/450x225/img2.jpg" alt="Image Description">
+            <a class="d-block position-relative" href="{{page.image-3}}" data-fslightbox="propertyOverviewGallery">
+              <img class="img-fluid w-100" src="{{page.image-3}}" alt="Image Description" style="object-fit: cover;height: 13.5em;object-position: center;">
 
               <div class="position-absolute bottom-0 end-0 mb-3 me-3">
                 <span class="d-none d-md-inline-block btn btn-sm btn-light">
@@ -76,7 +70,7 @@
               </div>
             </a>
             <!-- End Gallery -->
-
+            
             <a class="d-none" href="../assets/img/1920x1080/img24.jpg" data-fslightbox="propertyOverviewGallery"></a>
             <a class="d-none" href="../assets/img/1920x1080/img20.jpg" data-fslightbox="propertyOverviewGallery"></a>
           </div>
@@ -86,8 +80,8 @@
       </div>
 
       <div class="d-flex justify-content-end mt-2">
-        <span class="small text-dark fw-semibold">Published:</span>
-        <span class="small ms-1">December 27, 2018</span>
+        <span class="small text-dark fw-semibold me-1">Status: </span> 
+        <span class="badge bg-primary text-white">{{page.status}}</span>
       </div>
     </div>
     <!-- End Gallery -->
@@ -109,21 +103,18 @@
                   <i class="fas fa-bath text-muted me-1"></i> {{page.bath}} bath
                 </li>
                 <li class="list-inline-item">
-                  <i class="fas fa-ruler-combined text-muted me-1"></i> {{page.footage}} sqft
+                  <i class="fas fa-ruler-combined text-muted me-1"></i> {{page.SqFt}} sqft
                 </li>
               </ul>
             </div>
-
             <div class="col-sm-6 column-divider-sm">
               <div class="pl-md-4">
-                <h2 class="mb-0">&#36;{{page.price}}</h2>
-                <span class="d-block text-dark mb-3">Est. Mortgage &#36;{{page.estimated-mortgage}}/mo</span>
-                <a href="#">Get Pre-Qualified</a>
+                <h2 class="mb-0">&#36;{{page.price | money}}</h2>
+                <span class="d-block text-dark mb-3">Price/SqFt: {{page.Price-SqFt}}</span>
               </div>
             </div>
           </div>
           <!-- End Row -->
-
           <!-- Nav Scroller -->
           <div class="js-nav-scroller hs-nav-scroller-horizontal">
             <span class="hs-nav-scroller-arrow-prev" style="display: none;">
@@ -418,25 +409,7 @@
             <div class="tab-pane fade" id="propertyOverviewNavThree" role="tabpanel"
               aria-labelledby="propertyOverviewNavThree-tab">
               <!-- Gmap -->
-              <div id="map" class="leaflet" data-hs-leaflet-options='{
-                     "map": {
-                       "scrollWheelZoom": false,
-                       "coords": [37.4040344, -122.0289704]
-                     },
-                     "marker": [
-                       {
-                         "coords": [37.4040344, -122.0289704],
-                         "icon": {
-                           "iconUrl": "../assets/svg/components/map-pin.svg",
-                           "iconSize": [50, 45]
-                         },
-                         "popup": {
-                           "text": "153 Williamson Plaza, Maggieberg",
-                           "title": "Address"
-                         }
-                       }
-                     ]
-                    }'></div>
+              {{page.map}}
               <!-- End Gmap -->
             </div>
 
@@ -481,30 +454,33 @@
           </div>
 
           <div class="row">
+            {% for team in site.data.broker %}
+            {% if page.agent == team.name %}
             <div class="col-sm-6 col-md-5 mb-4 mb-sm-0">
               <!-- Media -->
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="avatar avatar-lg avatar-circle" src="../assets/img/160x160/img6.jpg"
+                  <img class="avatar avatar-lg avatar-circle" src="/{{team.image}}"
                     alt="Image Description">
                 </div>
 
                 <div class="flex-grow-1 ms-3">
                   <h4 class="mb-1">
-                    <a class="text-dark" href="#">{{page.agent}}</a>
+                    {{team.name}}
                   </h4>
-
                   <span class="d-block small mb-1">
-                    <i class="bi-telephone-fill me-1"></i>{{page.agent-phone}}
+                    <i class="bi-telephone-fill me-1"></i><a href="tel:{{team.phone}}" class="phone">{{team.phone}}</a>
                   </span>
-
-                  <a class="link" href="#">Contact Agent</a>
+                  <span class="d-block small mb-1">
+                    <i class="fa-solid fa-envelope me-1"></i>{{team.email}}
+                  </span>
                 </div>
               </div>
               <!-- End Media -->
             </div>
             <!-- End Col -->
-
+            {% endif %}
+            {% endfor %}
             <div class="col-sm-6 col-md-5">
               <!-- Media -->
               <div class="d-flex">
@@ -516,10 +492,11 @@
                   </h4>
 
                   <span class="d-block small mb-1">
-                    <i class="bi-telephone-fill me-1"></i> 1+ 337 443 0880
+                    <i class="bi-telephone-fill me-1"></i> <a href="tel:3374430880" class="phone">(337)443-0880</a>
                   </span>
-
-                  <a class="link" href="#">Contact Office</a>
+                  <span class="d-block small mb-1">
+                    <i class="fa-solid fa-envelope me-1"></i> info@scoutrec.com
+                  </span>
                 </div>
               </div>
               <!-- End Media -->
@@ -544,26 +521,25 @@
               <!-- Card -->
               <div class="card card-bordered">
                 <div class="card-body">
+                  {% for team in site.data.broker %}
+                  {% if page.agent == team.name %}
                   <!-- Media -->
                   <div class="d-flex align-items-center mb-4">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-circle" src="../assets/img/160x160/img3.jpg" alt="Image Description">
+                      <img class="avatar avatar-circle" src="/{{team.image}}" alt="{{team.name}} profile image">
                     </div>
                     <div class="flex-grow-1 ms-3">
                       <h4 class="card-title">Ask me for more information</h4>
                     </div>
                   </div>
                   <!-- End Media -->
-
                   <!-- Form -->
                   <form>
                     <select class="form-select mb-2">
                       <option selected disabled>Tell me more about this property</option>
                       <option value="aboutProperty1">Request a showing</option>
-                      <option value="aboutProperty2">Request neighborhood information</option>
                       <option value="aboutProperty3">Request recent area sales</option>
                     </select>
-
                     <div class="mb-2">
                       <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Full
                         Name</label>
@@ -597,6 +573,8 @@
                     </div>
                   </form>
                   <!-- End Form -->
+                  {% endif %}
+                  {% endfor %}
                 </div>
                 <!-- End Card -->
               </div>
@@ -703,48 +681,4 @@
   {% include footer.html %}
   {% include scripts.html %}
 </body>
-
-<script>
-  // Get the current URL and split it into an array of segments
-  var url = window.location.href;
-  var segments = url.split('/');
-
-  // Create an empty array to store the breadcrumb items
-  var breadcrumbs = [];
-
-  // Loop through each segment and create a breadcrumb item
-  for (var i = 0; i < segments.length; i++) {
-    // Skip the first segment (which is always the domain name)
-    if (i === 0) {
-      continue;
-    }
-
-    // Create the breadcrumb item
-    var breadcrumb = document.createElement('li');
-    breadcrumb.classList.add('breadcrumb-item');
-
-    // If this is the last segment, mark it as the active page
-    if (i === segments.length - 1) {
-      breadcrumb.classList.add('active');
-      breadcrumb.setAttribute('aria-current', 'page');
-      breadcrumb.innerText = segments[i];
-    } else {
-      // Otherwise, create a link to the current segment
-      var link = document.createElement('a');
-      link.href = segments.slice(0, i + 1).join('/');
-      link.innerText = segments[i];
-      breadcrumb.appendChild(link);
-    }
-
-    // Add the breadcrumb item to the breadcrumbs array
-    breadcrumbs.push(breadcrumb);
-  }
-
-  // Add the breadcrumbs to the breadcrumb container
-  var breadcrumbContainer = document.getElementById('breadcrumb');
-  for (var i = 0; i < breadcrumbs.length; i++) {
-    breadcrumbContainer.appendChild(breadcrumbs[i]);
-  }
-</script>
-
 </html>
