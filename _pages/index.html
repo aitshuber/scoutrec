@@ -14,11 +14,11 @@ page_banner:
 permalink: /
 ---
 <div class="position-relative mt-0">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-end align-items-md-center my-4">
             <div class="d-none d-md-block col-md-6 position-absolute top-0 start-0 bg-img-center h-100" style="background-image: url(../assets/img/SCOUT-ROCK-N-BOWL-RECTANGLE-scaled.jpg);"></div>
             <div class="d-md-none mb-5 mb-md-0">
-                <img class="img-fluid" src="/assets/img/SCOUT-ROCK-N-BOWL-RECTANGLE-scaled.jpg" alt="Image Description" />
+                <img class="img-fluid" src="/assets/img/SCOUT-ROCK-N-BOWL-RECTANGLE-scaled.jpg" alt="">
             </div>
 
             <div class="col-md-6">
@@ -31,9 +31,43 @@ permalink: /
                     </div>
                     <!-- End Heading -->
                     <!-- End Row -->
+                    <div class="row">
+                        {% assign sorted = site.properties | sort: 'featured' | reverse %}
+                        {% for item in sorted | limit: 3 %}
+                        <div class="col mb-3">
+                      <!-- Card -->
+                      <div class="card card-flush shadow-none h-100">
+                          <img class="card-img" src="{{item.image-2}}" alt="{{item.name}}">
+                          {% if item.featured %}
+                          <div class="card-pinned-top-start">
+                            <span class="badge bg-success">Featured</span>
+                          </div>
+                          {% endif %}
+                        <!-- Body -->
+                        <a class="card-body" href="{{item.url}}">
+                          <span class="card-subtitle text-body">For sale</span>
+                          <div class="row align-items-center mb-3">
+                            <div class="col">
+                              <h4 class="card-title text-inherit">{{item.name}}</h4>
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-auto">
+                              <h3 class="card-title text-primary">${{item.price | money}}</h3>
+                            </div>
+                            <!-- End Col -->
+                          </div>
+                          <!-- End Row -->
+              
+                        </a>
+                        <!-- End Body -->
+                      </div>
+                      <!-- End Card -->
+                    </div>
 
+                    {% endfor %}
                     <div class="d-grid d-sm-flex gap-3">
-                        <a class="btn btn-primary btn-transition px-6" href="/newsletter/">NEWSLETTER</a>
+                        <a class="btn btn-primary btn-transition px-6 text-uppercase" href="/listings">View All Listings</a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -44,11 +78,15 @@ permalink: /
 </div>
 <!-- Card Grid -->
 <div id="ourteam" class="container content-space-2 content-space-lg-0 align-items-center">
+    <div class="row py-8">
+        <div class="col-md-12">
     <!-- Heading -->
-    <h4 class="mb-3 mt-4 text-left">OUR CULTURE</h4>
-    <h2 class="mb-10 text-left">Rock solid work ethic with an emphasis on honesty, integrity and a deep and growing
+    <h5 class="mb-3 mt-4 text-left fw-light">OUR CULTURE</h5>
+    <h3 class="mb-10 text-left fw-normal fs-1">Rock solid work ethic with an emphasis on honesty, integrity and a deep and growing
         network of professional
-        relationships.</h2>
+        relationships.</h3>
+        </div>
+    </div>
     <div class="w-md-75 w-lg-75 text-center mx-md-auto mb-5 mb-md-9">
 
         <h2 class="h1">Meet Your Commercial Real Estate Team</h2>
@@ -263,7 +301,7 @@ permalink: /
 <!-- End Contact Form -->
 
 <div class="position-relative">
-    <div class="container mt-4 mb-4">
+    <div class="container">
         <div class="row justify-content-end align-items-md-center">
             <div class="d-none d-md-block col-md-6 position-absolute top-0 start-0 bg-img-center h-100" style="background-image: url(../assets/img/SCOUT-ROCK-N-BOWL-RECTANGLE-scaled.jpg);"></div>
             <div class="d-md-none mb-5 mb-md-0">

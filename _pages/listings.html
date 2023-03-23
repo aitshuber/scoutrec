@@ -403,7 +403,7 @@ permalink: /listings
         </a>
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">
-          <span class="card-subtitle text-body">For sale</span>
+          <span class="card-subtitle text-body">{{property.property-subtype}}</span>
 
           <div class="row align-items-center mb-3">
             <div class="col">
@@ -412,33 +412,20 @@ permalink: /listings
             <!-- End Col -->
 
             <div class="col-auto">
-              <h3 class="card-title text-primary">&#163;689,000</h3>
+              <h3 class="card-title text-primary">${{property.price | money}}</h3>
             </div>
             <!-- End Col -->
           </div>
           <!-- End Row -->
 
           <ul class="list-inline list-separator text-body small">
+           
             <li class="list-inline-item">
-              <span class="svg-icon svg-icon-xs svg-inline text-muted me-1">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                  <path
-                    d="M22,19.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V16H4v3.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V4.5A.5.5,0,0,1,2.5,4h1a.5.5,0,0,1,.5.5V13H21a1,1,0,0,1,1,1ZM20,8H12a2,2,0,0,0-2,2v1.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V10A2,2,0,0,0,20,8ZM5.5,12h3a.5.5,0,0,0,.5-.5V11a2,2,0,0,0-4,0v.5A.5.5,0,0,0,5.5,12Z" />
-                </svg>
-              </span>
-              3 bed
+            <i class="fa-regular fa-buildings"></i>
+              Commercial
             </li>
             <li class="list-inline-item">
-              <span class="svg-icon svg-icon-xs svg-inline text-muted me-1">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
-                  <path
-                    d="M304,320a16,16,0,1,0,16,16A16,16,0,0,0,304,320Zm32-96a16,16,0,1,0,16,16A16,16,0,0,0,336,224Zm32,64a16,16,0,1,0-16-16A16,16,0,0,0,368,288Zm-32,32a16,16,0,1,0-16-16A16,16,0,0,0,336,320Zm-32-64a16,16,0,1,0,16,16A16,16,0,0,0,304,256Zm128-32a16,16,0,1,0-16-16A16,16,0,0,0,432,224Zm-48,16a16,16,0,1,0,16-16A16,16,0,0,0,384,240Zm-16-48a16,16,0,1,0,16,16A16,16,0,0,0,368,192Zm96,32a16,16,0,1,0,16,16A16,16,0,0,0,464,224Zm32-32a16,16,0,1,0,16,16A16,16,0,0,0,496,192Zm-64,64a16,16,0,1,0,16,16A16,16,0,0,0,432,256Zm-32,32a16,16,0,1,0,16,16A16,16,0,0,0,400,288Zm-64,64a16,16,0,1,0,16,16A16,16,0,0,0,336,352Zm-32,32a16,16,0,1,0,16,16A16,16,0,0,0,304,384Zm64-64a16,16,0,1,0,16,16A16,16,0,0,0,368,320Zm21.65-218.35-11.3-11.31a16,16,0,0,0-22.63,0L350.05,96A111.19,111.19,0,0,0,272,64c-19.24,0-37.08,5.3-52.9,13.85l-10-10A121.72,121.72,0,0,0,123.44,32C55.49,31.5,0,92.91,0,160.85V464a16,16,0,0,0,16,16H48a16,16,0,0,0,16-16V158.4c0-30.15,21-58.2,51-61.93a58.38,58.38,0,0,1,48.93,16.67l10,10C165.3,138.92,160,156.76,160,176a111.23,111.23,0,0,0,32,78.05l-5.66,5.67a16,16,0,0,0,0,22.62l11.3,11.31a16,16,0,0,0,22.63,0L389.65,124.28A16,16,0,0,0,389.65,101.65Z" />
-                </svg>
-              </span>
-              2 bath
-            </li>
-            <li class="list-inline-item">
-              <i class="bi-rulers text-muted me-1"></i> 1,428 sqft
+              <i class="bi-rulers text-muted me-1"></i> {{property.SqFt}} sqft
             </li>
           </ul>
         </a>
