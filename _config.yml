@@ -59,23 +59,6 @@ collections:
   type: "page"
   values:
   layout: "properties"
-_inputs:
-  Agent:
-    type: select
-    options:
-      values:
-        - Jeff Landry
-        - Rex Moroux
-        - Tim Skinner
-        - Diana Stephens
-        - Eric Schexnayder
-        - Tim Skinner
-  image-1:
-    type: image
-  image-2:
-    type: image
-  image-3:
-    type: image
 _structures:
   sub_text:
     type: text
