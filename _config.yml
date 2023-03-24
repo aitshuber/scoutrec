@@ -59,6 +59,17 @@ collections:
   type: "page"
   values:
   layout: "properties"
+_inputs:
+  Agent:
+    type: select
+    options:
+      values:
+        - Jeff Landry
+        - Rex Moroux
+        - Tim Skinner
+        - Diana Stephens
+        - Eric Schexnayder
+        - Tim Skinner
 _structures:
   sub_text:
     type: text

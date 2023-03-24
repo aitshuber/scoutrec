@@ -20,7 +20,7 @@ pages:
 properties:
   output: true
   path: _properties
-
+  
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
 collection_groups:
