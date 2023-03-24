@@ -1,12 +1,12 @@
 <!-- ========== FOOTER ========== -->
 <footer class="bg-dark position-absolute w-100">
-  <div class="container pb-1 pb-lg-5">
+  <div class="container pb-1">
     <div class="row content-space-t-1">
       <div class="col-lg-3 mb-7 mb-lg-0">
         <!-- Logo -->
         <div class="mb-6">
-          <a class="navbar-brand" href="./index.html" aria-label="Space">
-            <img class="navbar-brand-logo-second" src="/assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png"
+          <a class="navbar-brand" href="/" aria-label="Space">
+            <img class="navbar-brand-logo-second" src="{{site.data.company_details.logo_image}}"
               alt="Image Description">
           </a>
         </div>
@@ -18,11 +18,11 @@
         <!-- List -->
         <ul class="list-unstyled list-py-1">
           <h2 class="footeraddress">Address</h2>
-          <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> 905 Jefferson Ave.<br/>
-              Suite 504<br/>
-              Lafayette, LA 70501</a></li>
-          <li><a class="link-sm link-light" href="tel:1-062-109-9222"><i class="bi-telephone-inbound-fill me-1"></i>
-              (337) 443-08802</a></li>
+          <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> {{site.data.company_details.address}}<br/>
+              {{site.data.company_details.address2}}<br/>
+              {{site.data.company_details.city-state-zip}}</a></li>
+          <li><a class="link-sm link-light phone" href="tel:{{site.data.company_details.phone}}"><i class="bi-telephone-inbound-fill me-1"></i>
+             {{site.data.company_details.phone}}</a></li>
         </ul>
         <!-- End List -->
 
