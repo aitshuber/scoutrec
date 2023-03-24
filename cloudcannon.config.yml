@@ -20,23 +20,23 @@ pages:
 properties:
   output: true
   path: _properties
-  _inputs:
-    Agent:
-      type: select
-      options:
-        values:
-          - Jeff Landry
-          - Rex Moroux
-          - Tim Skinner
-          - Diana Stephens
-          - Eric Schexnayder
-          - Tim Skinner
-    image-1:
-      type: image
-    image-2:
-      type: image
-    image-3:
-      type: image
+_inputs:
+  Agent:
+    type: select
+    options:
+      values:
+        - Jeff Landry
+        - Rex Moroux
+        - Tim Skinner
+        - Diana Stephens
+        - Eric Schexnayder
+        - Tim Skinner
+  image-1:
+    type: image
+  image-2:
+    type: image
+  image-3:
+    type: image
 schemas:
       block_page:
         path: schemas/page.md
