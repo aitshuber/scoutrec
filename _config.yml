@@ -70,6 +70,12 @@ _inputs:
         - Diana Stephens
         - Eric Schexnayder
         - Tim Skinner
+  image-1:
+    type: image
+  image-2:
+    type: image
+  image-3:
+    type: image
 _structures:
   sub_text:
     type: text
