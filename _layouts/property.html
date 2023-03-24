@@ -109,7 +109,7 @@
             </div>
             <div class="col-sm-6 column-divider-sm">
               <div class="pl-md-4">
-                <h2 class="mb-0">&#36;{{page.price | money}}</h2>
+                <h2 class="mb-0">${{page.price | money}}</h2>
                 <span class="d-block text-dark mb-3">Price/SqFt: {{page.Price-SqFt}}</span>
               </div>
             </div>
@@ -483,9 +483,10 @@
             {% endfor %}
             <div class="col-sm-6 col-md-5">
               <!-- Media -->
+              <div class="flex-shrink-0">
+                <img class="avatar avatar-lg avatar-circle" src="/assets/img/Scout_Seal.png" alt="Scout Real Estate Logo Seal">
+              </div>
               <div class="d-flex">
-                
-
                 <div class="flex-grow-1 ms-3">
                   <h4 class="mb-1">
                     <a class="text-dark" href="#">Scout Real Estate Co.</a>

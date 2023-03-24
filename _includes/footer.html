@@ -18,10 +18,10 @@
         <!-- List -->
         <ul class="list-unstyled list-py-1">
           <h2 class="footeraddress">Address</h2>
-          <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> {{site.data.company_details.address}}<br/>
-              {{site.data.company_details.address2}}<br/>
-              {{site.data.company_details.city-state-zip}}</a></li>
-          <li><a class="link-sm link-light phone" href="tel:{{site.data.company_details.phone}}"><i class="bi-telephone-inbound-fill me-1"></i>
+          <li class="text-white"><i class="bi-geo-alt-fill me-1"></i> {{site.data.company_details.Addresses[0].address}}<br/>
+              {{site.data.company_details.Addresses[0].address2}}<br/>
+              {{site.data.company_details.Addresses[0].city-state-zip}}</li>
+          <li><a class="link-sm link-light phone" href="tel:{{site.data.company_details.Addresses[0].phone}}"><i class="bi-telephone-inbound-fill me-1"></i>
              {{site.data.company_details.phone}}</a></li>
         </ul>
         <!-- End List -->
@@ -34,28 +34,18 @@
 
         <!-- List -->
         <ul class="list-unstyled list-py-1 mb-0">
-          <li><a class="link-sm link-light" href="#">P.O. Box 51125<br>Lafayette, LA 70505</a></li>
-          <li><a class="link-sm link-light" href="#">info@scoutrec.com</a></li>
+          <li class="text-white">{{site.data.company_details.Addresses[1].address}}<br> {{site.data.company_details.Addresses[1].city-state-zip}}</li>
+          <li><a class="link-sm link-light" href="mailto:{{site.data.company_details.email}}">{{site.data.company_details.email}}</a></li>
           <div class="col-sm-auto">
             <!-- Socials -->
             <ul class="list-inline mb-0">
+              {% for social in site.data.company_details.social %}
               <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.facebook.com/scoutrealestateco/" target="_blank">
-                  <i class="bi-facebook"></i>
+                <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" target="_blank">
+                  <i class="fa {{social.icon}}"></i>
                 </a>
               </li>
-
-              <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.instagram.com/scoutrealestateco/" target="_blank">
-                  <i class="bi-instagram"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.linkedin.com/company/scout-real-estate-co/" target="_blank">
-                  <i class="bi-linkedin"></i>
-                </a>
-              </li>
+              {% endfor %}
             </ul>
         </ul>
         <!-- End List -->
