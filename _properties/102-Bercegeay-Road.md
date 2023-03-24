@@ -7,20 +7,24 @@ image-3: "/assets/img/1920x1080/img10.jpg"
 address: 102 Bercegeay Road
 city: Broussard
 state: LA
+parish: Cameron
 listingID: 23000718
 status: ACTIVE
 price: "4,353,846"
 Acres: 6.340
 SqFt: "55,520"
 Price-SqFt: 78.42
-property-type: Commercial Sale
-property-subtype: Industrial
+property-type: Land
+property-subtype: Commercial
+zoning: Agriculture
 year-built: 2020
 lot-size: 6.34
 parking: 2
 agent: Jeff Landry
 agent-phone: "(337)443-0880"
 featured: true
+directions: Hwy 14 w, turn south on Talens landing, turn right on Specklebelly Rd.
+features: Pond, Other
 map: >-
  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.432590579979!2d-91.94223418443028!3d30.110432681858295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86237da55a2cf76d%3A0xabe4df24db01d8bb!2s102%20Bercegeay%20Rd%2C%20Broussard%2C%20LA%2070518!5e0!3m2!1sen!2sus!4v1679606098523!5m2!1sen!2sus" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 ---

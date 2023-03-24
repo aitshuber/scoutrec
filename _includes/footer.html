@@ -1,10 +1,10 @@
 <!-- ========== FOOTER ========== -->
 <footer class="bg-dark position-absolute w-100">
   <div class="container pb-1">
-    <div class="row content-space-t-1">
-      <div class="col-lg-3 mb-7 mb-lg-0">
+    <div class="row pt-5">
+      <div class="col-lg-3 mb-5 mb-lg-0">
         <!-- Logo -->
-        <div class="mb-6">
+        <div class="mb-5">
           <a class="navbar-brand" href="/" aria-label="Space">
             <img class="navbar-brand-logo-second" src="{{site.data.company_details.logo_image}}"
               alt="Image Description">
@@ -25,13 +25,10 @@
              {{site.data.company_details.phone}}</a></li>
         </ul>
         <!-- End List -->
-
       </div>
       <!-- End Col -->
-
       <div class="col-md-6">
         <h2 class="footeraddress">Mailing Address</h2>
-
         <!-- List -->
         <ul class="list-unstyled list-py-1 mb-0">
           <li class="text-white">{{site.data.company_details.Addresses[1].address}}<br> {{site.data.company_details.Addresses[1].city-state-zip}}</li>
@@ -42,7 +39,7 @@
               {% for social in site.data.company_details.social %}
               <li class="list-inline-item">
                 <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" target="_blank">
-                  <i class="fa {{social.icon}}"></i>
+                  <i class="bi bi-{{social.icon}}"></i>
                 </a>
               </li>
               {% endfor %}
@@ -53,8 +50,8 @@
       <!-- End Col -->
     </div>
     <!-- End Row -->
-    <div class="border-top border-white-10 my-7"></div>
-    <div class="row mb-7">
+    <div class="border-top border-white-10 my-5"></div>
+    <div class="row mb-5">
       <div class="col-sm mb-3 mb-sm-0">
         <!-- Socials -->
         <ul class="list-inline list-separator list-separator-light mb-0">

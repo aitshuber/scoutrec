@@ -140,20 +140,19 @@
               <li class="nav-item" role="presentation">
                 <a class="nav-link" href="#propertyOverviewNavTwo" id="propertyOverviewNavTwo-tab" data-bs-toggle="tab"
                   data-bs-target="#propertyOverviewNavTwo" role="tab" aria-controls="propertyOverviewNavTwo"
-                  aria-selected="false" style="min-width: 7rem;">Floorplan</a>
+                  aria-selected="false" style="min-width: 7rem;">Plans</a>
               </li>
 
               <li class="nav-item" role="presentation">
                 <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavThree-tab"
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavThree" role="tab"
-                  aria-controls="propertyOverviewNavThree" aria-selected="false" style="min-width: 7rem;">Map</a>
+                  aria-controls="propertyOverviewNavThree" aria-selected="false" style="min-width: 7rem;">Location</a>
               </li>
 
               <li class="nav-item" role="presentation">
                 <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavFour-tab"
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavFour" role="tab"
-                  aria-controls="propertyOverviewNavFour" aria-selected="false" style="min-width: 7rem;">Market
-                  stats</a>
+                  aria-controls="propertyOverviewNavFour" aria-selected="false" style="min-width: 7rem;">Additional</a>
               </li>
             </ul>
             <!-- End Nav -->
@@ -165,14 +164,14 @@
             <div class="tab-pane fade show active" id="propertyOverviewNavOne" role="tabpanel"
               aria-labelledby="propertyOverviewNavOne-tab">
               <div class="mb-4">
-                <h4>Home details</h4>
+                <h4>Details</h4>
               </div>
 
               <div class="row justify-content-md-between">
                 <div class="col-md-5">
                   <dl class="row">
-                    <dt class="col-6">Property ID:</dt>
-                    <dd class="col-6">{{page.property-id}}</dd>
+                    <dt class="col-6">Listing ID:</dt>
+                    <dd class="col-6">{{page.listingID}}</dd>
 
                     <dt class="col-6">Property type:</dt>
                     <dd class="col-6">{{page.property-type}}</dd>
@@ -201,69 +200,19 @@
               </div>
               <!-- End Row -->
 
-              <div class="border-top border-bottom py-4 mt-4 mb-7">
-                <div class="row col-sm-divider">
-                  <div class="col-sm-6 text-sm-end mb-2 mb-sm-0">
-                    <div class="pe-md-4">
-                      <span>Last 30 days:</span>
-                      <span class="text-dark fw-semibold">920 page views</span>
-                    </div>
-                  </div>
-                  <!-- End Col -->
-
-                  <div class="col-sm-6">
-                    <div class="ps-md-4">
-                      <span>Since listed:</span>
-                      <span class="text-dark fw-semibold">471 page views</span>
-                    </div>
-                  </div>
-                  <!-- End Col -->
-                </div>
-                <!-- End Row -->
-              </div>
+              <hr class="my-6">
 
               <div class="mb-4">
                 <h4>Description</h4>
               </div>
 
-              <p>{{content}}</p>
+              <p>{{content | truncatewords: 200}}</p>
 
-              <!-- Collapse Link - Content -->
-              <div class="collapse" id="propertyOverviewDescriptionViewMoreCollapse">
-                <div class="mb-4">
-                  <h4>Directions</h4>
-                </div>
-
-                <p>Proceed up the Otley Road from the Prince Of Wales roundabout and through the traffic lights with the
-                  turning into Harlow Moor Road. Continue ahead where the property can be found on the left hand side.
-                </p>
-
-                <div class="mb-4">
-                  <h4>Strictly by appointment through Front House</h4>
-                </div>
-
-                <p>You may download, store and use the material for your own personal use and research. You may not
-                  republish, retransmit, redistribute or otherwise make the material available to any party or make the
-                  same available on any website, online service or bulletin board of your own or of any other party or
-                  make the same available in hard copy or in any other media without the website owner's express prior
-                  written consent. The website owner's copyright must remain on all reproductions of material taken from
-                  this website.</p>
-              </div>
-              <!-- End Collapse Link - Content -->
-
-              <!-- Collapse Link -->
-              <a class="link link-collapse" data-bs-toggle="collapse"
-                href="#propertyOverviewDescriptionViewMoreCollapse" role="button" aria-expanded="false"
-                aria-controls="propertyOverviewDescriptionViewMoreCollapse">
-                <span class="link-collapse-default">View More</span>
-                <span class="link-collapse-active">View Less</span>
-              </a>
-              <!-- End Collapse Link -->
-
+              
               <hr class="my-6">
 
               <div class="mb-4">
-                <h4>Accessibility</h4>
+                <h4>Internal</h4>
               </div>
 
               <div class="row">
@@ -271,7 +220,7 @@
                   <!-- List -->
                   <ul class="list-unstyled list-py-1 mb-0">
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Location</h6>
+                      <h6 class="mb-0">Fencing</h6>
 
                       <div class="d-flex gap-1 ms-auto">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
@@ -283,7 +232,7 @@
                     </li>
 
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Area safety</h6>
+                      <h6 class="mb-0">Lot Features:</h6>
 
                       <div class="d-flex gap-1 ms-auto">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
@@ -295,8 +244,52 @@
                     </li>
 
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Close to schools</h6>
+                      <h6 class="mb-0">Lot Size Area</h6>
 
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Lot Size Dimensions</h6>
+                    
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Lot Size Square Feet</h6>
+                    
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Lot Size Units</h6>
+                    
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Other Structures</h6>
+                    
                       <div class="d-flex gap-1 ms-auto">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
@@ -313,7 +306,7 @@
                   <!-- List -->
                   <ul class="list-unstyled list-py-1 mb-0">
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Low cost</h6>
+                      <h6 class="mb-0">Pool on Subject Property</h6>
 
                       <div class="d-flex gap-1 ms-auto">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
@@ -325,7 +318,7 @@
                     </li>
 
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Built around</h6>
+                      <h6 class="mb-0">Road Frontage Type</h6>
 
                       <div class="d-flex gap-1 ms-auto">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
@@ -337,8 +330,41 @@
                     </li>
 
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Value</h6>
+                      <h6 class="mb-0">Road Surface Type</h6>
 
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Sewer</h6>
+                    
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Utilities</h6>
+                    
+                      <div class="d-flex gap-1 ms-auto">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                        <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <h6 class="mb-0">Water Source</h6>
+                    
                       <div class="d-flex gap-1 ms-auto">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
                         <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
@@ -352,47 +378,171 @@
                 </div>
               </div>
               <!-- End Row -->
-
               <hr class="my-6">
-
-              <h4 class="mb-1">Estimated running costs</h4>
+              <h4 class="mb-1">External</h4>
               <p class="small">Based on available 3rd party data</p>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <span class="h1">&#36;810</span>
-                  <p>Approximate costs per month</p>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-md-6">
-                  <dl class="row">
-                    <dt class="col-6">
-                      <i class="bi-bank2 me-2"></i> Mortgage
-                    </dt>
-                    <dd class="col-6 text-end">&#36;700 p/m</dd>
-
-                    <dt class="col-6">
-                      <i class="bi-lightning-charge-fill me-2"></i> Energy
-                    </dt>
-                    <dd class="col-6 text-end">from &#36;72 p/m</dd>
-
-                    <dt class="col-6">
-                      <i class="bi-droplet-half me-2"></i> Water
-                    </dt>
-                    <dd class="col-6 text-end">
-                      from &#36;38 p/m
-                    </dd>
-
-                    <dt class="col-6 text-dark">
-                      <i class="bi-shield-shaded me-2"></i> Home insurance
-                    </dt>
-                    <dd class="col-6 text-end">not known</dd>
-                  </dl>
-                  <!-- End Row -->
-                </div>
-                <!-- End Col -->
-              </div>
+             <div class="row">
+               <div class="col-sm-6">
+                 <!-- List -->
+                 <ul class="list-unstyled list-py-1 mb-0">
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Fencing</h6>
+             
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+             
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Lot Features:</h6>
+             
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+             
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Lot Size Area</h6>
+             
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Lot Size Dimensions</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Lot Size Square Feet</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Lot Size Units</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Other Structures</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-half.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                 </ul>
+                 <!-- End List -->
+               </div>
+             
+               <div class="col-sm-6">
+                 <!-- List -->
+                 <ul class="list-unstyled list-py-1 mb-0">
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Pool on Subject Property</h6>
+             
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+             
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Road Frontage Type</h6>
+             
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+             
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Road Surface Type</h6>
+             
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Sewer</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Utilities</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                   <li class="d-flex align-items-center">
+                     <h6 class="mb-0">Water Source</h6>
+                   
+                     <div class="d-flex gap-1 ms-auto">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                       <img src="../assets/svg/illustrations/star-muted.svg" alt="Review rating" width="16">
+                     </div>
+                   </li>
+                 </ul>
+                 <!-- End List -->
+               </div>
+             </div>
               <!-- End Row -->
             </div>
 
@@ -401,18 +551,45 @@
               <a href="../assets/img/others/img1.png" data-fslightbox="propertyOverviewFloorplan">
                 <img class="img-fluid" src="../assets/img/others/img1.png" alt="Image Description">
               </a>
-
-              <small class="form-text">Image source from <a class="link-sm" href="https://floorplanner.com/"
-                  target="_blank">floorplanner.com</a></small>
             </div>
-
-            <div class="tab-pane fade" id="propertyOverviewNavThree" role="tabpanel"
-              aria-labelledby="propertyOverviewNavThree-tab">
+            <div class="tab-pane fade" id="propertyOverviewNavThree" role="tabpanel"aria-labelledby="propertyOverviewNavThree-tab">
+             <div class="mb-4">
+               <h4>Location</h4>
+             </div>
+              <div class="row justify-content-md-between">
+                <div class="col-md-5">
+                  <dl class="row">
+                    <dt class="col-6">Directions</dt>
+                    <dd class="col-12">{{page.directions}}</dd>
+              
+                    <dt class="col-6">Property type:</dt>
+                    <dd class="col-12">{{page.property-type}}</dd>
+              
+                    <dt class="col-6">Parish</dt>
+                    <dd class="col-12">{{page.parish}}</dd>
+                  </dl>
+                  <!-- End Row -->
+                </div>
+                <!-- End Col -->
+                <div class="col-md-5">
+                  <dl class="row">
+                    <dt class="col-6">Sub Type:</dt>
+                    <dd class="col-12">{{page.property-subtype}}</dd>
+              
+                    <dt class="col-6">Zoning:</dt>
+                    <dd class="col-12">{{page.zoning}}</dd>
+              
+                    <dt class="col-6">Features:</dt>
+                    <dd class="col-12">{{page.features}}</dd>
+                  </dl>
+                  <!-- End Row -->
+                </div>
+                <!-- End Col -->
+              </div>
               <!-- Gmap -->
               {{page.map}}
               <!-- End Gmap -->
             </div>
-
             <div class="tab-pane fade" id="propertyOverviewNavFour" role="tabpanel"
               aria-labelledby="propertyOverviewNavFour-tab">
               <div class="mb-5">
@@ -481,12 +658,16 @@
             <!-- End Col -->
             {% endif %}
             {% endfor %}
-            <div class="col-sm-6 col-md-5">
+            <div class="col-sm-6 col-md-5 mb-4 mb-sm-0">
               <!-- Media -->
+              <div class="d-flex">
+                {% for team in site.data.broker | limit:1 %}
+                {% if page.agent != team.name %}
               <div class="flex-shrink-0">
                 <img class="avatar avatar-lg avatar-circle" src="/assets/img/Scout_Seal.png" alt="Scout Real Estate Logo Seal">
               </div>
-              <div class="d-flex">
+              {% endif %}
+              {% endfor %}
                 <div class="flex-grow-1 ms-3">
                   <h4 class="mb-1">
                     <a class="text-dark" href="#">Scout Real Estate Co.</a>
@@ -569,6 +750,60 @@
                         aria-label="I would like more information about ..." rows="4"></textarea>
                     </div>
 
+                    <div class="d-grid">
+                      <button type="button" class="btn btn-primary">Request info</button>
+                    </div>
+                  </form>
+                  <!-- End Form -->
+                  {% endif %}
+                  {% endfor %}
+                  {% for team in site.data.broker | limit:1 %}
+                  {% if page.agent != team.name %}
+                  <!-- Media -->
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0">
+                      <img class="avatar avatar-circle" src="/assets/img/Scout_Seal.png" alt="Scout Real Estate Logo Seal">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h4 class="card-title">Ask Scout for more information</h4>
+                    </div>
+                  </div>
+                  <!-- End Media -->
+                  <!-- Form -->
+                  <form>
+                    <select class="form-select mb-2">
+                      <option selected disabled>Tell me more about this property</option>
+                      <option value="aboutProperty1">Request a showing</option>
+                      <option value="aboutProperty3">Request recent area sales</option>
+                    </select>
+                    <div class="mb-2">
+                      <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Full
+                        Name</label>
+                      <input type="text" class="form-control" id="fullNamePropertyOverviewContactForm"
+                        placeholder="Full Name" aria-label="Full Name">
+                    </div>
+                  
+                    <div class="mb-2">
+                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Email</label>
+                      <input type="email" class="form-control" id="emailPropertyOverviewContactForm" placeholder="Email"
+                        aria-label="Email">
+                    </div>
+                  
+                    <div class="mb-2">
+                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Phone
+                        number</label>
+                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm"
+                        placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx">
+                    </div>
+                  
+                    <div class="mb-2">
+                      <label for="questionPropertyOverviewContactForm" class="form-label visually-hidden">Property
+                        question</label>
+                      <textarea class="form-control" id="questionPropertyOverviewContactForm"
+                        placeholder="I would like more information about ..."
+                        aria-label="I would like more information about ..." rows="4"></textarea>
+                    </div>
+                  
                     <div class="d-grid">
                       <button type="button" class="btn btn-primary">Request info</button>
                     </div>
