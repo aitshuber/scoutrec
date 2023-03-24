@@ -1,5 +1,7 @@
 email: info@scoutrec.com
-logo_image: assets/img/ohhsnap.svg
+logo_image: >-
+  /assets/img/Scout Real Estate Co Acadiana Premier Commercial Real Estate
+  Broker_files/SCOUT-WEBSITE-MAIN-LOGO-1024x301.png
 social:
   - name: instagram
     link: https://instagram.com/ohhsnapbooth
@@ -7,4 +9,3 @@ social:
   - name: facebook
     link: https://facebook.com/ohhsnapbooth
     icon: fa-facebook
- 
