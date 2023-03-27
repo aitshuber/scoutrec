@@ -1,98 +1,67 @@
 <!-- ========== FOOTER ========== -->
-<footer class="bg-dark">
-  <div class="container pb-1 pb-lg-5">
-    <div class="row content-space-t-2">
-      <div class="col-lg-3 mb-7 mb-lg-0">
+<footer class="bg-dark position-absolute w-100">
+  <div class="container pb-1">
+    <div class="row pt-5">
+      <div class="col-lg-3 mb-5 mb-lg-0">
         <!-- Logo -->
-        <div class="mb-2">
-          <a class="navbar-brand" href="./index.html" aria-label="Space">
-            <img class="navbar-brand-logo-second" src="/assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png"
+        <div class="mb-5">
+          <a class="navbar-brand" href="/" aria-label="Space">
+            <img class="navbar-brand-logo-second" src="{{site.data.company_details.logo_image}}"
               alt="Image Description">
           </a>
         </div>
         <!-- End Logo -->
-
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-6">
         <!-- List -->
         <ul class="list-unstyled list-py-1">
-          <h1 class="footeraddress">Address</h1>
-          <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> 905 Jefferson Ave.
-              Suite 504
-              Lafayette, LA 70501</a></li>
-          <li><a class="link-sm link-light" href="tel:1-062-109-9222"><i class="bi-telephone-inbound-fill me-1"></i>
-              (337) 443-08802</a></li>
+          <h2 class="footeraddress">Address</h2>
+          <li class="text-white"><i class="bi-geo-alt-fill me-1"></i> {{site.data.company_details.Addresses[0].address}}<br/>
+              {{site.data.company_details.Addresses[0].address2}}<br/>
+              {{site.data.company_details.Addresses[0].city-state-zip}}</li>
+          <li><a class="link-sm link-light phone" href="tel:{{site.data.company_details.Addresses[0].phone}}"><i class="bi-telephone-inbound-fill me-1"></i>
+             {{site.data.company_details.phone}}</a></li>
         </ul>
         <!-- End List -->
-
       </div>
       <!-- End Col -->
-
-      <div class="col-sm mb-7 mb-sm-0 mt-lg-3">
-        <h1 class="footeraddress">Mailing Address</h1>
-
+      <div class="col-md-6">
+        <h2 class="footeraddress">Mailing Address</h2>
         <!-- List -->
         <ul class="list-unstyled list-py-1 mb-0">
-          <li><a class="link-sm link-light" href="#">P.O. Box 51125<br>Lafayette, LA 70505</a></li>
-          <li><a class="link-sm link-light" href="#">kendra@scoutrec.com</a></li>
+          <li class="text-white">{{site.data.company_details.Addresses[1].address}}<br> {{site.data.company_details.Addresses[1].city-state-zip}}</li>
+          <li><a class="link-sm link-light" href="mailto:{{site.data.company_details.email}}">{{site.data.company_details.email}}</a></li>
           <div class="col-sm-auto">
             <!-- Socials -->
             <ul class="list-inline mb-0">
+              {% for social in site.data.company_details.social %}
               <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.facebook.com/scoutrealestateco/" target="_blank">
-                  <i class="bi-facebook"></i>
+                <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" target="_blank">
+                  <i class="bi bi-{{social.icon}}"></i>
                 </a>
               </li>
-
-              <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.instagram.com/scoutrealestateco/" target="_blank">
-                  <i class="bi-instagram"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.linkedin.com/company/scout-real-estate-co/" target="_blank">
-                  <i class="bi-linkedin"></i>
-                </a>
-              </li>
+              {% endfor %}
             </ul>
         </ul>
         <!-- End List -->
       </div>
       <!-- End Col -->
-      <div class="col-sm mb-7 mb-sm-0 mt-lg-3">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.559877761767!2d-92.02263770678886!3d30.221106723846948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249d39147dbb39%3A0x8100b2b48fe9e739!2sScout%20Real%20Estate!5e0!3m2!1sen!2sus!4v1678221000514!5m2!1sen!2sus" width="100%" height="100%" style="border:0; padding: 0%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="row text-white">
-          <div class="col-lg-15 mt-2 mb-4">
-            Licensed in the State of Louisiana, USA.
-          </div>
-          
-        </div>
-        <!-- List -->
-        
-        <!-- End List -->
-      </div>
-
     </div>
     <!-- End Row -->
-
-    <div class="border-top border-white-10 my-7"></div>
-
-    <div class="row mb-7">
+    <div class="border-top border-white-10 my-5"></div>
+    <div class="row mb-5">
       <div class="col-sm mb-3 mb-sm-0">
         <!-- Socials -->
         <ul class="list-inline list-separator list-separator-light mb-0">
           <li class="list-inline-item">
-            <a class="link-sm link-light" href="/privacy-policy">Privacy &amp; Policy</a>
+            <p class="text-white-50 small">&copy; Scout Real Estate. {{ site.time | date: "%Y" }}. All rights reserved. <a class="link-sm link-light" href="/privacy-policy">Privacy &amp; Policy</a></p>
           </li>
         </ul>
         <!-- End Socials -->
       </div>
     </div>
-
-    <!-- Copyright -->
-   <div class="w-md-85 text-lg-center mx-lg-auto">
-        <p class="text-white-50 small">&copy; Scout Real Estate. {{ site.time | date: "%Y" }}. All rights reserved.</p>
-      </div> 
-    <!-- End Copyright -->
   </div>
 </footer>
 

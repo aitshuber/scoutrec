@@ -1,32 +1,24 @@
  <!-- JS Global Compulsory  -->
-  <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
-  <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="./assets/vendor/aos/dist/aos.js"></script>
-  <script src="./assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
-
+  <script src="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="../assets/vendor/typed.js/lib/typed.min.js"></script>
+  <script src="../assets/vendor/fslightbox/index.js"></script>
+  <script src="../assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+  <script src="../assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="../assets/vendor/leaflet/dist/leaflet.js"></script>
   <!-- JS Front -->
-  <script src="./assets/js/theme.min.js"></script>
+  <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
 	(function() {
 	  // INITIALIZATION OF MEGA MENU
 	  // =======================================================
-	 var megaMenu = new HSMegaMenu($('.js-mega-menu'), {
-	   desktop: {
-		 position: 'left'
-	   }
-	 }).init();
-	  // INITIALIZATION OF SHOW ANIMATIONS
-	  // =======================================================
-	  new HSShowAnimation('.js-animation-link')
-
-
+	
+	
 	  // INITIALIZATION OF BOOTSTRAP VALIDATION
 	  // =======================================================
 	  HSBsValidation.init('.js-validate', {
@@ -35,24 +27,45 @@
 		  alert('Submited')
 		}
 	  })
-
-
+	
+	
 	  // INITIALIZATION OF BOOTSTRAP DROPDOWN
 	  // =======================================================
 	  HSBsDropdown.init()
-
-
+	
+	
 	  // INITIALIZATION OF GO TO
 	  // =======================================================
 	  new HSGoTo('.js-go-to')
-
-
-	  // INITIALIZATION OF AOS
+	
+	
+	  // INITIALIZATION OF TEXT ANIMATION (TYPING)
 	  // =======================================================
-	  AOS.init({
-		duration: 650,
-		once: true
-	  });
-
+	  HSCore.components.HSTyped.init('.js-typedjs')
+	  // INITIALIZATION OF STICKY BLOCKS
+		// =======================================================
+		new HSStickyBlock('.js-sticky-block', {
+		  targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+		})
+	  
+	  
+		// INITIALIZATION OF NAV SCROLLER
+		// =======================================================
+		new HsNavScroller('.js-nav-scroller')
+	  
+	  
+		// INITIALIZATION OF LEAFLET
+		// =======================================================
+		var tabEl = document.querySelector('[data-bs-target="#propertyOverviewNavThree"]')
+		tabEl.addEventListener('shown.bs.tab', function (event) {
+		  $mapContainerEl = document.getElementById('map')
+		  if ($mapContainerEl.classList.contains('leaflet-container')) return
+	  
+		  const leaflet = HSCore.components.HSLeaflet.init($mapContainerEl)
+	  
+		  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+			id: 'mapbox/light-v9'
+		  }).addTo(leaflet)
+		})
 	})()
   </script>

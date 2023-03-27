@@ -1,86 +1,49 @@
 ---
-layout: default
+layout: post
 permalink: /newsletter
 ---
 <div class="container pt-8">
 <div class="row">
   {% for post in site.posts %}
   {% if forloop.first %}
-  <!-- Card -->
-  <div class="card card-stretched-vertical mb-10 px-0">
-    <div class="row gx-0">
-      <div class="col-lg-8">
-        <div class="shape-container overflow-hidden">
-          <img class="card-img" src="{{ post.image }}" alt="Image Description">
-
-          <!-- Shape -->
-          <div class="shape shape-end d-none d-lg-block zi-1">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100.1 1920" height="101%">
-              <path fill="#fff" d="M0,1920c0,0,93.4-934.4,0-1920h100.1v1920H0z" />
-            </svg>
-          </div>
-          <!-- End Shape -->
-
-          <!-- Shape -->
-          <div class="shape shape-bottom d-lg-none zi-1">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-              <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"></path>
-            </svg>
-          </div>
-          <!-- End Shape -->
+  <div class="col-12 mb-3 mb-sm-7">
+    <!-- Card -->
+    <div class="card card-flush border-0">
+      <div class="row align-items-md-center">
+        <div class="col-md-8">
+          <img class="card-img rounded-0" src="{{ post.image }}" alt="Image Description">
         </div>
-      </div>
-      <!-- End Col -->
-
-      <div class="col-lg-4">
-        <!-- Card Body -->
-        <div class="card-body">
-          <h3 class="card-title">
-            <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
-          </h3>
-          <p class="card-text">{{post.date | date: "%B %d, %Y"}}</p>
-          <p class="card-text">{{ post.news }}</p>
-
-          
+        <!-- End Col -->
+        <div class="col-md-4">
+          <div class="card-body">
+            <span class="card-subtitle">{{post.date | date: '%B %d, %Y'}}</span>
+            <h2 class="card-title"><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="card-text fw-normal fs-8">{{ post.short_description | truncatewords: 20 | strip_html }}</p>
+            <a class="card-link fs-4" href="{{ post.url }}">Read more <i class="bi-chevron-right small ms-1"></i></a>
+          </div>
         </div>
-        <!-- End Card Body -->
+        <!-- End Col -->
       </div>
-      <!-- End Col -->
+      <!-- End Row -->
     </div>
-    <!-- End Row -->
+    <!-- End Card -->
   </div>
+  <!-- Card -->
   <!-- End Card -->
   {% endif %}
   {% endfor %}
-</div>
-<div class="row mb-7">
-    {% for post in site.posts %}
-    <div class="col-sm-6 col-lg-4 mb-4">
+    {% for post in site.posts | offset: 1 %}
+    <div class="order-lg-{{forloop.index0}} col-sm-6 col-lg-4 mb-3 mb-sm-7">
       <!-- Card -->
-      <div class="card h-100">
-        <div class="shape-container">
-          <img class="card-img-top" src="{{ post.image }}" alt="Image Description">
-
-          <!-- Shape -->
-          <div class="shape shape-bottom zi-1" style="margin-bottom: -.25rem">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-              <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"></path>
-            </svg>
-          </div>
-          <!-- End Shape -->
+      <a class="card rounded-0 card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="{{ post.url }}" style="background-image: url('{{ post.image }}'); min-height: 25rem;">
+        <div class="card-header">
+          <span class="card-subtitle text-white">{{post.date | date: '%B %d, %Y'}}</span>
         </div>
-
-        <!-- Card Body -->
-        <div class="card-body">
-          <h3 class="card-title">
-            <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
-          </h3>
-          <p class="card-text">{{post.date | date: "%B %d, %Y"}}</p>
-          <p class="card-text">{{ post.news }}</p>
+        <div class="card-footer">
+          <h3 class="card-title text-white">{{ post.title }}</h3>
+         <p class="card-link link-light">Read more <i class="bi-chevron-right small ms-1"></i></p>
         </div>
-        <!-- End Card Body -->
-        
-      </div>
+      </a>
       <!-- End Card -->
     </div>
     {% endfor %}
