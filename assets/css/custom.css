@@ -11,3 +11,15 @@
 		text-decoration: none;
 	}
 }
+
+.property_secondary_image {
+	object-fit: cover;
+	height: 13.5em !important;
+	object-position: center;
+}
+
+.property_main_image {
+	object-fit: cover;
+	height: 27.5em !important;
+	object-position: center;
+}

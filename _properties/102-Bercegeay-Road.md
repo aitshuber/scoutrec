@@ -1,9 +1,13 @@
 ---
 layout: property
 name: 102 Bercegeay Road
+image:
+    - image_file: "/assets/img/property/102bercegeay.jpeg"
+    - image_file: "/assets/img/1920x1080/img20.jpg"
+    - image_file: "/assets/img/1920x1080/img10.jpg"
+    - image_file: "/assets/img/property/102bercegeay.jpeg"
+    - image_file: "/assets/img/property/102bercegeay.jpeg"
 image-1: "/assets/img/property/102bercegeay.jpeg"
-image-2: "/assets/img/1920x1080/img20.jpg"
-image-3: "/assets/img/1920x1080/img10.jpg"
 address: 102 Bercegeay Road
 city: Broussard
 state: LA
@@ -45,6 +49,13 @@ road-surface-type: Paved, Public Street
 roof: Metal
 water-source: Public
 wooded-percent: 35600
+last-updated: 01/01/0023
+plans: ../assets/img/others/img1.png
+files:
+    - file_name: Flyer
+      file: ../uploads/28135470_Flyer___101_N_St_Charles___Rex___2_ (1).pdf
+    - file_name: Flood Disclosure
+      file: ../uploads/28129762_Flood_disclosure.png
 map: >-
  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.432590579979!2d-91.94223418443028!3d30.110432681858295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86237da55a2cf76d%3A0xabe4df24db01d8bb!2s102%20Bercegeay%20Rd%2C%20Broussard%2C%20LA%2070518!5e0!3m2!1sen!2sus!4v1679606098523!5m2!1sen!2sus" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 ---
