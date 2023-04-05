@@ -1,9 +1,11 @@
 ---
 layout: property
 name: 205 Specklebelly Road
+image:
+    - image_file: "/uploads/20230320160546801851000000-o.jpg"
+    - image_file: "/uploads/20230320161553633176000000-o.jpg"
+    - image_file: "/uploads/20230320161616523721000000-o.jpg"
 image-1: /uploads/20230320160546801851000000-o.jpg
-image-2: /uploads/20230320161553633176000000-o.jpg
-image-3: /uploads/20230320161616523721000000-o.jpg
 address: 205 Specklebelly Road
 city: Gueydan
 state: LA

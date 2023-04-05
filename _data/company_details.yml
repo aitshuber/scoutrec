@@ -1,12 +1,12 @@
 email: info@scoutrec.com
 phone: (337) 443-0880
 Addresses:
- - address: 905 Jefferson Ave.
-   address2: Suite 504
-   city-state-zip: Lafayette, LA 70501
- - address: P.O. Box 51125
-   address2: 
-   city-state-zip: Lafayette, LA 70505
+  - address: 905 Jefferson St.
+    address2: Suite 504
+    city-state-zip: Lafayette, LA 70501
+  - address: P.O. Box 51125
+    address2:
+    city-state-zip: Lafayette, LA 70505
 logo_image: /assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png
 social:
   - name: instagram
