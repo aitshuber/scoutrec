@@ -37,6 +37,8 @@ _inputs:
     type: image
   image-3:
     type: image
+  background_image_2:
+    type: image
 schemas:
       block_page:
         path: schemas/page.md
