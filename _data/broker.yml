@@ -6,7 +6,7 @@
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
 - name: Rex Moroux, CCIM
   title: Partner
-  image: assets/img/500x280/MOROUX-REX.png
+  image: /uploads/image.jpeg
   phone: 337-257-8133
   email: rex@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
@@ -42,13 +42,15 @@
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
 - name: Teddy Beaullieu
   title: Agent
-  image: assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
+  image: >-
+    assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
   phone: 337-356-1208
   email: teddy@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
 - name: Jacob Anderson
   title: Agent
-  image: assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
+  image: >-
+    assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
   phone: 337-501-5724
   email: jacob@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
@@ -57,10 +59,10 @@
   image: assets/img/500x280/MCKINNEY-KENDRA-1022x1024.png
   phone: 337-501-5724
   email: kendra@scoutrec.com
-  listing-link: 
+  listing-link:
 - name: Charley Minyard
   title: Administrative Assistant
   image: assets/img/500x280/MINYARD-CHARLI.png
   phone: 337-443-0880
   email: charley@scoutrec.com
-  listing-link: 
+  listing-link:
