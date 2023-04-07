@@ -19,12 +19,10 @@ permalink: /
     <div class="container-fluid">
         <div class="row justify-content-end align-items-md-center my-4">
             <div class="d-none d-md-block col-md-6 position-absolute top-0 start-0 bg-img-center h-100" style="background-image: url({{page.background_image_2}});">
-                
             </div>
             <div class="d-md-none mb-5 mb-md-0">
                 <img class="img-fluid" src="{{page.background_image_2}}" alt="" />
             </div>
-
             <div class="col-md-6">
                 <div class="p-md-5 p-lg-7">
                     <!-- Heading -->
@@ -37,38 +35,26 @@ permalink: /
                     <!-- End Row -->
                     <div class="row">
                         {% assign sorted = site.properties | sort: 'featured' | reverse %}
-                        {% for item in sorted | limit: 3 %}
-                        <div class="col mb-3">
-                      <!-- Card -->
-                      <div class="card card-flush shadow-none h-100">
-                          <img class="card-img" src="{{item.image-1}}" alt="{{item.name}}" />
-                          {% if item.featured %}
-                          <div class="card-pinned-top-start">
-                            <span class="badge bg-success">Featured</span>
-                          </div>
-                          {% endif %}
-                        <!-- Body -->
-                        <a class="card-body" href="{{item.url}}">
-                          <span class="card-subtitle text-body">For sale</span>
-                          <div class="row mb-3">
-                            <div class="col-12">
-                              <h4 class="card-title text-inherit">{{item.name}}</h4>
+                        {% for item in sorted limit: 4 %}
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                          <!-- Card -->
+                          <a class="card card-stretched-vertical card-transition shadow-none bg-img-start gradient-y-overlay-lg-dark" href="{{item.url}}" style="background-image: url({% for img in item.image[0] limit: 1 %}{{ img[1] }}{% endfor %}); min-height: 15rem;">
+                            <div class="card-body">
+                            {% if item.featured %}
+                              <div class="mb-1">
+                                <span class="badge bg-primary text-white">Featured</span>
+                              </div>
+                             {% endif %}
+                              <div class="card-footer">
+                                <h3 class="text-white mb-0">{{item.name}}</h3>
+                                <span class="d-block text-white">{{item.price}}</span>
+                              </div>
                             </div>
-                            <!-- End Col -->
-                            <div class="col-12 pt-2">
-                              <h3 class="card-title text-primary">${{item.price}}</h3>
-                            </div>
-                            <!-- End Col -->
-                          </div>
-                          <!-- End Row -->
-              
-                        </a>
-                        <!-- End Body -->
-                      </div>
-                      <!-- End Card -->
-                    </div>
-
-                    {% endfor %}
+                          </a>
+                          <!-- End Card -->
+                        </div>
+                        <!-- End Col -->
+                         {% endfor %}
                     <div class="d-grid d-sm-flex gap-3">
                         <a class="btn btn-primary btn-transition px-6 text-uppercase" href="/listings">View All Listings</a>
                     </div>
@@ -83,14 +69,6 @@ permalink: /
 <!-- Card Grid -->
 <div id="ourteam" class="container content-space-2 content-space-lg-0 align-items-center">
     <div class="row py-8">
-        <div class="col-md-12 editable">
-    <!-- Heading -->
-    <h5 class="mb-3 mt-4 text-left fw-ligh editable">OUR CULTURE</h5>
-    <h3 class="mb-10 text-left fw-normal fs-1 editable">Rock solid work ethic with an emphasis on honesty, integrity and a deep and growing
-        network of professional
-        relationships.</h3>
-        </div>
-    </div>
     <div class="w-md-75 w-lg-75 text-center mx-md-auto mb-5 mb-md-9">
 
         <h2 class="h1 editable">Meet Your Commercial Real Estate Team</h2>
@@ -124,7 +102,7 @@ permalink: /
         </div>
     </div>
     <!-- End Row -->
-    <!-- end -->
+    </div>
 </div>
 <!-- End Card Grid -->
 <!-- End Row -->
@@ -297,9 +275,7 @@ permalink: /
         </div>
         <!-- End Card -->
     </div>
-      <div class="col-md-6 ps-0">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d441287.66311456624!2d-92.018158!3d30.221106999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249d39147dbb39%3A0x8100b2b48fe9e739!2sScout%20Real%20Estate!5e0!3m2!1sen!2sus!4v1679084508727!5m2!1sen!2sus" style="border:0;width:100%;height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+     
     </div>
 </div>
 <!-- End Contact Form -->

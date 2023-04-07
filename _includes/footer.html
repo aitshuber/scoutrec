@@ -1,23 +1,15 @@
 <!-- ========== FOOTER ========== -->
 <footer class="bg-dark position-absolute w-100">
-  <div class="container pb-1">
-    <div class="row pt-5">
-      <div class="col-lg-3 mb-5 mb-lg-0">
-        <!-- Logo -->
-        <div class="mb-5">
-          <a class="navbar-brand" href="/" aria-label="Space">
-            <img class="navbar-brand-logo-second" src="{{site.data.company_details.logo_image}}"
-              alt="Image Description">
-          </a>
-        </div>
-        <!-- End Logo -->
-      </div>
-    </div>
+  <div class="container pt-4">
+
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-3 col-6 h-auto align-middle">
+          <img class="navbar-brand-logo-second" src="/assets/img/white-seal.svg" alt="Image Description">
+        </div>
+        <div class="col-md-3 col-6">
         <!-- List -->
         <ul class="list-unstyled list-py-1">
-          <h2 class="footeraddress">Address</h2>
+          <h4 class="footeraddress">Address</h4>
           <li class="text-white"><i class="bi-geo-alt-fill me-1"></i> {{site.data.company_details.Addresses[0].address}}<br/>
               {{site.data.company_details.Addresses[0].address2}}<br/>
               {{site.data.company_details.Addresses[0].city-state-zip}}</li>
@@ -27,10 +19,11 @@
         <!-- End List -->
       </div>
       <!-- End Col -->
-      <div class="col-md-6">
-        <h2 class="footeraddress">Mailing Address</h2>
+      <div class="col-md-3 d-none d-md-inline">
+       
         <!-- List -->
         <ul class="list-unstyled list-py-1 mb-0">
+          <h4 class="footeraddress">Mailing Address</h4>
           <li class="text-white">{{site.data.company_details.Addresses[1].address}}<br> {{site.data.company_details.Addresses[1].city-state-zip}}</li>
           <li><a class="link-sm link-light" href="mailto:{{site.data.company_details.email}}">{{site.data.company_details.email}}</a></li>
           <div class="col-sm-auto">
@@ -50,8 +43,8 @@
       <!-- End Col -->
     </div>
     <!-- End Row -->
-    <div class="border-top border-white-10 my-5"></div>
-    <div class="row mb-5">
+    <div class="border-top border-white-10 my-2"></div>
+    <div class="row mb-2">
       <div class="col-sm mb-3 mb-sm-0">
         <!-- Socials -->
         <ul class="list-inline list-separator list-separator-light mb-0">

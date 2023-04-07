@@ -32,7 +32,7 @@ permalink: /newsletter
   <!-- End Card -->
   {% endif %}
   {% endfor %}
-    {% for post in site.posts | offset: 1 %}
+    {% for post in site.posts offset: 1 %}
     <div class="order-lg-{{forloop.index0}} col-sm-6 col-lg-4 mb-3 mb-sm-7">
       <!-- Card -->
       <a class="card rounded-0 card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="{{ post.url }}" style="background-image: url('{{ post.image }}'); min-height: 25rem;">

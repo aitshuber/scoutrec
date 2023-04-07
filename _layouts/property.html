@@ -17,12 +17,9 @@
               <!-- Breadcrumb items will be dynamically generated here -->
             </ol>
           </nav>
-
-
           <!-- End Breadcrumb -->
         </div>
         <!-- End Col -->
-
         <div class="col-lg-auto">
           <a class="btn btn-sm btn-ghost-secondary" href="javascript:;">
             <i class="bi-share-fill me-2"></i> Share
@@ -38,7 +35,7 @@
       <div class="rounded-2 overflow-hidden">
         <div class="row gx-2">
           <div class="col-md-8">
-            {% for images in page.image | limit:1 %}
+            {% for images in page.image limit:1 %}
             <!-- Gallery -->
 
             <a class="d-block position-relative" href="{{images.image_file}}" data-fslightbox="propertyOverviewGallery">
@@ -56,7 +53,7 @@
           <!-- End Col -->
           <div class="col-md-4 d-none d-md-inline-block">
             <!-- Gallery -->
-            {% for images in page.image | offset:1 | limit:2 %}
+            {% for images in page.image offset:1 limit:2 %}
             <a class="d-block {% if forloop.last %} position-relative {% else %} mb-2 {% endif %}" href="{{images.image_file}}" data-fslightbox="propertyOverviewGallery">
               <img class="property_secondary_image img-fluid w-100" src="{{images.image_file}}" alt="Image Description">
                 {% if forloop.last %}
@@ -68,14 +65,9 @@
               {% endif %}
             </a>
             {% endfor %}
-            <!-- End Gallery -->
-
-            <!-- Gallery -->
-
-
 
             <!-- End Gallery -->
-            {% for images in page.image | offset:3 %}
+            {% for images in page.image offset:3 %}
             <a class="d-none" href="{{images.image_file}}" data-fslightbox="propertyOverviewGallery"></a>
             {% endfor %}
           </div>
@@ -451,7 +443,7 @@
             <div class="col-sm-6 col-md-5 mb-4 mb-sm-0">
               <!-- Media -->
               <div class="d-flex">
-                {% for team in site.data.broker | limit:1 %}
+                {% for team in site.data.broker limit:1 %}
                 {% if page.agent != team.name %}
                 <div class="flex-shrink-0">
                   <img class="avatar avatar-lg avatar-circle" src="/assets/img/Scout_Seal.png"
@@ -548,7 +540,7 @@
                   <!-- End Form -->
                   {% endif %}
                   {% endfor %}
-                  {% for team in site.data.broker | limit:1 %}
+                  {% for team in site.data.broker limit:1 %}
                   {% if page.agent != team.name %}
                   <!-- Media -->
                   <div class="d-flex align-items-center mb-4">
