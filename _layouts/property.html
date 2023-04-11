@@ -99,9 +99,7 @@
                 <li class="list-inline-item">
                   <i class="fas fa-ruler-combined text-muted me-1"></i> {{page.SqFt}} sqft
                 </li>
-                <li class="list-inline-item">
-                  <i class="fas fa-sharp fa-solid fa-rotate text-muted me-1"></i> last updated: {{page.last-updated}}
-                </li>
+               
               </ul>
             </div>
             <div class="col-sm-6 column-divider-sm">
@@ -139,7 +137,7 @@
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavThree" role="tab"
                   aria-controls="propertyOverviewNavThree" aria-selected="false" style="min-width: 7rem;">Location</a>
               </li>
-              {% if page.files %}
+              {% if page.files[1] %}
               <li class="nav-item" role="presentation">
                 <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavFour-tab"
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavFour" role="tab"

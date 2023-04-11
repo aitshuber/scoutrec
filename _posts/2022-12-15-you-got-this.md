@@ -7,6 +7,1472 @@ short_description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 date: 2022-12-15 21:07:30
-categories: jekyll update
+categories:  
+- newsletter
 image: /assets/img/400x500/img2.jpg
 ---
+<table border="0" cellpadding="0" cellspacing="0" class="nl2go-body-table" role="presentation" style="background-color: #ffffff; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r0-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r1-o" role="presentation" style="table-layout: fixed; width: 600px;" width="600">
+<tr>
+<td class="r2-i" style="background-color: #ffffff;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r4-o" role="presentation" style="background-color: #363935; background-image: url('https://img.mailinblue.com/4267968/images/content_library/original/62f656bd38d89702e57d6481.png'); background-position: center; background-repeat: no-repeat; background-size: cover; font-size: 0; table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r5-i" style="padding-bottom: 5px; padding-top: 12px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r9-o" role="presentation" style="table-layout: fixed; width: 300px;" width="300">
+<tr>
+<td class="r10-i" style="font-size: 0px; line-height: 0px; padding-bottom: 5px; padding-top: 12px;"><a href="https://scoutrec.com/" style="color: #b53c24; text-decoration: none;" target="_blank"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/638e8c81dc32bd39ec0d6848.png" style="display: block; width: 100%;" title="Scout Real Estate Co." width="300"></a></td>
+</tr>
+<tr class="nl2go-responsive-hide">
+<td height="5" style="font-size: 5px; line-height: 5px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r12-i" style="padding-bottom: 10px; padding-top: 10px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r13-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 5px; padding-top: 12px; text-align: center;" valign="top">
+<div>
+<h1 class="default-heading1" style="margin: 0; color: #1f2d3d; font-family: arial,helvetica,sans-serif; font-size: 36px; word-break: break-word;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 36px;"><strong>Scouting Lafayette</strong></span></h1>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r14-i" style="padding-bottom: 12px; padding-top: 20px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 270px;" width="270">
+<tr>
+<td class="r15-i" style="font-size: 0px; line-height: 0px; padding-bottom: 15px; padding-top: 15px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/640f89073d6ccc7eda3bc1ae.png" style="display: block; width: 100%;" width="270"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r18-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 15px; padding-top: 15px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;">Our</span> <span style="color: #B53C24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>website</strong></span> <span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;">features a resourceful search engine to discover all</span> <span style="color: #B53C24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>active commercial real estate listings</strong></span> <span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;">in the Acadiana market.</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;">It's getting a significant upgrade in the next few weeks and trust us, you'll want to bookmark it for future commercial real estate shopping!</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r19-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r20-i" style="padding-bottom: 5px; padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r21-c" style="font-weight: normal;" valign="middle" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r22-o" role="presentation" style="table-layout: fixed; width: 171px;" width="171">
+<tr class="nl2go-responsive-hide">
+<td height="15" style="font-size: 15px; line-height: 15px;">­</td>
+</tr>
+<tr>
+<td align="center" class="r23-i nl2go-default-textstyle" height="23" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word;" valign="top"><!--[if mso]> <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://listings.scoutrec.com/idx/results/listings?statusCategory=&lp=&hp=&bd=&tb=&sqft=&srt=prd&idxID=c242&pt%5B0%5D=2&pt%5B1%5D=3&pt%5B2%5D=6&per=100" style="v-text-anchor:middle; height: 32px; width: 170px;" arcsize="0%" fillcolor="#3b3f44" strokecolor="#3b3f44" strokeweight="1px" data-btn="1"> <w:anchorlock> </w:anchorlock> <v:textbox inset="0,0,0,0"> <div style="display:none;"> <center class="default-button"><p><span style="color:#ffffff;font-family:Verdana, geneva, sans-serif;font-size:16px;">Search Listings</span></p></center> </div> </v:textbox> </v:roundrect> <![endif]--><!--[if !mso]><!== --><a class="r24-r default-button" data-btn="1" href="https://listings.scoutrec.com/idx/results/listings?statusCategory=&lp=&hp=&bd=&tb=&sqft=&srt=prd&idxID=c242&pt%5B0%5D=2&pt%5B1%5D=3&pt%5B2%5D=6&per=100" style="font-style: normal; font-weight: bold; line-height: 1.15; text-decoration: none; word-break: break-word; border-style: solid; word-wrap: break-word; display: inline-block; -webkit-text-size-adjust: none; mso-hide: all; background-color: #3b3f44; border-color: #363935; border-radius: 0px; border-width: 0px; color: #ffffff; font-family: lucida sans unicode,lucida grande,sans-serif; font-size: 20px; height: 23px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; width: 161px;" target="_blank" title="search listings">
+<p style="margin: 0;"><span style="color: #ffffff; font-family: Verdana, geneva, sans-serif; font-size: 16px;">Search Listings</span></p></a>
+<!--<![endif]--></td>
+</tr>
+<tr class="nl2go-responsive-hide">
+<td height="15" style="font-size: 15px; line-height: 15px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r20-i" style="padding-bottom: 5px; padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r25-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed;" width="570">
+<tr>
+<td class="r26-i" style="height: 1px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" class="r26-i" role="presentation" style="border-top-style: solid; background-clip: border-box; border-top-color: #4A4A4A; border-top-width: 1px; font-size: 1px; line-height: 1px;" width="100%">
+<tr>
+<td height="0" style="font-size: 0px; line-height: 0px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r20-i" style="padding-bottom: 5px; padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r27-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 5px; padding-top: 10px; text-align: center;" valign="top">
+<div>
+<h1 class="default-heading1" style="margin: 0; color: #1f2d3d; font-family: arial,helvetica,sans-serif; font-size: 36px; word-break: break-word;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 26px;">Recent Commercial Transactions</span></h1>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r28-i" style="padding-top: 15px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r29-c">
+<table border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class=" nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 5px; text-align: center;" valign="top">
+<div>
+<p style="margin: 0;">Our team works diligently each month to put together an index listing commercial real estate transactions greater than $500,000 in the&nbsp;</p>
+<p style="margin: 0;">Lafayette Parish market.</p>
+<p style="margin: 0;">We love being able to provide this as a free service to our community!</p>
+<p style="margin: 0;">Check out the latest transactions below.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r30-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr class="nl2go-responsive-hide">
+<td height="20" style="font-size: 20px; line-height: 20px;">­</td>
+</tr>
+<tr>
+<td class="r31-i" style="background-color: #ffffff; padding-left: 20px; padding-right: 20px; padding-top: 10px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r32-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1; padding-top: 3px; text-align: center;" valign="top">
+<div>
+<div class="sib_class_22_black_nunitosans_b" style="color: #1c262d; font-family: Nunito Sans,helvetica,sans-serif,Arial; font-size: 22px; font-weight: 700; word-break: break-word;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 18px;">March 30 - April 17, 2023</span></div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r33-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r34-i" style="padding-left: 10px; padding-right: 10px; padding-top: 23px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="table-layout: fixed; width: 268px;" width="268">
+<tr>
+<td class="r36-i" style="font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/642b28aec61aaa3a53252da2.jpeg" style="display: block; width: 100%;" width="268"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r37-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 12px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE,</span> <span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$2,675,000</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">ABDEPO LLC, REP BY ELIZABETH ABDALLA AND BARBARA ABDALLA BLACK&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">HARDING PARTNERS LLC, REP BY JOHN DOUGLAS HUNDLY&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">0.7 ACRES&nbsp;</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">822 HARDING ST ( OIL CENTER )&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">OFFICE BUILDING</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="table-layout: fixed; width: 250px;" width="250">
+<tr>
+<td class="r42-i" style="font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/642dd11d241d4164403508c8.png" style="display: block; width: 100%;" width="250"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r43-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 10px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE, <strong></strong></span><span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$1,8000,000</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">DIBBS REALTY LLC, REP BY&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">MARIA R. DIBBS&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">THERIOT REAL ESTATE LLC,&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">REP BY JOHN C. THERIOT&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">0.207(-/+) ACRES</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">121 RUE LOUIS XIV UNIT 3+4&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">OFFICE CONDO SUITES&nbsp;</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r33-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r34-i" style="padding-left: 10px; padding-right: 10px; padding-top: 23px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="table-layout: fixed; width: 234px;" width="234">
+<tr>
+<td class="r36-i" style="font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/642dc3d336ec1816a82e558c.png" style="display: block; width: 100%;" width="234"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r37-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 12px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE,</span> <span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$600,000</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span><br>
+<span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">JAMES RENTALS LLC, REP BY VICTOR JAMES&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">FOUR PARK RENTALS LLC, REP BY NATHANIEL MOORE&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">0.551&nbsp;</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">102-104 FOUR PARK RD , CARENCRO</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">COMMERCIAL BUILDING</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="border-collapse: separate; border-radius: 0px; table-layout: fixed; width: 253px;" width="253">
+<tr>
+<td class="r42-i" style="border-radius: 0px; font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/642dd1608d0e5233a13352fd.jpeg" style="display: block; width: 100%; border-radius: 0px;" width="253"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r43-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 10px; text-align: left; word-wrap: break-word;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE</span><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif;">,</span> <span style="color: #3b3f44; font-size: 12px;"></span><span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$ UNDISCLOSED&nbsp;</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">DACSIS LLC, REP BY BARNEY F. HOHENSEE&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">H+P REAL ESTATE LLC, REP BY SILAS S. PELLERIN&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">0.69 ACRES&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">400-402 BRENTS LOOP, SCOTT&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">INDUSTRIAL BUILDING/ VACANT LAND&nbsp;</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r33-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r34-i" style="padding-left: 10px; padding-right: 10px; padding-top: 23px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="table-layout: fixed; width: 237px;" width="237">
+<tr>
+<td class="r36-i" style="font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/64345ba3940fb57a0002d573.png" style="display: block; width: 100%;" width="237"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r37-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 12px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE,</span> <span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$1,400,700</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span><br>
+<span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CENAC INCORPORATED , REP BY SARAH WALKER&nbsp;</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">GLOBAL NUTRITION LLC, REP BY SALMON L. WRIGHT IV</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">10.005 ACRES&nbsp;</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">134 RUE DE COTTON , CARENCRO&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">VACANT LAND&nbsp;</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="border-collapse: separate; border-radius: 0px; table-layout: fixed; width: 255px;" width="255">
+<tr>
+<td class="r42-i" style="border-radius: 0px; font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/643461bf2d331b3b80634aba.jpeg" style="display: block; width: 100%; border-radius: 0px;" width="255"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r43-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 10px; text-align: left; word-wrap: break-word;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE</span><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif;">,</span> <span style="color: #3b3f44; font-size: 12px;"></span><span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$ UNDISCLOSED&nbsp;</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">BILL WOODS LLC, REP BY CHRISTOPHER D GRANGER&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">SEVEN OAKS GRAND COTEAU LLC, REP BY STEPHEN HERBERT&nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">1.893 ACRES &nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">1405 W PINHOOK RD&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">OFFICE BUILDING&nbsp;</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r33-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r34-i" style="padding-left: 10px; padding-right: 10px; padding-top: 23px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="table-layout: fixed; width: 227px;" width="227">
+<tr>
+<td class="r36-i" style="font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/64347aad64062c35933137d2.png" style="display: block; width: 100%;" width="227"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r37-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 12px; text-align: left; word-wrap: break-word;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE,</span> <span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$UNDISCLOSED&nbsp;</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">OM OF LAFAYETTE , REP BY VIMAL PATEL&nbsp;</span></p>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">MC BANK AND TRUST, REP BY CHRISTOPHER&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">LEBATO &nbsp;</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">5.181 ACRES</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">111 MEADOW FARM;109 SPRING FARM RD;201 SPRING FARM RD &nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">3 VACANT LOTS&nbsp;</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="border-collapse: separate; border-radius: 0px; table-layout: fixed; width: 252px;" width="252">
+<tr>
+<td class="r42-i" style="border-radius: 0px; font-size: 0px; line-height: 0px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/64249cc8cb01a5686d3d2fe2.png" style="display: block; width: 100%; border-radius: 0px;" width="252"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r43-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; line-height: 1.15; padding-top: 10px; text-align: left; word-wrap: break-word;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SALE TYPE/AMOUNT</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">CASH SALE</span><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif;">,</span> <span style="color: #3b3f44; font-size: 12px;"></span><span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;"><strong>$</strong></span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SELLER/GRANTOR</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">C</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>BUYER/GRANTEE</strong></span><br>
+<span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">F</span></p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 14px;"><strong>SIZE, ADDRESS &amp; TYPE</strong></span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">1.77 ACRES&nbsp;</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">1</span></p>
+<p style="margin: 0;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">V</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r33-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r34-i" style="padding-left: 10px; padding-right: 10px; padding-top: 23px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="50%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 8px; padding-right: 8px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td class="r38-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r39-i" style="padding-top: 5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r40-c" style="font-weight: normal;" valign="middle" width="35.79%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+<th class="r41-c" style="font-weight: normal;" valign="middle" width="64.21%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"></table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r44-i">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r45-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 15px; padding-top: 15px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 11px;"><strong>Please note: Original documents are always best. This is a summary of information provided by legal documents filed in Lafayette Parish.</strong></span><br>
+<span style="color: #b53c24; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 11px;"><strong>Scout Real Estate Co. is not responsible for any mistakes in our summation.</strong></span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r25-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed;" width="570">
+<tr>
+<td class="r46-i" style="padding-bottom: 10px; padding-top: 10px; height: 1px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" class="r46-i" role="presentation" style="border-top-style: solid; background-clip: border-box; border-top-color: #4A4A4A; border-top-width: 1px; font-size: 1px; line-height: 1px;" width="100%">
+<tr>
+<td height="0" style="font-size: 0px; line-height: 0px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r44-i">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r47-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 10px; padding-top: 15px; text-align: center;" valign="top">
+<div>
+<p style="margin: 0;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 18px;">Click here to view previous newsletters.</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r48-i" style="padding-bottom: 12px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r49-o" role="presentation" style="table-layout: fixed; width: 142px;" width="142">
+<tr class="nl2go-responsive-hide">
+<td height="15" style="font-size: 15px; line-height: 15px;">­</td>
+</tr>
+<tr>
+<td align="center" class="r23-i nl2go-default-textstyle" height="23" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word;" valign="top"><!--[if mso]> <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://scoutrec.com/commercial-sales-reports-lafayette-la/" style="v-text-anchor:middle; height: 32px; width: 141px;" arcsize="0%" fillcolor="#363935" strokecolor="#363935" strokeweight="1px" data-btn="2"> <w:anchorlock> </w:anchorlock> <v:textbox inset="0,0,0,0"> <div style="display:none;"> <center class="default-button"><p><span style="color:#ffffff;font-family:'Lucida sans unicode', 'lucida grande', sans-serif;">Archives</span></p></center> </div> </v:textbox> </v:roundrect> <![endif]--><!--[if !mso]><!== --><a class="r50-r default-button" data-btn="2" href="https://scoutrec.com/commercial-sales-reports-lafayette-la/" style="font-style: normal; font-weight: bold; line-height: 1.15; text-decoration: none; word-break: break-word; border-style: solid; word-wrap: break-word; display: inline-block; -webkit-text-size-adjust: none; mso-hide: all; background-color: #363935; border-color: #b53c24; border-radius: 0px; border-width: 0px; color: #ffffff; font-family: lucida sans unicode,lucida grande,sans-serif; font-size: 20px; height: 23px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; width: 132px;" target="_blank" title="Newsletter Archives">
+<p style="margin: 0;"><span style="color: #ffffff; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif;">Archives</span></p></a>
+<!--<![endif]--></td>
+</tr>
+<tr class="nl2go-responsive-hide">
+<td height="15" style="font-size: 15px; line-height: 15px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r51-i" style="padding-bottom: 12px; padding-top: 12px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r25-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed;" width="570">
+<tr>
+<td class="r52-i" style="padding-bottom: 12px; padding-top: 12px; height: 1px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" class="r52-i" role="presentation" style="border-top-style: solid; background-clip: border-box; border-top-color: #4A4A4A; border-top-width: 1px; font-size: 1px; line-height: 1px;" width="100%">
+<tr>
+<td height="0" style="font-size: 0px; line-height: 0px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r51-i" style="padding-bottom: 12px; padding-top: 12px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r53-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r54-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-top: 12px; text-align: center;" valign="top">
+<div>
+<h3 class="default-heading3" style="margin: 0; font-family: arial,helvetica,sans-serif; word-break: break-word; color: #677876; font-size: 26px;"><span style="color: #3b3f44; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 26px;">Did You Know?</span></h3>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r55-i" style="padding-bottom: 20px; padding-top: 12px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r56-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r35-o" role="presentation" style="table-layout: fixed; width: 484px;" width="484">
+<tr>
+<td class="r57-i" style="font-size: 0px; line-height: 0px; padding-top: 5px;"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/642702932d1a275c6b05c1c2.png" style="display: block; width: 100%;" width="484"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r53-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r58-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-top: 15px; text-align: center;" valign="top">
+<div>
+<h3 class="default-heading3" style="margin: 0; font-family: arial,helvetica,sans-serif; word-break: break-word; color: #677876; font-size: 26px;"><span style="font-family: 'Lucida sans unicode', 'lucida grande', sans-serif;">DLU Rooftop Crawfish Boil 2023</span></h3>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="left" class="r18-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 15px; padding-top: 15px; text-align: left;" valign="top">
+<div>
+<p style="margin: 0;">Downtown Lafayette Unlimited’s largest fundraising event of the year, Rooftop Crawfish Boil presented is back! Join us at Parc-Auto du Centreville Garage rooftop, next to Parc Sans Souci on April 19, 2023 from 6:00 – 9:00pm.</p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;">With amazing views of the downtown landscape, bottomless drinks, expertly prepared crawfish, and live music ft. Rouge Krewe, This is THE crawfish boil to attend in 2023. Treat your team to the ultimate networking opportunity and an incredible evening with hundreds of community members who love downtown.</p>
+<p style="margin: 0;">The rooftop party begins at 6:00 pm and crawfish will be served at 6:30pm. Tickets for the event include 5 lbs of premium crawfish, potatoes, corn, dip, and all-you-can-drink beverages including water, soda, wine, and beer.</p>
+<p style="margin: 0;">&nbsp;</p>
+<p style="margin: 0;">Purchase tickets and get more info here: <a href="https://downtownlafayette.org/events-landing/downtown-crawfish-boil/" style="color: #b53c24; text-decoration: none;">https://downtownlafayette.org/events-landing/downtown-crawfish-boil/</a>&nbsp;</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r44-i">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<th class="r6-c" style="font-weight: normal;" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="r7-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%"><!-- -->
+<tr>
+<td class="r8-i" style="padding-left: 15px; padding-right: 15px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td align="center" class="r25-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r11-o" role="presentation" style="table-layout: fixed;" width="570">
+<tr>
+<td class="r46-i" style="padding-bottom: 10px; padding-top: 10px; height: 1px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" class="r46-i" role="presentation" style="border-top-style: solid; background-clip: border-box; border-top-color: #4A4A4A; border-top-width: 1px; font-size: 1px; line-height: 1px;" width="100%">
+<tr>
+<td height="0" style="font-size: 0px; line-height: 0px;">­</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="r3-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r59-o" role="presentation" style="table-layout: fixed; width: 256px;" width="256">
+<tr>
+<td class="r60-i" style="font-size: 0px; line-height: 0px; padding-bottom: 15px; padding-right: 10px; padding-top: 5px;"><a href="https://developinglafayette.com/" style="color: #b53c24; text-decoration: none;" target="_blank"><img border="0" class="" src="https://img.mailinblue.com/4267968/images/content_library/original/6254382bc4640a39e5121b23.png" style="display: block; width: 100%;" title="Developing Lafayette" width="246"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="r16-c">
+<table border="0" cellpadding="0" cellspacing="0" class="r17-o" role="presentation" style="table-layout: fixed; width: 100%;" width="100%">
+<tr>
+<td align="center" class="r18-i nl2go-default-textstyle" style="color: #484747; font-family: Nunito Sans,helvetica,sans-serif; font-size: 16px; word-break: break-word; padding-bottom: 15px; padding-top: 15px; text-align: center;" valign="top">
+<div>
+<p style="margin: 0;"><span style="color: #363935; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">We keep you up-to-date on what's hitting the market and being sold in Acadiana…and our friends over at Developing Lafayette will tell you what's happening with those properties!</span></p>
+<p style="margin: 0;"><span style="color: #363935; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">A new car wash or Mexican restaurant headed our way? They'll be the first to let you know!</span></p>
+<p style="margin: 0;"><span style="color: #363935; font-family: 'Lucida sans unicode', 'lucida grande', sans-serif; font-size: 12px;">Click the logo to head to their site.</span></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

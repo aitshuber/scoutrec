@@ -41,14 +41,14 @@ permalink: /listings
             <!-- End Input Card -->
           </form>
 
-          <p class="form-text small"> {% assign i = 0 %} {% for property in site.properties %}{% assign i = i | plus:1 %}{% endfor %}{{i}}</p>
+          <p class="form-text small">Searching {% assign i = 0 %} {% for property in site.properties %}{% assign i = i | plus:1 %}{% endfor %}{{i}}</p>
         </div>
         <!-- End Col -->
       </div>
       <!-- End Row -->
 
       <div class="col-md-6 position-md-absolute top-0 end-0">
-        <img class="img-fluid" src="../assets/img/900x900/img20.jpg" alt="Image Description">
+        <img class="img-fluid editable" src="../assets/img/900x900/img20.jpg" alt="Lafayette Local Listings">
 
         <!-- SVG Shape -->
         <div class="position-absolute bottom-0 end-0 zi-n1 mb-n10 me-n7" style="width: 12rem;">
@@ -72,20 +72,7 @@ permalink: /listings
         <span class="d-block">{{i}} Properties</span>
         <h1 class="h2 mb-0">Property for sale</h1>
       </div>
-      <!-- End Col -->
-
-      <div class="col-sm-auto">
-        <!-- Select -->
-        <select class="form-select form-select-sm">
-          <option value="mostRecent" selected>Most recent</option>
-          <option value="HighestPrice">Highest price</option>
-          <option value="LowestPrice">Lowest price</option>
-          <option value="mostReduced">Most reduced</option>
-          <option value="mostPopular">Most popular</option>
-        </select>
-        <!-- End Select -->
-      </div>
-      <!-- End Col -->
+      
     </div>
     <!-- End Row -->
   </div>
