@@ -20,35 +20,39 @@
   image: assets/img/500x280/SKINNER-TIM-1024x1024.png
   phone: 337-205-1635
   email: tim@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12069042&search=true
 - name: Diana Stephens
   accreditation:
   title: Agent
   image: assets/img/500x280/JCD22941-1638x2048.jpg
   phone: 225-235-5755
   email: diana@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=335422
 - name: Eric Schexnayder
   accreditation:
   title: Agent
   image: assets/img/500x280/SCHEXNAYDER-ERIC-1024x1024.png
   phone: 337-280-3476
   email: eric@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12648279&search=true
 - name: Braxton Higginbotham
   accreditation:
   title: Agent
   image: assets/img/500x280/HIGGINBOTHAM-BRAXTON-1024x1024.png
   phone: 337-501-6457
   email: braxton@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12869741&search=true
 - name: Ross Torian
   accreditation:
   title: Agent
   image: assets/img/500x280/TORIAN-ROSS.png
   phone: 337-322-1108
   email: ross@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12823844&search=true
 - name: Teddy Beaullieu
   accreditation:
   title: Agent
@@ -56,7 +60,8 @@
     assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
   phone: 337-356-1208
   email: teddy@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12682916&search=true
 - name: Jacob Anderson
   accreditation:
   title: Agent
@@ -65,17 +70,17 @@
   phone: 337-501-5724
   email: jacob@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
-- name: Kendra Mckinney
+- name: Kendra McKinney
   accreditation:
   title: Office Manager
   image: assets/img/500x280/MCKINNEY-KENDRA-1022x1024.png
-  phone: 337-501-5724
+  phone: 337-303-6820
   email: kendra@scoutrec.com
   listing-link:
-- name: Charley Minyard
+- name: Hannah Gotreaux
   accreditation:
   title: Administrative Assistant
   image: assets/img/500x280/MINYARD-CHARLI.png
   phone: 337-443-0880
-  email: charley@scoutrec.com
+  email: hannah@scoutrec.com
   listing-link:
