@@ -11,18 +11,48 @@ city: Gueydan
 state: LA
 listingID: 23002224
 status: ACTIVE
-price: 3,399,000
-Acres: 468
-SqFt: 55,520
+price: "2,123,849"
+Acres: 6.340
+SqFt: "55,520"
 Price-SqFt: 78.42
-property-type: Commercial Sale
-property-subtype: Industrial
+property-type: Land
+property-subtype: Commercial
+zoning: Agriculture
 year-built: 2020
 lot-size: 6.34
 parking: 2
-agent: Ross Cullen
-agent-phone: (337)443-0880
+agent: Jeff Landry
+agent-phone: "(337)443-0880"
 featured: true
+directions: Hwy 14 w, turn south on Talens landing, turn right on Specklebelly Rd.
+building-features: Employee Lounge
+cooling: Central Air
+heating: Central
+living-area: 55520
+living-area-source: Approximate
+living-area-units: Square feet
+stories: 1
+construction-materials: Brick, Metal Siding
+door-features: OH Door 16 - 20 Ft
+electric: 3 Phase, 440 Volts
+foundation-details: Slab
+lot-features: 6 to 10.99 Acres, Level, Freestanding
+lot-size-area: 6.34
+lot-size-square-feet: 276170.4
+lot-size-units: Acres
+parking-features: On Site
+road-frontage-type: Paved, Public Street
+road-surface-type: Paved, Public Street
+roof: Metal
+water-source: Public
+wooded-percent: 35600
+last-updated: 01/01/0023
+plans: ../assets/img/others/img1.png
+files:
+    - file_name: Flyer
+      file: ../uploads/28135470_Flyer___101_N_St_Charles___Rex___2_ (1).pdf
+    - file_name: Flood Disclosure
+      file: ../uploads/28129762_Flood_disclosure.png
 map: >-
  <iframe
  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.432590579979!2d-91.94223418443028!3d30.110432681858295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86237da55a2cf76d%3A0xabe4df24db01d8bb!2s102%20Bercegeay%20Rd%2C%20Broussard%2C%20LA%2070518!5e0!3m2!1sen!2sus!4v1679606098523!5m2!1sen!2sus"

@@ -3493,19 +3493,19 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #000;
-  --bs-btn-border-color: #000;
+  --bs-btn-bg: #363a36;
+  --bs-btn-border-color: #363a36;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #7A7A7A;
-  --bs-btn-hover-border-color: #2c64cc;
+  --bs-btn-hover-border-color: #A7B7A9;
   --bs-btn-focus-shadow-rgb: 85, 145, 255;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #2c64cc;
-  --bs-btn-active-border-color: #295ebf;
+  --bs-btn-active-bg: #A7B7A9;
+  --bs-btn-active-border-color: #A7B7A9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #000;
-  --bs-btn-disabled-border-color: #000;
+  --bs-btn-disabled-bg: #363a36;
+  --bs-btn-disabled-border-color: #363a36;
 }
 
 .btn-secondary {
@@ -6191,7 +6191,7 @@ fieldset:disabled .btn {
 
 .modal-backdrop {
   --bs-backdrop-zindex: 100;
-  --bs-backdrop-bg: rgba(33, 50, 91, 0.25);
+  --bs-backdrop-bg: rgba(0, 0, 0, 0.5);
   --bs-backdrop-opacity: 1;
   position: fixed;
   top: 0;

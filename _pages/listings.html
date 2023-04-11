@@ -10,10 +10,10 @@ permalink: /listings
         <div class="col-md-8 mb-7 mb-md-0">
           <!-- Heading -->
           <div class="w-md-75 mb-7">
-            <h1 class="display-4">Discover a place you'll
+            <h1 class="display-4">Discover your next<br/>
               <span class="text-primary text-highlight-warning">
                 <span class="js-typedjs" data-hs-typed-options='{
-                        "strings": ["love to live", "enjoy living"],
+                        "strings": ["investment", "business", "office space"],
                         "typeSpeed": 90,
                         "loop": true,
                         "backSpeed": 30,
@@ -41,7 +41,7 @@ permalink: /listings
             <!-- End Input Card -->
           </form>
 
-          <p class="form-text small">Search through over 125,000 listings</p>
+          <p class="form-text small"> {% assign i = 0 %} {% for property in site.properties %}{% assign i = i | plus:1 %}{% endfor %}{{i}}</p>
         </div>
         <!-- End Col -->
       </div>
@@ -62,298 +62,6 @@ permalink: /listings
 <div class="col-md-12 position-absolute top-0 start-0 zi-n1 gradient-y-three-sm-primary h-100" style="background-size: calc(1000px + (100vw - 1000px) / 2);"></div>
 </div>
 <!-- End Hero -->
-<div class="container content-space-t-3 content-space-t-lg-2">
-  <form>
-    <div class="row gx-2">
-      <div class="col-lg mb-2 mb-lg-0">
-        <!-- Form -->
-        <label for="searchPropertyFilterForm" class="visually-hidden form-label">Search property</label>
-        <div class="input-group input-group-merge">
-          <span class="input-group-prepend input-group-text">
-            <i class="bi-search"></i>
-          </span>
-          <input type="text" class="form-control form-control-sm" id="searchPropertyFilterForm"
-            placeholder="Search property" aria-label="Search property" value="">
-        </div>
-
-        <ul id="search-results"></ul>
-        <!-- End Form -->
-      </div>
-      <!-- End Col -->
-
-      <div class="col-auto mb-2 mb-lg-0">
-        <!-- Dropdown -->
-        <div class="dropdown">
-          <a class="btn btn-white btn-sm dropdown-toggle" href="#" id="priceFilterFormDropdown" role="button"
-            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Price</a>
-
-          <div class="dropdown-menu dropdown-menu-end dropdown-card" aria-labelledby="priceFilterFormDropdown"
-            style="min-width: 21rem;">
-            <!-- Card -->
-            <div class="card card-sm">
-              <div class="card-body">
-                <!-- Bar Chart -->
-                <div class="position-relative overflow-hidden" style="height: 6rem; width: 18rem;">
-                  <div class="position-absolute w-100 overflow-hidden">
-                    <div style="height: 6rem; width: 18rem;">
-                      <canvas class="js-chart" data-hs-chartjs-options='{
-                                  "type": "bar",
-                                  "data": {
-                                    "labels": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
-                                    "datasets": [{
-                                      "data": [2, 3, 5, 7, 8, 5, 3, 2, 3, 6, 5, 4, 7, 5, 4, 3, 2],
-                                      "backgroundColor": "#e7eaf3",
-                                      "borderColor": "#e7eaf3"
-                                    }]
-                                  },
-                                  "options": {
-                                    "animation": {
-                                      "duration": 0
-                                    },
-                                    "responsive": true,
-                                    "scales": {
-                                      "y": {
-                                        "display": false,
-                                        "gridLines": {
-                                          "display": false,
-                                          "drawBorder": false
-                                        },
-                                        "ticks": {
-                                          "beginAtZero": true
-                                        }
-                                      },
-                                      "x": {
-                                        "display": false,
-                                        "gridLines": {
-                                          "display": false,
-                                          "drawBorder": false
-                                        }
-                                      }
-                                    },
-                                    "plugins": {
-                                      "tooltips": {
-                                        "custom": false
-                                      }
-                                    }
-                                  }
-                                }'></canvas>
-                    </div>
-                  </div>
-
-                  <div id="foregroundBarChartDoubleResult" class="position-absolute overflow-hidden">
-                    <div style="height: 6rem; width: 18rem;">
-                      <canvas class="js-chart" data-hs-chartjs-options='{
-                                  "type": "bar",
-                                  "data": {
-                                    "labels": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
-                                    "datasets": [{
-                                      "data": [2, 3, 5, 7, 8, 5, 3, 2, 3, 6, 5, 4, 7, 5, 4, 3, 2],
-                                      "backgroundColor": "#377dff",
-                                      "borderColor": "#377dff"
-                                    }]
-                                  },
-                                  "options": {
-                                    "animation": {
-                                      "duration": 0
-                                    },
-                                    "scales": {
-                                      "y": {
-                                        "display": false,
-                                        "gridLines": {
-                                          "display": false,
-                                          "drawBorder": false
-                                        },
-                                        "ticks": {
-                                          "beginAtZero": true
-                                        }
-                                      },
-                                      "x": {
-                                        "display": false,
-                                        "gridLines": {
-                                          "display": false,
-                                          "drawBorder": false
-                                        }
-                                      }
-                                    },
-                                    "plugins": {
-                                      "tooltips": {
-                                        "custom": false
-                                      }
-                                    }
-                                  }
-                                }'></canvas>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Bar Chart -->
-
-                <div class="range-slider">
-                  <div class="js-nouislider" data-hs-nouislider-options='{
-                             "range": {
-                               "min": 0,
-                               "max": 1000
-                             },
-                             "start": [250, 750],
-                             "result_min_target_el": "#rangeSliderExampleDouble4MinResult",
-                             "result_max_target_el": "#rangeSliderExampleDouble4MaxResult",
-                             "foreground_target_el": "#foregroundBarChartDoubleResult"
-                           }'>
-                  </div>
-                </div>
-
-                <div class="row justify-content-center mt-5">
-                  <div class="col">
-                    <span class="d-block small mb-1">Min price:</span>
-                    <input type="text" class="form-control form-control-sm" id="rangeSliderExampleDouble4MinResult">
-                  </div>
-                  <!-- End Col -->
-
-                  <div class="col">
-                    <span class="d-block small mb-1">Max price:</span>
-                    <input type="text" class="form-control form-control-sm" id="rangeSliderExampleDouble4MaxResult">
-                  </div>
-                  <!-- End Col -->
-                </div>
-                <!-- End Row -->
-              </div>
-
-              <div class="card-footer border-top">
-                <div class="d-flex justify-content-end gap-2">
-                  <a class="btn btn-white btn-sm" href="#">Clear</a>
-                  <a class="btn btn-primary btn-sm" href="#">Save</a>
-                </div>
-              </div>
-            </div>
-            <!-- End Card -->
-          </div>
-        </div>
-        <!-- End Dropdown -->
-      </div>
-      <!-- End Col -->
-
-      <div class="col-auto mb-2 mb-lg-0">
-        <!-- Dropdown -->
-        <div class="dropdown">
-          <a class="btn btn-white btn-sm dropdown-toggle" href="#" id="bedsFilterFormDropdown" role="button"
-            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">All beds</a>
-
-          <div class="dropdown-menu dropdown-menu-end dropdown-card" aria-labelledby="bedsFilterFormDropdown"
-            style="min-width: 25rem;">
-            <!-- Card -->
-            <div class="card card-sm">
-              <div class="card-body">
-                <!-- Radio Button Group -->
-                <div class="btn-group btn-group-segment d-flex" role="group" aria-label="Beds radio button group">
-                  <input type="radio" class="btn-check flex-fill" name="bedsBtnRadio" id="bedsBtnRadioStudio"
-                    autocomplete="off" checked>
-                  <label class="btn btn-sm" for="bedsBtnRadioStudio">Studio</label>
-
-                  <input type="radio" class="btn-check flex-fill" name="bedsBtnRadio" id="bedsBtnRadio1"
-                    autocomplete="off">
-                  <label class="btn btn-sm" for="bedsBtnRadio1">1+</label>
-
-                  <input type="radio" class="btn-check flex-fill" name="bedsBtnRadio" id="bedsBtnRadio2"
-                    autocomplete="off">
-                  <label class="btn btn-sm" for="bedsBtnRadio2">2+</label>
-
-                  <input type="radio" class="btn-check flex-fill" name="bedsBtnRadio" id="bedsBtnRadio3"
-                    autocomplete="off">
-                  <label class="btn btn-sm" for="bedsBtnRadio3">3+</label>
-
-                  <input type="radio" class="btn-check flex-fill" name="bedsBtnRadio" id="bedsBtnRadio4"
-                    autocomplete="off">
-                  <label class="btn btn-sm" for="bedsBtnRadio4">4+</label>
-                </div>
-                <!-- End Radio Button Group -->
-              </div>
-            </div>
-            <!-- End Card -->
-          </div>
-        </div>
-        <!-- End Dropdown -->
-      </div>
-      <!-- End Col -->
-
-      <div class="col-auto mb-2 mb-lg-0">
-        <!-- Dropdown -->
-        <div class="dropdown">
-          <a class="btn btn-white btn-sm dropdown-toggle" href="#" id="propertyTypeFilterFormDropdown" role="button"
-            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Property type</a>
-
-          <div class="dropdown-menu dropdown-menu-end dropdown-card" aria-labelledby="propertyTypeFilterFormDropdown"
-            style="min-width: 20rem;">
-            <!-- Card -->
-            <div class="card card-sm">
-              <div class="card-body">
-                <div class="d-grid gap-2">
-                  <!-- Check -->
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="propertyTypeHouseCheckbox" checked>
-                    <label class="form-check-label" for="propertyTypeHouseCheckbox">
-                      House
-                      <span class="d-block small text-muted">Find a cozy place</span>
-                    </label>
-                  </div>
-                  <!-- End Check -->
-
-                  <!-- Check -->
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="propertyTypeFlatsCheckbox">
-                    <label class="form-check-label" for="propertyTypeFlatsCheckbox">
-                      Flats
-                      <span class="d-block small text-muted">Flats for sale or to rent</span>
-                    </label>
-                  </div>
-                  <!-- End Check -->
-
-                  <!-- Check -->
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="propertyTypeMultiFamilyCheckbox"
-                      checked>
-                    <label class="form-check-label" for="propertyTypeMultiFamilyCheckbox">
-                      Multi-family
-                      <span class="d-block small text-muted">Multi-family houses or flats</span>
-                    </label>
-                  </div>
-                  <!-- End Check -->
-
-                  <!-- Check -->
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="propertyTypeFarmsLandCheckbox">
-                    <label class="form-check-label" for="propertyTypeFarmsLandCheckbox">
-                      Farms/land
-                      <span class="d-block small text-muted">Own a property for farming</span>
-                    </label>
-                  </div>
-                  <!-- End Check -->
-                </div>
-              </div>
-
-              <div class="card-footer border-top">
-                <div class="d-flex justify-content-end gap-2">
-                  <a class="btn btn-white btn-sm" href="#">Clear</a>
-                  <a class="btn btn-primary btn-sm" href="#">Save</a>
-                </div>
-              </div>
-            </div>
-            <!-- End Card -->
-          </div>
-        </div>
-        <!-- End Dropdown -->
-      </div>
-      <!-- End Col -->
-
-      <div class="col-auto mb-2 mb-lg-0">
-        <a class="btn btn-white btn-sm" href="#" data-bs-toggle="modal" data-bs-target="#realEstateMoreFiltersModal">
-          <i class="bi-sliders me-2"></i> More
-        </a>
-      </div>
-      <!-- End Col -->
-    </div>
-    <!-- End Row -->
-  </form>
-</div>
-<!-- End Filter Form -->
 
 <!-- Card Grid -->
 <div class="container content-space-t-1 content-space-b-2 content-space-b-lg-3">
@@ -361,7 +69,7 @@ permalink: /listings
   <div class="mb-5">
     <div class="row align-items-center">
       <div class="col-sm mb-3 mb-sm-0">
-        <span class="d-block">128 Properties</span>
+        <span class="d-block">{{i}} Properties</span>
         <h1 class="h2 mb-0">Property for sale</h1>
       </div>
       <!-- End Col -->
@@ -389,17 +97,12 @@ permalink: /listings
       <!-- Card -->
       <div class="card card-flush shadow-none h-100">
         <a class="card-pinned" href="{{property.url}}">
-          <img class="card-img" src="{{property.image-1}}" alt="Image Description">
+          <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description">
           {% if property.featured == true %}
           <div class="card-pinned-top-start">
             <span class="badge bg-primary">Featured</span>
           </div>
           {% endif %}
-          <div class="card-pinned-bottom-end">
-            <span class="btn btn-light btn-xs btn-icon">
-              <i class="bi-images"></i>
-            </span>
-          </div>
         </a>
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">

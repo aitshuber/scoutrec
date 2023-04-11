@@ -2,7 +2,6 @@
 <html lang="en" dir="">
 {% include header.html %}
 <link rel="stylesheet" href="../assets/vendor/leaflet/dist/leaflet.css">
-
 <body>
   <!-- Navbar -->
   {% include navbar.html %}
@@ -134,24 +133,19 @@
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavOne" role="tab"
                   aria-controls="propertyOverviewNavOne" aria-selected="true" style="min-width: 7rem;">Details</a>
               </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#propertyOverviewNavTwo" id="propertyOverviewNavTwo-tab" data-bs-toggle="tab"
-                  data-bs-target="#propertyOverviewNavTwo" role="tab" aria-controls="propertyOverviewNavTwo"
-                  aria-selected="false" style="min-width: 7rem;">Plans</a>
-              </li>
-
+              
               <li class="nav-item" role="presentation">
                 <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavThree-tab"
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavThree" role="tab"
                   aria-controls="propertyOverviewNavThree" aria-selected="false" style="min-width: 7rem;">Location</a>
               </li>
-
+              {% if page.files %}
               <li class="nav-item" role="presentation">
                 <a class="nav-link" href="#propertyOverviewNavThree" id="propertyOverviewNavFour-tab"
                   data-bs-toggle="tab" data-bs-target="#propertyOverviewNavFour" role="tab"
-                  aria-controls="propertyOverviewNavFour" aria-selected="false" style="min-width: 7rem;">Additional</a>
+                  aria-controls="propertyOverviewNavFour" aria-selected="false" style="min-width: 7rem;">Files & Media</a>
               </li>
+              {% endif %}
             </ul>
             <!-- End Nav -->
           </div>

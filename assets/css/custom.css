@@ -10,6 +10,9 @@
 		pointer-events: auto;
 		text-decoration: none;
 	}
+	.card-img, .card-img-top{
+		height: 100% !important;
+	}
 }
 
 .property_secondary_image {
