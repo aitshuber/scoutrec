@@ -20,9 +20,7 @@
         </div>
         <!-- End Col -->
         <div class="col-lg-auto">
-          <a class="btn btn-sm btn-ghost-secondary" href="javascript:;">
-            <i class="bi-share-fill me-2"></i> Share
-          </a>
+         <div class="sharethis-inline-share-buttons"></div>
         </div>
         <!-- End Col -->
       </div>
@@ -224,11 +222,11 @@
                       <p class="mb-0 gap-1 ms-auto">{{page.heating}}</p>
                     </li>
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Living Area</h6>
+                      <h6 class="mb-0">Sqft Area</h6>
                       <p class="mb-0 gap-1 ms-auto">{{page.living-area}}</p>
                     </li>
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Living Area Source</h6>
+                      <h6 class="mb-0">Area Source</h6>
                       <p class="mb-0 gap-1 ms-auto">{{page.living-area-source}}</p>
                     </li>
 
@@ -240,7 +238,7 @@
                   <!-- List -->
                   <ul class="list-unstyled list-py-1 mb-0">
                     <li class="d-flex align-items-center">
-                      <h6 class="mb-0">Living Area Units</h6>
+                      <h6 class="mb-0">Sqft Area Units</h6>
                       <p class="mb-0 gap-1 ms-auto">{{page.living-area-units}}</p>
                     </li>
                     <li class="d-flex align-items-center">
@@ -384,16 +382,18 @@
               <div class="mb-5">
                 <h5>Attachements & Media</h5>
                 {% if page.files %}
-                <ul>
+                <div class="row">
+                  <div class="col-md-12">
+                  <ul class="list-unstyled">
                   {% for item in page.files %}
-
-                  <li><a href="{{ item.file }}" target="_blank">{{ item.file_name }}</a></li>
-
+                     <li><a href="{{ item.file }}" class="btn btn-primary btn-sm mb-2 rounded-0" target="_blank"> <i class="fa-sharp fa-solid fa-download"></i> {{ item.file_name }}</a></li>
                   {% endfor %}
                 </ul>
                 {% else %}
                 <p>Currently no attachments</p>
                 {% endif %}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -412,7 +412,7 @@
               <!-- Media -->
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img class="avatar avatar-lg avatar-circle" src="/{{team.image}}" alt="Image Description">
+                  <img class="avatar avatar-lg avatar-circle" src="{{team.image}}" alt="Image Description">
                 </div>
 
                 <div class="flex-grow-1 ms-3">
@@ -478,12 +478,22 @@
               <!-- Card -->
               <div class="card card-bordered">
                 <div class="card-body">
-                  {% for team in site.data.broker %}
-                  {% if page.agent == team.name %}
+                 
                   <!-- Media -->
                   <div class="d-flex align-items-center mb-4">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-circle" src="/{{team.image}}" alt="{{team.name}} profile image">
+                     {% assign match_found = false %}
+                     {% for team in site.data.broker %}
+                       {% if page.agent == team.name %}
+                         <img class="avatar avatar-circle" src="{{team.image}}" alt="{{team.name}} profile image">
+                         {% assign match_found = true %}
+                         {% break %}
+                       {% endif %}
+                     {% endfor %}
+                     
+                     {% if match_found == false %}
+                       <img class="avatar avatar-circle" src="/assets/img/Scout_Seal.png" alt="Scout Real Estate Logo Seal">
+                     {% endif %}
                     </div>
                     <div class="flex-grow-1 ms-3">
                       <h4 class="card-title">Ask me for more information</h4>
@@ -530,63 +540,7 @@
                     </div>
                   </form>
                   <!-- End Form -->
-                  {% endif %}
-                  {% endfor %}
-                  {% for team in site.data.broker limit:1 %}
-                  {% if page.agent != team.name %}
-                  <!-- Media -->
-                  <div class="d-flex align-items-center mb-4">
-                    <div class="flex-shrink-0">
-                      <img class="avatar avatar-circle" src="/assets/img/Scout_Seal.png"
-                        alt="Scout Real Estate Logo Seal">
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="card-title">Ask Scout for more information</h4>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                  <!-- Form -->
-                  <form>
-                    <select class="form-select mb-2">
-                      <option selected disabled>Tell me more about this property</option>
-                      <option value="aboutProperty1">Request a showing</option>
-                      <option value="aboutProperty3">Request recent area sales</option>
-                    </select>
-                    <div class="mb-2">
-                      <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Full
-                        Name</label>
-                      <input type="text" class="form-control" id="fullNamePropertyOverviewContactForm"
-                        placeholder="Full Name" aria-label="Full Name">
-                    </div>
-
-                    <div class="mb-2">
-                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Email</label>
-                      <input type="email" class="form-control" id="emailPropertyOverviewContactForm" placeholder="Email"
-                        aria-label="Email">
-                    </div>
-
-                    <div class="mb-2">
-                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Phone
-                        number</label>
-                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm"
-                        placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx">
-                    </div>
-
-                    <div class="mb-2">
-                      <label for="questionPropertyOverviewContactForm" class="form-label visually-hidden">Property
-                        question</label>
-                      <textarea class="form-control" id="questionPropertyOverviewContactForm"
-                        placeholder="I would like more information about ..."
-                        aria-label="I would like more information about ..." rows="4"></textarea>
-                    </div>
-
-                    <div class="d-grid">
-                      <button type="button" class="btn btn-primary">Request info</button>
-                    </div>
-                  </form>
-                  <!-- End Form -->
-                  {% endif %}
-                  {% endfor %}
+                 
                 </div>
                 <!-- End Card -->
               </div>
@@ -617,60 +571,49 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-4">
           {% assign random_properties = site.properties | sample:3 %}
           {% for property in random_properties %}
-          <div class="col mb-3">
-            <!-- Card -->
-            <div class="card card-flush shadow-none h-100">
-              <a class="card-pinned" href="{{property.url}}" data-fslightbox="propertyGridGallery1">
-                <img class="card-img" src="{{property.image-1}}" alt="Image Description">
-
-                <div class="card-pinned-top-start">
-                  <span class="badge bg-success">New</span>
-                </div>
-
-                <div class="card-pinned-bottom-end">
-                  <span class="btn btn-light btn-xs btn-icon">
-                    <i class="bi-images"></i>
-                  </span>
-                </div>
-              </a>
-
-              <a class="d-none" href="{{property.image-1}}" data-fslightbox="propertyGridGallery1"></a>
-              <a class="d-none" href="../assets/img/1920x1080/img17.jpg" data-fslightbox="propertyGridGallery1"></a>
-              <a class="d-none" href="../assets/img/1920x1080/img16.jpg" data-fslightbox="propertyGridGallery1"></a>
-
-              <!-- Body -->
-              <a class="card-body" href="{{property.url}}">
-                <span class="card-subtitle text-body">For sale</span>
-
-                <div class="row align-items-center mb-3">
-                  <div class="col">
-                    <h4 class="card-title text-inherit">{{property.name}}</h4>
-                  </div>
-                  <!-- End Col -->
-
-                  <div class="col-auto">
-                    <h3 class="card-title text-primary">&#163;{{property.price}}</h3>
-                  </div>
-                  <!-- End Col -->
-                </div>
-                <!-- End Row -->
-
-                <ul class="list-inline list-separator text-body small">
-                  <li class="list-inline-item">
-                    <i class="fas fa-sharp fa-solid fa-building text-muted me-1"></i> property type: {{page.property-type}} </li>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="bi-rulers text-muted me-1"></i> {{page.SqFt}} sqft</li>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="fas fa-sharp fa-solid fa-rotate text-muted me-1"></i> last updated: {{page.last-updated}}
-                  </li>
-                </ul>
-              </a>
-              <!-- End Body -->
-            </div>
-            <!-- End Card -->
-          </div>
+         <div class="col mb-3">
+           <!-- Card -->
+           <div class="card card-flush shadow-none h-100">
+             <a class="card-pinned" href="{{property.url}}">
+               <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description">
+               {% if property.featured == true %}
+               <div class="card-pinned-top-start">
+                 <span class="badge bg-primary">Featured</span>
+               </div>
+               {% endif %}
+             </a>
+             <!-- Body -->
+             <a class="card-body" href="{{property.url}}">
+               <span class="card-subtitle text-body">{{property.property-subtype}}</span>
+         
+               <div class="row align-items-center mb-3">
+                 <div class="col">
+                   <h4 class="card-title text-inherit">{{property.name}}</h4>
+                 </div>
+                 <!-- End Col -->
+         
+                 <div class="col-auto">
+                   <h3 class="card-title text-primary">${{property.price | money}}</h3>
+                 </div>
+                 <!-- End Col -->
+               </div>
+               <!-- End Row -->
+         
+               <ul class="list-inline list-separator text-body small">
+                
+                 <li class="list-inline-item">
+                 <i class="fa-regular fa-buildings"></i>
+                   Commercial
+                 </li>
+                 <li class="list-inline-item">
+                   <i class="bi-rulers text-muted me-1"></i> {{property.SqFt}} sqft
+                 </li>
+               </ul>
+             </a>
+             <!-- End Body -->
+           </div>
+           <!-- End Card -->
+         </div>
           {% endfor %}
           <!-- End Col -->
         </div>

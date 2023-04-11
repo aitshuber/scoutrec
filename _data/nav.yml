@@ -1,0 +1,11 @@
+- menu_name: SEARCH LISTINGS
+  url: "/listings"
+- menu_name: OUR TEAM
+  url: "/#ourteam"
+- menu_name: BLOG
+  url: "/blog"
+- menu_name: SERVICES
+  url: "/services"
+- menu_name: CONTACT US
+  url: "/#contact"
+ 

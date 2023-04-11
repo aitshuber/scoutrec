@@ -1,7 +1,7 @@
 - name: Jeff Landry
   title: Managing Broker, Partner
   accreditation: CCIM
-  image: assets/img/500x280/LANDRY-JEFF-1024x1024.png
+  image: /assets/img/500x280/LANDRY-JEFF-1024x1024.png
   phone: 337-257-5380
   email: jeff@scoutrec.com
   listing-link: >-
@@ -56,8 +56,7 @@
 - name: Teddy Beaullieu
   accreditation:
   title: Agent
-  image: >-
-    assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
+  image: assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
   phone: 337-356-1208
   email: teddy@scoutrec.com
   listing-link: >-
@@ -65,8 +64,7 @@
 - name: Jacob Anderson
   accreditation:
   title: Agent
-  image: >-
-    assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
+  image: assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
   phone: 337-501-5724
   email: jacob@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443

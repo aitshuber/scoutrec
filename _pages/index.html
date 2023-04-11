@@ -67,14 +67,14 @@ permalink: /
     </div>
 </div>
 <!-- Our History -->
-<div class="d-flex gradient-x-overlay-sm-dark bg-img-start" style="background-image: url('../assets/img/SCOUT-DOWNTOWN-VIEW.jpg'); min-height: 15rem;">
+<div class="d-md-flex d-none gradient-x-overlay-sm-dark bg-img-start" style="background-image: url('{{page.history_image}}'); min-height: 15rem;">
     <div class="container blackscreen">
         <!-- Heading -->
         <div class="mb-7">
             <h1 class="display-6 text-white mb-6 mt-6 text-center editable">Our History</h1>
             <div class="container">
                 <div class="row text-white">
-                    <div class="col-md-6 editable">
+                    <div class="col-md-6 col-12 editable">
                        <p class="lh-lg"> In 2018, our partners came together with the idea to build a new
                         commercial real estate model. We wanted
                         to service Lafayette and shape lasting relationships with client-partners looking to
@@ -92,7 +92,7 @@ permalink: /
                         an emphasis on downtown properties.
                        </p>
                     </div>
-                    <div class="col-md-6 editable">
+                    <div class="col-md-6 col-12 editable">
                         <p class="lh-lg">
                         Scout is less worried about the number of signs we put in the ground
                         and more committed to working on
@@ -120,30 +120,30 @@ permalink: /
 </div>
 
 <!-- Meet our Team -->
-<div id="ourteam" class="container content-space-2 content-space-lg-0 align-items-center">
-    <div class="row py-8">
+<div id="ourteam" class="container content-space-lg-0 align-items-center">
+    <div class="row py-md-8">
     <div class="w-md-75 w-lg-75 text-center mx-md-auto mb-5 mb-md-9">
 
         <h2 class="h1 editable">Meet the Scout Team</h2>
     </div>
     <!-- End Heading -->
     <div class="alignments">
-        <div class="row gx-3 mb-5 mb-md-9 align-items-center justify-content-center">
+        <div class="row gx-3 mb-0 mb-md-9 align-items-center justify-content-center">
             {% for post in site.data.broker %}
-            <div class="col-sm-6 col-lg-3 mb-3 mb-lg-4 align-items-center">
+            <div class="col-6 col-sm-6 col-lg-3 mb-sm-3 mb-0 mb-lg-4 align-items-center team">
                 <!-- Card -->
                 <div class="card card-transition h-100 shadow-none">
-                    <img class="card-img-top" src="{{ post.image }}" alt="Image Description" />
+                    <img class="card-img-top" src="{{ post.image }}" alt="{{ post.name }}" />
                     <div class="card-body align-items-center p-2">
-                        <h2 class="fs-4 text-dark text-center pb-3">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}<br />{{ post.title }}</h2>
-                        <h5 class="card-text lh-base text-center fw-normal pb-5"><i class="fa fa-phone bg-transparent" aria-hidden="true"></i> {{ post.phone }}<br /><i class="fa fa-envelope bg-transparent" aria-hidden="true"></i> <a href="mailto:{{ post.email }}">{{ post.email }}</a></h5>
-                    <div class="card-footer text-center p-2">
+                        <h2 class="fs-4 text-dark text-center">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}<br /><span class="title">{{ post.title }}</span></h2>
+                        <h5 class="card-text lh-base text-center fw-normal pb-md-2 pb-0"><i class="fa fa-phone bg-transparent fs-6 d-none d-md-inline" aria-hidden="true"></i> {{ post.phone }}<br /><i class="fa fa-envelope bg-transparent fs-6 d-none d-md-inline" aria-hidden="true"></i> <a href="mailto:{{ post.email }}">{{ post.email }}</a></h5>
+                    <div class="card-footer text-center p-md-2 p-1">
                         {% if post.listing-link %}
                          <div>
                             <a href="{{post.listing-link}}" class="btn btn-dark py-1 px-4 mx-auto">LISTINGS</a>
                         </div>
                         {% else %}
-                       <div class="py-3"></div>
+                       <div class="py-3 {% if forloop.last %}d-none d-md-block{% endif %}"></div>
                         {% endif %}
                     </div>
                     </div>
@@ -159,7 +159,7 @@ permalink: /
 </div>
 <!-- End Card Grid -->
 <!-- Newsletter Section -->
-<div class="position-relative my-4">
+<div class="position-relative my-md-4 mb-3">
     <div class="container">
         <div class="row justify-content-end align-items-md-center">
             <div class="d-none d-md-block col-md-6 position-absolute top-0 start-0 bg-img-center h-100" style="background-image: url({{page.background_image_3}});"></div>
@@ -181,7 +181,7 @@ permalink: /
                     <!-- End Heading -->
 
                     <div class="d-grid d-sm-flex gap-3">
-                        <a class="btn btn-primary btn-transition px-6 editable" href="/newsletter/">Newsletters</a>
+                        <a class="btn btn-primary btn-transition px-6 editable" href="/newsletter/">Articles/Newsletters</a>
                     </div>
                 </div>
             </div>
@@ -195,27 +195,14 @@ permalink: /
 <div class="bg-primary">
   <div class=" container-fluid content-space-1 content-space-md-2 px-4 px-md-10 px-lg-12">
     <div class="row justify-content-lg-between align-items-lg-center">
-      <div class="col-md-10 col-lg-4 mb-9 mb-lg-0 mx-auto">
+      <div class="col-md-10 col-lg-4 mb-9 mb-lg-0 mx-auto d-none d-md-block">
         <!-- Info -->
         <h1 class="text-white">Contact Us</h1>
         <p class="text-white-70">Our objective is to provide valuable information and assistance. By delivering exceptional service and a comprehensive understanding of the Lafayette region, we aspire to secure your patronage.</p>
         <!-- End Info -->
-        <div class="border-top border-white-10 my-5" style="max-width: 10rem;"></div>
-        <!-- Blockquote -->
-        <figure>
-          <blockquote class="blockquote blockquote-light">“ Great people. Great company. First class service for all your commercial real estate needs.”</blockquote>
-          <figcaption class="blockquote-footer blockquote-light">
-            <div class="d-flex align-items-center">
-              <div class="flex-grow-1">
-              ~ Angi Davis
-              </div>
-            </div>
-          </figcaption>
-        </figure>
-        <!-- End Blockquote -->
       </div>
 
-      <div class="col-lg-5 mx-auto">
+      <div class="col-lg-7 mx-auto">
         <!-- Card -->
         <div class="card card-lg">
           <div class="card-body">
@@ -224,86 +211,78 @@ permalink: /
             </div>
             <!-- Form -->
            <form>
-               <div class="row gx-3">
-                   <div class="col-sm-6">
+               <div class="row gx-md-3 gx-1">
+                   <div class="col-sm-4 col-6">
                        <!-- Form -->
                        <div class="mb-3">
-                           <label class="form-label" for="hireUsFormFirstName">First name</label>
+                           <label class="form-label d-none d-md-inline" for="hireUsFormFirstName">First name</label>
                            <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstName" placeholder="First name" aria-label="First name" />
                        </div>
                        <!-- End Form -->
                    </div>
                    <!-- End Col -->
-                   <div class="col-sm-6">
+                   <div class="col-sm-4 col-6">
                        <!-- Form -->
                        <div class="mb-3">
-                           <label class="form-label" for="hireUsFormLasttName">Last name</label>
+                           <label class="form-label d-none d-md-inline" for="hireUsFormLasttName">Last name</label>
                            <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="hireUsFormLasttName" placeholder="Last name" aria-label="Last name" />
                        </div>
                        <!-- End Form -->
                    </div>
                    <!-- End Col -->
-               </div>
-               <!-- End Row -->
-               <div class="row gx-3">
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                           <label class="form-label" for="hireUsFormWorkEmail">Email address</label>
-                           <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" />
-                       </div>
-                       <!-- End Form -->
-                   </div>
+                   <div class="col-sm-4 col-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label class="form-label d-none d-md-inline" for="hireUsFormWorkEmail">Email address</label>
+                            <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="Email Address" aria-label="Email Address" />
+                        </div>
+                        <!-- End Form -->
+                    </div>
                    <!-- End Col -->
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                           <label class="form-label" for="hireUsFormPhone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                           <input type="text" class="form-control form-control-lg" name="hireUsFormNamePhone" id="hireUsFormPhone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" />
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-               </div>
-               <!-- End Row -->
-           
-               <div class="row gx-3">
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                          <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Agent)</span></label>
-                          <select id="exampleFormControlSelect1" class="form-control">
-                            <option>Choose an agent</option>
-                            {% for item in site.data.broker %}
-                            <option value="{{item.name}}">{{item.name}}</option>
-                            {% endfor %}
-                            <option value="No Preference/First Available">No Preference/First Available</option>
-                          </select>
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-           
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                          <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Interest)</span></label>
+                    <div class="col-sm-4 col-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label class="form-label d-none d-md-inline" for="hireUsFormPhone">Phone <span class="form-label-secondary">(Optional)</span></label>
+                            <input type="text" class="form-control form-control-lg" name="hireUsFormNamePhone" id="hireUsFormPhone" placeholder="Phone" aria-label="Phone" />
+                        </div>
+                        <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-sm-4 col-6">
+                          <!-- Form -->
+                          <div class="mb-3">
+                             <label class="form-label d-none d-md-inline" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Agent)</span></label>
                              <select id="exampleFormControlSelect1" class="form-control">
-                                 <option>Choose an Interest</option>
-                               <option value="Buying">Buying</option>
-                               <option value="Selling">Selling</option>
-                               <option value="Consulting Services">Consulting Services</option>
-                               <option value="Property Management">Property Management</option>
-                               <option value="Other">Other</option>
+                               <option>Choose an agent</option>
+                               {% for item in site.data.broker %}
+                               <option value="{{item.name}}">{{item.name}}</option>
+                               {% endfor %}
+                               <option value="No Preference/First Available">No Preference/First Available</option>
                              </select>
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
+                          </div>
+                          <!-- End Form -->
+                      </div>
+                     <!-- End Col -->
+                     <div class="col-sm-4 col-6">
+                         <!-- Form -->
+                         <div class="mb-3">
+                            <label class="form-label d-none d-md-inline" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Interest)</span></label>
+                               <select id="exampleFormControlSelect1" class="form-control">
+                                   <option>Choose an Interest</option>
+                                 <option value="Buying">Buying</option>
+                                 <option value="Selling">Selling</option>
+                                 <option value="Consulting Services">Consulting Services</option>
+                                 <option value="Property Management">Property Management</option>
+                                 <option value="Other">Other</option>
+                               </select>
+                         </div>
+                         <!-- End Form -->
+                     </div>
+                     <!-- End Col -->
                </div>
                <!-- End Row -->
                <div class="d-grid col-md-4 col-12 mt-4">
-                   <button type="submit" class="btn btn-primary btn-lg editable rounded-0">Send</button>
+                   <button type="submit" class="btn btn-primary btn-sm editable rounded-0">Send</button>
                </div>
            </form>
             <!-- End Form -->

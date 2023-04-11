@@ -21,7 +21,7 @@ zoning: Agriculture
 year-built: 2020
 lot-size: 6.34
 parking: 2
-agent: Jeff Landry
+agent: Carlos Lerma
 agent-phone: "(337)443-0880"
 featured: true
 directions: Hwy 14 w, turn south on Talens landing, turn right on Specklebelly Rd.
