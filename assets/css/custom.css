@@ -11,10 +11,24 @@
 		text-decoration: none;
 	}
 	.card-img, .card-img-top{
-		height: 100% !important;
+		height: 200px !important;
+		object-position: top !important;
+	}
+	.team h2, h5{
+	font-size: 	0.875rem !important
 	}
 }
-
+@media only screen and (max-width: 600px){
+	.banner-content{
+		min-height: 25rem !important;
+	}
+	.title {
+		font-size: .65em !important;
+	}
+}
+.title {
+	font-size: inherit
+}
 .property_secondary_image {
 	object-fit: cover;
 	height: 13.5em !important;
@@ -27,3 +41,6 @@
 	object-position: center;
 }
 
+.banner-content{
+	min-height: 40rem;
+}
