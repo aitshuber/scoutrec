@@ -1,7 +1,7 @@
 - menu_name: SEARCH LISTINGS
   url: /listings
-- menu_name: OUR TEAM
-  url: /#ourteam
+- menu_name: About Us
+  url: /commercial-real-partners
 - menu_name: BLOG
   url: /blog
 - menu_name: SERVICES

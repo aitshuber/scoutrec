@@ -1,0 +1,106 @@
+---
+layout: default
+title: Commercial Real Estate Services
+description: Test description
+keywords:
+page_banner:
+    banner_title: Your Commercial Real Estate Partners
+    sub_text: BROKERAGE | MANAGEMENT | CONSULTING
+    button_link:
+    button_text: SEARCH LISTINGS
+    background_image: ../assets/img/SCOUT-DOWNTOWN-VIEW.jpg
+history_image: /uploads/img-3814.jpg
+permalink: /commercial-real-partners
+---
+<!-- Our History -->
+<div class="d-md-flex d-none gradient-x-overlay-sm-dark bg-img-start" style="background-image: url('{{page.history_image}}'); min-height: 15rem;">
+    <div class="container blackscreen">
+        <!-- Heading -->
+        <div class="mb-7">
+            <h1 class="display-6 text-white mb-6 mt-6 text-center editable">Our History</h1>
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-md-6 col-12 editable">
+                       <p class="lh-lg"> In 2018, our partners came together with the idea to build a new
+                        commercial real estate model. We wanted
+                        to service Lafayette and shape lasting relationships with client-partners looking to
+                        succeed,
+                        while also
+                        enhancing the quality of life in their local community. Jeff Landry and Hammy Davis founded
+                        Scout Real
+                        Estate Co., a full-service commercial real estate, brokerage, management and consulting firm
+                        based on
+                        honesty, integrity and a rock-solid work ethic. In 2021, our leadership and management team
+                        was
+                        rounded
+                        out with the addition of Rex Moroux, one of Acadiana’s foremost experts on commercial real
+                        estate, with
+                        an emphasis on downtown properties.
+                       </p>
+                    </div>
+                    <div class="col-md-6 col-12 editable">
+                        <p class="lh-lg">
+                        Scout is less worried about the number of signs we put in the ground
+                        and more committed to working on
+                        projects that have a significant impact for our clients and our community. We are
+                        experienced
+                        and we
+                        have a deep network that comes from years of hard work in the commercial real estate markets
+                        across
+                        South Louisiana. We provide our clients access to the most current technology and
+                        information
+                        all
+                        combined with old-school techniques such as actually answering the phone, meeting with
+                        people in
+                        person
+                        and dealing with challenges face-to-face. We know, it’s a radical approach in today’s
+                        market,
+                        but one
+                        that you will immediately appreciate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Meet our Team -->
+<div id="ourteam" class="container content-space-lg-0 align-items-center">
+    <div class="row py-md-8">
+    <div class="w-md-75 w-lg-75 text-center mx-md-auto mb-5 mb-md-9">
+
+        <h2 class="h1 editable">Meet the Scout Team</h2>
+    </div>
+    <!-- End Heading -->
+    <div class="alignments">
+        <div class="row gx-3 mb-0 mb-md-9 align-items-center justify-content-center">
+            {% for post in site.data.broker %}
+            <div class="col-6 col-sm-6 col-lg-3 mb-sm-3 mb-0 mb-lg-4 align-items-center team">
+                <!-- Card -->
+                <div class="card card-transition h-100 shadow-none">
+                    <img class="card-img-top" src="{{ post.image }}" alt="{{ post.name }}" />
+                    <div class="card-body align-items-center p-2">
+                        <h2 class="fs-4 text-dark text-center">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}<br /><span class="title">{{ post.title }}</span></h2>
+                        <h5 class="card-text lh-base text-center fw-normal pb-md-2 pb-0"><i class="fa fa-phone bg-transparent fs-6 d-none d-md-inline" aria-hidden="true"></i> {{ post.phone }}<br /><i class="fa fa-envelope bg-transparent fs-6 d-none d-md-inline" aria-hidden="true"></i> <a href="mailto:{{ post.email }}">{{ post.email }}</a></h5>
+                    <div class="card-footer text-center p-md-2 p-1">
+                        {% if post.listing-link %}
+                         <div>
+                            <a href="{{post.listing-link}}" class="btn btn-dark py-1 px-4 mx-auto">LISTINGS</a>
+                        </div>
+                        {% else %}
+                       <div class="py-3 {% if forloop.last %}d-none d-md-block{% endif %}"></div>
+                        {% endif %}
+                    </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+            </div>
+            <!-- End Col -->
+            {% endfor %}
+        </div>
+    </div>
+    <!-- End Row -->
+    </div>
+</div>
+<!-- End Card Grid -->

@@ -77,17 +77,20 @@ permalink: /listings
   <!-- End Heading -->
 
   <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-5">
-    {% for property in site.properties %}
+    {% assign sorted = site.properties | sort: 'featured' | reverse %}
+     {% assign sorted_by_price = sorted | sort: 'price' | reverse %}
+    {% for property in sorted %}
+    {% if property.featured == true %}
     <div class="col mb-3">
       <!-- Card -->
       <div class="card card-flush shadow-none h-100">
         <a class="card-pinned" href="{{property.url}}">
           <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description">
-          {% if property.featured == true %}
+        
           <div class="card-pinned-top-start">
             <span class="badge bg-primary">Featured</span>
           </div>
-          {% endif %}
+       
         </a>
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">
@@ -121,6 +124,50 @@ permalink: /listings
       </div>
       <!-- End Card -->
     </div>
+    {% endif %}
+    {% endfor %}
+
+    {% for property in sorted_by_price %}
+    {% if property.featured == false %}
+    <div class="col mb-3">
+      <!-- Card -->
+      <div class="card card-flush shadow-none h-100">
+        <a class="card-pinned" href="{{property.url}}">
+          <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description">
+        </a>
+        <!-- Body -->
+        <a class="card-body" href="{{property.url}}">
+          <span class="card-subtitle text-body">{{property.property-subtype}}</span>
+    
+          <div class="row align-items-center mb-3">
+            <div class="col">
+              <h4 class="card-title text-inherit">{{property.name}}</h4>
+            </div>
+            <!-- End Col -->
+    
+            <div class="col-auto">
+              <h3 class="card-title text-primary">${{property.price | money}}</h3>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+    
+          <ul class="list-inline list-separator text-body small">
+           
+            <li class="list-inline-item">
+            <i class="fa-regular fa-buildings"></i>
+              Commercial
+            </li>
+            <li class="list-inline-item">
+              <i class="bi-rulers text-muted me-1"></i> {{property.SqFt}} sqft
+            </li>
+          </ul>
+        </a>
+        <!-- End Body -->
+      </div>
+      <!-- End Card -->
+    </div>
+    {% endif %}
     {% endfor %}
     <!-- End Col -->
   </div>

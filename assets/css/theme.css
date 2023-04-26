@@ -18987,9 +18987,9 @@ input[type=number] {
   position: absolute;
   top: 50%;
   right: 100%;
-  width: 80%;
+  width: 150%;
   height: 80%;
-  background-image: linear-gradient(transparent, rgba(55, 125, 255, 0.075) 50%, transparent);
+  background-image: linear-gradient(transparent, rgba(167, 183, 169, 0.252) 50%, transparent);
   content: "";
   transform: translateY(-50%);
 }
@@ -29139,7 +29139,7 @@ label.form-control,
 [class*=gradient-x-overlay-].card::before,
 [class*=gradient-y-overlay-].card::before,
 [class*=gradient-y-three-overlay-].card::before {
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 
 .gradient-x-overlay-lg-dark-video::before {

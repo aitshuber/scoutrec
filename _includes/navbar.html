@@ -29,7 +29,7 @@
    <ul class="navbar-nav">
    {% for item in site.data.nav %}
      <li class="hs-has-mega-menu nav-item">
-       <a class="{% if forloop.last %}btn btn-light btn-transition{% else%}nav-link{% endif %}" aria-current="page" href="{{item.url}}">{{item.menu_name}}</a>
+       <a class="{% if forloop.last %}btn btn-light btn-transition{% else%}nav-link{% endif %} text-uppercase" aria-current="page" href="{{item.url}}">{{item.menu_name}}</a>
       </li>
       {% endfor %}
    </ul>
