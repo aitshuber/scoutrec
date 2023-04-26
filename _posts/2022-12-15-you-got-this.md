@@ -8,7 +8,7 @@ keywords: >-
 short_description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-date: 2023-04-26 21:07:00
+date: 2023-04-25 21:07:00
 categories:
   - newsletter
 image: /assets/img/400x500/img5.jpg
