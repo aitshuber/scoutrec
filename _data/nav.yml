@@ -2,8 +2,8 @@
   url: /listings
 - menu_name: About Us
   url: /commercial-real-partners
-- menu_name: BLOG
-  url: /blog
+- menu_name: ARTICLES
+  url: /articles
 - menu_name: SERVICES
   url: /services
 - menu_name: CONTACT US
