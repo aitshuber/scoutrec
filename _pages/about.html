@@ -1,19 +1,13 @@
 ---
-layout: default
+layout: sub-page
 title: Commercial Real Estate Services
 description: Test description
 keywords:
-page_banner:
-    banner_title: Your Commercial Real Estate Partners
-    sub_text: BROKERAGE | MANAGEMENT | CONSULTING
-    button_link:
-    button_text: SEARCH LISTINGS
-    background_image: ../assets/img/SCOUT-DOWNTOWN-VIEW.jpg
 history_image: /uploads/img-3814.jpg
 permalink: /commercial-real-partners
 ---
 <!-- Our History -->
-<div class="d-md-flex d-none gradient-x-overlay-sm-dark bg-img-start" style="background-image: url('{{page.history_image}}'); min-height: 15rem;">
+<div class="d-md-flex d-none gradient-x-overlay-sm-dark bg-img-start mt-10" style="background-image: url('{{page.history_image}}'); min-height: 15rem;">
     <div class="container blackscreen">
         <!-- Heading -->
         <div class="mb-7">
@@ -66,14 +60,47 @@ permalink: /commercial-real-partners
 </div>
 
 <!-- Meet our Team -->
-<div id="ourteam" class="container content-space-lg-0 align-items-center">
-    <div class="row py-md-8">
-    <div class="w-md-75 w-lg-75 text-center mx-md-auto mb-5 mb-md-9">
-
-        <h2 class="h1 editable">Meet the Scout Team</h2>
+<div id="ourteam" class="container content-space-lg-0 align-items-center mt-10 pt-10 mt-md-0">
+    <div class="row pt-md-8">
+   <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+       <span class="d-block small font-weight-bold text-cap mb-2">Our Team Of</span>
+       <h2>Trusted Commercial Real Estate Professionals</h2>
+     </div>
+    </div>
+    <div class="row pb-md-8">
+        {% for post in site.data.broker %}
+        <div class="col-sm-6 col-6 col-md-3 mb-5 mb-lg-3">
+          <!-- Team -->
+          <img class="card-img rounded-2 team-img" src="{{ post.image }}" alt="{{ post.name }}">
+          <div class="card card-sm text-center mt-n7 mx-3">
+            <div class="card-body py-1">
+              <h4 class="card-title mb-0">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}</h4>
+              <p class="card-text fs-6 mb-2">{{ post.title }}</p>
+              <ul class="list-inline mb-3">
+                  <li class="list-inline-item">
+                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#" data-bs-toggle="tooltip" data-bs-html="true" title="Phone">
+                      <i class="bi-phone" style="margin-left: 15% !important"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#" data-bs-toggle="tooltip" data-bs-html="true" title="Email">
+                      <i class="bi-envelope" style="margin-left: 15% !important"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#" data-bs-toggle="tooltip" data-bs-html="true" title="Listings">
+                      <i class="bi-card-list" style="margin-left: 15% !important"></i>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <!-- End Team -->
+        </div>
+        {% endfor %}
     </div>
     <!-- End Heading -->
-    <div class="alignments">
+    <div class="alignments d-none">
         <div class="row gx-3 mb-0 mb-md-9 align-items-center justify-content-center">
             {% for post in site.data.broker %}
             <div class="col-6 col-sm-6 col-lg-3 mb-sm-3 mb-0 mb-lg-4 align-items-center team">
