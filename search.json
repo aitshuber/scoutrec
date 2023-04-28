@@ -1,15 +1,25 @@
 ---
----
+--- 
 [
-  {% for item in properties %}
-  {
-  
-	"address"    : "{{ properties.address | escape }}",
-	"city"      : "{{ properties.city }}",
-	"state" : "{{ properties.state }}",
-	"listingID"     : "{{ properties.listingID }}",
-	"status"     : "{{ properties.status }}"
-  
-  } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+	{% for item in site.properties %} {
+		"title": "{{ item.address | escape }}",
+		"address": "{{ item.address | escape }}",
+		"city": "{{ item.city }}",
+		"state": "{{ item.state }}",
+		"listingID": "{{ item.listingID }}",
+		"status": "{{ item.status }}",
+		"price": "{{ item.price | strip_html | strip_newlines | escape }}",
+		"Acres": "{{ item.Acres }}",
+		"SqFt": "{{ item.SqFt }}",
+		"property-type": "{{ item.property-type }}",
+		"property-subtype": "{{ item.property-subtype }}",
+		"zoning": "{{ item.zoning }}",
+		"year-built": "{{ item.year-built }}",
+		"lot-size": "{{ item.lot-size }}",
+		"parking": "{{ item.parking }}",
+		"agent": "{{ item.agent }}",
+		"building-features": "{{ item.building-features }}",
+		"cooling": "{{ item.cooling }}",
+		"heating": "{{ item.heating }}"
+	} {% unless forloop.last %}, {% endunless %} {% endfor %}
 ]

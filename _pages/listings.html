@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: sub-page
 permalink: /commerical-listings
 ---
  <!-- Hero -->
-<div class="position-relative overflow-hidden">
+<div class="position-relative overflow-hidden pt-10 mt-5">
   <div class="container">
     <div class="position-relative content-space-t-3 content-space-t-md-0 content-space-t-lg-3 content-space-b-2 content-space-b-md-3 content-space-b-xl-3">
       <div class="row position-relative zi-2 mt-md-n5">
@@ -24,7 +24,7 @@ permalink: /commerical-listings
           </div>
           <!-- End Heading -->
 
-          <form>
+          <form action="/search" method="get">
             <!-- Input Card -->
             <div class="input-card">
               <div class="input-card-form">
@@ -33,10 +33,19 @@ permalink: /commerical-listings
                   <span class="input-group-prepend input-group-text">
                     <i class="bi-search"></i>
                   </span>
-                  <input type="text" class="form-control form-control-lg" id="searchLocationForm" placeholder="Enter location" aria-label="Enter location">
+                  <input type="text" class="form-control form-control-lg" id="search-input" name="query" placeholder="Enter location" aria-label="Enter location">
                 </div>
               </div>
+              <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
               <button type="button" class="btn btn-primary btn-lg btn-light btn-wide rounded-0">Search</button>
+              <script>
+                document.getElementById('search-input').addEventListener('keypress', function(e) {
+                  if (e.keyCode === 13) {
+                    document.getElementById('search-input').submit();
+                  }
+                });
+              </script>
+              
             </div>
             <!-- End Input Card -->
           </form>
