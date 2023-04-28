@@ -80,7 +80,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -17778,7 +17780,7 @@ fieldset:disabled .btn {
 
 /*----------------------------------------------------------------------
   * Front - Responsive Website Template version v4.0.0
-  * Copyright 2021 Htmlstream
+  * Copyright 2021 
   * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
 ------------------------------------------------------------------------*/
 /*------------------------------------

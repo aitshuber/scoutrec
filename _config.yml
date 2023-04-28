@@ -13,6 +13,10 @@ subtitle: ""
 plugins:
   - jekyll-feed
 permalink: /:title
+algolia:
+  application_id: 'SZ1NFM42A3'
+  index_name: 'scout'
+  search_only_api_key: 'c7f2201fd5f842587c801eb1a87e88a2'
 defaults:
 -scope:
   path: ""
@@ -73,6 +77,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-algolia
+  - jekyll-algolia
 # Excluded items can be processed by explicitly listing the directories or
 #
 # exclude:

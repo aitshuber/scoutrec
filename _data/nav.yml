@@ -1,10 +1,10 @@
 - menu_name: SEARCH LISTINGS
-  url: /listings
+  url: /commerical-listings
 - menu_name: About Us
   url: /commercial-real-partners
 - menu_name: ARTICLES
-  url: /articles
+  url: /real-estate-articles
 - menu_name: SERVICES
-  url: /services
+  url: /commercial-real-estate-services
 - menu_name: CONTACT US
   url: /#contact

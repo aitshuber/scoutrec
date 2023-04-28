@@ -78,54 +78,28 @@ permalink: /commercial-real-partners
               <p class="card-text fs-6 mb-2">{{ post.title }}</p>
               <ul class="list-inline mb-3">
                   <li class="list-inline-item">
-                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#" data-bs-toggle="tooltip" data-bs-html="true" title="Phone">
+                    <a class="btn btn-outline-primary btn-xs btn-icon phone" href="{{ post.phone }}" data-bs-toggle="tooltip" data-bs-html="true" title="Phone">
                       <i class="bi-phone" style="margin-left: 15% !important"></i>
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#" data-bs-toggle="tooltip" data-bs-html="true" title="Email">
+                    <a class="btn btn-outline-primary btn-xs btn-icon" href="mailto:{{ post.email }}" data-bs-toggle="tooltip" data-bs-html="true" title="Email">
                       <i class="bi-envelope" style="margin-left: 15% !important"></i>
                     </a>
                   </li>
+                  {% if post.listing-link %}
                   <li class="list-inline-item">
-                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#" data-bs-toggle="tooltip" data-bs-html="true" title="Listings">
+                    <a class="btn btn-outline-primary btn-xs btn-icon" href="{{ post.listing-link }}" data-bs-toggle="tooltip" data-bs-html="true" title="Listings">
                       <i class="bi-card-list" style="margin-left: 15% !important"></i>
                     </a>
                   </li>
+                  {% endif %}
                 </ul>
             </div>
           </div>
           <!-- End Team -->
         </div>
         {% endfor %}
-    </div>
-    <!-- End Heading -->
-    <div class="alignments d-none">
-        <div class="row gx-3 mb-0 mb-md-9 align-items-center justify-content-center">
-            {% for post in site.data.broker %}
-            <div class="col-6 col-sm-6 col-lg-3 mb-sm-3 mb-0 mb-lg-4 align-items-center team">
-                <!-- Card -->
-                <div class="card card-transition h-100 shadow-none">
-                    <img class="card-img-top" src="{{ post.image }}" alt="{{ post.name }}" />
-                    <div class="card-body align-items-center p-2">
-                        <h2 class="fs-4 text-dark text-center">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}<br /><span class="title">{{ post.title }}</span></h2>
-                        <h5 class="card-text lh-base text-center fw-normal pb-md-2 pb-0"><i class="fa fa-phone bg-transparent fs-6 d-none d-md-inline" aria-hidden="true"></i> {{ post.phone }}<br /><i class="fa fa-envelope bg-transparent fs-6 d-none d-md-inline" aria-hidden="true"></i> <a href="mailto:{{ post.email }}">{{ post.email }}</a></h5>
-                    <div class="card-footer text-center p-md-2 p-1">
-                        {% if post.listing-link %}
-                         <div>
-                            <a href="{{post.listing-link}}" class="btn btn-dark py-1 px-4 mx-auto">LISTINGS</a>
-                        </div>
-                        {% else %}
-                       <div class="py-3 {% if forloop.last %}d-none d-md-block{% endif %}"></div>
-                        {% endif %}
-                    </div>
-                    </div>
-                </div>
-                <!-- End Card -->
-            </div>
-            <!-- End Col -->
-            {% endfor %}
-        </div>
     </div>
     <!-- End Row -->
     </div>
