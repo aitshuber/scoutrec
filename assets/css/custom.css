@@ -44,3 +44,9 @@
 .banner-content{
 	min-height: 40rem;
 }
+.card-pinned-top-start#true{
+	visibility: visible;
+}
+.card-pinned-top-start#false{
+	visibility: hidden;
+}

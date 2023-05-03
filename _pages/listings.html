@@ -24,30 +24,32 @@ permalink: /commerical-listings
           </div>
           <!-- End Heading -->
 
-          <form action="/search" method="get">
+          <form action="/search">
             <!-- Input Card -->
             <div class="input-card">
               <div class="input-card-form">
                 <label for="searchLocationForm" class="form-label visually-hidden">Search location</label>
+                <div id="search-container">
                 <div class="input-group input-group-merge">
                   <span class="input-group-prepend input-group-text">
                     <i class="bi-search"></i>
                   </span>
-                  <input type="text" class="form-control form-control-lg" id="search-input" name="query" placeholder="Enter location" aria-label="Enter location">
+                  
+                  <input type="text" class="form-control form-control-lg" id="search" value name="q" placeholder="Enter location" aria-label="Enter location">
+                </div>
                 </div>
               </div>
-              <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-              <button type="button" class="btn btn-primary btn-lg btn-light btn-wide rounded-0">Search</button>
-              <script>
-                document.getElementById('search-input').addEventListener('keypress', function(e) {
-                  if (e.keyCode === 13) {
-                    document.getElementById('search-input').submit();
-                  }
-                });
-              </script>
-              
+              <input type="submit" value="search" class="btn btn-primary btn-lg btn-light btn-wide rounded-0">
             </div>
             <!-- End Input Card -->
+            <script src="../assets/js/search-script.js" type="text/javascript"></script>
+            <script>
+            SimpleJekyllSearch({
+              searchInput: document.getElementById('search'),
+              resultsContainer: document.getElementById('results-container'),
+              json: '/search.json'
+            })
+            </script>
           </form>
         </div>
         <!-- End Col -->
@@ -99,7 +101,6 @@ permalink: /commerical-listings
           <div class="card-pinned-top-start">
             <span class="badge bg-primary">Featured</span>
           </div>
-       
         </a>
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">

@@ -8,7 +8,7 @@ image:
     - image_file: "/assets/img/property/102bercegeay.jpeg"
     - image_file: "/assets/img/property/102bercegeay.jpeg"
 image-1: "/assets/img/property/102bercegeay.jpeg"
-address: 102 Bercegeay Road
+address: 314 New Road
 city: Broussard
 state: LA
 parish: Cameron

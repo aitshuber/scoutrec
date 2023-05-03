@@ -77,8 +77,8 @@ permalink: /commercial-real-partners
               <h4 class="card-title mb-0">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}</h4>
               <p class="card-text fs-6 mb-2">{{ post.title }}</p>
               <ul class="list-inline mb-3">
-                  <li class="list-inline-item">
-                    <a class="btn btn-outline-primary btn-xs btn-icon phone" href="{{ post.phone }}" data-bs-toggle="tooltip" data-bs-html="true" title="Phone">
+                  <li class="list-inline-item" data-bs-toggle="tooltip" data-bs-html="true" title="{{ post.phone }}">
+                    <a class="btn btn-outline-primary btn-xs btn-icon phone" href="tel:{{ post.phone }}">
                       <i class="bi-phone" style="margin-left: 15% !important"></i>
                     </a>
                   </li>

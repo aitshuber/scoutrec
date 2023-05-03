@@ -18,8 +18,8 @@ price: "4,353,846"
 Acres: 6.340
 SqFt: "55,520"
 Price-SqFt: 78.42
-property-type: Land
-property-subtype: Commercial
+property-type: Commercial Sale
+property-subtype: Industrial
 zoning: Agriculture
 year-built: 2020
 lot-size: 6.34

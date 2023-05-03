@@ -1,25 +1,29 @@
 ---
 --- 
 [
-	{% for item in site.properties %} {
-		"title": "{{ item.address | escape }}",
-		"address": "{{ item.address | escape }}",
-		"city": "{{ item.city }}",
-		"state": "{{ item.state }}",
-		"listingID": "{{ item.listingID }}",
-		"status": "{{ item.status }}",
-		"price": "{{ item.price | strip_html | strip_newlines | escape }}",
-		"Acres": "{{ item.Acres }}",
-		"SqFt": "{{ item.SqFt }}",
-		"property-type": "{{ item.property-type }}",
-		"property-subtype": "{{ item.property-subtype }}",
-		"zoning": "{{ item.zoning }}",
-		"year-built": "{{ item.year-built }}",
-		"lot-size": "{{ item.lot-size }}",
-		"parking": "{{ item.parking }}",
-		"agent": "{{ item.agent }}",
-		"building-features": "{{ item.building-features }}",
-		"cooling": "{{ item.cooling }}",
-		"heating": "{{ item.heating }}"
-	} {% unless forloop.last %}, {% endunless %} {% endfor %}
+{% for item in site.properties %} 
+   {
+	"url": "{{ item.url | escape }}",
+	"address": "{{ item.address | escape }}",
+	"city": "{{ item.city | strip_html | strip_newlines | escape }}",
+	"image": "{% for img in item.image[0] limit: 1 %}{{ img[1] }}{% endfor %}",
+	"state": "{{ item.state | strip_html | strip_newlines | escape }}",
+	"listingID": "{{ item.listingID | strip_html | strip_newlines | escape }}",
+	"featured": "{{ item.featured | strip_html | strip_newlines | escape }}",
+	"status": "{{ item.status | strip_html | strip_newlines | escape}}",
+	"price": "{{ item.price | strip_html | strip_newlines | escape }}",
+	"Acres": "{{ item.Acres | strip_html | strip_newlines | escape }}",
+	"SqFt": "{{ item.SqFt | strip_html | strip_newlines | escape }}",
+	"property-type": "{{ item.property-type | strip_html | strip_newlines | escape }}",
+	"property-subtype": "{{ item.property-subtype | strip_html | strip_newlines | escape }}",
+	"zoning": "{{ item.zoning | strip_html | strip_newlines | escape }}",
+	"year-built": "{{ item.year-built | strip_html | strip_newlines | escape }}",
+	"lot-size": "{{ item.lot-size | strip_html | strip_newlines | escape }}",
+	"parking": "{{ item.parking | strip_html | strip_newlines | escape }}",
+	"agent": "{{ item.agent | strip_html | strip_newlines | escape }}",
+	"building-features": "{{ item.building-features | strip_html | strip_newlines | escape }}",
+	"cooling": "{{ item.cooling | strip_html | strip_newlines | escape }}",
+	"heating": "{{ item.heating | strip_html | strip_newlines | escape }}"
+    } {% unless forloop.last %}, {% endunless %} 
+{% endfor %}
 ]
