@@ -9668,7 +9668,9 @@ fieldset:disabled .btn {
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
-
+@media (min-width: 768px) {
+  .fs-md-3{font-size: calc(1.125rem) !important;}
+}
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -9690,7 +9692,7 @@ fieldset:disabled .btn {
 }
 
 .fs-6 {
-  font-size: 0.875rem !important;
+  font-size: 0.875rem;
 }
 
 .fst-italic {

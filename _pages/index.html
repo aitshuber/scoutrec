@@ -11,6 +11,7 @@ page_banner:
     button_text: SEARCH LISTINGS
     background_image: ../assets/img/SCOUT-DOWNTOWN-VIEW.jpg
 background_image_2: /uploads/my-project.jpg
+services_image: ./assets/img/900x900/img22.jpg
 permalink: /
 ---
 <div class="position-relative my-10">
@@ -83,7 +84,7 @@ permalink: /
 <div class="position-relative space-2">
   <div class="container content-space-lg-3">
     <div class="row align-items-center">
-      <div class="col-12 col-lg-9 mb-7 mb-md-0">
+      <div class="col-12 col-lg-9 mb-7 mb-md-0 editable">
         <!-- Heading -->
         <div class="w-md-65 mb-7">
           <h2 class="h1">Scout helps you make better commercial property decisions</h2>
@@ -95,7 +96,7 @@ permalink: /
           <div class="col-md-4 mb-3 mb-md-0">
             <!-- Card -->
             <div class="card h-100">
-              <div class="card-body py-2 py-md-4">
+              <div class="card-body py-2 py-md-4 editable">
                 <span class="svg-icon text-primary mb-3">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z" fill="#035A4B"></path>
@@ -115,7 +116,7 @@ permalink: /
           <div class="col-md-4 mb-3 mb-md-0">
             <!-- Card -->
             <div class="card h-100">
-              <div class="card-body py-2 py-md-4">
+              <div class="card-body py-2 py-md-4 editable">
                 <span class="svg-icon text-primary mb-3">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21.7 18.9L18.6 15.8C17.9 16.9 16.9 17.9 15.8 18.6L18.9 21.7C19.3 22.1 19.9 22.1 20.3 21.7L21.7 20.3C22.1 19.9 22.1 19.3 21.7 18.9Z" fill="#035A4B"></path>
@@ -143,9 +144,9 @@ permalink: /
                   </svg>
 
                 </span>
-                <h4 class="card-title">Mange properties</h4>
-                <p class="card-text">Maximize your investment with Scout Propery management</p>
-                <a class="card-link" href="/commercial-real-estate-services/#">Manage properties <i class="fas bi-chevron-right small ms-1"></i></a>
+                <h4 class="card-title editable">Mange properties</h4>
+                <p class="card-text editable">Maximize your investment with Scout Propery management</p>
+                <a class="card-link editable" href="/commercial-real-estate-services/#">Manage properties <i class="fas bi-chevron-right small ms-1"></i></a>
               </div>
             </div>
             <!-- End Card -->
@@ -159,10 +160,10 @@ permalink: /
     <!-- End Row -->
   </div>
 
-  <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url(../assets/img/900x900/img22.jpg);"></div>
+  <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url({{services_image}});"></div>
 </div>
 <!-- Blog Section -->
-<div class="position-relative my-md-4 mb-3 d-md-block d-none">
+<div class="position-relative my-md-4 mb-3 d-md-block">
     <div class="container">
         <div class="row justify-content-end align-items-md-center">
             <div class="col-md-12 text-center">
@@ -184,7 +185,7 @@ permalink: /
               {% for post in site.posts limit: 3 %}
               <div class="order-lg-{{forloop.index0}} col-12 col-lg-4 mb-3 mb-sm-7">
                 <!-- Card -->
-                <a class="card rounded-0 card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="{{ post.url }}" style="background-image: url('{{ post.image }}'); max-height: 20rem;">
+                <a class="card rounded-0 card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="{{ post.url }}" style="background-image: url('{{ post.image }}'); max-height: 25rem;">
                   <div class="card-body">
                     <div class="mb-1"><span class="card-subtitle text-white">{{post.date | date: '%B %d, %Y'}}</span></div>
                     <h3 class="card-title text-white" style="min-height:5em;">{{ post.title }}</h3>

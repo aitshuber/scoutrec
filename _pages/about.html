@@ -71,10 +71,10 @@ permalink: /commercial-real-partners
         {% for post in site.data.broker %}
         <div class="col-sm-6 col-6 col-md-3 mb-5 mb-lg-3">
           <!-- Team -->
-          <img class="card-img rounded-2 team-img" src="{{ post.image }}" alt="{{ post.name }}">
-          <div class="card card-sm text-center mt-n7 mx-3">
+          <img class="card-img rounded-0 team-img" src="{{ post.image }}" alt="{{ post.name }}">
+          <div class="card card-sm text-center mt-md-n7 mt-n5 m mx-3">
             <div class="card-body py-1">
-              <h4 class="card-title mb-0">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}</h4>
+              <h4 class="card-title mb-0 fs-6 fs-md-3">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}</h4>
               <p class="card-text fs-6 mb-2">{{ post.title }}</p>
               <ul class="list-inline mb-3">
                   <li class="list-inline-item" data-bs-toggle="tooltip" data-bs-html="true" title="{{ post.phone }}">
