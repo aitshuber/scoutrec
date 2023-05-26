@@ -78,7 +78,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-algolia
-  - jekyll-algolia
 # Excluded items can be processed by explicitly listing the directories or
 #
 # exclude:
