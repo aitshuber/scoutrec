@@ -9,12 +9,12 @@ Addresses:
     city-state-zip: Lafayette, LA 70505
 logo_image: /assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png
 social:
-  - name: instagram
+  - name: Instagram
     link: https://instagram.com/scoutrealestateco
-    icon: instagram
-  - name: facebook
+    icon: Instagram
+  - name: Facebook
     link: https://facebook.com/scoutrealestateco
-    icon: facebook
-  - name: facebook
-    link: https://www.linkedin.com/company/scout-real-estate-co/
-    icon: linkedin
+    icon: Facebook
+  - name: Youtube
+    link: https://www.youtube.com/channel/UCnEJTuCvF082zAAjpeasQIA
+    icon: Youtube
