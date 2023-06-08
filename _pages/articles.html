@@ -12,35 +12,8 @@ permalink: /real-estate-articles
     <h1>Scouting Lafayette</h1>
     <h2 class="h6">Your hub for south Louisiana commercial real estate</h2>
   </div>
-  {% for post in site.posts %}
-  {% if forloop.first %}
-  <div class="col-12 mb-3 mb-sm-7">
-    <!-- Card -->
-    <div class="card card-flush border-0">
-      <div class="row align-items-md-center">
-        <div class="col-md-8">
-          <img class="card-img rounded-0" src="{{ post.image }}" alt="Image Description" />
-        </div>
-        <!-- End Col -->
-        <div class="col-md-4">
-          <div class="card-body">
-            <span class="card-subtitle">{{post.date | date: '%B %d, %Y'}}</span>
-            <h2 class="card-title"><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="card-text fw-normal fs-8">{{ post.short_description | truncatewords: 20 | strip_html }}</p>
-            <a class="card-link fs-4" href="{{ post.url }}">Read more <i class="bi-chevron-right small ms-1"></i></a>
-          </div>
-        </div>
-        <!-- End Col -->
-      </div>
-      <!-- End Row -->
-    </div>
-    <!-- End Card -->
-  </div>
-  <!-- Card -->
-  <!-- End Card -->
-  {% endif %}
-  {% endfor %}
-    {% for post in site.posts offset: 1 %}
+
+    {% for post in site.posts %}
     <div class="order-lg-{{forloop.index0}} col-sm-6 col-lg-4 mb-3 mb-sm-7">
       <!-- Card -->
       <a class="card rounded-0 card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="{{ post.url }}" style="background-image: url('{{ post.image }}'); min-height: 25rem;">

@@ -50,3 +50,6 @@
 .card-pinned-top-start#false{
 	visibility: hidden;
 }
+.background-center-right{
+	background-position: 90% !important;
+}

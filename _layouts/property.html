@@ -374,7 +374,25 @@
                 <!-- End Col -->
               </div>
               <!-- Gmap -->
-              {{page.map}}
+              <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="height:auto; width: 100%;min-height:450px"></iframe>
+              <script>
+              function embedMap(address) {
+                // URL Encode the address
+                var encodedAddress = encodeURIComponent(address);
+              
+                // Create the Google Maps embed URL
+                var googleMapsUrl = "https://maps.google.com/maps?q=" + encodedAddress + "&t=&z=14&ie=UTF8&iwloc=&output=embed";
+              
+                // Update the src of the iframe
+                document.getElementById('gmap_canvas').src = googleMapsUrl;
+              }
+              
+              // Call the function with the desired address when the window loads
+              window.onload = function() {
+                embedMap('{{page.address}},{{page.city}}');
+              }
+              </script>
+              
               <!-- End Gmap -->
             </div>
             <div class="tab-pane fade" id="propertyOverviewNavFour" role="tabpanel"
