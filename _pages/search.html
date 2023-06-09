@@ -37,7 +37,7 @@ permalink: /search
                     <i class="bi-search"></i>
                   </span>
                   
-                  <input class="form-control form-control-lg" placeholder="Enter Search" value="" name="q" id="search" type="text">
+                  <input class="form-control form-control-lg" placeholder="Enter keyword" value="" name="q" id="search" type="text">
                  
                 </div>
                 </div>
@@ -98,7 +98,7 @@ permalink: /search
         </a>
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">
-          <span class="card-subtitle text-body">{{property.property-subtype}}</span>
+          <span class="card-subtitle text-body">Status: <b>{{property.status}}</b></span>
   
           <div class="row align-items-center mb-3">
             <div class="col">
@@ -117,7 +117,7 @@ permalink: /search
            
             <li class="list-inline-item">
             <i class="fa-regular fa-buildings"></i>
-              Commercial
+             {{property.property-subtype}}
             </li>
             <li class="list-inline-item">
               <i class="bi-rulers text-muted me-1"></i> {{property.SqFt}} sqft
@@ -141,7 +141,7 @@ permalink: /search
         </a>
         <!-- Body -->
         <a class="card-body" href="{{property.url}}">
-          <span class="card-subtitle text-body">{{property.property-subtype}}</span>
+          <span class="card-subtitle text-body">Status: <b>{{property.status}}</b></span>
     
           <div class="row align-items-center mb-3">
             <div class="col">
@@ -157,14 +157,23 @@ permalink: /search
           <!-- End Row -->
     
           <ul class="list-inline list-separator text-body small">
-           
+           {% if property.property-type == Land %}
+           <li class="list-inline-item">
+           <i class="fa-regular fa-expand-wide"></i>
+            {{property.property-type}}
+           </li>
+           <li class="list-inline-item">
+             <i class="bi-rulers text-muted me-1"></i> {{property.SqFt}} sqft
+           </li>
+           {% else %}
             <li class="list-inline-item">
             <i class="fa-regular fa-buildings"></i>
-              Commercial
+             {{property.property-type}}
             </li>
             <li class="list-inline-item">
               <i class="bi-rulers text-muted me-1"></i> {{property.SqFt}} sqft
             </li>
+            {% endif %}
           </ul>
         </a>
         <!-- End Body -->
