@@ -4,6 +4,7 @@ name: Louisiana Commercial Database, LLC
 image: 
     - image_file: "https://files.catylist.com/files/property/7040000/7041280/28040809_Aerial___200_Blk_E_Farrel___Jeff.jpg"
     - image_file: "https://files.catylist.com/files/property/7040000/7041280/28141687_Screenshot_2023_04_05_at_9.46.57_AM.png"
+image-1:
 address: 200 E Farrel Rd
 city: Lafayette
 state: LA
