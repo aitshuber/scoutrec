@@ -7,7 +7,7 @@ image:
             https://www.investopedia.com/thmb/bfHtdFUQrl7jJ_z-utfh8w1TMNA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/houses_and_land-5bfc3326c9e77c0051812eb3.jpg
     -
         image_file:
-image-1: /uploads/background-image.png
+image-1: /uploads/6dd28e9b.jpeg
 address: 200 E Farrel Rd
 city: Lafayette
 state: LA
