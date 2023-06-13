@@ -1,29 +1,31 @@
 ---
 layout: property
 name: Louisiana Commercial Database, LLC
-image: 
-    - image_file:
-    - image_file:
-image-1:
+image:
+    -
+        image_file:
+    -
+        image_file:
+image-1: /uploads/background-image.png
 address: 200 E Farrel Rd
 city: Lafayette
 state: LA
 parish: Lafayette
 listingID: 30829714
 status: Active
-price: "1,200,000"
+price: 1,200,000
 Acres: 3.99 Acres
-SqFt: "5"
+SqFt: '5'
 Price-SqFt: 78.42
 property-type: Land
 property-subtype: Commercial
 zoning: CM-1
 year-built: 3
 lot-size: 3
-parking: -9090909.0
+parking: -9090909
 agent: Jeff Landry
 agent-phone: 337-443-0880
-featured: 3 
+featured: 3
 directions: 3
 building-features: 3
 cooling: 2
@@ -49,7 +51,8 @@ wooded-percent: 324
 last-updated: 5/14/2023
 plans:
 files:
-    - file_name:
-      file:
+    -
+        file_name:
+        file:
 ---
 4 acres of commercial land for sale of off E Farrel Drive near the intersection of heavily- trafficked Kaliste Saloom Rd and Ambassador Caffery. Suitable for general business and or medical offices or a high-density multifamily development.
