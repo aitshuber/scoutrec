@@ -23,7 +23,7 @@ property-subtype: Commercial
 zoning: CM-1
 year-built: 3
 lot-size: 3
-parking: -9090909
+parking: "-9090909"
 agent: Jeff Landry
 agent-phone: 337-443-0880
 featured: 3
@@ -49,7 +49,7 @@ road-surface-type: 32
 roof: te3st
 water-source: 324
 wooded-percent: 324
-last-updated: 5/14/2023
+last-updated: 5-14-2023
 plans:
 files:
     - file_name:
