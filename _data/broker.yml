@@ -42,7 +42,8 @@
   image: assets/img/500x280/JCD22941-1638x2048.jpg
   phone: 225-235-5755
   email: diana@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=335422
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=335422&search=true
 - name: Teddy Beaullieu
   accreditation:
   title: Agent
@@ -91,7 +92,8 @@
     assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
   phone: 337-501-5724
   email: jacob@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12866443&search=true
 - name: Amy Gautreaux
   accreditation:
   title: Agent
