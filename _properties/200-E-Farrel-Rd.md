@@ -14,7 +14,7 @@ state: LA
 parish: Lafayette
 listingID: 30829714
 status: Active
-price: "1,200,000"
+price: 1,200,000
 Acres: 3.99 Acres
 SqFt: 5
 Price-SqFt: 78.42
@@ -23,7 +23,7 @@ property-subtype: Commercial
 zoning: CM-1
 year-built: 3
 lot-size: 3
-parking: "-9090909"
+parking: 
 agent: Jeff Landry
 agent-phone: 337-443-0880
 featured: 3
@@ -34,7 +34,7 @@ heating: 1
 living-area: 3
 living-area-source: 3
 living-area-units: Acre
-stories: "-9090909"
+stories: 
 construction-materials: 4
 door-features: 6
 electric: 3
