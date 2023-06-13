@@ -52,8 +52,7 @@ wooded-percent: 324
 last-updated: 5/14/2023
 plans:
 files:
-    -
-        file_name:
-        file:
+    - file_name:
+      file:
 ---
 4 acres of commercial land for sale of off E Farrel Drive near the intersection of heavily- trafficked Kaliste Saloom Rd and Ambassador Caffery. Suitable for general business and or medical offices or a high-density multifamily development.
