@@ -70,6 +70,21 @@
   phone: 337-501-5724
   email: jacob@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
+- name: Amy Gautreaux
+  accreditation:
+  title: Agent
+  image: /uploads/amy-geautreaux.jpeg
+  phone: 337-319-4069
+  email: amy@scoutrec.com
+  listing-link:
+- name: Paul Bako
+  accreditation:
+  title: Agent
+  image: ''
+  phone: 337-781-3596
+  email: paul@scoutrec.com
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12198303&search=true
 - name: Kendra McKinney
   accreditation:
   title: Office Manager
