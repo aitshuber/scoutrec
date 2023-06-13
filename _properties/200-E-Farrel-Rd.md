@@ -14,9 +14,9 @@ state: LA
 parish: Lafayette
 listingID: 30829714
 status: Active
-price: 1,200,000
+price: "1,200,000"
 Acres: 3.99 Acres
-SqFt: '5'
+SqFt: 5
 Price-SqFt: 78.42
 property-type: Land
 property-subtype: Commercial
@@ -49,7 +49,7 @@ road-surface-type: 32
 roof: te3st
 water-source: 324
 wooded-percent: 324
-last-updated: 5-14-2023
+last-updated: 
 plans:
 files:
     - file_name:
