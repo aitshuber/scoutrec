@@ -1,6 +1,6 @@
 ---
 layout: property
-name: Louisiana Commercial Database, LLC
+name: 200 E Farrel Rd
 image:
     -
         image_file: >-
