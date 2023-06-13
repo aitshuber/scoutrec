@@ -34,7 +34,7 @@ heating: 1
 living-area: 3
 living-area-source: 3
 living-area-units: Acre
-stories: -9090909
+stories: "-9090909"
 construction-materials: 4
 door-features: 6
 electric: 3
