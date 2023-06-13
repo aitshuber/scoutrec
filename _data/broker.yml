@@ -43,30 +43,6 @@
   phone: 225-235-5755
   email: diana@scoutrec.com
   listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=335422
-- name: Eric Schexnayder
-  accreditation:
-  title: Agent
-  image: assets/img/500x280/SCHEXNAYDER-ERIC-1024x1024.png
-  phone: 337-280-3476
-  email: eric@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12648279&search=true
-- name: Braxton Higginbotham
-  accreditation:
-  title: Agent
-  image: assets/img/500x280/HIGGINBOTHAM-BRAXTON-1024x1024.png
-  phone: 337-501-6457
-  email: braxton@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12869741&search=true
-- name: Ross Torian
-  accreditation:
-  title: Agent
-  image: /uploads/img-5877-jpg.jpg
-  phone: 337-322-1108
-  email: ross@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12823844&search=true
 - name: Teddy Beaullieu
   accreditation:
   title: Agent
@@ -76,14 +52,6 @@
   email: teddy@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12682916&search=true
-- name: Jacob Anderson
-  accreditation:
-  title: Agent
-  image: >-
-    assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
-  phone: 337-501-5724
-  email: jacob@scoutrec.com
-  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
 - name: Paul Bako
   accreditation:
   title: Agent
@@ -92,6 +60,38 @@
   email: paul@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12198303&search=true
+- name: Eric Schexnayder
+  accreditation:
+  title: Agent
+  image: assets/img/500x280/SCHEXNAYDER-ERIC-1024x1024.png
+  phone: 337-280-3476
+  email: eric@scoutrec.com
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12648279&search=true
+- name: Ross Torian
+  accreditation:
+  title: Agent
+  image: /uploads/img-5877-jpg.jpg
+  phone: 337-322-1108
+  email: ross@scoutrec.com
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12823844&search=true
+- name: Braxton Higginbotham
+  accreditation:
+  title: Agent
+  image: assets/img/500x280/HIGGINBOTHAM-BRAXTON-1024x1024.png
+  phone: 337-501-6457
+  email: braxton@scoutrec.com
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12869741&search=true
+- name: Jacob Anderson
+  accreditation:
+  title: Agent
+  image: >-
+    assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
+  phone: 337-501-5724
+  email: jacob@scoutrec.com
+  listing-link: https://www.lacdb.com/jsp/agents/agent_overview.jsp?agentID=12866443
 - name: Amy Gautreaux
   accreditation:
   title: Agent
