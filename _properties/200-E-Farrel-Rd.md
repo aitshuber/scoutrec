@@ -2,11 +2,11 @@
 layout: property
 name: 200 E Farrel Rd
 image:
-    -
-        image_file: >-
-            https://www.investopedia.com/thmb/bfHtdFUQrl7jJ_z-utfh8w1TMNA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/houses_and_land-5bfc3326c9e77c0051812eb3.jpg
-    -
-        image_file:
+    - image_file: "/assets/img/property/102bercegeay.jpeg"
+    - image_file: "/assets/img/1920x1080/img20.jpg"
+    - image_file: "/assets/img/1920x1080/img10.jpg"
+    - image_file: "/assets/img/property/102bercegeay.jpeg"
+    - image_file: "/assets/img/property/102bercegeay.jpeg"
 image-1: /uploads/6dd28e9b.jpeg
 address: 200 E Farrel Rd
 city: Lafayette
