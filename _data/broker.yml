@@ -14,6 +14,20 @@
   email: rex@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12098090&search=true
+- name: Kendra McKinney
+  accreditation:
+  title: Office Manager
+  image: assets/img/500x280/MCKINNEY-KENDRA-1022x1024.png
+  phone: 337-303-6820
+  email: kendra@scoutrec.com
+  listing-link:
+- name: Hannah Gotreaux
+  accreditation:
+  title: Administrative Assistant
+  image: /uploads/img-4691.jpeg
+  phone: 337-443-0880
+  email: hannah@scoutrec.com
+  listing-link:
 - name: Tim Skinner
   accreditation: CCIM
   title: Agent
@@ -84,20 +98,6 @@
   image: /uploads/amy-geautreaux.jpeg
   phone: 337-319-4069
   email: amy@scoutrec.com
-  listing-link:
-- name: Kendra McKinney
-  accreditation:
-  title: Office Manager
-  image: assets/img/500x280/MCKINNEY-KENDRA-1022x1024.png
-  phone: 337-303-6820
-  email: kendra@scoutrec.com
-  listing-link:
-- name: Hannah Gotreaux
-  accreditation:
-  title: Administrative Assistant
-  image: /uploads/img-4691.jpeg
-  phone: 337-443-0880
-  email: hannah@scoutrec.com
   listing-link:
 - name: Marc McIntyre
   accreditation:
