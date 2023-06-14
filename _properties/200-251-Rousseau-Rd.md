@@ -9,8 +9,8 @@ city: Youngsville
 state: LA
 parish: Lafayette
 listingID: 30830096
-status: Active
-price: 3,600,000
+status: ACTIVE
+price: "3,600,000"
 Acres: 5.61 Acres
 SqFt: 42,800 SF
 Price-SqFt: '32'
