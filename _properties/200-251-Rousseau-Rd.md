@@ -22,7 +22,7 @@ lot-size: '3'
 parking: '3'
 agent: Jeff Landry
 agent-phone: 337-443-0880
-featured: false
+featured: 'True'
 directions: '200'
 building-features: test
 cooling: test
