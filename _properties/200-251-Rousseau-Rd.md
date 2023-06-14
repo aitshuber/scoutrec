@@ -16,44 +16,44 @@ status: Active
 price: $3,600,000
 Acres: 5.61 Acres
 SqFt: 42,800 SF
-Price-SqFt:
+Price-SqFt: '32'
 property-type: Sale
 property-subtype: Industrial-Business Park, Warehouse/Distribution
 zoning: UNZONED
 year-built: 1980
-lot-size:
-parking:
+lot-size: '3'
+parking: '3'
 agent: Jeff Landry
 agent-phone: 337-443-0880
-featured: 'false'
-directions:
-building-features:
-cooling:
-heating:
+featured: 'False'
+directions: '200'
+building-features: test
+cooling: test
+heating: test
 living-area: 42,800 SF
-living-area-source:
+living-area-source: test
 living-area-units: SF
-stories:
+stories: '1'
 construction-materials: Metal Siding
-door-features:
-electric:
-foundation-details:
+door-features: test
+electric: test
+foundation-details: test
 lot-features: 5.61 Acres
 lot-size-area: 5.61 Acres
-lot-size-square-feet:
+lot-size-square-feet: test
 lot-size-units: SF
 parking-features: >-
     The subject features adequate surface parking. All parking spaces and
     vehicle drives are paved concrete and crushed limestone and considered to be
     in average condition. The number of parking spaces is commensurate with
     other properties in this area.
-road-frontage-type:
-road-surface-type:
-roof:
-water-source:
-wooded-percent:
+road-frontage-type: test
+road-surface-type: test
+roof: test
+water-source: test
+wooded-percent: test
 last-updated: 5/25/2023
-plans:
+plans: test
 files:
     -
         file_name:
