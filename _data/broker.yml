@@ -80,7 +80,7 @@
 - name: Braxton Higginbotham
   accreditation:
   title: Agent
-  image: assets/img/500x280/HIGGINBOTHAM-BRAXTON-1024x1024.png
+  image: /uploads/braxtonh.jpg
   phone: 337-501-6457
   email: braxton@scoutrec.com
   listing-link: >-
@@ -88,8 +88,7 @@
 - name: Jacob Anderson
   accreditation:
   title: Agent
-  image: >-
-    assets/img/500x280/JACOB-ANDERSON-2-psplgpxqcf1bp30w7tdkarl0iwh2dirq99lvkxucts.jpg
+  image: /uploads/jacoba.jpg
   phone: 337-501-5724
   email: jacob@scoutrec.com
   listing-link: >-
