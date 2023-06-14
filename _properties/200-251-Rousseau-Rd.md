@@ -11,8 +11,8 @@ parish: Lafayette
 listingID: 30830096
 status: ACTIVE
 price: "3,600,000"
-Acres: 5.61 Acres
-SqFt: 42,800 SF
+Acres: 5.61
+SqFt: "42,800"
 Price-SqFt: '32'
 property-type: Sale
 property-subtype: Industrial-Business Park, Warehouse/Distribution
@@ -22,7 +22,7 @@ lot-size: '3'
 parking: '3'
 agent: Jeff Landry
 agent-phone: 337-443-0880
-featured: 'True'
+featured: false
 directions: '200'
 building-features: test
 cooling: test
@@ -39,18 +39,14 @@ lot-features: 5.61 Acres
 lot-size-area: 5.61 Acres
 lot-size-square-feet: test
 lot-size-units: SF
-parking-features: >-
-    The subject features adequate surface parking. All parking spaces and
-    vehicle drives are paved concrete and crushed limestone and considered to be
-    in average condition. The number of parking spaces is commensurate with
-    other properties in this area.
+parking-features: The subject features adequate surface parking. All parking spaces and vehicle drives are paved concrete and crushed limestone and considered to be in average condition. The number of parking spaces is commensurate with other properties in this area.
 road-frontage-type: test
 road-surface-type: test
 roof: test
 water-source: test
 wooded-percent: test
 last-updated: 5/25/2023
-plans: test
+plans:
 files:
     - file_name:
       file:
