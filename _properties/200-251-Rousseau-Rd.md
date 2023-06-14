@@ -39,7 +39,11 @@ lot-features: 5.61 Acres
 lot-size-area: 5.61 Acres
 lot-size-square-feet: test
 lot-size-units: SF
-parking-features: The subject features adequate surface parking. All parking spaces and vehicle drives are paved concrete and crushed limestone and considered to be in average condition. The number of parking spaces is commensurate with other properties in this area.
+parking-features: >-
+    The subject features adequate surface parking. All parking spaces and
+    vehicle drives are paved concrete and crushed limestone and considered to be
+    in average condition. The number of parking spaces is commensurate with
+    other properties in this area.
 road-frontage-type: test
 road-surface-type: test
 roof: test
