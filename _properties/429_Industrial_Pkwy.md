@@ -2,21 +2,21 @@
 layout: property
 name: 429 Industrial Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/6970000/6975370/27652619_1.JPG"
-image-1: "https://files.catylist.com/files/property/6970000/6975370/27206097_2.JPG"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/27923012_1.JPG"
+image-1: "https://files.catylist.com/files/property/7030000/7031607/27922995_2.JPG"
 address: 429 Industrial Pkwy
 city: Lafayette
 state: LA
 parish: Lafayette
-listingID: 30766656
+listingID: 30820408
 status: Active
 price: "700 (Monthly)"
-Acres: 0.43 - 1 Acres
+Acres: 0.43 Acres
 SqFt:
 Price-SqFt:
 property-type: Lease
 property-subtype: Light Industrial
-zoning: IL - LIGHT INDUSTRIAL
+zoning: IL
 year-built:
 lot-size:
 parking:
@@ -35,11 +35,11 @@ construction-materials: Metal Siding
 door-features:
 electric:
 foundation-details:
-lot-features: 0.43 - 1 Acres
-lot-size-area: 0.43 - 1 Acres
+lot-features: 0.43 Acres
+lot-size-area: 0.43 Acres
 lot-size-square-feet:
 lot-size-units: Acre
-parking-features: On site
+parking-features: On-site parking
 road-frontage-type:
 road-surface-type:
 roof:
@@ -51,4 +51,4 @@ files:
     - file_name:
       file:
 ---
-Office space available for lease! Neighboring Unit 1 is available for lease as well.
+Office space available for lease! Neighboring Unit 2 is available for lease as well.
