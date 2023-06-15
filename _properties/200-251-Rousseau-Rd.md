@@ -39,7 +39,7 @@ lot-features: 5.61 Acres
 lot-size-area: 5.61 Acres
 lot-size-square-feet:
 lot-size-units: SF
-parking-features: The subject features adequate surface parking. All parking spaces and vehicle drives are paved concrete and crushed limestone and considered to be in average condition. The number of parking spaces is commensurate with other properties in this area.
+parking-features: The subject features adequate surface parking. All parking spaces and vehicle drives are paved &#xD;concrete and crushed limestone and considered to be in average condition. The number of &#xD;parking spaces is commensurate with other properties in this area.
 road-frontage-type:
 road-surface-type:
 roof:
@@ -51,4 +51,4 @@ files:
     - file_name:
       file:
 ---
-Industrial site including 4 buildings totaling 43,500 sf under roof and 5.61 acres of stabilized land - 2 Office/Warehouses and 2 additional warehouses B1: 1,600 sqft Office, 12,000 sqft warehouse, 4,000 sqft overhang; B2: 2,400 sqft Office, 12,400 sqft warehouse, 4,000 sqft overhang; B3: 3,200 sqft warehouse; B4: 3,200 sqft warehouse B1 and B2 warehouses offer chain-operated steel overhead doors and mezzanine space Located off of Youngsville Hwy, in close proximity to Ambassador Caffery Pkwy, with U.S. Hwy 90 access.
+Industrial site including 4 buildings totaling 43,500 sf under roof and 5.61 acres of stabilized land - 2 Office/Warehouses and 2 additional warehousesB1: 1,600 sqft Office, 12,000 sqft warehouse, 4,000 sqft overhang; B2: 2,400 sqft Office, 12,400 sqft warehouse, 4,000 sqft overhang;B3: 3,200 sqft warehouse; B4: 3,200 sqft warehouseB1 and B2 warehouses offer chain-operated steel overhead doors and mezzanine spaceLocated off of Youngsville Hwy, in close proximity to Ambassador Caffery Pkwy, with U.S. Hwy 90 access.
