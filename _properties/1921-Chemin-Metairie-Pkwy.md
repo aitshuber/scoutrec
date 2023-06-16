@@ -2,7 +2,19 @@
 layout: property
 name: 1921 Chemin Metairie Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201748_2023_05_22_12.24.23.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201748_2023_05_22_12.24.23.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201749_2023_05_22_12.26.28.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201751_2023_05_22_12.27.53.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201757_Screenshot_2023_05_22_at_4.41.10_PM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201758_Screenshot_2023_05_22_at_4.41.26_PM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28162105_IMG_3509_1_.JPG"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28162106_IMG_3511.png_.JPG"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28162119_IMG_3508_1_.JPG"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201755_1.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/28201756_2.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/raw_28162133_Plat_8_19_2021.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/raw_28162134_Flood_Disclousre_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052712/raw_28201746_Flyer_1921_Chemin_Metairie___Teddy___8_.pdf"
 image-1: "https://files.catylist.com/files/property/7050000/7052712/28201747_Screenshot_2023_05_22_at_4.35.52_PM.png"
 address: 1921 Chemin Metairie Pkwy
 city: Youngsville

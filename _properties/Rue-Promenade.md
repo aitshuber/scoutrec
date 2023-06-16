@@ -2,7 +2,6 @@
 layout: property
 name: Rue Promenade
 image:
-    - image_file: 
 image-1: "https://files.catylist.com/files/property/7050000/7050551/28134959_MainStreet_at_River_Ranch.jpg"
 address: Rue Promenade
 city: Lafayette

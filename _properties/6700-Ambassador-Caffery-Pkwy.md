@@ -2,7 +2,14 @@
 layout: property
 name: 6700 Ambassador Caffery Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28036858_Google_Map___6700_Ambassador_Caffery___JeffRex.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28036858_Google_Map___6700_Ambassador_Caffery___JeffRex.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28047804_Flood_.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28047805_Zoning___6700_Ambassador_Caffery___RexJeff.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/raw_28048637_Flyer___6700_Ambassador_Caffery___JeffRex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28049510_1.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28049511_2.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/raw_28049513_Flood___6700_Ambassador_Caffery___RexJeff.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7042219/28049523_3.png"
 image-1: "https://files.catylist.com/files/property/7040000/7042219/28047803_Aerial___6700_Ambassador_Caffery___JeffRex.png"
 address: 6700 Ambassador Caffery Pkwy
 city: Broussard

@@ -2,7 +2,16 @@
 layout: property
 name: 2400 Eraste Landry Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6920000/6927522/raw_26292984_Flood_Disc___2400_Blk_Eraste_Landry_Rd.pdf"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/raw_26292984_Flood_Disc___2400_Blk_Eraste_Landry_Rd.pdf"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/raw_26341339_Survey.pdf"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/26292448_Forman_ErasteLandry_1.jpg"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/26292459_Forman_ErasteLandry_2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/26290933_slide_8.jpg"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/26290934_Slide1.JPG"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/26290935_Slide2.JPG"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/27768117_1.png"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/27768118_2.png"
+    - image_file: "https://files.catylist.com/files/property/6920000/6927522/raw_27768119_Updated_Flyer___2400_Eraste_Landry___Tim.pdf"
 image-1: "https://files.catylist.com/files/property/6920000/6927522/26290932_Slide_7.jpg"
 address: 2400 Eraste Landry Rd
 city: Lafayette

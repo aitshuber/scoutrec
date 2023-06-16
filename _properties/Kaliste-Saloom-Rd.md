@@ -2,7 +2,10 @@
 layout: property
 name: Kaliste Saloom Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6900000/6909439/raw_25989150_Site_Plan_2.11.2021.pdf"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909439/raw_25989150_Site_Plan_2.11.2021.pdf"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909439/26009222_21551436_Camellia_at_Kaliste_Pic1.jpg"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909439/26009223_21553599_Chimes_3_X2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909439/raw_28059571__Camellia_Corridor___Land__Chimes_Marketing_Package.pdf"
 image-1: "https://files.catylist.com/files/property/6900000/6909439/26116993_Drone_Aerial3.png"
 address: Kaliste Saloom Rd
 city: Lafayette

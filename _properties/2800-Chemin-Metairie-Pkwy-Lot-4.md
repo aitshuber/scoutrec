@@ -2,7 +2,18 @@
 layout: property
 name: 2800 Chemin Metairie Pkwy Lot 4
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7026587/27892052_Aerial___2800_Chemin_Metairie___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/27892052_Aerial___2800_Chemin_Metairie___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/28204922_Screenshot_2023_05_24_at_4.37.59_PM.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/27892060_Cropped___27871049_CP_Photo__1.jpg"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/27892059_Cropped_Photo_3.jpg"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/27892111_Google_Map___2800_Chemin_Metairie_Rd___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/27892113_Flood_Zone___2800_Chemin_Metairie_Pkwy___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/raw_27871047_CHEMIN_COMMERCIAL_PARK_DEED_RESTRICTIONS.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/raw_27863805_Flood_Disclosure____2800_Chemin_Metairie___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/raw_27871046_FP_chemin_metairie_030315.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/raw_28204920_New_Flyer___2800_Chemin_Metairie___Teddy_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/28204930_1.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026587/28204931_2.png"
 image-1: "https://files.catylist.com/files/property/7020000/7026587/27907005_Aerial___2800_Chemin_Metairie_Pkwy___Teddy.png"
 address: 2800 Chemin Metairie Pkwy Lot 4
 city: Youngsville

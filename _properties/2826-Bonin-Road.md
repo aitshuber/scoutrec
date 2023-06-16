@@ -2,7 +2,12 @@
 layout: property
 name: 2826 Bonin Road
 image:
-    - image_file: "https://files.catylist.com/files/property/6840000/6847526/raw_28012460_Plat___2826_Bonin_Rd___Teddy.pdf.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847526/raw_28012460_Plat___2826_Bonin_Rd___Teddy.pdf.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847526/raw_28011563_Flyer___2826_Bonin_Rd___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847526/raw_27994396_Flood___2826_Bonin_Rd___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847526/28011560_Aerial____2826_Bonin_Rd___Teddy.jpg"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847526/28011562_Google_Map___2826_Bonin_Rd___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847526/28012461_Plat___2826_Bonin_Rd___Teddy.pdf.png"
 image-1: "https://files.catylist.com/files/property/6840000/6847526/28011561_Aerial_2___2826_Bonin_Rd___Teddy.png"
 address: 2826 Bonin Road
 city: Youngsville

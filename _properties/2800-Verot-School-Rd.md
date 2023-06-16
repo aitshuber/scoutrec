@@ -2,7 +2,8 @@
 layout: property
 name: 2800 Verot School Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6660000/6663441/22067196_Aerial2800BlkVerotSchoolRd.jpg"
+    - image_file: "https://files.catylist.com/files/property/6660000/6663441/22067196_Aerial2800BlkVerotSchoolRd.jpg"
+    - image_file: "https://files.catylist.com/files/property/6660000/6663441/raw_22067200_Verot_Site_Plan__RMA__5.pdf"
 image-1: "https://files.catylist.com/files/property/6660000/6663441/22073378_Aerial.jpg"
 address: 2800 Verot School Rd
 city: Lafayette

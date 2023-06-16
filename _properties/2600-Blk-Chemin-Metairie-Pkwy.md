@@ -2,7 +2,13 @@
 layout: property
 name: 2600 Blk Chemin Metairie Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7027563/27937905_Aerial___2600_Blk_Chemin_Metairie___Teddy__10_.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/27937905_Aerial___2600_Blk_Chemin_Metairie___Teddy__10_.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/27937906_Google_Map___2600_Blk_Chemin_Metairie___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/27937907_IMG_2174_2.JPG"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/27937908_IMG_2177_3.JPG"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/raw_27937911_Preliminary_Plat___2600_Blk_Chemin_Metairie___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/raw_27938146_Flyer___2600_Blk_Chemin_Metairie_Pkwy___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027563/raw_27937910_Flood___2600_Blk_Chemin_Metairie___Teddy.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7027563/27938157_Aerial___2600_Blk_Chemin_Metairie___Teddy_final.png"
 address: 2600 Blk Chemin Metairie Pkwy
 city: Youngsville

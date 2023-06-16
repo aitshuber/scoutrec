@@ -2,7 +2,11 @@
 layout: property
 name: Camellia Blvd at Kaliste Saloom Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6900000/6909758/raw_25989244_Site_Plan_2.11.2021.pdf"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909758/raw_25989244_Site_Plan_2.11.2021.pdf"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909758/raw_25989243_Survey.pdf"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909758/26009213_21551436_Camellia_at_Kaliste_Pic1.jpg"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909758/26009214_21553599_Chimes_3_X2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6900000/6909758/raw_28059573__Camellia_Corridor___Land__Chimes_Marketing_Package.pdf"
 image-1: "https://files.catylist.com/files/property/6900000/6909758/26011962_Drone_Aerial3.png"
 address: Camellia Blvd at Kaliste Saloom Rd
 city: Lafayette

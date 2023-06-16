@@ -2,7 +2,16 @@
 layout: property
 name: 3600 N University Ave
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852974_Full_Outline___3600_N_University_Ave___JacobJeffBrax.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852974_Full_Outline___3600_N_University_Ave___JacobJeffBrax.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852966_Aerial___3600_N_University_Ave_2.87___JacobJeffBrax.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852967_Aerial___3600_N_University_Ave_3.09___JeffJacobBrax.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852973_Flyer_Aerial___3600_N_University_Ave___JeffJacobBrax.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852968_Edited_Google_Map___3600_N_University_Ave___JeffJacobBrax.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852970_Flyer_2.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27852971_Flyer_3.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/raw_27844151_Flood_Disclosure___3600_N_University_Ave___JeffJacobBrax.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/27853473_Flyer_1.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024903/raw_27853489_Flyer___3600_N_University_Ave___JeffJacobBraxton.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7024903/27844150_Aerial__3600_N_University_Ave___12.84_Acres___JacobJeffBrax.png"
 address: 3600 N University Ave
 city: Carencro

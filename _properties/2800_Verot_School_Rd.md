@@ -2,7 +2,10 @@
 layout: property
 name: 2800 Verot School Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6660000/6662919/22066117_Aerial2800BlkVerotSchoolRd.jpg"
+    - image_file: "https://files.catylist.com/files/property/6660000/6662919/22066117_Aerial2800BlkVerotSchoolRd.jpg"
+    - image_file: "https://files.catylist.com/files/property/6660000/6662919/raw_22073390_Lot_3.pdf"
+    - image_file: "https://files.catylist.com/files/property/6660000/6662919/raw_22073391_Lot_4_5.pdf"
+    - image_file: "https://files.catylist.com/files/property/6660000/6662919/raw_22073392_Lot_6.pdf"
 image-1: "https://files.catylist.com/files/property/6660000/6662919/22073383_Aerial.jpg"
 address: 2800 Verot School Rd
 city: Lafayette
@@ -56,7 +59,8 @@ Lots ranging from .5-2.2 acres (Lots 3, 4, 5 &amp; 6) available for sale with gr
 layout: property
 name: 2800 Verot School Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6660000/6663420/22066997_Aerial2800BlkVerotSchoolRd.jpg"
+    - image_file: "https://files.catylist.com/files/property/6660000/6663420/22066997_Aerial2800BlkVerotSchoolRd.jpg"
+    - image_file: "https://files.catylist.com/files/property/6660000/6663420/raw_22066998_Verot_Site_Plan__RMA__5.pdf"
 image-1: "https://files.catylist.com/files/property/6660000/6663420/22073372_Aerial.jpg"
 address: 2800 Verot School Rd
 city: Lafayette

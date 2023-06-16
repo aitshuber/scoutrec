@@ -2,7 +2,13 @@
 layout: property
 name: 1400 Detente Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7050000/7052258/28156364_1400_Blk_Denete_Rd_Outlined_1.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/28156364_1400_Blk_Denete_Rd_Outlined_1.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/raw_28156366_Assessor_Areial___Wide_Angle.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/raw_28156368_Plat__2019.5104.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/28163160_1400_Blk_Denete_Rd_4.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/raw_28163162_Flyer_1400_BLK_Detente_Rd_Compressed__Tim_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/28167484_1.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7052258/28167485_2.jpg"
 image-1: "https://files.catylist.com/files/property/7050000/7052258/28156355_edited_photo.jpg"
 address: 1400 Detente Rd
 city: Youngsville

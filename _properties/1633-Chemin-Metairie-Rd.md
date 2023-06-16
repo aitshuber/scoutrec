@@ -2,7 +2,18 @@
 layout: property
 name: 1633 Chemin Metairie Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6840000/6845221/24953148_Surrounding_Retail.jpg"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/24953148_Surrounding_Retail.jpg"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/27881120_New_Pic___1633_Chemin_Metairie___Teddy.jpg"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/27881121_New_Pic_2___1633_Chemin_Metairie_Pkwy___Teddy.jpg"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/24934891_Surrounding_Retail__1.JPG"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/24934896_Surrounding_Retail__2.JPG"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/24934902_Surrounding_Retail__3.JPG"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/24934909_Surrounding_Retail__4.JPG"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/27883682_Google_Map___1633_Chemin_Metairie___Teddy_.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/raw_24953063_Surrounding_Retail.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/raw_27862288_Flood___1633_Chemin_Metairie___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/raw_27879912_Final_Plat_Resub_of_Lot_P_4_recorded_201820335.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6845221/raw_27881752_Flyer___1633_Chemin_Metairie___Teddy.pdf"
 image-1: "https://files.catylist.com/files/property/6840000/6845221/24986031_Aerial.jpg"
 address: 1633 Chemin Metairie Rd
 city: Youngsville

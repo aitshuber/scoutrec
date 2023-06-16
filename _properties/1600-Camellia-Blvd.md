@@ -2,7 +2,9 @@
 layout: property
 name: 1600 Camellia Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7050000/7051774/raw_28150161_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7051774/raw_28150161_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7051774/28150163_RENDERING_1.jpg"
+    - image_file: "https://files.catylist.com/files/property/7050000/7051774/raw_28150558_Marketing_Package_Bldg_E__without_standard_allowances_.pdf"
 image-1: "https://files.catylist.com/files/property/7050000/7051774/28150164_RENDERING_2.jpg"
 address: 1600 Camellia Blvd
 city: Lafayette

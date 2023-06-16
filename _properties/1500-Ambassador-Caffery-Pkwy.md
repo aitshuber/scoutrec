@@ -2,7 +2,11 @@
 layout: property
 name: 1500 Ambassador Caffery Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/6990000/6994535/27556764_1500_Amb_Caffery_Aerial__1_.png"
+    - image_file: "https://files.catylist.com/files/property/6990000/6994535/27556764_1500_Amb_Caffery_Aerial__1_.png"
+    - image_file: "https://files.catylist.com/files/property/6990000/6994535/raw_27492689_Flood_Disc__Rex___1500_Ambassador_Caffery.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6994535/raw_28219639_1500_Amb_Caffery_Flyer__13_.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6994535/28219640_1.png"
+    - image_file: "https://files.catylist.com/files/property/6990000/6994535/28219641_2.png"
 image-1: "https://files.catylist.com/files/property/6990000/6994535/28219575_Screenshot_2023_06_06_at_2.49.00_PM.png"
 address: 1500 Ambassador Caffery Pkwy
 city: Lafayette

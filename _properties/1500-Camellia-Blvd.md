@@ -2,7 +2,16 @@
 layout: property
 name: 1500 Camellia Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28131866_Screenshot_2023_03_29_at_8.52.00_AM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28131866_Screenshot_2023_03_29_at_8.52.00_AM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28129292_Screenshot_2023_03_27_at_1.57.41_PM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28133050_Screenshot_2023_03_29_at_2.48.06_PM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28133051_Screenshot_2023_03_29_at_2.48.51_PM.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/raw_28129291_Flood_Dislcosure_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/raw_28167507_Updated_Flyer__1500_Camellia_Blvd__Rex_Jeff.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/raw_28208040_Flyer___1500_Camellia_Blvd___Rex___5_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28208041_1.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28208042_2.png"
+    - image_file: "https://files.catylist.com/files/property/7050000/7050084/28208043_3.png"
 image-1: "https://files.catylist.com/files/property/7050000/7050084/28138734_Screenshot_2023_04_03_at_3.14.05_PM.png"
 address: 1500 Camellia Blvd
 city: Lafayette

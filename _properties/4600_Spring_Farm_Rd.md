@@ -2,7 +2,8 @@
 layout: property
 name: 4600 Spring Farm Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7010000/7015880/raw_28052158_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7015880/raw_28052158_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7015880/raw_28093643_Ambassador_Flyer.pdf"
 image-1: "https://files.catylist.com/files/property/7010000/7015880/28045216_Ambassador_Flyer_Page_2.png"
 address: 4600 Spring Farm Rd
 city: Lafayette
@@ -56,7 +57,8 @@ files:
 layout: property
 name: 4600 Spring Farm Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7010000/7015870/raw_28052150_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7015870/raw_28052150_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7015870/raw_28093640_Ambassador_Flyer.pdf"
 image-1: "https://files.catylist.com/files/property/7010000/7015870/28045197_Ambassador_Flyer_Page_2.png"
 address: 4600 Spring Farm Rd
 city: Lafayette
@@ -110,7 +112,8 @@ files:
 layout: property
 name: 4600 Spring Farm Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7010000/7016011/raw_28052164_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7016011/raw_28052164_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7016011/raw_28093641_Ambassador_Flyer.pdf"
 image-1: "https://files.catylist.com/files/property/7010000/7016011/28045221_Ambassador_Flyer_Page_2.png"
 address: 4600 Spring Farm Rd
 city: Lafayette
@@ -164,7 +167,8 @@ files:
 layout: property
 name: 4600 Spring Farm Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7010000/7016009/raw_28052160_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7016009/raw_28052160_Lafayette_Site_Plan_1.26.23.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7016009/raw_28093642_Ambassador_Flyer.pdf"
 image-1: "https://files.catylist.com/files/property/7010000/7016009/28045239_Ambassador_Flyer_Page_2.png"
 address: 4600 Spring Farm Rd
 city: Lafayette

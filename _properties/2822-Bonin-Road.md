@@ -2,7 +2,13 @@
 layout: property
 name: 2822 Bonin Road
 image:
-    - image_file: "https://files.catylist.com/files/property/6840000/6847496/28008358_Aerial___2822_Bonin_Rd___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/28008358_Aerial___2822_Bonin_Rd___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/28008382_Google_Map_2___2822_Bonin_Rd___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/raw_27994397_Flood___2822_Bonin_Rd___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/raw_28008328_Flyer___2822_Bonin_Rd___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/28011644_Shaded_Plat___2822_Bonin_Rd___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/28012495_Plat_2___2822_Bonin_Rd___Teddy.pdf.png"
+    - image_file: "https://files.catylist.com/files/property/6840000/6847496/raw_28012499_Plat_2___2822_Bonin_Rd___Teddy.pdf"
 image-1: "https://files.catylist.com/files/property/6840000/6847496/28008356_Aerial___2822_Bonin_Rd___Teddy_.png"
 address: 2822 Bonin Road
 city: Youngsville

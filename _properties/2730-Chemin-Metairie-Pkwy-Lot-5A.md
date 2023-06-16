@@ -2,7 +2,14 @@
 layout: property
 name: 2730 Chemin Metairie Pkwy Lot 5A
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7027559/27900110_Aerial_Lot_5A___2730_Chemin_Metairie_Pkwy___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/27900110_Aerial_Lot_5A___2730_Chemin_Metairie_Pkwy___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/27875593_CP_Photo__1.jpg"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/27875594_CP_Photo__3.jpg"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/27900111_Google_Map___2730_Chemin_Metairie_Pkwy___Teddy___2_.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/raw_27875590_Flood_Disclosure____2800_Chemin_Metairie___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/raw_27875591_FP_chemin_metairie_030315.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/raw_27875592_CHEMIN_COMMERCIAL_PARK_DEED_RESTRICTIONS.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7027559/raw_27900114_Flyer_Lot_5A___2730_Chemin_Metairie___Teddy_.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7027559/27897656_Aerial___2730_Chemin_Metairie___Teddy.png"
 address: 2730 Chemin Metairie Pkwy Lot 5A
 city: Youngsville
