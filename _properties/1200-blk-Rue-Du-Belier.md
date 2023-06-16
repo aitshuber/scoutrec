@@ -2,7 +2,11 @@
 layout: property
 name: 1200 blk Rue Du Belier
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7025883/raw_27855783_Flood___1200_Blk_Rue_Du_Belier___Rex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7025883/raw_27855783_Flood___1200_Blk_Rue_Du_Belier___Rex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7025883/27860267_Google_Earth___1200_Blk_Rue_Du_Belier___Rex_.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7025883/27860268_Google_Map__1200_Blk_Rue_Du_Belier___Rex.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7025883/27860269_1.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7025883/27860270_2.png"
 image-1: "https://files.catylist.com/files/property/7020000/7025883/27858435_Aerial___1200_Blk_Rue_Du_Belier___Rex.png"
 address: 1200 blk Rue Du Belier
 city: Lafayette

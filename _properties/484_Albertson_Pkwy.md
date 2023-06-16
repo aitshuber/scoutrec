@@ -2,7 +2,9 @@
 layout: property
 name: 484 Albertson Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/6600000/6600210/raw_21504086_Broussard_Office_Park_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600210/raw_21504086_Broussard_Office_Park_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600210/raw_21504087_Building_Floorplan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600210/raw_21504470_484_Albertson_Pkwy_Office_Info.pdf"
 image-1: "https://files.catylist.com/files/property/6600000/6600210/21500522_Broussard_Office_Rendering.jpg"
 address: 484 Albertson Pkwy
 city: Broussard
@@ -56,7 +58,9 @@ Beautiful office park in high growth area of Albertson Parkway in Broussard, LA.
 layout: property
 name: 484 Albertson Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/6600000/6600535/raw_21504106_Broussard_Office_Park_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600535/raw_21504106_Broussard_Office_Park_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600535/raw_21504107_Building_Floorplan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600535/raw_21504469_484_Albertson_Pkwy_Office_Info.pdf"
 image-1: "https://files.catylist.com/files/property/6600000/6600535/21504105_Broussard_Office_Rendering.jpg"
 address: 484 Albertson Pkwy
 city: Broussard
@@ -110,7 +114,9 @@ Beautiful office park in high growth area of Albertson Parkway in Broussard, LA.
 layout: property
 name: 484 Albertson Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/6600000/6600554/raw_21504471_484_Albertson_Pkwy_Office_Info.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600554/raw_21504471_484_Albertson_Pkwy_Office_Info.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600554/raw_21504472_Broussard_Office_Park_Site_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6600000/6600554/raw_21504473_Building_Floorplan.pdf"
 image-1: "https://files.catylist.com/files/property/6600000/6600554/21504474_Broussard_Office_Rendering.jpg"
 address: 484 Albertson Pkwy
 city: Broussard

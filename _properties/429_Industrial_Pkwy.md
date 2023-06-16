@@ -2,7 +2,12 @@
 layout: property
 name: 429 Industrial Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/7030000/7031607/27923012_1.JPG"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/27923012_1.JPG"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/27922997_Picture_1___429_Industrial_Pkwy_Unit_1___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/27922998_Picture_2___429_Industrial_Pkwy_Unit_1___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/27922996_Google_Map___429_Industrial_Pkwy___Eric_.png"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/raw_27922930_Flood_Disc___Eric___429_Industrial_Parkway.pdf"
+    - image_file: "https://files.catylist.com/files/property/7030000/7031607/raw_27924593_Flyer___429_Industrial_Pkwy_Unit_1___Eric.pdf"
 image-1: "https://files.catylist.com/files/property/7030000/7031607/27922995_2.JPG"
 address: 429 Industrial Pkwy
 city: Lafayette

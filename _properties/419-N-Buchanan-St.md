@@ -2,7 +2,18 @@
 layout: property
 name: 419 N Buchanan St
 image:
-    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27511727_5.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27511727_5.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27511723_2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27511724_3.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27511725_4.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27460400_Aerial___Tower_Radius.png"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27652308_Google_maps.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27652297_419_N_Buchanan___Flyer_Pg1.png"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/27652301_419_N_Buchanan___Flyer_Pg2.png"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/raw_27451434_Signed_Flood.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/raw_27683746_Mike_Baker_Plat_32_.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/raw_27683748_Mike_Baker_Potential_Boundary_59_.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6991666/raw_28125172_419_N_Buchanan_Flyer__Letter__Updated_.pdf"
 image-1: "https://files.catylist.com/files/property/6990000/6991666/27511728_Exterior.jpg"
 address: 419 N Buchanan St
 city: Lafayette

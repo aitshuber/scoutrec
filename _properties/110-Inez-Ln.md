@@ -2,7 +2,14 @@
 layout: property
 name: 110 Inez Ln
 image:
-    - image_file: "https://files.catylist.com/files/property/6990000/6998518/raw_27545929_Flood.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/raw_27545929_Flood.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/raw_27552221_Flyer___110_Inez.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/27652162_110_Inez_Ln_Flyer_Pg1.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/27652163_110_Inez_Ln_Flyer_Pg2.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/27652164_Capture.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/27652165_Flood_Map.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/27652166_Google_Maps.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998518/27652167_Zoning.PNG"
 image-1: "https://files.catylist.com/files/property/6990000/6998518/27545928_110_Inez_Ln_Aerial.png"
 address: 110 Inez Ln
 city: Lafayette

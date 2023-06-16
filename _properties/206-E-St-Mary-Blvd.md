@@ -2,7 +2,14 @@
 layout: property
 name: 206 E St Mary Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024751_IMG_2466.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024751_IMG_2466.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024752_IMG_2469.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024753_Open_Layout_.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024754_TA_Aerial___206_E._St._Mary___Teddy.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024755_Google_Map_1___206_E._St._Mary_Blvd___Teddy.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/28024756_Zoning___206_E_St._Mary___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/raw_28024757_Flood___206_E._St._Mary___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041166/raw_28033667_Flyer___206_E._St._Mary___For_sale_or_lease___Teddy.pdf"
 image-1: "https://files.catylist.com/files/property/7040000/7041166/28024750_Aerial___206_E_St._Mary_Blvd___Teddy.png"
 address: 206 E St Mary Blvd
 city: Lafayette

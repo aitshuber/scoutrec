@@ -2,7 +2,12 @@
 layout: property
 name: 300 Albertson Pkwy
 image:
-    - image_file: "https://files.catylist.com/files/property/7000000/7004135/raw_27652149_300_Blk_Albertson_Pkwy_Flyer.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7004135/raw_27652149_300_Blk_Albertson_Pkwy_Flyer.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7004135/raw_27614067_Flood_Det___300_Albertson_Pkwy___Rex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7004135/raw_27617112_Plat___300_Blk_Albertson_Pkwy___Rex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7004135/27613988_Screen_Shot_2022_03_18_at_9.48.44_AM.png"
+    - image_file: "https://files.catylist.com/files/property/7000000/7004135/27652146_Plat.PNG"
+    - image_file: "https://files.catylist.com/files/property/7000000/7004135/27652154_300_Albertson_Pkwy_Flyer.PNG"
 image-1: "https://files.catylist.com/files/property/7000000/7004135/27613987_Screen_Shot_2022_03_18_at_9.48.29_AM.png"
 address: 300 Albertson Pkwy
 city: Broussard

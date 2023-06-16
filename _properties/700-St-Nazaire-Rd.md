@@ -2,7 +2,15 @@
 layout: property
 name: 700 St Nazaire Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7000000/7008370/raw_28030216_Flyer___700_St._Nazaire___JeffRex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/raw_28030216_Flyer___700_St._Nazaire___JeffRex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/raw_27663922_Plat___700_St_Nazaire___Rex_Jeff.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/raw_27661863_Flood_Disc.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/27678969_Plat.PNG"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/27685035_Flood_Map.PNG"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/27685036_Google_Map.PNG"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/27685037_Site_Map.PNG"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/28030217_1.png"
+    - image_file: "https://files.catylist.com/files/property/7000000/7008370/28030218_2.png"
 image-1: "https://files.catylist.com/files/property/7000000/7008370/27678964_Aerial_Final.png"
 address: 700 St Nazaire Rd
 city: Broussard

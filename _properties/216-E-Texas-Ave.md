@@ -2,7 +2,9 @@
 layout: property
 name: 216 E Texas Ave
 image:
-    - image_file: "https://files.catylist.com/files/property/6830000/6834671/24728968_IMG_4180.JPG"
+    - image_file: "https://files.catylist.com/files/property/6830000/6834671/24728968_IMG_4180.JPG"
+    - image_file: "https://files.catylist.com/files/property/6830000/6834671/raw_24730621_Floor_Plan.pdf"
+    - image_file: "https://files.catylist.com/files/property/6830000/6834671/raw_24730646_Assessor_s_Areial.pdf"
 image-1: "https://files.catylist.com/files/property/6830000/6834671/24728977_Front_View.jpg"
 address: 216 E Texas Ave
 city: Rayne

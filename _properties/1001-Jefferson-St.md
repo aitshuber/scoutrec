@@ -2,7 +2,18 @@
 layout: property
 name: 1001 Jefferson St
 image:
-    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27546697_Front_2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27546697_Front_2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27652185_Interior1.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27652186_Interior2.jpg"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27652182_1001_Jefferson_St___Plat1.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27652180_1001_Jefferson_St___Floor_Plan1.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27652181_1001_Jefferson_St___Floor_Plan2.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/27652184_Google_Maps.PNG"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/raw_27546704_Flood.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/raw_27552240_1001_Jefferson_St_Flyer_Standard.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/raw_27652168_BW_PDF1060_01.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/raw_27652169_BW_PDF1060_02.pdf"
+    - image_file: "https://files.catylist.com/files/property/6990000/6998571/raw_27652170_BW_PDF1060_03.pdf"
 image-1: "https://files.catylist.com/files/property/6990000/6998571/27546698_Front.jpg"
 address: 1001 Jefferson St
 city: Lafayette

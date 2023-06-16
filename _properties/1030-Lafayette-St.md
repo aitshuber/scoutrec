@@ -2,7 +2,14 @@
 layout: property
 name: 1030 Lafayette St
 image:
-    - image_file: "https://files.catylist.com/files/property/7010000/7013215/27717016_Library___1030_Lafayette___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/27717016_Library___1030_Lafayette___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/27717017_Suite_1_Interior_1__1030_Lafayette___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/27717018_Suite_1_Interior_2___1030_Lafayette___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/27717014_Exterior_Pic___1030_Lafayette___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/27717019_Suite_1_Interior_3___1030_Lafayette___Eric.jpg"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/28004963_Google_Maps___1030_Lafayette_Street___Eric.png"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/raw_27717020_Flood_Disclosure___1030_Lafayette_Suite_1___Eric.pdf"
+    - image_file: "https://files.catylist.com/files/property/7010000/7013215/raw_28217684_Flyer___1030_Lafayette_St___Eric.pdf"
 image-1: "https://files.catylist.com/files/property/7010000/7013215/28217675_Screenshot_2023_06_05_at_2.55.04_PM.png"
 address: 1030 Lafayette St
 city: Lafayette

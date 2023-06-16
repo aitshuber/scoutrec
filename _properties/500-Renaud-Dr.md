@@ -2,7 +2,19 @@
 layout: property
 name: 500 Renaud Dr
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867875_Aerial_2___500_Blk_Renaud_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867875_Aerial_2___500_Blk_Renaud_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867928_Aerial_3__500_blk_Renaud_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27860356_Plat___500_Renaud_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27861412_Flood_Zone___500_BLK_RENAUD_DR___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867877_Google_Earth___500_Blk_Renaud_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27861491_GM__500_Blk_Renaud_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27861493_Zoomed_Out_GM___500_Blk_Renaud_Rd___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/raw_27858044_Flood____500_Blk_Renaud_Dr__Jeff.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/raw_27860357_Plat___500_Renaud_Dr___Jeff.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867945_1.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867946_2.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/27867947_3.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7026117/raw_27867949_Flyer___500_Blk_Renaud_Dr___Jeff.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7026117/27867874_Aerial_1___500_Blk_Renaud_Dr___Jeff.png"
 address: 500 Renaud Dr
 city: Lafayette

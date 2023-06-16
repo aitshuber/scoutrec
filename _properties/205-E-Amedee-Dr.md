@@ -2,7 +2,17 @@
 layout: property
 name: 205 E Amedee Dr
 image:
-    - image_file: "https://files.catylist.com/files/property/7040000/7048080/raw_28104377_Flood_Disclosure.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/raw_28104377_Flood_Disclosure.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/raw_28111440_205_E_AMEDEE___FLOOR__PLAN.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112565_IMG_3265.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112566_IMG_3266.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112567_IMG_3267.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112568_IMG_3268.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112569_IMG_3269.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112570_IMG_3270.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112571_IMG_3271.JPG"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/28112572_IMG_3275__1_.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7048080/raw_28119716_205_E_AMEDEE_DR.__TEDDY___7_.pdf"
 image-1: "https://files.catylist.com/files/property/7040000/7048080/28112555_IMG_3264.JPG"
 address: 205 E Amedee Dr
 city: Scott

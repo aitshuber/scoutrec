@@ -2,7 +2,14 @@
 layout: property
 name: 200 E Farrel Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28040809_Aerial___200_Blk_E_Farrel___Jeff.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28040809_Aerial___200_Blk_E_Farrel___Jeff.jpg"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28048559_Google_Earth___200_Blk_E_Farrel_Dr___Jeff.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28026008_Google_Maps___200_Blk_E_Farrel_Dr__JeffRex.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28026009_Zoning___200_Blk_E_Farrel___JeffRex.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/raw_28026010_Flood__200_Blk_E_Farrel_Dr___JeffRex.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/raw_28141686_Flyer___200_blk_E_Farrel___Jeff__4_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28167704_1.png"
+    - image_file: "https://files.catylist.com/files/property/7040000/7041280/28167705_2.png"
 image-1: "https://files.catylist.com/files/property/7040000/7041280/28141687_Screenshot_2023_04_05_at_9.46.57_AM.png"
 address: 200 E Farrel Rd
 city: Lafayette

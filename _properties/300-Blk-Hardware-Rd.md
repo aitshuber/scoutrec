@@ -2,7 +2,8 @@
 layout: property
 name: 300 Blk Hardware Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/6790000/6792545/raw_24040530_300_Blk_Hardware_Rd_Flyer.pdf"
+    - image_file: "https://files.catylist.com/files/property/6790000/6792545/raw_24040530_300_Blk_Hardware_Rd_Flyer.pdf"
+    - image_file: "https://files.catylist.com/files/property/6790000/6792545/raw_24037970_Survey.PDF"
 image-1: "https://files.catylist.com/files/property/6790000/6792545/24038079_Aerial.png"
 address: 300 Blk Hardware Rd
 city: Broussard

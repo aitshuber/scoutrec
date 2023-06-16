@@ -2,7 +2,15 @@
 layout: property
 name: 1003 S Hugh Wallis Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7000000/7009706/raw_27910683_Flyer___1003_Hugh_Wallis___BraxtonJeff__Latest_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/raw_27910683_Flyer___1003_Hugh_Wallis___BraxtonJeff__Latest_.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/raw_27864295__10_PSF_RENOVATION_EXAMPLE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/raw_27712627_Flood_Disclosure___1003_Hugh_Wallis___Jeff_Braxton.pdf"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/27710736_1300SHughWallis_170.jpg"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/27712621_Edited_Aerial___Hugh_Wallis___JeffBraxton.png"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/27735187_Building_I_Floor_Plan_2___1003_S._Hugh_Wallis___JeffBraxton.png"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/27864279_Flyer_1.png"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/27910624_Site_Plan_Overlay_.png"
+    - image_file: "https://files.catylist.com/files/property/7000000/7009706/raw_27910689_Combined_Site_and_Floor_Plans___1003_Hugh_Wallis___JeffBraxton.pdf"
 image-1: "https://files.catylist.com/files/property/7000000/7009706/27710767_Flyer_1.jpg"
 address: 1003 S Hugh Wallis Rd
 city: Lafayette
