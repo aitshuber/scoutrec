@@ -2,7 +2,15 @@
 layout: property
 name: 102 N Eola Rd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27944190_Test_BACK.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27944190_Test_BACK.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27943785_Ta_Pic_2_Final___102_N_Eola___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27943784_TA_Pic_1___102_E_Eola___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27949695_Google_Earth_1_Cropped___102_N_Eola___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27949696_Google_Earth_2_Cropped___102_N_Eola___Teddy_.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27944016_Google_Earth_3___102_N_Eola___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/raw_27949697_Flood___102_N_Eola___Teddy.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/27950061_Google_Map_3___102_N_Eola___Teddy.png"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024487/raw_27959546_Flyer___102_N_Eola___Teddy.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7024487/27944186_Aerial___102_N_Eola___Teddy_.png"
 address: 102 N Eola Rd
 city: Broussard

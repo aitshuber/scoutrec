@@ -2,7 +2,7 @@
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7024688/raw_27860115_Flyer__Land__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7024688/raw_27860115_Flyer__Land__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7024688/27850390_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -56,7 +56,8 @@ Approximately 2.26 acres available for sale on Settlers Trace Blvd in the heart 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028581/raw_27888676_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028581/raw_27888676_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028581/raw_27888677_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028581/27888675_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -110,7 +111,8 @@ Office padsites ranging from 2,500-20,000 sq. ft. available for purchase in the 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028582/raw_27888679_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028582/raw_27888679_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028582/raw_27888680_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028582/27888678_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -164,7 +166,8 @@ Office padsites ranging from 2,500-20,000 sq. ft. available for purchase in the 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028583/raw_27888682_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028583/raw_27888682_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028583/raw_27888683_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028583/27888681_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -218,7 +221,8 @@ Office padsites ranging from 2,500-20,000 sq. ft. available for purchase in the 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028584/raw_27888685_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028584/raw_27888685_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028584/raw_27888686_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028584/27888684_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -272,7 +276,8 @@ Office padsites ranging from 2,500-20,000 sq. ft. available for purchase in the 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028580/raw_27888672_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028580/raw_27888672_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028580/raw_27888673_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028580/27888671_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -326,7 +331,8 @@ Office padsites ranging from 2,500-20,000 sq. ft. available for purchase in the 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028576/raw_27888627_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028576/raw_27888627_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028576/raw_27888628_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028576/27888626_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette
@@ -380,7 +386,8 @@ Office padsites ranging from 2,500-20,000 sq. ft. available for purchase in the 
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028585/raw_27888689_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028585/raw_27888689_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028585/raw_27888690_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028585/27888688_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette

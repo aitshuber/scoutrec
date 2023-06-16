@@ -2,7 +2,19 @@
 layout: property
 name: 000 Rees St. Ext.
 image:
-    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920309_000_Rees_St_Aerial__1_.png"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920309_000_Rees_St_Aerial__1_.png"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920340_1.png"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920341_2.png"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920316_DJI_0216.JPG"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920317_DJI_0221.JPG"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920318_DJI_0224.JPG"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920319_DJI_0226.JPG"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27920320_Screen_Shot_2022_10_07_at_12.23.27_PM.png"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27652132_Plat1.PNG"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/27652133_Plat2.PNG"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/raw_26939893_Plat_1.pdf"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/raw_26939902_Scan_2021_3_12__10577_.pdf"
+    - image_file: "https://files.catylist.com/files/property/6910000/6915444/raw_27920321_Flyer_000_Rees_St___Jeff.pdf"
 image-1: "https://files.catylist.com/files/property/6910000/6915444/28160416_000_REES_EDITED_PHOTO.jpg"
 address: 000 Rees St. Ext.
 city: Breaux Bridge

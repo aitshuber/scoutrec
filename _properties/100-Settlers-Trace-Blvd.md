@@ -2,7 +2,8 @@
 layout: property
 name: 100 Settlers Trace Blvd
 image:
-    - image_file: "https://files.catylist.com/files/property/7020000/7028191/raw_27888615_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028191/raw_27888615_Flyer__Padsites__100BLK_SETTLERS_TRACE_BLVD_LAFAYETTE.pdf"
+    - image_file: "https://files.catylist.com/files/property/7020000/7028191/raw_27888618_100_Blk_Settlers_Site_Plan.pdf"
 image-1: "https://files.catylist.com/files/property/7020000/7028191/27883505_Aerial.png"
 address: 100 Settlers Trace Blvd
 city: Lafayette

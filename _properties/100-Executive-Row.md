@@ -2,7 +2,11 @@
 layout: property
 name: 100 Executive Row
 image:
-    - image_file: "https://files.catylist.com/files/property/6740000/6743505/27983814_Aerial___100_Executive_Row___Rex.png"
+    - image_file: "https://files.catylist.com/files/property/6740000/6743505/27983814_Aerial___100_Executive_Row___Rex.png"
+    - image_file: "https://files.catylist.com/files/property/6740000/6743505/27980622_Reonomy_Pic___100_Executive_Row___Rex.jpg"
+    - image_file: "https://files.catylist.com/files/property/6740000/6743505/27980685_Google_Maps_Pic___Rex___100_Executive_Row.PNG"
+    - image_file: "https://files.catylist.com/files/property/6740000/6743505/raw_23493824_Flood_Disc___Rex___100_Executive_Row.pdf"
+    - image_file: "https://files.catylist.com/files/property/6740000/6743505/raw_28167694_Updated_Flyer___100_Executive_Row___Rex__1_.pdf"
 image-1: "https://files.catylist.com/files/property/6740000/6743505/28143374_Screenshot_2023_04_06_at_9.26.01_AM.png"
 address: 100 Executive Row
 city: Lafayette
