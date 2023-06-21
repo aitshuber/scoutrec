@@ -51,23 +51,23 @@ files:
     - file_name:
       file:
 ---
-Landlord Pays|None|Yes;
-Gas|Available|Yes;
-Price Includes|Real Estate|Yes;
-Property Type|Professional/Office|Yes;
-Property Type|Retail|Yes;
-Roof|Composition|Yes;
-Road Frontage|Paved|Yes;
-Road Frontage|Public Street|Yes;
-Construction|Frame|Yes;
-Cooling|Central Air|Yes;
-Foundation|Slab|Yes;
-Heating|Central|Yes;
-Showing|Show Anytime|Yes;
-Water/Sewer|Public Sewer|Yes;
-Water/Sewer|Public Water|Yes;
-Electricity|110 Volts|Yes;
-Exterior|Door Sign|Yes;
-Parking|Parking Lot|Yes;
-Parking|On Site|Yes;
+Landlord Pays	None	Yes;
+Gas	Available	Yes;
+Price Includes	Real Estate	Yes;
+Property Type	Professional/Office	Yes;
+Property Type	Retail	Yes;
+Roof	Composition	Yes;
+Road Frontage	Paved	Yes;
+Road Frontage	Public Street	Yes;
+Construction	Frame	Yes;
+Cooling	Central Air	Yes;
+Foundation	Slab	Yes;
+Heating	Central	Yes;
+Showing	Show Anytime	Yes;
+Water/Sewer	Public Sewer	Yes;
+Water/Sewer	Public Water	Yes;
+Electricity	110 Volts	Yes;
+Exterior	Door Sign	Yes;
+Parking	Parking Lot	Yes;
+Parking	On Site	Yes;
 
