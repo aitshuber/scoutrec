@@ -2,8 +2,8 @@
 layout: property
 name: Scout Real Estate Co. (l001248)
 image:
-    - image_file:
-image-1: "http://cdn.photos.sparkplatform.com/raa/20211230205421388459000000.jpg"
+    - image_file: "http://cdn.photos.sparkplatform.com/raa/20211230205421388459000000.jpg"
+image-1:
 address: 3014 Kaliste Saloom Road
 city: Lafayette
 state: LA
