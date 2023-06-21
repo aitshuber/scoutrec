@@ -27,7 +27,7 @@ permalink: /
                     <div class="row">
                        {% assign sorted = site.properties | sort: 'featured' | reverse %}
                        {% assign sorted_by_price = sorted | sort: 'price' | reverse %}
-                       {% for item in sorted limit: 3 %}
+                       {% for item in sorted limit: 1 %}
                        {% if item.featured == true %}
                         <div class="col-sm-6 col-lg-4 mb-3">
                           <!-- Card -->
@@ -47,7 +47,7 @@ permalink: /
                         <!-- End Col -->
                         {% endif %}
                          {% endfor %}
-                         {% for item in sorted_by_price limit: 3 %}
+                         {% for item in sorted_by_price limit: 2 %}
                           {% if item.featured == false %}
                            <div class="col-sm-6 col-lg-4 mb-3">
                              <!-- Card -->
@@ -70,9 +70,9 @@ permalink: /
                            {% endif %}
                             {% endfor %}
                     <div class="d-grid d-sm-flex gap-3 mx-auto justify-content-center my-5">
-                        <a class="btn btn-primary btn-transition text-uppercase" href="/listings">Search all listings</a>
+                        <a class="btn btn-primary btn-transition text-uppercase" href="/commerical-listings">Search all listings</a>
                     </div>
-                    </div>
+                  </div>
             </div>
             <!-- End Col -->
         </div>
