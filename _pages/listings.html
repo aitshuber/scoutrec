@@ -5,7 +5,7 @@ description: Test description
 keywords:
 permalink: /commerical-listings
 ---
-  <!-- Hero -->
+<!-- Hero -->
  <div class="position-relative overflow-hidden pt-10 mt-5">
    <div class="container">
      <div class="position-relative content-space-t-3 content-space-t-md-0 content-space-t-lg-3 content-space-b-2 content-space-b-md-3 content-space-b-xl-3">
@@ -13,7 +13,7 @@ permalink: /commerical-listings
          <div class="col-md-8 mb-7 mb-md-0">
            <!-- Heading -->
            <div class="w-md-75 mb-7">
-             <h1 class="display-4">Discover your next<br/>
+             <h1 class="display-4">Discover your next<br />
                <span class="text-primary text-highlight-warning">
                  <span class="js-typedjs" data-hs-typed-options='{
                          "strings": ["investment", "business", "office space"],
@@ -37,7 +37,7 @@ permalink: /commerical-listings
                      <i class="bi-search"></i>
                    </span>
                    
-                   <input class="form-control form-control-lg" placeholder="Enter keyword" value="" name="q" id="search" type="text">
+                   <input class="form-control form-control-lg" placeholder="Enter keyword" value="" name="q" id="search" type="text" />
                   
                  </div>
                  </div>
@@ -52,11 +52,11 @@ permalink: /commerical-listings
        <!-- End Row -->
  
        <div class="col-md-6 position-md-absolute top-0 end-0">
-         <img class="img-fluid editable" src="../assets/img/900x900/img20.jpg" alt="Lafayette Local Commercial Listings">
+         <img class="img-fluid editable" alt="Lafayette Local Commercial Listings" src="/uploads/img-3815.jpg" width="900" />
  
          <!-- SVG Shape -->
          <div class="position-absolute bottom-0 end-0 zi-n1 mb-n10 me-n7" style="width: 12rem;">
-           <img class="img-fluid" src="../assets/svg/components/dots-lg.svg">
+           <img class="img-fluid" src="../assets/svg/components/dots-lg.svg" />
          </div>
          <!-- End SVG Shape -->
        </div>
@@ -90,7 +90,7 @@ permalink: /commerical-listings
        <!-- Card -->
        <div class="card card-flush shadow-none h-100">
          <a class="card-pinned" href="{{property.url}}">
-           <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description">
+           <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description" />
          
            <div class="card-pinned-top-start">
              <span class="badge bg-primary">Featured</span>
@@ -137,7 +137,7 @@ permalink: /commerical-listings
        <!-- Card -->
        <div class="card card-flush shadow-none h-100">
          <a class="card-pinned" href="{{property.url}}">
-           <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description">
+           <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description" />
          </a>
          <!-- Body -->
          <a class="card-body" href="{{property.url}}">
@@ -260,3 +260,4 @@ permalink: /commerical-listings
  
  </script>
  
+</div>
