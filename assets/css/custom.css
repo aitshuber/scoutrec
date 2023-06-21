@@ -56,3 +56,8 @@
 #blog img{
     width: 100%;
 }
+.blog a:link {
+	color: #fff;
+	text-decoration: none;
+}
+.sib_class_14_black_reg{display: none;}
