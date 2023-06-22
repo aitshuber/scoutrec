@@ -1,67 +1,0 @@
----
-layout: property
-name: 500 Ridge Rd
-image:
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27655610_Photo__1.JPG"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27655611_Photo__2.JPG"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27655612_Photo__3.JPG"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27655613_Photo__4.JPG"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27655614_Photo__5.JPG"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27655615_Photo__6.JPG"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/raw_27655632_LOT_28_0.704_ACRE_TRACT_SURVEY_3.30.2011.pdf"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/raw_27861942_Flood___500_Blk_Ridge_Rd___Teddy.pdf"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27871817_Zoning_Map___500_blk_Ridge_Road___Teddy.png"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27871955_Google_Earth_2__500_Ridge_Rd___Teddy_.png"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/27871956_New_Google_Map___500_Ridge_Rd___Teddy.png"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/raw_28161620_Flyer___500_Ridge_Rd___Teddy.pdf"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/28161627_1.jpg"
-    - image_file: "https://files.catylist.com/files/property/7000000/7007601/28161628_2.jpg"
-image-1: "https://files.catylist.com/files/property/7000000/7007601/27871812_Google_Earth___500_Ridge_Rd___Teddy.png"
-address: 500 Ridge Rd
-city: Lafayette
-state: LA
-parish: Lafayette
-listingID: 30797398
-status: Active
-price: "399,000"
-Acres: 0.70 Acres
-SqFt:
-Price-SqFt:
-property-type: Sale
-property-subtype: Hospitality, Office, Retail, Retail-Pad, Other
-zoning: CH - COMMERCIAL HEAVY
-year-built:
-lot-size:
-parking:
-agent: Teddy Beaullieu
-agent-phone:
-featured: false
-directions:
-building-features:
-cooling:
-heating:
-living-area:
-living-area-source:
-living-area-units: Acre
-stories:
-construction-materials:
-door-features:
-electric:
-foundation-details:
-lot-features: 0.70 Acres
-lot-size-area: 0.70 Acres
-lot-size-square-feet:
-lot-size-units: Acre
-parking-features:
-road-frontage-type:
-road-surface-type:
-roof:
-water-source:
-wooded-percent:
-last-updated: 6/1/2023
-plans:
-files:
-    - file_name:
-      file:
----
-Superior corner location with incredible visibility and access. One of four hard corners situated at northwest corner of round-a-bout at Ridge Road (Hwy 342) and Rue Du Belier (Hwy 93) in city limits of Lafayette. This site will have direct access to future round-a-bout at Dulles Drive &amp; Apollo Road extension in Scott, LA with direct access to Interstate 10 fewer than 1.2 miles.
