@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catylist-listing-feed>
+ <listing>
+  <ID>30813969</ID>
+  <listingSource>
+   <name>Louisiana Commercial Database, LLC</name>
+   <siteURL>https://www.lacdb.com</siteURL>
+   <listingURL>https://www.lacdb.com/listing/30813969</listingURL>
+  </listingSource>
+  <capRate />
+  <createdDate>8/11/2022</createdDate>
+  <leaseOrSale>Sale</leaseOrSale>
+  <leaseRentType />
+  <modifiedDate>5/16/2023</modifiedDate>
+  <price>$696,960 - 2,237,241</price>
+  <saleTerms>Cash to Seller</saleTerms>
+  <startDate>7/21/2022</startDate>
+  <status>Active</status>
+  <statusLevel>Active</statusLevel>
+  <useType />
+  <overview>12.84 acres on West Gloria Switch Rd with 397.92 feet of road frontage. Priced at $4 / Sqft. Property can be subdivided into smaller parcels.</overview>
+  <primaryAgent>
+   <ID>12866443</ID>
+   <fullName>Jacob Anderson</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>Jacob@Scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </primaryAgent>
+  <property>
+   <ID>7024903</ID>
+   <buildingQuality />
+   <coreFactor>-9090909.0</coreFactor>
+   <clientele />
+   <constructionSiding />
+   <landSize>4 - 12.84 Acres</landSize>
+   <roadType />
+   <sizeGross />
+   <sizeRentable />
+   <sizeUnits>Acre</sizeUnits>
+   <subtype>Industrial, Multi-Family, Office, Residential (Single Family), Retail, Self Storage</subtype>
+   <transportation />
+   <utilitiesVacantLand>Electric, Water, Gas, Sewer</utilitiesVacantLand>
+   <yearBuilt />
+   <yearRenovated />
+   <franchise>false</franchise>
+   <geographicLocation>
+    <ID>12322738</ID>
+    <postalAddress>
+     <ID>18142985</ID>
+     <street1>3600 N University Ave</street1>
+     <city>Carencro</city>
+     <state>LA</state>
+     <postalCode>70520</postalCode>
+     <country>United States</country>
+    </postalAddress>
+    <latitude>30.298865</latitude>
+    <longitude>-92.0477573</longitude>
+    <nearestMSA>Lafayette</nearestMSA>
+    <county>Lafayette</county>
+    <submarket>C</submarket>
+   </geographicLocation>
+   <legalDescription>P TR 1 SEC 34 T8S R4E (7.402)</legalDescription>
+   <numberStories>-9090909</numberStories>
+   <numberUnits>-9090909</numberUnits>
+   <parkingRatio>-9090909.0</parkingRatio>
+   <percentOccupied>-9090909</percentOccupied>
+   <propertyType>Vacant Land</propertyType>
+   <railAccess>false</railAccess>
+   <ceilingHeight />
+   <driveInBays>-9090909</driveInBays>
+   <loadingDocksDoors />
+   <overheadCranes>-9090909</overheadCranes>
+   <broadbandInternet />
+   <taxID>6139296</taxID>
+   <totalNumberBuildings>-9090909</totalNumberBuildings>
+   <visibility>Excellent</visibility>
+   <defaultImageURL>https://files.catylist.com/files/property/7020000/7024903/27844150_Aerial__3600_N_University_Ave___12.84_Acres___JacobJeffBrax.png</defaultImageURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852974_Full_Outline___3600_N_University_Ave___JacobJeffBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852966_Aerial___3600_N_University_Ave_2.87___JacobJeffBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852967_Aerial___3600_N_University_Ave_3.09___JeffJacobBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852973_Flyer_Aerial___3600_N_University_Ave___JeffJacobBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852968_Edited_Google_Map___3600_N_University_Ave___JeffJacobBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852970_Flyer_2.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27852971_Flyer_3.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/raw_27844151_Flood_Disclosure___3600_N_University_Ave___JeffJacobBrax.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/27853473_Flyer_1.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024903/raw_27853489_Flyer___3600_N_University_Ave___JeffJacobBraxton.pdf</additionalMediaURL>
+  </property>
+  <secondaryAgent>
+   <ID>361960</ID>
+   <fullName>Jeff Landry</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>jeff@scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </secondaryAgent>
+  <tertiaryAgent>
+   <ID>12869741</ID>
+   <fullName>Braxton Higginbotham</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>braxton@scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </tertiaryAgent>
+  <signVisible>false</signVisible>
+  <suiteSizeAvailable>0 SF</suiteSizeAvailable>
+  <suiteSizeRange>4 - 12.84 Acres</suiteSizeRange>
+  <title>12.84 Acres of Land for Sale</title>
+  <auction>false</auction>
+ </listing>
+ <listing>
+  <ID>30720013</ID>
+  <listingSource>
+   <name>Louisiana Commercial Database, LLC</name>
+   <siteURL>https://www.lacdb.com</siteURL>
+   <listingURL>https://www.lacdb.com/listing/30720013</listingURL>
+  </listingSource>
+  <capRate />
+  <createdDate>3/30/2021</createdDate>
+  <leaseOrSale>Lease</leaseOrSale>
+  <leaseRentType>Year</leaseRentType>
+  <modifiedDate>5/25/2023</modifiedDate>
+  <price>$28 - 32 PSF (Annual)</price>
+  <saleTerms />
+  <startDate>3/30/2021</startDate>
+  <status>Active</status>
+  <statusLevel>Active</statusLevel>
+  <useType />
+  <overview>9000 SF available in line $28 psf
+2000 SF available endcap $32 psf
+
+National quick-service restaurant (QSR) anchored development has committed to 3,500 SF.
+
+Commercial space located on E. Milton Ave in the rapidly expanding &amp; developing city of Youngsville, LA. This highly trafficked location promises a solid foundation for a successful retail or fast/casual dining business. 
+
+Owner willing work with tenant for a build to suit and/or ground lease transaction. Be a part of Sugar Mill Pond!</overview>
+  <primaryAgent>
+   <ID>12648279</ID>
+   <fullName>Eric Schexnayder</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>eric@scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </primaryAgent>
+  <property>
+   <ID>7044883</ID>
+   <airportAccess>Lafayette Regional Airport</airportAccess>
+   <buildingQuality />
+   <coreFactor>-9090909.0</coreFactor>
+   <clientele>General, Business</clientele>
+   <constructionSiding>Other</constructionSiding>
+   <landSize>2,000 - 9,000 SF</landSize>
+   <roadType />
+   <sizeGross />
+   <sizeRentable />
+   <sizeUnits>SF</sizeUnits>
+   <subtype>Free-Standing Building, Restaurant</subtype>
+   <transportation />
+   <utilitiesVacantLand>Electric, Water</utilitiesVacantLand>
+   <yearBuilt />
+   <yearRenovated />
+   <franchise>false</franchise>
+   <geographicLocation>
+    <ID>12347221</ID>
+    <postalAddress>
+     <ID>18168389</ID>
+     <street1>3204 E Milton Ave</street1>
+     <city>Youngsville</city>
+     <state>LA</state>
+     <postalCode>70592</postalCode>
+     <country>United States</country>
+    </postalAddress>
+    <latitude>30.1088642</latitude>
+    <longitude>-92.0084768</longitude>
+    <nearestMSA>Lafayette</nearestMSA>
+    <county>Lafayette</county>
+    <submarket>P</submarket>
+   </geographicLocation>
+   <legalDescription>LOT J 11 SUGAR MILL POND PH 7B</legalDescription>
+   <locatedBetween>Fortune Rd &amp; Sugar Mill Pond</locatedBetween>
+   <numberStories>-9090909</numberStories>
+   <numberUnits>-9090909</numberUnits>
+   <parkingRatio>-9090909.0</parkingRatio>
+   <percentOccupied>-9090909</percentOccupied>
+   <propertyType>Retail-Commercial</propertyType>
+   <railAccess>false</railAccess>
+   <ceilingHeight />
+   <driveInBays>-9090909</driveInBays>
+   <loadingDocksDoors />
+   <overheadCranes>-9090909</overheadCranes>
+   <broadbandInternet />
+   <taxID>6152167</taxID>
+   <totalNumberBuildings>-9090909</totalNumberBuildings>
+   <visibility>Excellent</visibility>
+   <zoning>GENERAL BUSINESS</zoning>
+   <defaultImageURL>https://files.catylist.com/files/property/7040000/7044883/28206628_Screenshot_2023_05_25_at_4.11.44_PM.png</defaultImageURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/28077918_Aerial_2.jpg</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/28070309_Aerial_.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/28070839_Site_Plan___3204_E_Milton_Ave___Eric.jpg</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28070840_Site_Plan___3204_E_Milton_Ave___EricRex.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067296_CHEM_MET_E.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067297_CHEM_MET_N.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067298_CHEM_MET_S_L.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067299_CHEM_MET_S_R.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067300_CHEM_MET_W.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067301_New_Subdivisions_2_18_21.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067302_Preliminary_Site_Plan___Rex___3204_E_MIlton.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067303_Sales_Tax_Comparison_Chart.xlsx</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28067304_Infographic_link.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28070322_New_Flood____3204_E_Milton_Ave___RexEric.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/raw_28206627_Flyer___3204_E_Milton_Ave___Jeff.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/28206629_1.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/28206630_2.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7040000/7044883/28206631_3.png</additionalMediaURL>
+  </property>
+  <secondaryAgent>
+   <ID>12098090</ID>
+   <fullName>Rex Moroux</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>rex@scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </secondaryAgent>
+  <signVisible>false</signVisible>
+  <suiteSizeAvailable>11,000 SF</suiteSizeAvailable>
+  <suiteSizeRange>2,000 - 9,000 SF</suiteSizeRange>
+  <suites>
+   <ID>4894340</ID>
+   <suiteNumber>1</suiteNumber>
+   <dateSpaceAvailable>02/08/2023</dateSpaceAvailable>
+   <leaseTerm />
+   <leaseType>NNN</leaseType>
+   <status>Active</status>
+   <suiteMaxContiguous>9,000 SF</suiteMaxContiguous>
+   <suiteMinimumDivisible>9,000 SF</suiteMinimumDivisible>
+   <suiteRentType>Year</suiteRentType>
+   <suiteRentalRate>$28 PSF (Annual)</suiteRentalRate>
+   <suiteSpaceAvailable>9,000 SF</suiteSpaceAvailable>
+   <suiteSubleaseExpDate />
+   <spaceType>New</spaceType>
+   <suiteCeilingHeight />
+  </suites>
+  <suites>
+   <ID>4894341</ID>
+   <suiteNumber>2</suiteNumber>
+   <dateSpaceAvailable>02/08/2023</dateSpaceAvailable>
+   <leaseTerm />
+   <leaseType>NNN</leaseType>
+   <status>Active</status>
+   <suiteMaxContiguous>2,000 SF</suiteMaxContiguous>
+   <suiteMinimumDivisible>2,000 SF</suiteMinimumDivisible>
+   <suiteRentType>Year</suiteRentType>
+   <suiteRentalRate>$32 PSF (Annual)</suiteRentalRate>
+   <suiteSpaceAvailable>2,000 SF</suiteSpaceAvailable>
+   <suiteSubleaseExpDate />
+   <spaceType>New</spaceType>
+   <suiteCeilingHeight />
+  </suites>
+  <title>Space Available in Sugar Mill Pond next to National Quick-Chain</title>
+  <auction>false</auction>
+ </listing>
+ <listing>
+  <ID>30813965</ID>
+  <listingSource>
+   <name>Louisiana Commercial Database, LLC</name>
+   <siteURL>https://www.lacdb.com</siteURL>
+   <listingURL>https://www.lacdb.com/listing/30813965</listingURL>
+  </listingSource>
+  <capRate />
+  <createdDate>8/11/2022</createdDate>
+  <leaseOrSale>Sale</leaseOrSale>
+  <leaseRentType />
+  <modifiedDate>5/30/2023</modifiedDate>
+  <price>$261,360 - 1,615,205</price>
+  <saleTerms>Cash to Seller</saleTerms>
+  <startDate>7/21/2022</startDate>
+  <status>Active</status>
+  <statusLevel>Active</statusLevel>
+  <useType />
+  <overview>3.09 acres on N. University Ave. with 411.03 feet of road frontage. Priced at $12 / Sqft. Property can be subdivided into +/- .5 acre parcels.</overview>
+  <primaryAgent>
+   <ID>12866443</ID>
+   <fullName>Jacob Anderson</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>Jacob@Scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </primaryAgent>
+  <property>
+   <ID>7024899</ID>
+   <buildingQuality />
+   <coreFactor>-9090909.0</coreFactor>
+   <clientele />
+   <constructionSiding />
+   <landSize>0.50 - 3.09 Acres</landSize>
+   <roadType />
+   <sizeGross />
+   <sizeRentable />
+   <sizeUnits>Acre</sizeUnits>
+   <subtype>Multi-Family, Office, Retail, Self Storage</subtype>
+   <transportation />
+   <utilitiesVacantLand>Electric, Water, Gas, Sewer, Cable</utilitiesVacantLand>
+   <yearBuilt />
+   <yearRenovated />
+   <franchise>false</franchise>
+   <geographicLocation>
+    <ID>12322734</ID>
+    <postalAddress>
+     <ID>18142981</ID>
+     <street1>3600 N University Ave</street1>
+     <city>Carencro</city>
+     <state>LA</state>
+     <postalCode>70520</postalCode>
+     <country>United States</country>
+    </postalAddress>
+    <latitude>30.298528</latitude>
+    <longitude>-92.047582</longitude>
+    <nearestMSA>Lafayette</nearestMSA>
+    <county>Lafayette</county>
+    <submarket>C</submarket>
+   </geographicLocation>
+   <legalDescription>TR 1 SEC 34 T8S R4E (7.532 AC) (653652) SEC 34 T8S F4E (0.344 AC)</legalDescription>
+   <numberStories>-9090909</numberStories>
+   <numberUnits>-9090909</numberUnits>
+   <parkingRatio>-9090909.0</parkingRatio>
+   <percentOccupied>-9090909</percentOccupied>
+   <propertyType>Vacant Land</propertyType>
+   <railAccess>false</railAccess>
+   <ceilingHeight />
+   <driveInBays>-9090909</driveInBays>
+   <loadingDocksDoors />
+   <overheadCranes>-9090909</overheadCranes>
+   <broadbandInternet />
+   <taxID>6139296</taxID>
+   <totalNumberBuildings>-9090909</totalNumberBuildings>
+   <visibility>Excellent</visibility>
+   <defaultImageURL>https://files.catylist.com/files/property/7020000/7024899/27844141_Aerial___3600_N_University_Ave_3.09___JeffJacobBrax.png</defaultImageURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852943_Full_Outline___3600_N_University_Ave___JacobJeffBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852960_Aerial__3600_N_University_Ave___12.84_Acres___JacobJeffBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852959_Aerial___3600_N_University_Ave_2.87___JacobJeffBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852942_Flyer_Aerial___3600_N_University_Ave___JeffJacobBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852938_Edited_Google_Map___3600_N_University_Ave___JeffJacobBrax.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27853472_Flyer_1.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852941_Flyer_3.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/27852946_Flyer_2.png</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/raw_27844140_Flood_Disclosure___3600_N_University_Ave___JeffJacobBrax.pdf</additionalMediaURL>
+   <additionalMediaURL>https://files.catylist.com/files/property/7020000/7024899/raw_27853470_Flyer___3600_N_University_Ave___JeffJacobBraxton.pdf</additionalMediaURL>
+  </property>
+  <secondaryAgent>
+   <ID>361960</ID>
+   <fullName>Jeff Landry</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>jeff@scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </secondaryAgent>
+  <tertiaryAgent>
+   <ID>12869741</ID>
+   <fullName>Braxton Higginbotham</fullName>
+   <companyID>40524242</companyID>
+   <companyName>Scout Real Estate Company</companyName>
+   <location>Lafayette, LA 70508</location>
+   <emailAddress>braxton@scoutrec.com</emailAddress>
+   <phoneNumber>337-443-0880</phoneNumber>
+  </tertiaryAgent>
+  <signVisible>false</signVisible>
+  <suiteSizeAvailable>0 SF</suiteSizeAvailable>
+  <suiteSizeRange>0.50 - 3.09 Acres</suiteSizeRange>
+  <title>3.09 Acres of Land for Sale in Carencro, LA</title>
+  <auction>false</auction>
+ </listing> 
