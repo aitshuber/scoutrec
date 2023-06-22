@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="edit2"
+file="/usr/local/__site/src/edit2"
 insidelisting=0
 thislisting=""
 tempfile="tempfile.txt"
