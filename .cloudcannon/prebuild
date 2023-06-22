@@ -3,10 +3,10 @@
 file="/usr/local/__site/src/edit2"
 insidelisting=0
 thislisting=""
-tempfile="tempfile.txt"
-tempfile2="tempfile2.txt"
-tempfile3="tempfile3.txt"
-tempfile4="tempfile4.txt"
+tempfile="/usr/local/__site/src/tempfile.txt"
+tempfile2="/usr/local/__site/src/tempfile2.txt"
+tempfile3="/usr/local/__site/src/tempfile3.txt"
+tempfile4="/usr/local/__site/src/tempfile4.txt"
 
 #   Url for xml listings not .md listings
 url="https://www.lacdb.com/files/generated/export/listings-b23877-1686755018951.xml"
