@@ -29,12 +29,15 @@
     <!-- End Breadcrumb -->
     <!-- Gallery -->
     <div class="container mb-5">
+      {% assign counter = 0 %}
+     {% for images in page.image %} 
+        {% assign counter = counter | plus: 1 %}
+     {% endfor %} 
       <div class="rounded-2 overflow-hidden">
         <div class="row gx-2">
-          <div class="col-md-8">
+          <div class="{% if counter == 1 %}col-md-12{% else %}col-md-8{% endif %}">
             {% for images in page.image limit:1 %}
             <!-- Gallery -->
-
             <a class="d-block position-relative" href="{{images.image_file}}" data-fslightbox="propertyOverviewGallery">
               <img class="property_main_image img-fluid w-100" src="{{images.image_file}}" alt="{{page.name}}">
 
@@ -48,6 +51,7 @@
             {% endfor %}
           </div>
           <!-- End Col -->
+          {% if counter > 2 %}
           <div class="col-md-4 d-none d-md-inline-block">
             <!-- Gallery -->
             {% for images in page.image offset:1 limit:2 %}
@@ -64,10 +68,11 @@
             {% endfor %}
 
             <!-- End Gallery -->
-            {% for images in page.image offset:3 %}
+            {% for images in page.image %}
             <a class="d-none" href="{{images.image_file}}" data-fslightbox="propertyOverviewGallery"></a>
             {% endfor %}
           </div>
+          {% endif %}
           <!-- End Col -->
         </div>
         <!-- End Row -->
@@ -75,7 +80,7 @@
 
       <div class="d-flex justify-content-end mt-2">
         <span class="small text-dark fw-semibold me-1">Status: </span>
-        <span class="badge bg-primary text-white">{{page.status}}</span>
+        <span class="badge bg-primary text-white">{% if page.status == 'A' %}Active{% else %}{{page.status}}{% endif %}</span>
       </div>
     </div>
     <!-- End Gallery -->
