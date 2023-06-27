@@ -84,7 +84,6 @@
       </div>
     </div>
     <!-- End Gallery -->
-
     <!-- Content -->
     <div class="container">
       <div class="row">
@@ -107,7 +106,7 @@
             </div>
             <div class="col-sm-6 column-divider-sm">
               <div class="pl-md-4">
-                <h2 class="mb-0">${{page.price | money}}</h2>
+                <h2 class="mb-0">${{page.price | number_format}}</h2>
                 <span class="d-block text-dark mb-3">Price/SqFt: {{page.Price-SqFt}}</span>
               </div>
             </div>

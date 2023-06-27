@@ -12,6 +12,11 @@ page_banner:
 services_image: /uploads/214jefferson-72.jpg
 permalink: /
 ---
+
+ {% for images in page.image %} 
+   
+ {% endfor %} 
+
 <div class="position-relative my-10">
     <div class="container">
         <div class="row justify-content-end align-items-md-center my-4">
@@ -25,9 +30,12 @@ permalink: /
                     <!-- End Heading -->
                     <!-- End Row -->
                     <div class="row">
+                      {% assign counter = 0 %}
                        {% assign sorted = site.properties | sort: 'featured' | reverse %}
                        {% assign sorted_by_price = sorted | sort: 'price' | reverse %}
-                       {% for item in sorted limit: 1 %}
+                       {% for item in sorted %}
+                       {% assign counter = counter | plus: 1 %}
+                       {% if counter == 1 %}
                        {% if item.featured == true %}
                         <div class="col-sm-6 col-lg-4 mb-3">
                           <!-- Card -->
@@ -46,8 +54,12 @@ permalink: /
                         </div>
                         <!-- End Col -->
                         {% endif %}
+                        {% endif %}
                          {% endfor %}
-                         {% for item in sorted_by_price limit: 2 %}
+                         {% assign counter2 = 0 %}
+                         {% for item in sorted_by_price %}
+                         {% assign counter2 = counter2 | plus: 1 %}
+                         {% if counter2 <= 3 %}
                           {% if item.featured == false %}
                            <div class="col-sm-6 col-lg-4 mb-3">
                              <!-- Card -->
@@ -60,13 +72,14 @@ permalink: /
                                 {% endif %}
                                  <div class="card-footer">
                                    <h3 class="text-white mb-0">{{item.name}}</h3>
-                                   <span class="d-block text-white">${{item.price}}</span>
+                                   <span class="d-block text-white">${{item.price | number_format }}</span>
                                  </div>
                                </div>
                              </a>
                              <!-- End Card -->
                            </div>
                            <!-- End Col -->
+                           {% endif %}
                            {% endif %}
                             {% endfor %}
                     <div class="d-grid d-sm-flex gap-3 mx-auto justify-content-center my-5">

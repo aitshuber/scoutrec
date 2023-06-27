@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: Search
+title: 'Scout Real Estate Co. - Acadiana''s Premier Commercial Real Estate Brokers '
 description: Test description
 keywords:
 permalink: /commerical-listings
@@ -150,7 +150,7 @@ permalink: /commerical-listings
              <!-- End Col -->
      
              <div class="col-auto">
-               <h3 class="card-title text-primary">${{property.price | money}}</h3>
+               <h3 class="card-title text-primary">${{property.price | number_format}}</h3>
              </div>
              <!-- End Col -->
            </div>
@@ -224,7 +224,7 @@ permalink: /commerical-listings
                <h4 class="card-title text-inherit">{address}</h4>
              </div>
              <div class="col-auto">
-               <h3 class="card-title text-primary">$ {price}</h3>
+               <h3 class="card-title text-primary">$ {price | number_format}</h3>
              </div>
            </div>
            <ul class="list-inline list-separator text-body small">
