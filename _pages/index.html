@@ -32,7 +32,7 @@ permalink: /
                     <div class="row">
                       {% assign counter = 0 %}
                        {% assign sorted = site.properties | sort: 'featured' | reverse %}
-                       {% assign sorted_by_price = sorted | sort: 'price' | reverse %}
+                       {% assign sorted_by_price = sorted | sort: 'price' | reverse | remove: ',' | remove: '$' %}
                        {% for item in sorted %}
                        {% assign counter = counter | plus: 1 %}
                        {% if counter == 1 %}
