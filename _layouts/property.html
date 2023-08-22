@@ -523,46 +523,79 @@
                   </div>
                   <!-- End Media -->
                   <!-- Form -->
-                  <form>
-                    <select class="form-select mb-2">
+                
+                  <!-- modify this form HTML and place wherever you want your form -->
+                  <form id="my-form" action="https://formspree.io/f/xoqoderq" method="POST">
+                    <select class="form-select mb-2" name="option" required>
                       <option selected disabled>Tell me more about this property</option>
-                      <option value="aboutProperty1">Request a showing</option>
-                      <option value="aboutProperty3">Request recent area sales</option>
+                      <option value="Request A Showing">Request a showing</option>
+                      <option value="General Property Question">General Property Question</option>
                     </select>
+                    <div class="mb-2 d-none">
+                    <label class="d-none">Property Information</label>
+                    <textarea type="type" name="property information" class="form-control" row="6"/> Property: {{page.address}}, {{page.city}} {{page.state}}
+                      Price: ${{page.price | number_format}}
+                      Agent:   {% assign match_found = false %}{% for team in site.data.broker %}{% if page.agent == team.name %}{{team.name}}{% assign match_found = true %}{% break %} {% endif %}{% endfor %}{% if match_found == false %} Non-Scout Agent {% endif %}
+                    </textarea>
+                    </div>
                     <div class="mb-2">
-                      <label for="fullNamePropertyOverviewContactForm" class="form-label visually-hidden">Full
-                        Name</label>
-                      <input type="text" class="form-control" id="fullNamePropertyOverviewContactForm"
-                        placeholder="Full Name" aria-label="Full Name">
+                    <label class="d-none">Name</label>
+                    <input type="text" name="Name" class="form-control" placeholder="Name" required/>
                     </div>
-
                     <div class="mb-2">
-                      <label for="emailPropertyOverviewContactForm" class="form-label visually-hidden">Email</label>
-                      <input type="email" class="form-control" id="emailPropertyOverviewContactForm" placeholder="Email"
-                        aria-label="Email">
+                    <label class="d-none">Email:</label>
+                    <input type="email" name="email" class="form-control" placeholder="Email" required/>
                     </div>
-
                     <div class="mb-2">
-                      <label for="phoneNumberPropertyOverviewContactForm" class="form-label visually-hidden">Phone
-                        number</label>
-                      <input type="tel" class="form-control" id="phoneNumberPropertyOverviewContactForm"
-                        placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx">
+                    <label class="d-none">Phone:</label>
+                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required/>
                     </div>
-
-                    <div class="mb-2">
-                      <label for="questionPropertyOverviewContactForm" class="form-label visually-hidden">Property
-                        question</label>
-                      <textarea class="form-control" id="questionPropertyOverviewContactForm"
-                        placeholder="I would like more information about ..."
-                        aria-label="I would like more information about ..." rows="4"></textarea>
-                    </div>
-
-                    <div class="d-grid">
-                      <button type="button" class="btn btn-primary">Request info</button>
-                    </div>
+                    <label class="d-none">Message:</label>
+                    <textarea  type="text" name="message" class="form-control" placeholder="Im interested in {{page.addess}}" rows="4" /></textarea>
+                    <button id="my-form-button" class="btn btn-primary mt-4" >Request info</button>
+                   
                   </form>
+                 <div class="card card-bordered h-25 p-5 text-center d-none" id="my-form-status"></div>
+                  <!-- Place this script at the end of the body tag -->
+              <script>
+                  var form = document.getElementById("my-form");
+              
+                async function handleSubmit(event) {
+                    event.preventDefault();
+                    var status = document.getElementById("my-form-status");
+                    var data = new FormData(event.target);
+                    fetch(event.target.action, {
+                        method: form.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    }).then(response => {
+                        if (response.ok) {
+                            status.innerHTML = "<h4>Thanks for your submission!</h4><p>{% assign match_found = false %}{% for team in site.data.broker %}{% if page.agent == team.name %}{{team.name}}{% assign match_found = true %}{% break %} {% endif %}{% endfor %}{% if match_found == false %} An agent {% endif %} will get with you as soon as possible.</p>";
+                            form.reset();
+                            form.style.display = "none";  // This hides the form
+                            status.classList.remove("d-none"); // This makes the status div visible
+                        } else {
+                            response.json().then(data => {
+                                if (Object.hasOwn(data, 'errors')) {
+                                    status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+                                } else {
+                                    status.innerHTML = "<h4>Oops!</h4><p> There was a problem submitting your form</p>";
+                                }
+                                status.classList.remove("d-none"); // This makes the status div visible
+                            });
+                        }
+                    }).catch(error => {
+                        status.innerHTML = "<h4>Oops!</h4><p> There was a problem submitting your form</p>";
+                        status.classList.remove("d-none"); // This makes the status div visible
+                    });
+                }
+              
+                  form.addEventListener("submit", handleSubmit);
+              </script>
+
                   <!-- End Form -->
-                 
                 </div>
                 <!-- End Card -->
               </div>
