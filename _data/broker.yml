@@ -14,6 +14,13 @@
   email: rex@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12098090&search=true
+- name: Marc McIntyre
+  accreditation:
+  title: Director of Construction & Management
+  image: /uploads/img-6638-jpg-1.jpg
+  phone: 337-443-0880
+  email: marc@scoutrec.com
+  listing-link:
 - name: Kendra McKinney
   accreditation:
   title: Director of Operations
@@ -99,11 +106,4 @@
   image: /uploads/amy-geautreaux.jpeg
   phone: 337-319-4069
   email: amy@scoutrec.com
-  listing-link:
-- name: Marc McIntyre
-  accreditation:
-  title: Director of Construction & Management
-  image: /uploads/img-6638-jpg-1.jpg
-  phone: 337-443-0880
-  email: marc@scoutrec.com
   listing-link:
