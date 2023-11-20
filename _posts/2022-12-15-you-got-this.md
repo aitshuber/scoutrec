@@ -11,7 +11,7 @@ short_description: >-
 date: 2023-04-25 21:07:00
 categories:
   - newsletter
-image: /assets/img/400x500/img5.jpg
+image: /uploads/newsletter.png
 ---
 &lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
 
