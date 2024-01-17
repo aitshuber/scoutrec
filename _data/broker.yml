@@ -75,14 +75,6 @@
   email: paul@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12198303&search=true
-- name: Eric Schexnayder
-  accreditation:
-  title: Agent
-  image: assets/img/500x280/SCHEXNAYDER-ERIC-1024x1024.png
-  phone: 337-280-3476
-  email: eric@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12648279&search=true
 - name: Ross Torian
   accreditation:
   title: Agent
