@@ -11,5 +11,5 @@ short_description:
 date: 2024-01-26 00:00:00
 categories:
   - blog
-image: /uploads/scouting-lafayette-image-1.png
+image: /uploads/scouting-lafayette-image-3.png
 ---
