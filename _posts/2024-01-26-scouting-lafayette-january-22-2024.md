@@ -13,7 +13,7 @@ categories:
   - blog
 image: /uploads/scouting-lafayette-image-3.png
 ---
-![](/uploads/scouting-lafayette-image.png)
+![](/uploads/scouting-lafayette-image-4.png)
 
 
 
