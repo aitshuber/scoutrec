@@ -8,7 +8,7 @@ keywords: >-
   commercial buildings for sale, commercial land for sale, commercial property
   for lease
 short_description:
-date: 2024-01-26 09:52:00
+date: 2024-01-26 00:00:00
 categories:
   - blog
 image: /uploads/scouting-lafayette-image-1.png
