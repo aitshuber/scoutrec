@@ -67,14 +67,6 @@
   email: teddy@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12682916&search=true
-- name: Paul Bako
-  accreditation:
-  title: Agent
-  image: /uploads/paulb2.jpg
-  phone: 337-781-3596
-  email: paul@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12198303&search=true
 - name: Ross Torian
   accreditation:
   title: Agent
@@ -83,6 +75,14 @@
   email: ross@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12823844&search=true
+- name: Paul Bako
+  accreditation:
+  title: Agent
+  image: /uploads/paulb2.jpg
+  phone: 337-781-3596
+  email: paul@scoutrec.com
+  listing-link: >-
+    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12198303&search=true
 - name: Braxton Higginbotham
   accreditation:
   title: Agent
