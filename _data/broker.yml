@@ -67,14 +67,6 @@
   email: teddy@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12682916&search=true
-- name: Ross Torian
-  accreditation:
-  title: Agent
-  image: /uploads/img-5877-jpg-1.jpg
-  phone: 337-322-1108
-  email: ross@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12823844&search=true
 - name: Paul Bako
   accreditation:
   title: Agent
@@ -91,11 +83,10 @@
   email: braxton@scoutrec.com
   listing-link: >-
     https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12869741&search=true
-- name: Jacob Anderson
+- name: Alex Mouton
   accreditation:
   title: Agent
-  image: /uploads/img-3701.jpg
-  phone: 337-501-5724
-  email: jacob@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12866443&search=true
+  image: ''
+  phone: 337-781-5601
+  email: ''
+  listing-link: ''
