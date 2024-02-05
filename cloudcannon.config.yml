@@ -117,7 +117,7 @@ _editables:
     removeformat: true
     copyformatting: true 
     resize_style: cover
-    styles: /assets/css/theme.css
+    styles: /assets/css/editor.css
     left: text-left
     center: text-center
     right: text-right
