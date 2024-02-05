@@ -9,8 +9,8 @@
     {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>
 {% else %}
-<figure class="{% if include.align == 'left' %}uk-align-left@s uk-width-1-2@s{% elsif include.align == 'right' %}uk-align-right@s uk-width-1-2@s{% else %}uk-margin-medium{% endif %}">
-    <img class="img-fluid w-25" src="{% if include.img contains 'http' %}{{ include.img }}{% else %}{{ site.uploads | absolute_url }}{{ include.img }}{% endif %}"{% if include.alt %} alt="{{ include.alt }}"{% endif %}>
+<figure class="{% if include.align == 'left' %}float-start w-50 me-4{% elsif include.align == 'right' %}float-end w-50 ms-4{% else %}uk-margin-medium{% endif %}">
+    <img class="img-fluid" src="{% if include.img contains 'http' %}{{ include.img }}{% else %}{{ site.uploads | absolute_url }}{{ include.img }}{% endif %}"{% if include.alt %} alt="{{ include.alt }}"{% endif %}>
     {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>
 {% endif %}
