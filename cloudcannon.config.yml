@@ -29,7 +29,6 @@ _inputs:
         - Rex Moroux
         - Tim Skinner
         - Diana Stephens
-        - Eric Schexnayder
         - Tim Skinner
   image-1:
     type: image
@@ -67,11 +66,11 @@ _editables:
     embed: true
     image: true
     table: true
-    styles: /assets/css/theme.css
+    styles: /assets/css/editor.css
     left: text-left
     center: text-center
     right: text-right
-    image_size_attributes: false
+    image_size_attributes: true
     expandable: true
     resize_style: cover
   content:
@@ -94,7 +93,7 @@ _editables:
     removeformat: true
     copyformatting: true 
     resize_style: cover
-    styles: /assets/css/theme.css
+    styles: /assets/css/editor.css
     left: text-left
     center: text-center
     right: text-right
@@ -113,7 +112,7 @@ _editables:
     image: true
     table: true
     redo: true 
-    image_size_attributes: false
+    image_size_attributes: true
     expandable: true
     removeformat: true
     copyformatting: true 

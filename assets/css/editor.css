@@ -1,0 +1,3 @@
+.image:before{
+	content:"{% include image.html img="https://source.unsplash.com/vJn_EnwlZ_w/600x770" %}";
+}
