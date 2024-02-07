@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Flourishing Opportunities - Lafayette, LA
-description: Exploring the Commercial Real Estate Market in Lafayette Parish
+title: Superior Grill - Lafayette Opening Soon
+description: >-
+  Construction has begun, and Superior Grill is on its way to filling the void
+  with its vibrant atmosphere and mouthwatering cuisine.
 keywords: >-
   commercial buildings for sale, commercial land for sale, commercial property
   for lease
