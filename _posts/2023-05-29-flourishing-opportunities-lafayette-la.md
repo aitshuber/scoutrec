@@ -3,12 +3,10 @@ layout: post
 title: Superior Grill - Lafayette Opening Soon
 description: >-
   Construction has begun, and Superior Grill is on its way to filling the void
-  with its vibrant atmosphere and mouthwatering cuisine.
-keywords: >-
-  commercial buildings for sale, commercial land for sale, commercial property
-  for lease
+  with its vibrant atmosphere and mouthwatering Tex-Mex cuisine.
+keywords: Lafayette Louisiana Restaurant Tex Mex Scout Real Estate Co
 short_description:
-date: 2023-05-29 08:00:00
+date: 2023-06-01 08:00:00
 categories:
   - blog
 image: /uploads/89a3849e-3064-47a1-806d-59bdc6655386.jpg
