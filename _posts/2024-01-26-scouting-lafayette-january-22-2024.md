@@ -13,8 +13,7 @@ short_description:
 date: 2024-01-26 00:00:00
 categories:
   - blog
-image: >-
-  /uploads/4701-Ambassador-Caffery-Flyer---Rendering-(Facebook-Post-(Landscape)).png
+image: /uploads/4701-ambassador-caffery-flyer-rendering-facebook-post-landscape-1.png
 ---
 ![](/uploads/2e00ce6b-da69-47b4-af4b-1f8ca01f7f10.png)
 
