@@ -2,9 +2,9 @@
   url: /commerical-listings
 - menu_name: About Us
   url: /commercial-real-partners
-- menu_name: ARTICLES
-  url: /real-estate-articles
-- menu_name: SERVICES
+- menu_name: News
+  url: /real-estate-news
+- menu_name: Services
   url: /commercial-real-estate-services
-- menu_name: CONTACT US
+- menu_name: Contact Us
   url: /#contact
