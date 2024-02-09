@@ -1,8 +1,6 @@
 ---
 layout: post
-title: >-
-  Lafayette's Culinary Renaissance: Jersey Mike's Returns and Jet Coffee Brews
-  Up Excitement with Jeff Landry and Scout Real Estate Co
+title: 'Jersey Mike''s Returns and Jet Coffee Brews Up Excitement '
 description: >-
   Jeff Landry closes the deal for Jersey Mike's and Jet Coffee leases near Top
   Golf
