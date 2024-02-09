@@ -11,9 +11,9 @@ short_description:
 date: 2023-08-04 08:00:00
 categories:
   - blog
-image: /uploads/twilight.jpg
+image: /uploads/screenshot-2024-02-09-at-1-45-06-pm.png
 ---
-**![](/uploads/twilight.jpg)Introducing Scout Real Estate Co.'s New Commercial Property Management and Leasing Services**
+**![](/uploads/screenshot-2024-02-09-at-1-45-06-pm.png)Introducing Scout Real Estate Co.'s New Commercial Property Management and Leasing Services**
 
 At Scout Real Estate Co., we are thrilled to announce the expansion of our services to include commercial property management and leasing. With years of experience in commercial real estate, we are excited to bring our expertise, dedication, and personalized approach to commercial properties.
 
