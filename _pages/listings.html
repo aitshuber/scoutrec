@@ -1,8 +1,14 @@
 ---
-layout: sub-page
-title: 'Scout Real Estate Co. - Acadiana''s Premier Commercial Real Estate Brokers '
+layout: default
+title: 'Scout Real Estate Co. - Acadiana''s Premier Commercial Real Estate Brokers'
 description: Test description
 keywords:
+page_banner:
+  banner_title: Your Commercial Real Estate Partners
+  sub_text: BROKERAGE | MANAGEMENT | CONSULTING
+  button_link:
+  button_text: SEARCH LISTINGS
+  background_image: /uploads/img-3844.jpg
 permalink: /commerical-listings
 ---
 <!-- Hero -->
@@ -36,13 +42,13 @@ permalink: /commerical-listings
                    <span class="input-group-prepend input-group-text">
                      <i class="bi-search"></i>
                    </span>
-                   
+
                    <input class="form-control form-control-lg" placeholder="Enter keyword" value="" name="q" id="search" type="text" />
-                  
+
                  </div>
                  </div>
                </div>
-        
+
              </div>
              <!-- End Input Card -->
            </form>
@@ -50,10 +56,10 @@ permalink: /commerical-listings
          <!-- End Col -->
        </div>
        <!-- End Row -->
- 
+
        <div class="col-md-6 position-md-absolute top-0 end-0">
          <img class="img-fluid editable" alt="Lafayette Local Commercial Listings" src="/uploads/img-3815.jpg" width="900" />
- 
+
          <!-- SVG Shape -->
          <div class="position-absolute bottom-0 end-0 zi-n1 mb-n10 me-n7" style="width: 12rem;">
            <img class="img-fluid" src="../assets/svg/components/dots-lg.svg" />
@@ -62,11 +68,11 @@ permalink: /commerical-listings
        </div>
      </div>
    </div>
- 
+
  <div class="col-md-12 position-absolute top-0 start-0 zi-n1 gradient-y-three-sm-primary h-100" style="background-size: calc(1000px + (100vw - 1000px) / 2);"></div>
  </div>
  <!-- End Hero -->
- 
+
  <!-- Card Grid -->
  <div class="container content-space-t-1 content-space-b-2 content-space-b-lg-3">
    <!-- Heading -->
@@ -76,7 +82,7 @@ permalink: /commerical-listings
          <span class="d-block">{{i}} Properties</span>
          <h1 class="h2 mb-0">Property for sale</h1>
        </div>
-       
+
      </div>
      <!-- End Row -->
    </div>
@@ -91,7 +97,7 @@ permalink: /commerical-listings
        <div class="card card-flush shadow-none h-100">
          <a class="card-pinned" href="{{property.url}}">
            <img class="card-img" src="{% for img in property.image[0] limit: 1 %}{{ img[1] }}{% endfor %}" alt="Image Description" />
-         
+
            <div class="card-pinned-top-start">
              <span class="badge bg-primary">Featured</span>
            </div>
@@ -99,22 +105,22 @@ permalink: /commerical-listings
          <!-- Body -->
          <a class="card-body" href="{{property.url}}">
            <span class="card-subtitle text-body">Status: <b>{{property.status}}</b></span>
-   
+
            <div class="row align-items-center mb-3">
              <div class="col">
                <h4 class="card-title text-inherit">{{property.name}}</h4>
              </div>
              <!-- End Col -->
-   
+
              <div class="col-auto">
                <h3 class="card-title text-primary">${{property.price | money}}</h3>
              </div>
              <!-- End Col -->
            </div>
            <!-- End Row -->
-   
+
            <ul class="list-inline list-separator text-body small">
-            
+
              <li class="list-inline-item">
              <i class="fa-regular fa-buildings"></i>
               {{property.property-subtype}}
@@ -130,7 +136,7 @@ permalink: /commerical-listings
      </div>
      {% endif %}
      {% endfor %}
-   
+
      {% for property in sorted_by_price %}
      {% if property.featured == false %}
      <div class="col mb-3">
@@ -142,20 +148,20 @@ permalink: /commerical-listings
          <!-- Body -->
          <a class="card-body" href="{{property.url}}">
            <span class="card-subtitle text-body">Status: <b>{{property.status}}</b></span>
-     
+
            <div class="row align-items-center mb-3">
              <div class="col">
                <h4 class="card-title text-inherit">{{property.name}}</h4>
              </div>
              <!-- End Col -->
-     
+
              <div class="col-auto">
                <h3 class="card-title text-primary">${{property.price | number_format}}</h3>
              </div>
              <!-- End Col -->
            </div>
            <!-- End Row -->
-     
+
            <ul class="list-inline list-separator text-body small">
             {% if property.property-type == Land %}
             <li class="list-inline-item">
@@ -185,24 +191,24 @@ permalink: /commerical-listings
      <!-- End Col -->
    </div>
  <div id="results-container" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-5"></div>
- 
+
  <script src="../assets/js/search-script.js" type="text/javascript"></script>
  <script>
  document.addEventListener('DOMContentLoaded', function () {
    // Get the query string from the URL
    const urlParams = new URLSearchParams(window.location.search);
- 
+
    // Extract the value of the desired parameter (e.g., 'q')
    const queryValue = urlParams.get('q');
- 
+
    // Select the input field using its 'id' attribute
    const inputField = document.getElementById('search');
    const allListings = document.getElementById('all-listings');
    const resultsContainer = document.getElementById('results-container');
- 
+
    // Set the input field's value to the extracted query parameter value
    inputField.value = queryValue;
- 
+
    // Perform the search using SimpleJekyllSearch
    window.simpleJekyllSearch = new SimpleJekyllSearch({
      noResultsText: 'No listings match that search',
@@ -240,7 +246,7 @@ permalink: /commerical-listings
        </div>
      </div>`
    });
- 
+
    // Hide all listings when the user types in the search input
    inputField.addEventListener('input', function () {
      if (inputField.value.trim() !== '') {
@@ -251,13 +257,13 @@ permalink: /commerical-listings
        resultsContainer.style.display = 'none';
      }
    });
- 
+
    // Manually trigger the input event to start the search if the queryValue exists
    if (queryValue) {
      inputField.dispatchEvent(new Event('input', { bubbles: true }));
    }
  });
- 
+
  </script>
- 
+
 </div>

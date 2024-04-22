@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: default
 title: South Lousiana's hub for Commercial Real Estate
 description: >-
     Find commercial real estate for sale, lease & auction with the leading
@@ -8,6 +8,12 @@ keywords: >-
     commercial real estate, commercial real estate marketing, commercial real
     estate advertising, commercial mls, land for sale, commercial properties,
     commercial real estate for lease, commercial auctions
+page_banner:
+    banner_title: Your Commercial Real Estate Partners
+    sub_text: BROKERAGE | MANAGEMENT | CONSULTING
+    button_link:
+    button_text: SEARCH LISTINGS
+    background_image: /uploads/img-3844.jpg
 permalink: /real-estate-news
 ---
 <div class="container pt-10 mt-10">
@@ -33,6 +39,47 @@ permalink: /real-estate-news
       <!-- End Card -->
     </div>
     {% endfor %}
+
+
 </div>
 </div>
-    <!-- End Col -->
+<section class="container-fluid bg-primary">
+  <!-- Features -->
+  <div id="featuresSection" class="container content-space-2 content-space-lg-3">
+    <!-- Heading -->
+    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+      <h2 class="h1">Scouting Lafayette Reports</h2>
+      <p class="text-dark">Showcase all commercial transactions over $500,000 in Lafayette and neighboring areas.</p>
+    </div>
+    <!-- End Heading -->
+
+    <div class="row gx-3">
+  {% for item in site.data.newsletter %}
+      <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+        <!-- Card -->
+        <a class="card card-sm card-transition h-100" href="{{item.pdf}}" target="_blank">
+          <div class="card-body">
+            <span class="svg-icon text-primary mb-3">
+            <i class="fa-regular fa-file-chart-column fa-3x"></i>
+            </span>
+
+            <h4 class="card-title">{{item.date}} Report</h4>
+            <p class="card-text text-body">See what {{item.agent}} is Scouting</p>
+          </div>
+
+          <div class="card-footer pt-0">
+            <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+          </div>
+        </a>
+        <!-- End Card -->
+      </div>
+      <!-- End Col -->
+      {% endfor %}
+
+    </div>
+    <!-- End Row -->
+  </div>
+  <!-- End Features -->
+<!-- End Card Grid -->
+</section>
+

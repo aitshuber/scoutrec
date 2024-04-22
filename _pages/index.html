@@ -12,81 +12,152 @@ page_banner:
 services_image: /uploads/214jefferson-72.jpg
 permalink: /
 ---
-{% for images in page.image %} 
-   
- {% endfor %} 
+{% for images in page.image %}
 
-<div class="position-relative my-10">
+ {% endfor %}
+
+<div class="position-relative my-6">
     <div class="container">
-        <div class="row justify-content-end align-items-md-center my-4">
+        <div class="row justify-content-end align-items-md-center">
             <div class="col-md-12">
                     <!-- Heading -->
-                    <div class="mb-4 mb-sm-7 editable text-center"><p class="text-left">Welcome to<strong> Scout Real Estate Co.</strong>, your premier destination for <strong>commercial real estate</strong> solutions in <strong>Lafayette, Louisiana</strong>, and beyond. With a deep understanding of the local market and a commitment to excellence, we specialize in providing tailored services to meet your unique needs. With a focus on integrity, transparency, and personalized service, we strive to build long-term relationships with our clients based on trust and mutual success. Our comprehensive approach to <strong>real estate brokerage</strong> ensures that you receive the attention and support you deserve, whether you're a seasoned <strong>investor</strong> or a <strong>first-time buyer</strong>. <br />Contact us today to learn more and let us help you unlock the potential of the <strong>Lafayette market</strong>.</p></div>
+                    <div class="mb-4 mb-sm-5 editable text-center"><p class="text-left">Welcome to<strong> Scout Real Estate Co.</strong>, your premier destination for <strong>commercial real estate</strong> solutions in <strong>Lafayette, Louisiana</strong>, and beyond. With a deep understanding of the local market and a commitment to excellence, we specialize in providing tailored services to meet your unique needs. With a focus on integrity, transparency, and personalized service, we strive to build long-term relationships with our clients based on trust and mutual success. Our comprehensive approach to <strong>real estate brokerage</strong> ensures that you receive the attention and support you deserve, whether you're a seasoned <strong>investor</strong> or a <strong>first-time buyer</strong>. <br />Contact us today to learn more and let us help you unlock the potential of the <strong>Lafayette market</strong>.</p></div>
                     <!-- End Heading -->
                     <!-- End Row -->
-                    <div class="row">
-                      {% assign counter = 0 %}
-                       {% assign sorted = site.properties | sort: 'featured' | reverse %}
-                       {% assign sorted_by_price = sorted | sort: 'price' | reverse | remove: ',' | remove: '$' %}
-                       {% for item in sorted %}
-                       {% assign counter = counter | plus: 1 %}
-                       {% if counter == 1 %}
-                       {% if item.featured == true %}
-                        <div class="col-sm-6 col-lg-4 mb-3">
-                          <!-- Card -->
-                          <a class="card card-stretched-vertical border-0 card-transition shadow-none bg-img-start gradient-y-overlay-lg-dark" href="{{item.url}}" style="background-image: url({% for img in item.image[0] limit: 1 %}{{ img[1] }}{% endfor %}); min-height: 15rem;">
-                            <div class="card-body">
-                              <div class="mb-1">
-                                <span class="badge bg-primary text-white">Featured</span>
-                              </div>
-                              <div class="card-footer">
-                                <h3 class="text-white mb-0">{{item.name}}</h3>
-                                <span class="d-block text-white">${{item.price}}</span>
-                              </div>
-                            </div>
-                          </a>
-                          <!-- End Card -->
-                        </div>
-                        <!-- End Col -->
-                        {% endif %}
-                        {% endif %}
-                         {% endfor %}
-                         {% assign counter2 = 0 %}
-                         {% for item in sorted_by_price %}
-                         {% assign counter2 = counter2 | plus: 1 %}
-                         {% if counter2 <= 3 %}
-                          {% if item.featured == false %}
-                           <div class="col-sm-6 col-lg-4 mb-3">
-                             <!-- Card -->
-                             <a class="card card-stretched-vertical border-0 card-transition shadow-none bg-img-start gradient-y-overlay-lg-dark" href="{{item.url}}" style="background-image: url({% for img in item.image[0] limit: 1 %}{{ img[1] }}{% endfor %}); min-height: 15rem;">
-                               <div class="card-body">
-                               {% if item.featured %}
-                                 <div class="mb-1">
-                                   <span class="badge bg-primary text-white">Featured</span>
-                                 </div>
-                                {% endif %}
-                                 <div class="card-footer">
-                                   <h3 class="text-white mb-0">{{item.name}}</h3>
-                                   <span class="d-block text-white">${{item.price | number_format }}</span>
-                                 </div>
-                               </div>
-                             </a>
-                             <!-- End Card -->
-                           </div>
-                           <!-- End Col -->
-                           {% endif %}
-                           {% endif %}
-                            {% endfor %}
-                    <div class="d-grid d-sm-flex gap-3 mx-auto justify-content-center my-5">
-                        <a class="btn btn-primary btn-transition text-uppercase" href="/commerical-listings">Search all listings</a>
-                    </div>
-                  </div>
+
             </div>
+
             <!-- End Col -->
         </div>
         <!-- End Row -->
     </div>
 </div>
+<!-- Contacts -->
+<div class="position-relative">
+  <div class="bg-dark bg-img-start" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
+    <div class="container content-space-t-2 content-space-b-1 d-md-flex align-middle align-items-center">
+      <!-- Heading -->
+      <div class="col text-center mx-lg-auto mb-7 p-4">
+        <span class="text-cap text-white-70">Contact us</span>
+        <h2 class="text-white lh-base">Need guidance with your commercial purchase? Our experienced team is here to help, whether it's your first or 100th transaction! <span class="text-warning">Let's chat.</span></h2>
+      </div>
+      <!-- End Heading -->
+
+      <div class="mx-auto col" >
+        <!-- Card -->
+        <div class="card zi-2">
+          <div class="card-body">
+            <!-- Form -->
+           <form>
+               <div class="row gx-3">
+                   <div class="col-sm-6">
+                       <!-- Form -->
+                       <div class="mb-3">
+                           <label class="form-label" for="hireUsFormFirstName">First name</label>
+                           <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstName" placeholder="First name" aria-label="First name" />
+                       </div>
+                       <!-- End Form -->
+                   </div>
+                   <!-- End Col -->
+
+                   <div class="col-sm-6">
+                       <!-- Form -->
+                       <div class="mb-3">
+                           <label class="form-label" for="hireUsFormLasttName">Last name</label>
+                           <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="hireUsFormLasttName" placeholder="Last name" aria-label="Last name" />
+                       </div>
+                       <!-- End Form -->
+                   </div>
+                   <!-- End Col -->
+               </div>
+               <!-- End Row -->
+
+               <div class="row gx-3">
+                   <div class="col-sm-6">
+                       <!-- Form -->
+                       <div class="mb-3">
+                           <label class="form-label" for="hireUsFormWorkEmail">Email address</label>
+                           <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" />
+                       </div>
+                       <!-- End Form -->
+                   </div>
+                   <!-- End Col -->
+
+                   <div class="col-sm-6">
+                       <!-- Form -->
+                       <div class="mb-3">
+                           <label class="form-label" for="hireUsFormPhone">Phone <span class="form-label-secondary">(Optional)</span></label>
+                           <input type="text" class="form-control form-control-lg" name="hireUsFormNamePhone" id="hireUsFormPhone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" />
+                       </div>
+                       <!-- End Form -->
+                   </div>
+                   <!-- End Col -->
+               </div>
+               <!-- End Row -->
+
+               <div class="row gx-3">
+                   <div class="col-sm-6">
+                       <!-- Form -->
+                       <div class="mb-3">
+                          <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Agent)</span></label>
+                          <select id="exampleFormControlSelect1" class="form-control">
+                            <option>Choose an agent</option>
+                            {% for item in site.data.broker %}
+                            <option value="{{item.name}}">{{item.name}}</option>
+                            {% endfor %}
+                            <option value="No Preference/First Available">No Preference/First Available</option>
+                          </select>
+                       </div>
+                       <!-- End Form -->
+                   </div>
+                   <!-- End Col -->
+
+                   <div class="col-sm-6">
+                       <!-- Form -->
+                       <div class="mb-3">
+                          <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Interest)</span></label>
+                             <select id="exampleFormControlSelect1" class="form-control">
+                                 <option>Choose an Interest</option>
+                               <option value="Buying">Buying</option>
+                               <option value="Selling">Selling</option>
+                               <option value="Consulting Services">Consulting Services</option>
+                               <option value="Property Management">Property Management</option>
+                               <option value="Other">Other</option>
+                             </select>
+                       </div>
+                       <!-- End Form -->
+                   </div>
+                   <!-- End Col -->
+               </div>
+               <!-- End Row -->
+               <div class="d-grid">
+                   <button type="submit" class="btn btn-primary btn-lg editable rounded-0">Send inquiry</button>
+               </div>
+
+               <div class="text-center">
+                   <p class="form-text editable">By entering your information and clicking "Send" you agree to our Terms of
+                       Use and Privacy Policy and that you may be contacted by phone or email about your inquiry.
+                   </p>
+               </div>
+           </form>
+            <!-- End Form -->
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Shape -->
+  <div class="shape shape-bottom zi-1">
+    <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 500H3000V0L0 500Z" fill="#fff"/>
+    </svg>
+  </div>
+  <!-- End Shape -->
+</div>
+<!-- End Contacts -->
+
 <div class="position-relative space-2">
   <div class="container content-space-lg-3">
     <div class="row align-items-center">
@@ -184,7 +255,7 @@ permalink: /
                     <div class="mb-1"><span class="card-subtitle text-white">{{post.date | date: '%B %d, %Y'}}</span></div>
                     <h3 class="card-title text-white" style="min-height:5em;">{{ post.title }}</h3>
                   <div class="card-footer">
-                    
+
                    <p class="card-link link-light">Read more <i class="bi-chevron-right small ms-1"></i></p>
                   </div>
                   </div>
@@ -200,6 +271,6 @@ permalink: /
             <!-- End Col -->
         </div>
         <!-- End Row -->
-    
+
 
 <!-- Contact Form -->

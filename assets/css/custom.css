@@ -63,3 +63,8 @@
 	text-decoration: none;
 }
 .sib_class_14_black_reg{display: none;}
+.crt-logo.crt-tag{
+	opacity: 0 !important;
+	visibility: hidden !important;
+	pointer-events: none !important;
+}
