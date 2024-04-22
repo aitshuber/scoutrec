@@ -5,6 +5,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
 permalink: /:title
+# Jekyll Feed settings
+feed_items: 20
+feed_update_period: weekly
+feed_update_frequency: 1
+
 algolia:
   application_id: 'SZ1NFM42A3'
   index_name: 'scout'
