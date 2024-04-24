@@ -21,142 +21,36 @@ permalink: /
         <div class="row justify-content-end align-items-md-center">
             <div class="col-md-12">
                     <!-- Heading -->
-                    <div class="mb-4 mb-sm-5 editable text-center"><p class="text-left">Welcome to<strong> Scout Real Estate Co.</strong>, your premier destination for <strong>commercial real estate</strong> solutions in <strong>Lafayette, Louisiana</strong>, and beyond. With a deep understanding of the local market and a commitment to excellence, we specialize in providing tailored services to meet your unique needs. With a focus on integrity, transparency, and personalized service, we strive to build long-term relationships with our clients based on trust and mutual success. Our comprehensive approach to <strong>real estate brokerage</strong> ensures that you receive the attention and support you deserve, whether you're a seasoned <strong>investor</strong> or a <strong>first-time buyer</strong>. <br />Contact us today to learn more and let us help you unlock the potential of the <strong>Lafayette market</strong>.</p></div>
+                    <div class="mb-4 mb-sm-5 editable text-center"><p class="lh-lg fw-semibold lead">Welcome to<strong> Scout Real Estate Co.</strong>, your premier destination for <strong>commercial real estate</strong> solutions in <strong>Lafayette, Louisiana</strong>, and beyond. </p></div>
                     <!-- End Heading -->
                     <!-- End Row -->
 
             </div>
-
             <!-- End Col -->
         </div>
         <!-- End Row -->
     </div>
 </div>
-<!-- Contacts -->
-<div class="position-relative">
-  <div class="bg-dark bg-img-start" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
-    <div class="container content-space-t-2 content-space-b-1 d-md-flex align-middle align-items-center">
-      <!-- Heading -->
-      <div class="col text-center mx-lg-auto mb-7 p-4">
-        <span class="text-cap text-white-70">Contact us</span>
-        <h2 class="text-white lh-base">Need guidance with your commercial purchase? Our experienced team is here to help, whether it's your first or 100th transaction! <span class="text-warning">Let's chat.</span></h2>
+<!-- CTA -->
+<div class="bg-dark mb-8" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
+  <div class="container content-space-2">
+    <div class="row justify-content-lg-between align-items-lg-center">
+      <div class="col-md mb-5 mb-md-0">
+        <h2 class="text-white mb-0 lh-base">Need guidance with your commercial purchase? Our experienced team is here to help, whether it's your first or 100th transaction! <span class="text-primary">Let's chat.</span></h2>
       </div>
-      <!-- End Heading -->
-
-      <div class="mx-auto col" >
-        <!-- Card -->
-        <div class="card zi-2">
-          <div class="card-body">
-            <!-- Form -->
-           <form>
-               <div class="row gx-3">
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                           <label class="form-label" for="hireUsFormFirstName">First name</label>
-                           <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstName" placeholder="First name" aria-label="First name" />
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                           <label class="form-label" for="hireUsFormLasttName">Last name</label>
-                           <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="hireUsFormLasttName" placeholder="Last name" aria-label="Last name" />
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-               </div>
-               <!-- End Row -->
-
-               <div class="row gx-3">
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                           <label class="form-label" for="hireUsFormWorkEmail">Email address</label>
-                           <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" />
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                           <label class="form-label" for="hireUsFormPhone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                           <input type="text" class="form-control form-control-lg" name="hireUsFormNamePhone" id="hireUsFormPhone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" />
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-               </div>
-               <!-- End Row -->
-
-               <div class="row gx-3">
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                          <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Agent)</span></label>
-                          <select id="exampleFormControlSelect1" class="form-control">
-                            <option>Choose an agent</option>
-                            {% for item in site.data.broker %}
-                            <option value="{{item.name}}">{{item.name}}</option>
-                            {% endfor %}
-                            <option value="No Preference/First Available">No Preference/First Available</option>
-                          </select>
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-
-                   <div class="col-sm-6">
-                       <!-- Form -->
-                       <div class="mb-3">
-                          <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Interest)</span></label>
-                             <select id="exampleFormControlSelect1" class="form-control">
-                                 <option>Choose an Interest</option>
-                               <option value="Buying">Buying</option>
-                               <option value="Selling">Selling</option>
-                               <option value="Consulting Services">Consulting Services</option>
-                               <option value="Property Management">Property Management</option>
-                               <option value="Other">Other</option>
-                             </select>
-                       </div>
-                       <!-- End Form -->
-                   </div>
-                   <!-- End Col -->
-               </div>
-               <!-- End Row -->
-               <div class="d-grid">
-                   <button type="submit" class="btn btn-primary btn-lg editable rounded-0">Send inquiry</button>
-               </div>
-
-               <div class="text-center">
-                   <p class="form-text editable">By entering your information and clicking "Send" you agree to our Terms of
-                       Use and Privacy Policy and that you may be contacted by phone or email about your inquiry.
-                   </p>
-               </div>
-           </form>
-            <!-- End Form -->
-          </div>
+      <!-- End Col -->
+      <div class="col-md-auto">
+        <div class="d-grid d-sm-flex gap-3">
+          <a class="btn btn-light btn-transition" href="/contact-scout">Contact Us</a>
         </div>
-        <!-- End Card -->
       </div>
+      <!-- End Col -->
     </div>
+    <!-- End Row -->
   </div>
-
-  <!-- Shape -->
-  <div class="shape shape-bottom zi-1">
-    <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 500H3000V0L0 500Z" fill="#fff"/>
-    </svg>
-  </div>
-  <!-- End Shape -->
 </div>
-<!-- End Contacts -->
+<!-- End CTA -->
+
 
 <div class="position-relative space-2">
   <div class="container content-space-lg-3">
@@ -239,7 +133,6 @@ permalink: /
                     <!-- Heading -->
                     <div class="mb-4 editable">
                         <h1>Scouting Lafayette</h1>
-                        <p> </p>
                         <p>Welcome to Scouting Lafayette, your ultimate hub for everything commercial real estate in Lafayette, Louisiana, and its vibrant surroundings.</p>
                     </div>
                     <!-- End Heading -->
@@ -268,9 +161,21 @@ permalink: /
                 <a class="btn btn-primary btn-transition editable" href="/real-estate-news">Read More</a>
             </div>
         </div>
-            <!-- End Col -->
-        </div>
-        <!-- End Row -->
+      <!-- End Col -->
+</div>
+<section class="space-content-t-1">
+  <div class="row justify-content-start align-items-md-start">
+      <div class="col-md-12 text-start">
+          <div class="pt-md-5">
+              <!-- Heading -->
+              <div class="mb-4 editable">
+                  <a href="https://www.instagram.com/scoutrealestateco/" target="_blank"><h1>Follow us @scoutrec</h1></a>
+              </div>
+              <!-- End Heading -->
+          </div>
+      </div>
+  </div>
+<!-- Place <div> tag where you want the feed to appear -->
+        <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
 
-
-<!-- Contact Form -->
+</section>

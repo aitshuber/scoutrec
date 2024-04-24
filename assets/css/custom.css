@@ -68,3 +68,6 @@
 	visibility: hidden !important;
 	pointer-events: none !important;
 }
+#curator-feed-default-feed-layout{
+	padding-bottom: 0 !important;
+}

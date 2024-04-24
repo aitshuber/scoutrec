@@ -1,0 +1,94 @@
+<!-- Form -->
+   <form>
+	   <div class="row gx-3">
+		   <div class="col-sm-6">
+			   <!-- Form -->
+			   <div class="mb-3">
+				   <label class="form-label" for="hireUsFormFirstName">First name</label>
+				   <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstName" placeholder="First name" aria-label="First name" />
+			   </div>
+			   <!-- End Form -->
+		   </div>
+		   <!-- End Col -->
+
+		   <div class="col-sm-6">
+			   <!-- Form -->
+			   <div class="mb-3">
+				   <label class="form-label" for="hireUsFormLasttName">Last name</label>
+				   <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="hireUsFormLasttName" placeholder="Last name" aria-label="Last name" />
+			   </div>
+			   <!-- End Form -->
+		   </div>
+		   <!-- End Col -->
+	   </div>
+	   <!-- End Row -->
+
+	   <div class="row gx-3">
+		   <div class="col-sm-6">
+			   <!-- Form -->
+			   <div class="mb-3">
+				   <label class="form-label" for="hireUsFormWorkEmail">Email address</label>
+				   <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" />
+			   </div>
+			   <!-- End Form -->
+		   </div>
+		   <!-- End Col -->
+
+		   <div class="col-sm-6">
+			   <!-- Form -->
+			   <div class="mb-3">
+				   <label class="form-label" for="hireUsFormPhone">Phone <span class="form-label-secondary">(Optional)</span></label>
+				   <input type="text" class="form-control form-control-lg" name="hireUsFormNamePhone" id="hireUsFormPhone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" />
+			   </div>
+			   <!-- End Form -->
+		   </div>
+		   <!-- End Col -->
+	   </div>
+	   <!-- End Row -->
+
+	   <div class="row gx-3">
+		   <div class="col-sm-6">
+			   <!-- Form -->
+			   <div class="mb-3">
+				  <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Agent)</span></label>
+				  <select id="exampleFormControlSelect1" class="form-control">
+					<option>Choose an agent</option>
+					{% for item in site.data.broker %}
+					<option value="{{item.name}}">{{item.name}}</option>
+					{% endfor %}
+					<option value="No Preference/First Available">No Preference/First Available</option>
+				  </select>
+			   </div>
+			   <!-- End Form -->
+		   </div>
+		   <!-- End Col -->
+
+		   <div class="col-sm-6">
+			   <!-- Form -->
+			   <div class="mb-3">
+				  <label class="form-label" for="exampleFormControlSelect1">Select <span class="form-label-secondary">(Interest)</span></label>
+					 <select id="exampleFormControlSelect1" class="form-control">
+						 <option>Choose an Interest</option>
+					   <option value="Buying">Buying</option>
+					   <option value="Selling">Selling</option>
+					   <option value="Consulting Services">Consulting Services</option>
+					   <option value="Property Management">Property Management</option>
+					   <option value="Other">Other</option>
+					 </select>
+			   </div>
+			   <!-- End Form -->
+		   </div>
+		   <!-- End Col -->
+	   </div>
+	   <!-- End Row -->
+	   <div class="d-grid">
+		   <button type="submit" class="btn btn-primary btn-lg editable rounded-0">Send inquiry</button>
+	   </div>
+
+	   <div class="text-center">
+		   <p class="form-text editable">By entering your information and clicking "Send" you agree to our Terms of
+			   Use and Privacy Policy and that you may be contacted by phone or email about your inquiry.
+		   </p>
+	   </div>
+   </form>
+	<!-- End Form -->

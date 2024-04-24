@@ -1,0 +1,90 @@
+---
+layout: default
+title: Commercial Real Estate Services
+description: Test descriptions
+keywords:
+history_image: /uploads/img-3839.jpg
+page_banner:
+  banner_title: Your Commercial Real Estate Partners
+  sub_text: BROKERAGE | MANAGEMENT | CONSULTING
+  button_link:
+  button_text: SEARCH LISTINGS
+  background_image: /uploads/img-3844.jpg
+permalink: /contact-scout
+---
+ <!-- Contact Form -->
+<div class="container content-space-t-3 content-space-t-md-1  content-space-b-2">
+  <div class="row">
+    <div class="col-lg-6 mb-9 mb-lg-0">
+      <!-- Heading -->
+      <div class="mb-5">
+        <h2 class="h1 text-dark">We're here to help</h2>
+        <p class="text-dark-70 editable">Our objective is to provide valuable information and assistance. By delivering exceptional service and a comprehensive understanding of the Lafayette region, we aspire to secure your patronage.</p>
+      </div>
+      <!-- End Heading -->
+
+      <!-- Leaflet -->
+      <div class="overflow-hidden">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.5597135086427!2d-92.02073868797517!3d30.221111410072066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249d39147dbb39%3A0x8100b2b48fe9e739!2sScout%20Real%20Estate!5e0!3m2!1sen!2sus!4v1713991704965!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     <div class="row">
+       <div class="col-md-6 col-6">
+         <!-- List -->
+         <ul class="list-unstyled list-py-1">
+           <h4 class="footeraddress">Address</h4>
+           <li class="text-dark"><i class="bi-geo-alt-fill me-1"></i> {{site.data.company_details.Addresses[0].address}}<br />
+               {{site.data.company_details.Addresses[0].address2}}<br />
+               {{site.data.company_details.Addresses[0].city-state-zip}}</li>
+           <li><a class="link-sm link-dark phone" href="tel:{{site.data.company_details.Addresses[0].phone}}"><i class="bi-telephone-inbound-fill me-1"></i>
+              {{site.data.company_details.phone}}</a></li>
+         </ul>
+         <!-- End List -->
+       </div>
+       <!-- End Col -->
+       <div class="col-md-6 d-md-inline">
+
+         <!-- List -->
+         <ul class="list-unstyled list-py-1 mb-0">
+           <h4 class="footeraddress">Mailing Address</h4>
+           <li class="text-dark">{{site.data.company_details.Addresses[1].address}}<br /> {{site.data.company_details.Addresses[1].city-state-zip}}</li>
+           <li><a class="link-sm link-dark" href="mailto:{{site.data.company_details.email}}">{{site.data.company_details.email}}</a></li>
+           <div class="col-sm-auto">
+             <!-- Socials -->
+             <ul class="list-inline mb-0">
+               {% for social in site.data.company_details.social %}
+               <li class="list-inline-item">
+                 <a class="btn btn-soft-dark btn-xs btn-icon" href="{{social.link}}" target="_blank">
+                   <i class="bi bi-{{social.icon}}"></i>
+                 </a>
+               </li>
+               {% endfor %}
+             </ul>
+         </div></ul>
+         <!-- End List -->
+       </div>
+       <!-- End Col -->
+     </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-lg-6">
+      <div class="ps-lg-5">
+        <!-- Card -->
+        <div class="card">
+          <div class="card-header border-bottom text-center">
+            <h3 class="card-header-title">General inquiries</h3>
+          </div>
+
+          <div class="card-body">
+           {% include form.html %}
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+    <!-- End Col -->
+  </div>
+  <!-- End Row -->
+</div>
+<!-- End Contact Form -->
