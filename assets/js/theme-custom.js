@@ -1,9 +1,3 @@
-/* curator-feed-default-feed-layout */
-(function(){
-var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
-i.src="https://cdn.curator.io/published/3ceec12d-7235-44a6-8e3f-61991417dcfa.js";
-e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-})();
 
 // Email Popup
  function getCookie(name) {
@@ -51,12 +45,7 @@ function setCookie(name, value, days) {
 
   //Site Scripts
   (function() {
-	// INITIALIZATION OF MEGA MENU
-	// =======================================================
-
-
 	// INITIALIZATION OF BOOTSTRAP VALIDATION
-	// =======================================================
 	HSBsValidation.init('.js-validate', {
 	  onSubmit: data => {
 		data.event.preventDefault()
@@ -101,21 +90,4 @@ function setCookie(name, value, days) {
 		  nextEl: '.js-swiper-slides-per-view-button-next',
 		  prevEl: '.js-swiper-slides-per-view-button-prev',
 		},
-
-	  // INITIALIZATION OF LEAFLET
-	  // =======================================================
-	  var tabEl = document.querySelector('[data-bs-target="#propertyOverviewNavThree"]');
-
-	  if (tabEl) {
-		tabEl.addEventListener('shown.bs.tab', function (event) {
-		  $mapContainerEl = document.getElementById('map');
-		  if ($mapContainerEl.classList.contains('leaflet-container')) return;
-
-		  const leaflet = HSCore.components.HSLeaflet.init($mapContainerEl);
-
-		  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-			id: 'mapbox/light-v9'
-		  }).addTo(leaflet);
-		});
-	  }
-  })()
+  })();

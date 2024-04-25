@@ -55,10 +55,10 @@ permalink: /real-estate-news
 </section>
 <section class="container-fluid bg-primary">
   <!-- Features -->
-  <div id="featuresSection" class="container content-space-1">
+  <div id="featuresSection" class="container-fluid content-space-1">
 <!-- Swiper -->
   <div class="js-swiper-slides-per-view swiper">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper container">
      {% for item in site.data.newsletter %}
      <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0 swiper-slide">
        <!-- Card -->
@@ -78,13 +78,11 @@ permalink: /real-estate-news
      <!-- End Col -->
      {% endfor %}
     </div>
-
     <!-- Arrows -->
-    <div class="js-swiper-slides-per-view-button-next swiper-button-next"></div>
+<div class="js-swiper-slides-per-view-button-next swiper-button-next"></div>
     <div class="js-swiper-slides-per-view-button-prev swiper-button-prev"></div>
   </div>
   <!-- End Swiper -->
-
   <!-- Swiper Pagination -->
   <div class="js-swiper-slides-per-view-pagination swiper-pagination"></div>
     <div class="row gx-3">
