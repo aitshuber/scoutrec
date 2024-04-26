@@ -4,8 +4,7 @@
   image: /uploads/img-5904.jpg
   phone: 337-257-5380
   email: jeff@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=361960&search=true
+  listing-link: https://members.catylist.com/agent/5cbfb3036ce3f20001b9ce52
 - name: Rex Moroux
   accreditation: CCIM
   title: Partner
@@ -47,16 +46,14 @@
   image: /uploads/tim-skinner.jpg
   phone: 337-205-1635
   email: tim@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12069042&search=true
+  listing-link: https://members.catylist.com/agent/5cc28283e26d5a0001ad452c
 - name: Diana Stephens
   accreditation:
   title: Agent
   image: assets/img/500x280/JCD22941-1638x2048.jpg
   phone: 225-235-5755
   email: diana@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=335422&search=true
+  listing-link: https://members.catylist.com/agent/5cbfb73533c4c30001400022
 - name: Teddy Beaullieu
   accreditation:
   title: Agent
@@ -64,24 +61,21 @@
     assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
   phone: 337-356-1208
   email: teddy@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12682916&search=true
+  listing-link: https://members.catylist.com/agent/5d6334f23ee704000114c4c7
 - name: Paul Bako
   accreditation:
   title: Agent
   image: /uploads/paulb2.jpg
   phone: 337-781-3596
   email: paul@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12198303&search=true
+  listing-link: https://members.catylist.com/agent/5cc04f9ff2aa5c00012ff150
 - name: Braxton Higginbotham
   accreditation:
   title: Agent
   image: /uploads/img-6052-jpg.jpg
   phone: 337-501-6457
   email: braxton@scoutrec.com
-  listing-link: >-
-    https://www.lacdb.com/jsp/agents/agent_listings.jsp?agentID=12869741&search=true
+  listing-link: https://members.catylist.com/agent/62eab8d513a7040007a3eb76
 - name: Alex Mouton
   accreditation:
   title: Agent
@@ -95,7 +89,7 @@
   image: /uploads/img-3120-jpg-2.jpg
   phone: 337-781-9733
   email: jake@scoutrec.com
-  listing-link: ''
+  listing-link: https://members.catylist.com/agent/6605ea00a04b88590011f862
 - name: Conner Munchrath
   accreditation:
   title: Agent
