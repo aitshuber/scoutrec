@@ -29,6 +29,15 @@
 .title {
 	font-size: inherit
 }
+.bloglist-img{
+	max-height: 25rem;
+}
+.bloglist-img .card-title {
+	min-height:5em;
+}
+.team .card-text{
+	min-height: 7vh
+}
 .property_secondary_image {
 	object-fit: cover;
 	height: 13.5em !important;

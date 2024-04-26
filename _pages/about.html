@@ -20,8 +20,8 @@ permalink: /commercial-real-partners
             <h1 class="display-6 text-white mb-6 mt-6 text-center editable">Our History</h1>
             <div class="container">
                 <div class="row text-white">
-                    <div class="col-md-6 col-12 editable">
-                       <p class="lh-lg"> In 2018, our partners came together with the idea to build a new
+                    <div class="col-md-6 col-12">
+                       <p class="lh-lg editable"> In 2018, our partners came together with the idea to build a new
                         commercial real estate model. We wanted
                         to service Lafayette and shape lasting relationships with client-partners looking to
                         succeed,
@@ -38,8 +38,8 @@ permalink: /commercial-real-partners
                         an emphasis on downtown properties.
                        </p>
                     </div>
-                    <div class="col-md-6 col-12 editable">
-                        <p class="lh-lg">
+                    <div class="col-md-6 col-12">
+                        <p class="lh-lg editable">
                         Scout is less worried about the number of signs we put in the ground
                         and more committed to working on
                         projects that have a significant impact for our clients and our community. We are
@@ -69,34 +69,34 @@ permalink: /commercial-real-partners
 <div id="ourteam" class="container content-space-lg-0 align-items-center mt-10 pt-10 mt-md-0">
     <div class="row pt-md-8">
    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-       <span class="d-block small font-weight-bold text-cap mb-2">Our Team Of</span>
-       <h2>Trusted Commercial Real Estate Professionals</h2>
+       <span class="d-block small font-weight-bold text-cap mb-2 editable">Our Team Of</span>
+       <h2 class="editable">Trusted Commercial Real Estate Professionals</h2>
      </div>
     </div>
     <div class="row pb-md-8">
         {% for post in site.data.broker %}
-        <div class="col-sm-6 col-6 col-md-3 mb-5 mb-lg-3">
+        <div class="col-sm-6 col-6 col-lg-3 mb-5 mb-xl-3 team">
           <!-- Team -->
-          <img class="card-img rounded-0 team-img" src="{{ post.image }}" alt="{{ post.name }}" />
-          <div class="card card-sm text-center mt-md-n7 mt-n5 m mx-3">
-            <div class="card-body py-1">
+          <img class="card-img rounded-0 team-img" src="{{ post.image }}" alt="Commerical Real Estate Agent | {{ post.name }}" />
+          <div class="card card-sm text-center mt-md-n7 mt-n5 m mx-3 ">
+            <div class="card-body py-1 h-100 d-flex flex-column ">
               <h4 class="card-title mb-0 fs-6 fs-md-3">{{ post.name }}{% if post.accreditation %}, {{post.accreditation}}{% endif %}</h4>
-              <p class="card-text fs-6 mb-2">{{ post.title }}</p>
+              <p class="card-text fs-6 mb-2 d-flex justify-content-center align-items-stretch">{{ post.title }}</p>
               <ul class="list-inline mb-3">
                   <li class="list-inline-item" data-bs-toggle="tooltip" data-bs-html="true" title="{{ post.phone }}">
-                    <a class="btn btn-outline-primary btn-xs btn-icon phone" href="tel:{{ post.phone }}">
-                      <i class="bi-phone" style="margin-left: 15% !important"></i>
+                    <a class="btn btn-outline-primary btn-xs btn-icon phone" href="tel:{{ post.phone }}" title="Contact your Local Lafayette Commerical Real Estate Agent">
+                      <i class="bi-phone"></i>
                     </a>
                   </li>
                   <li class="list-inline-item">
                     <a class="btn btn-outline-primary btn-xs btn-icon" href="mailto:{{ post.email }}" data-bs-toggle="tooltip" data-bs-html="true" title="Email">
-                      <i class="bi-envelope" style="margin-left: 15% !important"></i>
+                      <i class="bi-envelope"></i>
                     </a>
                   </li>
                   {% if post.listing-link %}
                   <li class="list-inline-item">
-                    <a class="btn btn-outline-primary btn-xs btn-icon" href="{{ post.listing-link }}" data-bs-toggle="tooltip" data-bs-html="true" title="Listings">
-                      <i class="bi-card-list" style="margin-left: 15% !important"></i>
+                    <a class="btn btn-outline-primary btn-xs btn-icon" target="_blank" href="{{ post.listing-link }}" data-bs-toggle="tooltip" data-bs-html="true" title="Lafayette Commerical Real Estate Listings | LACDB">
+                      <i class="bi-card-list"></i>
                     </a>
                   </li>
                   {% endif %}
