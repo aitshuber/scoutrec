@@ -13,7 +13,7 @@
              {{site.data.company_details.Addresses[0].address2}}
              {{site.data.company_details.Addresses[0].city-state-zip}}
         </p>
-      <p class="text-white-70 small mb-1"> &copy; Scout Real Estate. {{ site.time | date: "%Y" }}. All rights reserved. <a class="link-sm link-light" href="/privacy-policy">Privacy &amp; Policy</a></p>
+      <p class="text-white-70 small mb-1"> &copy; Scout Real Estate. {{ site.time | date: "%Y" }}. All rights reserved. <a class="link-sm link-light" title="Scout Privacy Policy" href="/privacy-policy">Privacy &amp; Policy</a></p>
     </div>
     <div class="row justify-content-center py-2">
       <div class="col-sm-auto mx-auto">
@@ -21,7 +21,7 @@
           <ul class="list-inline mb-0">
             {% for social in site.data.company_details.social %}
             <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" target="_blank">
+              <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" title="Scout Commerical Real Estate {{social.name}} link" target="_blank">
                 <i class="bi bi-{{social.icon}}"></i>
               </a>
             </li>

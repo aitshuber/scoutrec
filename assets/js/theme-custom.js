@@ -31,9 +31,6 @@ function setCookie(name, value, days) {
 
   window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
 
-
-
-
   window.translation = {
 	  common: {
 		  selectedList: '{quantity} list selected',
@@ -90,4 +87,19 @@ function setCookie(name, value, days) {
 		  nextEl: '.js-swiper-slides-per-view-button-next',
 		  prevEl: '.js-swiper-slides-per-view-button-prev',
 		},
+  })();
+
+	$(function() {
+	const cookieName = 'modalShown';
+	const cookieValue = getCookie(cookieName);
+
+	if (!cookieValue) {
+	  setTimeout(function() {
+		$('#exampleModalCenter').modal('show');
+		$('#exampleModalCenter').on('hidden.bs.modal', function() {
+		  const daysIn9999Years = 9999 * 365;
+		  setCookie(cookieName, 'true', daysIn9999Years);
+		});
+	  }, 5000);
+	}
   })();

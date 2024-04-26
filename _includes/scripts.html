@@ -18,20 +18,5 @@
   <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
   <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
   <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script>
-	$(function() {
-	  const cookieName = 'modalShown';
-	  const cookieValue = getCookie(cookieName);
 
-	  if (!cookieValue) {
-		setTimeout(function() {
-		  $('#exampleModalCenter').modal('show');
-		  $('#exampleModalCenter').on('hidden.bs.modal', function() {
-			const daysIn9999Years = 9999 * 365;
-			setCookie(cookieName, 'true', daysIn9999Years);
-		  });
-		}, 5000);
-	  }
-	});
-</script>
   <!-- JS Plugins Init. -->
