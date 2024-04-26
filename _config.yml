@@ -1,4 +1,4 @@
-include: ['_pages', '_data', '_properties', 'js',]
+include: ['_pages', '_data', '_properties', 'js','_directory']
 email: your-email@example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -49,17 +49,24 @@ defaults:
         embed: true
 collections:
  properties:
-   output: true   
+   output: true
+ directory:
+   output: true
 -scope:
       type: pages
       path: _pages/index.html
       values:
         permalink:
 -scope:
-  path: "_properties"
-  type: "page"
-  values:
-  layout: "properties"
+   path: "_properties"
+   type: "page"
+   values:
+   layout: "properties"
+-scope:
+   path: "_directory"
+   type: "page"
+   values:
+   layout: "listing"
 _structures:
   sub_text:
     type: text

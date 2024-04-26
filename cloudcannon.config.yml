@@ -20,6 +20,9 @@ pages:
 properties:
   output: true
   path: _properties
+directory:
+  output: true
+  path: _scout_directory
 _inputs:
   Agent:
     type: select
@@ -87,11 +90,11 @@ _editables:
     embed: true
     image: true
     table: true
-    redo: true 
+    redo: true
     image_size_attributes: false
     expandable: true
     removeformat: true
-    copyformatting: true 
+    copyformatting: true
     resize_style: cover
     styles: /assets/css/editor.css
     left: text-left
@@ -111,11 +114,11 @@ _editables:
     embed: true
     image: true
     table: true
-    redo: true 
+    redo: true
     image_size_attributes: true
     expandable: true
     removeformat: true
-    copyformatting: true 
+    copyformatting: true
     resize_style: cover
     styles: /assets/css/editor.css
     left: text-left
