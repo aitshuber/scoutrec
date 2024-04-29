@@ -1,4 +1,4 @@
-- menu_name: LISTINGS
+- menu_name: Listings
   url: /commerical-listings
 - menu_name: About Us
   url: /commercial-real-partners
@@ -8,3 +8,5 @@
   url: /commercial-real-estate-services
 - menu_name: Contact Us
   url: /contact-scout
+- menu_name: Property Management
+  url: /property-management
