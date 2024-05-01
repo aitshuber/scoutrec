@@ -108,4 +108,88 @@ function setCookie(name, value, days) {
 		});
 	  }, 5000);
 	}
+	// =======================================================
+	  AOS.init({
+		duration: 650,
+		once: true
+	  });
+
+
+	  // INITIALIZATION OF SWIPER
+	  // =======================================================
+	  let activeIndex = 0
+	  var sliderThumbs = new Swiper('.js-swiper-thumbs', {
+		slidesPerView: 1,
+		autoplay: false,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+		followFinger: false,
+		loop: true,
+		on: {
+		  'slideChangeTransitionEnd': function (event) {
+			if (sliderMain === undefined) return
+			sliderMain.slideTo(event.activeIndex)
+		  }
+		}
+	  });
+
+	  var sliderMain = new Swiper('.js-swiper-main', {
+		effect: 'fade',
+		autoplay: false,
+		disableOnInteraction: true,
+		loop: true,
+		navigation: {
+		  nextEl: '.js-swiper-main-button-next',
+		  prevEl: '.js-swiper-main-button-prev',
+		},
+		thumbs: {
+		  swiper: sliderThumbs
+		},
+		on: {
+		  'slideChangeTransitionEnd': function (event) {
+			if (sliderThumbs === undefined) return
+			sliderThumbs.slideTo(event.activeIndex)
+		  }
+		}
+	  })
+
+
+	   // Clients
+	   var swiper = new Swiper('.js-swiper-clients',{
+		 slidesPerView: 2,
+		 breakpoints: {
+		   380: {
+			 slidesPerView: 3,
+			 spaceBetween: 15,
+		   },
+		   768: {
+			 slidesPerView: 4,
+			 spaceBetween: 15,
+		   },
+		   1024: {
+			 slidesPerView: 5,
+			 spaceBetween: 15,
+		   },
+		 },
+	   });
+
+	   // Card Grid
+	   var swiper = new Swiper('.js-swiper-card-blocks',{
+		 slidesPerView: 1,
+		 pagination: {
+		   el: '.js-swiper-card-blocks-pagination',
+		   dynamicBullets: true,
+		   clickable: true,
+		 },
+		 breakpoints: {
+		   620: {
+			 slidesPerView: 2,
+			 spaceBetween: 15,
+		   },
+		   1024: {
+			 slidesPerView: 3,
+			 spaceBetween: 15,
+		   },
+		 },
+	   });
   })();
