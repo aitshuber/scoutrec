@@ -57,6 +57,12 @@ function setCookie(name, value, days) {
 	HSBsDropdown.init()
 
 
+	  // INITIALIZATION OF STICKY BLOCKS
+	  // =======================================================
+	  new HSStickyBlock('.js-sticky-block', {
+		targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+	  })
+
 	// INITIALIZATION OF GO TO
 	// =======================================================
 	new HSGoTo('.js-go-to')

@@ -7,16 +7,13 @@
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
 	  <!-- Hero -->
-	  <div class="bg-dark" style="background-image: url(./assets/svg/components/wave-pattern-light.svg);">
-		<div class="container content-space-2 content-space-lg-3">
+	  <div class="bg-dark vh-70" style="background-image: url({{page.image}});background-position: center">
+		<div class="container content-space-2 content-space-lg-4">
 		  <div class="w-lg-65 text-center mx-lg-auto">
-			<span class="badge bg-warning text-dark rounded-pill mb-3">Customer success story</span>
-			<h1 class="text-white mb-0">Millions turn to Amazon for a great customer experience</h1>
 		  </div>
 		</div>
 	  </div>
 	  <!-- End Hero -->
-
 	  <!-- Content -->
 	  <div class="container content-space-2 content-space-lg-0">
 		<div class="row">
@@ -34,7 +31,7 @@
 				<!-- Card -->
 				<div class="card">
 				  <div class="card-header border-bottom text-center">
-					<img class="avatar avatar-xxl avatar-4x3" src="./assets/svg/brands/amazon.svg" alt="Logo">
+					<h1>{{page.name}}</h1>
 				  </div>
 
 				  <div class="card-body">
@@ -249,5 +246,6 @@
   <!-- ========== END MAIN CONTENT ========== -->
 {% include footer.html %}
 {% include scripts.html %}
+<script src="../assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
 </body>
 </html>
