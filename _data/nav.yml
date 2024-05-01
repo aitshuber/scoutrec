@@ -1,5 +1,6 @@
-- menu_name: SEARCH LISTINGS
-  url: /commerical-listings
+- menu_name: Listings
+  url: >-
+    https://listings.scoutrec.com/idx/results/listings?statusCategory=&lp=&hp=&bd=&tb=&sqft=&srt=prd&idxID=c242&pt%5B0%5D=2&pt%5B1%5D=3&pt%5B2%5D=6&per=100
 - menu_name: About Us
   url: /commercial-real-partners
 - menu_name: News
