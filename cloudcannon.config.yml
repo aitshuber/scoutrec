@@ -35,6 +35,8 @@ _inputs:
         - Tim Skinner
   image-1:
     type: image
+  pdf:
+    type: file
   image-2:
     type: image
   image-3:
