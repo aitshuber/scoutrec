@@ -17801,7 +17801,7 @@ a {
 :focus,
 a:focus,
 button:focus {
-  outline-color: rgba(55, 125, 255, 0.5);
+  outline-color: rgb(54 57 52 / 70%);
 }
 
 figure {
@@ -28916,7 +28916,7 @@ label.form-control,
 }
 
 .text-highlight-primary {
-  background-image: linear-gradient(to bottom, rgba(55, 125, 255, 0.5), rgba(55, 125, 255, 0.5));
+  background-image: linear-gradient(to bottom, rgb(54 57 52 / 70%), rgb(54 57 52 / 70%));
 }
 
 .text-highlight-secondary {
@@ -30122,11 +30122,11 @@ a:hover .text-inherit {
 }
 
 .swiper-pagination-bullet:hover {
-  border-color: rgba(55, 125, 255, 0.5);
+  border-color: rgb(54 57 52 / 70%);
 }
 
 .swiper-pagination-bullet:hover::before {
-  background-color: rgba(55, 125, 255, 0.5);
+  background-color: rgb(54 57 52 / 70%);
 }
 
 .swiper-pagination-bullet-active,

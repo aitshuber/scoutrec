@@ -21,7 +21,7 @@
           <ul class="list-inline mb-0">
             {% for social in site.data.company_details.social %}
             <li class="list-inline-item">
-              <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" title="Scout Commerical Real Estate {{social.name}} link" target="_blank">
+              <a class="btn btn-soft-light btn-xs btn-icon" href="{{social.link}}" title="Scout Commerical Real Estate {{social.name}} link" {% if social.link contains 'http' %}target="_blank"{% endif %}>
                 <i class="bi bi-{{social.icon}}"></i>
               </a>
             </li>

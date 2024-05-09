@@ -1,4 +1,4 @@
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
  <!-- JS Global Compulsory  -->
   <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <!-- JS Implementing Plugins -->
@@ -9,7 +9,7 @@
   <script src="../assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
   <script src="../assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
   <script src="../assets/vendor/hs-scrollspy/dist/hs-scrollspy.min.js"></script>
-  <script src="./assets/vendor/aos/dist/aos.js"></script>
+  <script src="../assets/vendor/aos/dist/aos.js"></script>
   <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
   <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
@@ -17,6 +17,39 @@
 
   <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
   <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
-
-
-  <!-- JS Plugins Init. -->
+{% if page.name == 'articles.html' %}
+  <script>
+    (function() {
+      // INITIALIZATION OF SWIPER
+      // =======================================================
+      var responsiveBreakpoint = new Swiper('.js-swiper-responsive-breakpoint', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        autoHeight: true,
+        loop: true,
+        pagination: {
+          el: '.js-swiper-responsive-breakpoint-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+          navigation: {
+            nextEl: '.js-swiper-responsive-breakpoint-button-next',
+            prevEl: '.js-swiper-responsive-breakpoint-button-prev',
+          },
+        }
+      });
+    })()
+  </script>
+{% endif %}

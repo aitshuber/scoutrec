@@ -4,7 +4,7 @@ title: South Lousiana's hub for Commercial Real Estate
 description: >-
     Scouting Lafayette is your ultimate hub for everything commercial real
     estate in Lafayette, LA and surrounding areas. It also includes a bi-monthly
-    newsletter reporting commercial transactions $500,000 and greater. 
+    newsletter reporting commercial transactions $500,000 and greater.
 keywords: >-
     commercial real estate, commercial real estate marketing, commercial real
     estate advertising, commercial mls, land for sale, commercial properties,
@@ -41,26 +41,25 @@ permalink: /real-estate-news
       <!-- End Card -->
     </div>
     {% endfor %}
-
-
 </div>
 </div>
 <section class="container">
   <div class="row">
   <!-- Heading -->
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mt-5 mt-md-10">
-    <h2 class="h1">Scouting Lafayette Reports</h2>
-    <p class="text-dark">Showcase all commercial transactions over $500,000 in Lafayette and neighboring areas.</p>
+    <h2 class="h1 editable">Scouting Lafayette Reports</h2>
+    <p class="text-dark editable">Showcase all commercial transactions over $500,000 in Lafayette and neighboring areas.</p>
   </div>
   <!-- End Heading -->
   </div>
 </section>
 <section class="container-fluid bg-primary">
+
   <!-- Features -->
-  <div id="featuresSection" class="container-fluid content-space-1">
+  <div id="featuresSection" class="content-space-1">
 <!-- Swiper -->
-  <div class="js-swiper-slides-per-view swiper">
-    <div class="swiper-wrapper container">
+  <div class="js-swiper-responsive-breakpoint swiper-container ">
+    <div class="swiper-wrapper">
      {% for item in site.data.newsletter %}
      <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0 swiper-slide">
        <!-- Card -->
@@ -69,7 +68,8 @@ permalink: /real-estate-news
            <span class="svg-icon text-primary mb-3">
            <i class="fa-regular fa-file-chart-column fa-3x"></i>
            </span>
-           <h4 class="card-title">{{item.date}} Report</h4>
+           <h4 class="card-title">{{item.report-date-range}}</h4>
+           <small>Report</small>
          </div>
          <div class="card-footer pt-0">
            <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
@@ -80,18 +80,10 @@ permalink: /real-estate-news
      <!-- End Col -->
      {% endfor %}
     </div>
-    <!-- Arrows -->
-<div class="js-swiper-slides-per-view-button-next swiper-button-next"></div>
-    <div class="js-swiper-slides-per-view-button-prev swiper-button-prev"></div>
   </div>
   <!-- End Swiper -->
-  <!-- Swiper Pagination -->
-  <div class="js-swiper-slides-per-view-pagination swiper-pagination"></div>
-    <div class="row gx-3">
-
-
-    </div>
-    <!-- End Row -->
+<!-- Swiper Pagination -->
+  <div class="js-swiper-responsive-breakpoint-pagination swiper-pagination"></div>
   </div>
   <!-- End Features -->
 <!-- End Card Grid -->

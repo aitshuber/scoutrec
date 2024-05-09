@@ -21,3 +21,6 @@ social:
   - name: LinkedIn
     link: https://www.linkedin.com/company/scout-real-estate-co/
     icon: linkedin
+  - name: Scoout Directory
+    link: /directory
+    icon: person-rolodex
