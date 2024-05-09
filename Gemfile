@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-archives'
   gem 'jekyll-algolia', '~> 1.0'
+  gem 'jekyll_custom_permalink', '~> 0.0'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

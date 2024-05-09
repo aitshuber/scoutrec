@@ -52,6 +52,8 @@ collections:
    output: true
  directory:
    output: true
+   custom_permalink_placeholders: ["type"]
+   permalink: directory/:type/:title/
 -scope:
       type: pages
       path: _pages/index.html
@@ -82,6 +84,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-algolia
+  - jekyll_custom_permalink
 # Excluded items can be processed by explicitly listing the directories or
 #
 # exclude:

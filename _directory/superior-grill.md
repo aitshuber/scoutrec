@@ -8,7 +8,7 @@ image: /assets/img/img_8669.jpg
 short_description: Superior Grill has been rated consistently as one of Louisiana’s best Mexican restaurants since 1983 when our first establishment opened in Shreveport. Our Baton Rouge location opened in 1991 and has become a landmark in fine quality foods with a festive Mexican atmosphere.
 location: 2320 Kaliste Saloom Rd, Lafayette, LA 70508
 website: https://lafayette.superiorgrill.com
-type: Restraunt
+type: restaurant
 services_provided: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 ---
  <p>Superior Grill has been rated consistently as one of Louisiana’s best Mexican restaurants since 1983 when our first establishment opened in Shreveport. Our Baton Rouge location opened in 1991 and has become a landmark in fine quality foods with a festive Mexican atmosphere.</p>
