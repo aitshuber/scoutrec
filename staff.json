@@ -1,11 +1,12 @@
 ---
 ---
- {% for post in site.data.broker %}{% if post.listing-link %}
+[{% for post in site.data.broker %}{% if post.listing-link %}
  {
  "name": "{{ post.name | escape }}",
  "img": "{{ post.image | escape }}",
  "title": "{{ post.title | escape }}",
  "accreditation": "{{ post.accreditation | escape }}",
  "phone": "{{ post.phone | escape }}",
- "email": "{{ post.email | escape }}",
+ "email": "{{ post.email | escape }}"
  }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+]
