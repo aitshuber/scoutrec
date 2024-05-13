@@ -25,14 +25,16 @@ directory:
   path: _scout_directory
 _inputs:
   Agent:
+    type: multiselect
+    options:
+      values: data.broker
+  Company:
     type: select
     options:
       values:
-        - Jeff Landry
-        - Rex Moroux
-        - Tim Skinner
-        - Diana Stephens
-        - Tim Skinner
+        - Scout
+        - Scout MMC
+        - S1 Construction
   image-1:
     type: image
   pdf:
