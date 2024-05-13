@@ -25,12 +25,12 @@ directory:
   path: _scout_directory
 _inputs:
 
-  Agent:
+  agent:
     type: select
     options:
       values: data.broker
       
-  Company:
+  company:
     type: multiselect
     options:
       values:
