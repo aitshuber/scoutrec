@@ -5,6 +5,7 @@
   phone: 337-257-5380
   email: jeff@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/5cbfb3036ce3f20001b9ce52
+  company: Scout
 - name: Rex Moroux
   accreditation: CCIM
   title: Partner
@@ -12,6 +13,7 @@
   phone: 337-257-8133
   email: rex@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/5cc283b5e26d5a0001ad461d
+  company: Scout
 - name: Marc McIntyre
   accreditation:
   title: Construction & Management
@@ -19,6 +21,7 @@
   phone: 337-443-0880
   email: marc@scoutrec.com
   listing-link:
+  company: S1
 - name: Kendra McKinney
   accreditation:
   title: Director of Operations
@@ -26,6 +29,7 @@
   phone: 337-303-6820
   email: kendra@scoutrec.com
   listing-link:
+  company: Scout
 - name: Hannah Gotreaux
   accreditation:
   title: Office Assistant
@@ -33,6 +37,7 @@
   phone: 337-443-0880
   email: hannah@scoutrec.com
   listing-link:
+  company: Scout
 - name: Bridget Meche
   accreditation:
   title: Property Manager
@@ -40,6 +45,7 @@
   phone: 337-443-0880
   email: propertymanager@scoutrec.com
   listing-link:
+  company: S1
 - name: Tim Skinner
   accreditation: CCIM
   title: Agent
@@ -47,6 +53,7 @@
   phone: 337-205-1635
   email: tim@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/5cc28283e26d5a0001ad452c
+  company: Scout
 - name: Diana Stephens
   accreditation:
   title: Agent
@@ -54,6 +61,7 @@
   phone: 225-235-5755
   email: diana@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/5cbfb73533c4c30001400022
+  company: Scout
 - name: Teddy Beaullieu
   accreditation:
   title: Agent
@@ -62,6 +70,7 @@
   phone: 337-356-1208
   email: teddy@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/5d6334f23ee704000114c4c7
+  company: Scout
 - name: Paul Bako
   accreditation:
   title: Agent
@@ -69,6 +78,7 @@
   phone: 337-781-3596
   email: paul@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/5cc04f9ff2aa5c00012ff150
+  company: Scout
 - name: Braxton Higginbotham
   accreditation:
   title: Agent
@@ -76,6 +86,7 @@
   phone: 337-501-6457
   email: braxton@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/62eab8d513a7040007a3eb76
+  company: Both
 - name: Alex Mouton
   accreditation:
   title: Agent
@@ -83,6 +94,7 @@
   phone: 337-781-5601
   email: alex@scoutrec.com
   listing-link: ''
+  company: Scout
 - name: Jake Zimmerman
   accreditation:
   title: Agent
@@ -90,6 +102,7 @@
   phone: 337-781-9733
   email: jake@scoutrec.com
   listing-link: https://www.lacdb.com/members/#/agent/6605ea00a04b88590011f862
+  company: Scout
 - name: Conner Munchrath
   accreditation:
   title: Agent
@@ -97,3 +110,4 @@
   phone: 337-298-3648
   email: conner@scoutrec.com
   listing-link: ''
+  company: Scout

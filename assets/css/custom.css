@@ -3,17 +3,24 @@
 	pointer-events: none;
 	text-decoration: none;
 }
-
+.card-img-Diana{
+	max-height: 261px;
+	object-fit: cover;
+}
 @media only screen and (max-width: 735px) {
 	.phone {
 		color: #A7B7A9;
 		pointer-events: auto;
 		text-decoration: none;
 	}
-	.card-img, .card-img-top{
+	.card-img-Diana{
+		max-height: 100%;
+		object-fit: cover;
+	}
+	/* .card-img, .card-img-top{
 		height: 200px !important;
 		object-position: top !important;
-	}
+	} */
 	.team h2, h5{
 	font-size: 	0.875rem !important
 	}
