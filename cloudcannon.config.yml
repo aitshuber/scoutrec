@@ -24,10 +24,12 @@ directory:
   output: true
   path: _scout_directory
 _inputs:
+
   Agent:
     type: select
     options:
       values: data.broker
+      
   Company:
     type: multiselect
     options:
@@ -35,6 +37,7 @@ _inputs:
         - Scout
         - Scout MMC
         - S1 Construction
+        
   image-1:
     type: image
   pdf:
