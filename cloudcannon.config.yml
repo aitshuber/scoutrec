@@ -31,6 +31,8 @@ _inputs:
         - Scout
         - Scout MMC
         - S1 Construction
+      value_key: id
+      text_key: title
   image-1:
     type: image
   pdf:
