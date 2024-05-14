@@ -21,8 +21,6 @@ directory:
   output: true
   path: _scout_directory
 collection_config:
-company:
-  - Scout
 _inputs:
   company:
     type: multiselect
