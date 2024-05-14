@@ -25,9 +25,7 @@ _inputs:
   company:
     type: multiselect
     options:
-      - Scout
-      - Scout MMC
-      - S1 Construction
+      values: [ Scout, Scout MMC, S1 Construction ]
   image-1:
     type: image
   pdf:
