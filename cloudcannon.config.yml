@@ -17,22 +17,22 @@ pages:
   path: ''
   output: true
   filter: strict
-properties:
-  output: false
-  path: _properties
 directory:
   output: true
   path: _scout_directory
+collection_config:
+  broker:
+    _inputs:
+      company: 
+        options:
+          values:
+            - Scout
+            - Scout MMC
+            - S1 Construction
+          
 _inputs:
   company:
     type: multiselect
-    options:
-      values:
-        - Scout
-        - Scout MMC
-        - S1 Construction
-      value_key: id
-      text_key: title
   image-1:
     type: image
   pdf:
