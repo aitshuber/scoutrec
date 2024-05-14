@@ -23,13 +23,16 @@ properties:
 directory:
   output: true
   path: _scout_directory
-_inputs:
+company:
+  - Scout
+  - Scout MMC
+  - S1 Construction
+_select_data:
   company:
-    type: multiselect
-    options:
-      - Scout
-      - Scout MMC
-      - S1 Construction
+    - Scout
+    - Scout MMC
+    - S1 Construction
+_inputs:
   image-1:
     type: image
   pdf:
