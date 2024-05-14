@@ -29,9 +29,12 @@ company:
   - S1 Construction
 _select_data:
   company:
-    - Scout
-    - Scout MMC
-    - S1 Construction
+  type: multiselect
+    options:
+      values:
+        - Scout
+        - Scout MMC
+        - S1 Construction
 _inputs:
   company:
     type: multiselect
