@@ -21,18 +21,13 @@ directory:
   output: true
   path: _scout_directory
 collection_config:
-  broker:
-    _inputs:
-      company: 
-        options:
-          values:
-            - Scout
-            - Scout MMC
-            - S1 Construction
-          
 _inputs:
   company:
     type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
   image-1:
     type: image
   pdf:
