@@ -25,7 +25,7 @@ company:
   - Scout
 _inputs:
   company:
-    type: multiselect
+    type: select
     options:
       values:
         - Scout
