@@ -26,9 +26,9 @@ _inputs:
     type: multiselect
     options:
       values: 
-      - "Scout"
-      - "Scout MMC"
-      - "S1 Construction"
+      - Scout
+      - Scout MMC
+      - S1 Construction
   image-1:
     type: image
   pdf:
