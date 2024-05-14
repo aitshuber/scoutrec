@@ -33,6 +33,13 @@ _select_data:
     - Scout MMC
     - S1 Construction
 _inputs:
+  company:
+    type: multiselect
+    options:
+      values:
+        - Scout
+        - Scout MMC
+        - S1 Construction
   image-1:
     type: image
   pdf:
