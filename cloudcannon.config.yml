@@ -23,11 +23,6 @@ directory:
 collection_config:
 company:
   - Scout
-_select_data:
-  company:
-    - Scout
-    - Scout MMC
-    - S1 Construction
 _inputs:
   company:
     type: multiselect
