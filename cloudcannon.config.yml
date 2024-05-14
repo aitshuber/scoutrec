@@ -23,7 +23,7 @@ directory:
 collection_config:
 _inputs:
   company:
-    type: select
+    type: choice
     options:
       values: 
       - Scout
