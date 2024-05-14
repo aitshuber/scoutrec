@@ -21,13 +21,21 @@ directory:
   output: true
   path: _scout_directory
 collection_config:
+company:
+  - Scout
+_select_data:
+  company:
+    - Scout
+    - Scout MMC
+    - S1 Construction
 _inputs:
   company:
     type: multiselect
     options:
-      allow_create: true
-      empty_type: array
-    cascade: true
+      values:
+        - Scout
+        - Scout MMC
+        - S1 Construction
   image-1:
     type: image
   pdf:
