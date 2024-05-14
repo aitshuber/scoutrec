@@ -23,12 +23,11 @@ directory:
 collection_config:
 _inputs:
   company:
-    type: multiselect
-    options:
-      values:
-        - Scout
-        - Scout MMC
-        - S1 Construction
+  type: multiselect
+  options:
+    - Scout
+    - Scout MMC
+    - S1 Construction
   image-1:
     type: image
   pdf:
