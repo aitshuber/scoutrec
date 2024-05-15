@@ -4,31 +4,32 @@
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
-data:
-  path: _data
-  output: false
-posts:
-  path: _posts
-  output: true
-  create:
-    path: >-
-      [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
-pages:
-  path: ''
-  output: true
-  filter: strict
-directory:
-  output: true
-  path: _scout_directory
-collection_config:
+collections_config:
+  data:
+    path: _data
+    output: false
+  posts:
+    path: _posts
+    output: true
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+  pages:
+    path: _pages
+    output: true
+    filter: strict
+  directory:
+    output: true
+    path: _directory
+
 _inputs:
   company:
     type: multiselect
     options:
-      values: 
-      - Scout
-      - Scout MMC
-      - S1 Construction
+      values:
+        - Scout
+        - Scout MMC
+        - S1 Construction
   image-1:
     type: image
   pdf:
@@ -41,17 +42,7 @@ _inputs:
     type: image
   background_image_3:
     type: image
-schemas:
-      block_page:
-        path: schemas/page.md
-        _enabled_editors:
-          - visual
-          - content
-      content_page:
-        path: schemas/property.md
-        _enabled_editors:
-          - content
-          - visual
+
 _editables:
   block:
     blockquote: true
@@ -130,7 +121,7 @@ collection_groups:
 collections_config_override: false
 
 # Control which data sets are available to populate select and multiselect inputs.
-data_config:
+data_config: true
 
 # Base path to your source files, relative to the root folder of your repository.
 source:
