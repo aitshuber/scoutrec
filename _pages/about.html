@@ -80,6 +80,7 @@ permalink: /commercial-real-partners
     </div>
     <div class="row pb-md-8">
         {% for post in site.data.broker %}
+        {% if post.company contains 'Scout' or post.company contains 'S1 Construction'  %}
         <div class="col-12 col-lg-3 col-md-4 mb-5 mb-lg-0">
 
           <img class="card-img rounded-0 card-img-{{ post.name | truncatewords: 1| remove: "..."}}" src="{{ post.image }}" alt="Commerical Real Estate Agent | {{ post.name }}" />
@@ -110,6 +111,7 @@ permalink: /commercial-real-partners
           </div>
           <!-- End Team -->
         </div>
+        {% endif %}
         {% endfor %}
     </div>
     <!-- End Row -->
