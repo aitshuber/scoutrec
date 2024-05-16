@@ -39,7 +39,7 @@ short_description: >-
   quality foods with a festive Mexican atmosphere.
 location: 2320 Kaliste Saloom Rd, Lafayette, LA 70508
 website: https://lafayette.superiorgrill.com
-type: restaurant
+type: Restaurant
 services_provided:
 ---
 Superior Grill has been rated consistently as one of Louisiana’s best Mexican restaurants since 1983 when their first establishment opened in Shreveport. The Baton Rouge location opened in 1991 and has become a landmark in fine quality foods with a festive Mexican atmosphere. They're famous for their sizzling fajitas and Superior margaritas.
