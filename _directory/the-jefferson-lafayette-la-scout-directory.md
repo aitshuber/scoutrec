@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: 'The Jefferson '
+business_name: 'The Jefferson'
 title: The Jefferson, Lafayette LA | Scout Directory
 description: >-
   Exciting news for Lafayette's event scene! The Jefferson, a sophisticated

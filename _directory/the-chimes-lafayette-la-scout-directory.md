@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: The Chimes
+business_name: The Chimes
 title: The Chimes, Lafayette LA | Scout Directory
 description: >-
   The Chimes Finally Opens in Lafayette!

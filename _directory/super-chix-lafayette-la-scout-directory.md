@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: Super Chix
+business_name: Super Chix
 title: Super Chix, Lafayette LA | Scout Directory
 description: >-
   Super Chix Coming Soon Next to The Chimes!

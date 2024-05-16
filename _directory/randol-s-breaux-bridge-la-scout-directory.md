@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: Randol's
+business_name: Randol's
 title: Randol's, Breaux Bridge LA | Scout Directory
 description: >-
   Exciting news for Breaux Bridge food lovers! Randol's, renowned for its

@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: Jet Coffee
+business_name: Jet Coffee
 title: Jet Coffee, Lafayette LA | Scout Directory
 description: >-
   Jet Coffee Opens in Lafayette!

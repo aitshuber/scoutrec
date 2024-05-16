@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: Superior Grill
+business_name: Superior Grill
 title: Superior Grill, Lafayette LA | Scout Directory
 description: >-
   If you’ve driven past the former Randol’s site lately, you might have noticed

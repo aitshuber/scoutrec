@@ -1,6 +1,6 @@
 ---
 layout: listing
-name: Jersey Mike's
+business_name: Jersey Mike's
 title: Jersey Mike's, Lafayette LA | Scout Directory
 description: >-
   Jersey Mike's Subs is a popular American sandwich chain known for its fresh,

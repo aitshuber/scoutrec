@@ -48,11 +48,11 @@ permalink: /directory
 		  {% for item in site.directory %}
 		    <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
 			<!-- Card -->
-			<a class="card card-bordered card-transition shadow-none h-100" href="{{item.url}}" title="Scout Real Estate Directory Listing for {{item.name}}">
-			  <img class="card-img-top listing-img" src="{{item.image}}" alt="{{item.name}} " />
+			<a class="card card-bordered card-transition shadow-none h-100" href="{{item.url}}" title="Scout Real Estate Directory Listing for {{item.business_name}}">
+			  <img class="card-img-top listing-img" src="{{item.image}}" alt="{{item.business_name}} " />
 			  <div class="card-body">
 				<div class="d-flex align-items-center mb-2">
-				  <h4 class="card-title mb-0">{{item.name}}</h4>
+				  <h4 class="card-title mb-0">{{item.business_name}}</h4>
 				</div>
 				<p class="card-text text-body">{{item.short_description}}</p>
 			  </div>
