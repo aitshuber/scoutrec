@@ -7,6 +7,13 @@
 	max-height: 261px;
 	object-fit: cover;
 }
+#listing img{
+	max-width: 100%;
+}
+.listing-img{
+height: 15em;
+object-fit: cover;
+}
 @media only screen and (max-width: 735px) {
 	.phone {
 		color: #A7B7A9;
