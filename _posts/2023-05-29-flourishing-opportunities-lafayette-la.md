@@ -13,12 +13,11 @@ image: /uploads/89a3849e-3064-47a1-806d-59bdc6655386.jpg
 ---
 ![](/uploads/89a3849e-3064-47a1-806d-59bdc6655386-1.jpg)
 
-## Superior Grill - Lafayette Opening Soon ##
+## Superior Grill - Lafayette Opening Soon
 
+Calling all Lafayette foodies!
 
-<address class="text-right">Calling all Lafayette foodies!&nbsp;</address>
-
-If you've driven past the former Randol's site lately, you might have noticed something missing—yep, the building is gone, but fear not! Construction has begun, and Superior Grill is on its way to filling the void with its vibrant atmosphere and mouthwatering cuisine.
+If you've driven past the former [Randol's](/_directory/randol-s-breaux-bridge-la-scout-directory) site lately, you might have noticed something missing—yep, the building is gone, but fear not! Construction has begun, and [Superior Grill](/_directory/superior-grill) is on its way to filling the void with its vibrant atmosphere and mouthwatering cuisine.
 
 Let's give credit where credit is due: Jeff Landry and Rex Moroux are the driving force behind this exciting project. With their keen eye for opportunity and their knack for turning dreams into reality, they've secured the perfect spot for Superior Grill to make its mark in Lafayette's dining scene.
 
