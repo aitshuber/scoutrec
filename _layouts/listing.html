@@ -47,6 +47,13 @@
 					  <dd class="col-sm-8">{{page.type}}</dd>
 					</dl>
 					<!-- End Row -->
+					{% if page.website %}
+					<dl class="row">
+					  <dt class="col-sm-4">Website</dt>
+					  <dd class="col-sm-8"><a href="{{page.website}}" target="_blank">{{ page.website | remove: 'https://' | remove: '/' | remove: 'www.' }}</a></dd>
+					</dl>
+					<!-- End Row -->
+					{% endif %}
 				  </div>
 				</div>
 				<!-- End Card -->
@@ -74,6 +81,6 @@
   <!-- ========== END MAIN CONTENT ========== -->
 {% include footer.html %}
 {% include scripts.html %}
-<script src="../assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+<script src="/../../assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
 </body>
 </html>

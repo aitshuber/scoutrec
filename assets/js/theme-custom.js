@@ -76,10 +76,7 @@
 		  }
 		});
 	  }
-
 	}
-
-
 	// INITIALIZATION OF AOS
 	AOS.init({
 	  duration: 650,
