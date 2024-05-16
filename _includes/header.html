@@ -1,26 +1,36 @@
 <head>
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     {% capture seo %}{% seo %}<meta name="keywords" content="{{page.keywords}}">{% endcapture %}
-     {{seo | replace: "Jekyll", "Scout Real Estate" }}
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/../assets/img/SCOUT-FAVICON-32x32.png" title="Scout Favicon">
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="/../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-    <link rel="stylesheet" href="/../assets/vendor/aos/dist/aos.css">
-    <script src="https://kit.fontawesome.com/06e13980ab.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/../assets/vendor/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/../assets/vendor/aos/dist/aos.css">
+<!-- Required Meta Tags Always Come First -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% capture seo %}{% seo %}<meta name="keywords" content="{{page.keywords}}">{% endcapture %}
+{{seo | replace: "Jekyll", "Scout Real Estate" }}
+{% for item in site.social.links %}<meta property="og:see_also" content="{{item}}" />{% endfor %}
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{site.favicon}}" title="Scout Favicon">
+<!-- Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="/../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="/../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+<link rel="stylesheet" href="/../assets/vendor/aos/dist/aos.css">
+<script src="https://kit.fontawesome.com/06e13980ab.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/../assets/vendor/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="/../assets/vendor/aos/dist/aos.css">
 
-    <!-- CSS Template -->
-    <link rel="stylesheet" href="/../assets/css/custom.css">
-    <link rel="stylesheet" href="/../assets/css/theme.css">
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6435cf3a7ac381001a303d91&product=sop' async='async'></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
+<!-- CSS Template -->
+<link rel="stylesheet" href="/../assets/css/custom.css">
+<link rel="stylesheet" href="/../assets/css/theme.css">
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6435cf3a7ac381001a303d91&product=sop' async='async'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', '{{site.google_analytics}}');
+</script>

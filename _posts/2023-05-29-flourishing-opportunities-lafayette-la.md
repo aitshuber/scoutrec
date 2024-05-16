@@ -13,6 +13,9 @@ image: /uploads/89a3849e-3064-47a1-806d-59bdc6655386.jpg
 ---
 ![](/uploads/89a3849e-3064-47a1-806d-59bdc6655386-1.jpg)
 
+## Superior Grill - Lafayette Opening Soon ##
+
+
 <address class="text-right">Calling all Lafayette foodies!&nbsp;</address>
 
 If you've driven past the former Randol's site lately, you might have noticed something missing—yep, the building is gone, but fear not! Construction has begun, and Superior Grill is on its way to filling the void with its vibrant atmosphere and mouthwatering cuisine.

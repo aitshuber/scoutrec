@@ -1,7 +1,18 @@
 include: ['_pages', '_data', 'js','_directory']
-email: your-email@example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/Chicago
+baseurl:
+name: Scout Real Estate Co.
+favicon: /../assets/img/SCOUT-FAVICON-32x32.png
+google_analytics: G-RYWPLKMTQR
+logo_image: /assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png
+social:
+  name: Scout Real Estate Co.
+  links:
+  - https://instagram.com/scoutrealestateco
+  - https://facebook.com/scoutrealestateco
+  - https://www.youtube.com/channel/UCnEJTuCvF082zAAjpeasQIA
+  - https://www.linkedin.com/company/scout-real-estate-co/
+  - /directory
 plugins:
   - jekyll-feed
 permalink: /:title
