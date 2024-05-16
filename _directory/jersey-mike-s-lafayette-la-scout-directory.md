@@ -22,11 +22,10 @@ description: >-
   community-oriented approach, often engaging in local fundraising and charity
   events.
 keywords: >-
-  Superior Grill, Lafayette, LA, Mexican food, sizzling fajitas, mouth-watering
-  enchiladas, cheesy nachos, famous margaritas, Mexican cuisine, Lafayette
-  dining, Superior Grill menu, best fajitas, authentic Mexican, Mexican
-  restaurant, delicious margaritas, cheesy dishes, grilled fajitas, local
-  dining, Tex-Mex, tasty enchiladas, popular restaurant
+  Jersey Mike's, Lafayette, LA, fast food, best sandwiches, quality sandwiches,
+  lafayette fast food, kid friendly restaurant, sub shop, sub sandwiches,
+  delicious sandwiches, popular sandwich shop, popular sub shop, new restaurant,
+  eat local
 image: /uploads/jerseymikes.png
 short_description: >-
   Jersey Mike's Subs, founded in 1956 in Point Pleasant, New Jersey, is a
