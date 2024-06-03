@@ -82,6 +82,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 body {
   margin: 0;
@@ -94,7 +95,8 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  overflow-x: hidden !important;
+  overflow-x: hidden !importan!important
+  position: relative;
 }
 
 hr {
