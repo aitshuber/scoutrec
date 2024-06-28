@@ -85,6 +85,7 @@ html {
   overflow-x: hidden !important;
 }
 body {
+  max-width: 100%;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -95,7 +96,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  overflow-x: hidden !importan!important
+  overflow-x: hidden !important;
   position: relative;
 }
 
