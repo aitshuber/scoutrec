@@ -1,9 +1,19 @@
 {
   "routes": [
 	{
-	  "from": "https://scoutrec.com/services",
-	  "to": "https://scoutrec.com/commercial-real-estate-services",
+	  "from": "/services",
+	  "to": "/commercial-real-estate-services",
 	  "status": 301
 	},
+	{
+	  "from": "/cloudcannon/(.*)",
+	  "status": 302,
+	  "to": "https://cloudcannon.com/$1"
+	},
+	{
+	  "from": "/app/(.*)",
+	  "status": 200,
+	  "to": "/app/"
+	}
   ]
 }
