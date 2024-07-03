@@ -21,9 +21,14 @@
 	  "to": "/contact-scout"
 	},
 	{
-	  "from": "/wp-content/uploads/2023/11/October-13-2023.pdfs",
+	  "from": "/newsletters",
 	  "status": 301,
-	  "to": "/real-estate-news"
+	  "to": "/contact-scout"
+	},
+	{
+	  "from": "Brokerage/",
+	  "status": 301,
+	  "to": "/about-us"
 	},
 	{
 	  "from": "/about-us",
