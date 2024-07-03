@@ -1,0 +1,9 @@
+{
+  "routes": [
+	{
+	  "from": "https://scoutrec.com/services",
+	  "to": "https://scoutrec.com/commercial-real-estate-services",
+	  "status": 301
+	}
+  ]
+}
