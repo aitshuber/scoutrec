@@ -21,7 +21,7 @@
 	  "to": "/contact-scout"
 	},
 	{
-	  "from": "Brokerage/",
+	  "from": "/Brokerage",
 	  "status": 301,
 	  "to": "/about-us"
 	},
