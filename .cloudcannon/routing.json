@@ -21,11 +21,6 @@
 	  "to": "/contact-scout"
 	},
 	{
-	  "from": "/newsletters",
-	  "status": 301,
-	  "to": "/contact-scout"
-	},
-	{
 	  "from": "Brokerage/",
 	  "status": 301,
 	  "to": "/about-us"
