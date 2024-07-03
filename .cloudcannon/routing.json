@@ -6,14 +6,29 @@
 	  "status": 301
 	},
 	{
-	  "from": "/cloudcannon/(.*)",
-	  "status": 302,
-	  "to": "https://cloudcannon.com/$1"
+	  "from": "/tim-skinner",
+	  "status": 301,
+	  "to": "/commercial-real-partners"
 	},
 	{
-	  "from": "/app/(.*)",
-	  "status": 200,
-	  "to": "/app/"
+	  "from": "/Consulting",
+	  "status": 301,
+	  "to": "/commercial-real-estate-services"
+	},
+	{
+	  "from": "/newsletters",
+	  "status": 301,
+	  "to": "/contact-scout"
+	},
+	{
+	  "from": "/wp-content/uploads/2023/11/October-13-2023.pdfs",
+	  "status": 301,
+	  "to": "/real-estate-news"
+	},
+	{
+	  "from": "/about-us",
+	  "status": 301,
+	  "to": "/commercial-real-partners"
 	}
   ]
 }
