@@ -52,7 +52,7 @@
 			   <div class="mb-3">
 				  <label class="form-label" for="Team Member">Select <span class="form-label-secondary">Team Member</span></label>
 				  <select id="teamMember" class="form-control" required>
-					<option disabled>Choose an Option</option>
+					<option selected="true"  disabled>Choose an Option</option>
 					{% for item in site.data.broker %}
 					<option value="{{item.name}}">{{item.name}}</option>
 					{% endfor %}
@@ -68,7 +68,7 @@
 			   <div class="mb-3">
 				  <label class="form-label" for="interest">Select <span class="form-label-secondary">(Interest)</span></label>
 					 <select id="interest" class="form-control" required>
-						 <option disabled>Choose an Interest</option>
+						 <option selected="true"  disabled>Choose an Interest</option>
 					   <option value="Buying">Buying</option>
 					   <option value="Selling">Selling</option>
 					   <option value="Consulting Services">Consulting Services</option>
