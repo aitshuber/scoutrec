@@ -12,7 +12,7 @@ keywords: >-
   Lafayette Louisiana Restaurant Steak House Scout Real Estate Co High End
   Commercial Real Estate
 short_description:
-date: 2023-07-24 15:00:00
+date: 2024-07-24 15:00:00
 categories:
   - blog
 image: /uploads/1304wpinhook-cafev-4.jpg
