@@ -38,7 +38,7 @@
 			   <!-- Form -->
 			   <div class="mb-3">
 				   <label class="form-label" for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
-				   <input type="tel" required class="form-control form-control-lg" name="Phone" id="phone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" />
+				   <input type="tel" required class="form-control form-control-lg" name="Phone" id="phone" placeholder="(xxx)xxx-xxxx" aria-label="(xxx)xxx-xxxx" />
 			   </div>
 			   <!-- End Form -->
 		   </div>
@@ -51,8 +51,8 @@
 			   <!-- Form -->
 			   <div class="mb-3">
 				  <label class="form-label" for="Team Member">Select <span class="form-label-secondary">Team Member</span></label>
-				  <select id="teamMember" class="form-control" required>
-					<option selected="true"  disabled>Choose an option</option>
+				  <select name="teamMember" id="teamMember" class="form-control" required>
+					<option value="">Choose an option</option>
 					{% for item in site.data.broker %}
 					<option value="{{item.name}}">{{item.name}}</option>
 					{% endfor %}
@@ -68,7 +68,7 @@
 			   <div class="mb-3">
 				  <label class="form-label" for="interest">Select <span class="form-label-secondary">(Interest)</span></label>
 					 <select id="interest" class="form-control" required>
-						 <option selected="true"  disabled>Choose an interest</option>
+					   <option value="">Choose an interest</option>
 					   <option value="Buying">Buying</option>
 					   <option value="Selling">Selling</option>
 					   <option value="Consulting Services">Consulting Services</option>

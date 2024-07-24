@@ -3,7 +3,7 @@ timezone: America/Chicago
 siteurl: https://scoutrec.com
 name: Scout Real Estate Co.
 url: "https://scoutrec.com"
-favicon: /assets/img/SCOUT-FAVICON-32x32.png
+favicon: /assets/img/favicon/favicon.ico
 google_analytics: G-RYWPLKMTQR
 logo_image: /assets/svg/logos/SCOUT-WEBSITE-MAIN-LOGO (1).png
 social:
