@@ -54,6 +54,21 @@
 	  "from": "/privacy-policy/",
 	  "status": 301,
 	  "to": "/privacy-policy"
+	},
+	{
+	  "from": "/privacy-policy/",
+	  "status": 301,
+	  "to": "/privacy-policy"
+	},
+	{
+	  "from": "/brokerage/",
+	  "status": 301,
+	  "to": "/commercial-real-partners"
+	},
+	{
+	  "from": "/commercial-sales-reports-lafayette-la/",
+	  "status": 301,
+	  "to": "/real-estate-news"
 	}
   ]
 }
