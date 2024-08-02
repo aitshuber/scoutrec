@@ -29,6 +29,31 @@
 	  "from": "/about-us",
 	  "status": 301,
 	  "to": "/commercial-real-partners"
+	},
+	{
+	  "from": "/wp-content/uploads/2023/11/September-4-2023.pdfs",
+	  "status": 301,
+	  "to": "/real-estate-news"
+	},
+	{
+	  "from": "/assets/vendor/list.js/coverage/lcov-report/src/utils/extend.js.html",
+	  "status": 301,
+	  "to": "/"
+	},
+	{
+	  "from": "/wp-content/uploads/2023/03/January-20-February-3.pdf",
+	  "status": 301,
+	  "to": "/real-estate-news"
+	},
+	{
+	  "from": "/wp-content/uploads/2023/03/January-20-February-3.pdf",
+	  "status": 301,
+	  "to": "/real-estate-news"
+	},
+	{
+	  "from": "/privacy-policy/",
+	  "status": 301,
+	  "to": "/privacy-policy"
 	}
   ]
 }
