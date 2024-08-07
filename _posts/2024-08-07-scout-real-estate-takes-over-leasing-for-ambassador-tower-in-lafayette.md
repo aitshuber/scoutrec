@@ -16,8 +16,6 @@ categories:
   - blog
 image: /uploads/1-main-photo-1.jpg
 ---
-![Ambassador Tower](/uploads/1-main-photo.jpg "Ambassador Tower, Lafayette, LA")
-
 Scout Real Estate Takes Over Leasing for Ambassador Tower in Lafayette, LA!
 
 We are thrilled to announce that Scout Real Estate Co. has taken over the leasing for the prestigious Ambassador Tower, located at 3639 Ambassador Caffery Pkwy in Lafayette, LA. This prime property now offers executive office suites available for lease, providing an unparalleled business opportunity in one of the city's most sought-after locations.<br>![](/uploads/3639ambcaf-9.jpg)
@@ -34,10 +32,8 @@ Contact Information:
 
 📞 Call us at: 337-443-0880 or contact our Leasing Agent, Braxton Higginbotham directly at : 337-501-6457
 
-📧 Email us at: braxton@scoutrec.com
-
-**Special Mention**<br>Ambassador Tower has garnered the attention of local hero and UFC champion Dustin Poirier, who recently shared this news on his Instagram stories! <br>![](/uploads/img-6761.jpg)
+📧 Email: braxton@scoutrec.com
 
 Stay tuned for more updates and exciting developments from Scout Real Estate Co.
 
-For more information, visit our website or follow us on social media. We look forward to helping you find the perfect office suite for your business at Ambassador Tower!
+For more information, visit our website, [scoutrec.com](scoutrec.com%20) or follow us on social media. We look forward to helping you find the perfect office suite for your business at Ambassador Tower!
