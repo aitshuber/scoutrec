@@ -9,7 +9,7 @@ description: >-
   one of the city's most sought-after locations.
 keywords: >-
   Lafayette Louisiana Executive Office Suites Ambassador Tower Scout Real Estate
-  Co
+  Co Developing Lafayette
 short_description:
 date: 2024-08-07 12:00:00
 categories:
