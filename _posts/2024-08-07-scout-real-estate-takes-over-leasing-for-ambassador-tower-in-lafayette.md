@@ -16,7 +16,7 @@ categories:
   - blog
 image: /uploads/1-main-photo-1.jpg
 ---
-Scout Real Estate Takes Over Leasing for Ambassador Tower in Lafayette, LA!
+## **Scout Real Estate Takes Over Leasing for Ambassador Tower in Lafayette, LA!**
 
 We are thrilled to announce that Scout Real Estate Co. has taken over the leasing for the prestigious Ambassador Tower, located at 3639 Ambassador Caffery Pkwy in Lafayette, LA. This prime property now offers executive office suites available for lease, providing an unparalleled business opportunity in one of the city's most sought-after locations.<br>![](/uploads/3639ambcaf-9.jpg)
 
