@@ -77,9 +77,10 @@ object-fit: cover;
 	background-position: 90% !important;
 }
 #blog img{
-    height: 400px;
+    height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    max-height: 800px;
 }
 /* .blog a:link {
 	color: #fff;
