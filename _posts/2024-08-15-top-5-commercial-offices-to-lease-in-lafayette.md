@@ -34,7 +34,7 @@ Located in the heart of Lafayette, 315 S College offers modern office spaces wit
 
 ### 2\. Opportunity Machine - 314 Jefferson St
 
-Opportunity Machine, situated at 314 Jefferson St, is more than just an office space; it’s a community for innovation. This property is designed for startups and tech companies looking to thrive in a collaborative environment. Located in the bustling downtown area, Opportunity Machine provides easy access to local restaurants, coffee shops, and cultural landmarks. The building boasts modern design elements, high-speed internet, and conference facilities, making it an excellent choice for growing businesses.
+Opportunity Machine, situated at 314 Jefferson St, is more than just an office space; it’s a community for innovation. This property is designed for startups and tech companies looking to thrive in a collaborative environment. Located in the bustling downtown area, Opportunity Machine provides easy access to local restaurants, coffee shops, and cultural landmarks. The building boasts modern design elements, high-speed internet, and conference facilities, making it an excellent choice for growing businesses. [https://opportunitymachine.org/]()
 
 ![Opportunity Machine Commercial Office Space for Lease Downtown Lafayette LA Scout Real Estate Co](/uploads/screenshot-2024-08-15-at-12-49-55-pm.png)
 
@@ -60,4 +60,4 @@ Located in the prestigious River Ranch area, 425 Settlers Trace offers an upscal
 
 At Scout Real Estate Co., we are committed to helping businesses find the perfect office space in Lafayette. Our experienced leasing agent, Braxton Higginbotham, is ready to assist you in exploring these top commercial properties and finding the one that best suits your needs. With our deep knowledge of the local market and personalized approach, we ensure that your leasing experience is smooth and successful.
 
-Contact our office today at 337-443-0880 to learn more about leasing opportunities at these top commercial offices in Lafayette, and take the next step in growing your business with Scout Real Estate Co.
+Contact our office today at 337-443-0880 to learn more about leasing opportunities at these top commercial offices in Lafayette, and take the next step in growing your business with Scout Real Estate Co.<br>You can also visit our listings page at https://listings.scoutrec.com/search to find the perfect office space for your business.
