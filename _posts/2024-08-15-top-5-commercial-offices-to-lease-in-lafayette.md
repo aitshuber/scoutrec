@@ -60,4 +60,4 @@ Located in the prestigious River Ranch area, 425 Settlers Trace offers an upscal
 
 At Scout Real Estate Co., we are committed to helping businesses find the perfect office space in Lafayette. Our experienced leasing agent, Braxton Higginbotham, is ready to assist you in exploring these top commercial properties and finding the one that best suits your needs. With our deep knowledge of the local market and personalized approach, we ensure that your leasing experience is smooth and successful.
 
-Contact our office today at 337-443-0880 or visit our listings page to learn more about leasing opportunities at these top commercial offices in Lafayette and take the next step in growing your business with Scout Real Estate Co.
+Contact our office today at 337-443-0880 to learn more about leasing opportunities at these top commercial offices in Lafayette, and take the next step in growing your business with Scout Real Estate Co.
