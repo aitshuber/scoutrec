@@ -42,9 +42,11 @@ location: 2320 Kaliste Saloom Rd, Lafayette, LA 70508
 website: https://lafayette.superiorgrill.com
 type: Restaurant
 ---
-![Superior Grill, Lafayette, LA - Mexican Cuisine](/uploads/superior.jpeg "Superior Grill, Lafayette, LA - Mexican Cuisine")
+![Superior Grill, Lafayette, LA - Mexican Cuisine](/uploads/457368417-530736686133571-512560561770719042-n.jpg "Superior Grill, Lafayette, LA - Mexican Cuisine")
 
 Superior Grill Lafayette is now open! Get out there and try their famous margaritas!
+
+![](/uploads/456298160-523919216815318-4349662430024261892-n.jpg)
 
 [Superior Grill](https://lafayette.superiorgrill.com/){: target="_blank" rel="noopener"} has been rated consistently as one of Louisiana’s best Mexican restaurants since 1983 when their first establishment opened in Shreveport. The Baton Rouge location opened in 1991 and has become a landmark in fine quality foods with a festive Mexican atmosphere. They’re famous for their sizzling fajitas and Superior margaritas.
 
@@ -54,4 +56,4 @@ Let’s give credit where credit is due: [Jeff Landry](https://scoutrec.com/comm
 
 As the construction comes to a close and anticipation mounts, [Lafayette](https://developinglafayette.com/){: target="_blank" rel="noopener"} is buzzing with excitement. Superior Grill isn’t just a restaurant—it’s a symbol of progress, a beacon of hope for food lovers everywhere.
 
-So, mark your calendars and get ready to fiesta, Lafayette! Superior Grill is coming to town, and it’s about to take your dining experience to a whole new level. Here’s to good times, great food, and the unstoppable duo of Jeff Landry and Rex Moroux of Scout—cheers to Lafayette’s culinary future!
+So, mark your calendars and get ready to fiesta, Lafayette! Superior Grill is coming to town, and it’s about to take your dining experience to a whole new level. Here’s to good times, great food, and the unstoppable duo of Jeff Landry and Rex Moroux of Scout—cheers to Lafayette’s culinary future!<br><br>[https://lafayette.superiorgrill.com]() <br>[https://www.facebook.com/SuperiorGrillLafayette]()
