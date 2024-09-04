@@ -44,9 +44,7 @@ location: '1400 Camellia Blvd, Lafayette, LA '
 website: https://www.superchix.com/
 type: Restaurant
 ---
-![Super Chix, Lafayette, LA](/uploads/superchix.jpeg "Super Chix, Lafayette, LA")
-
-**Super Chix Lafayette is now open!**
+**Super Chix - Lafayette is now open!**
 
 ![](/uploads/457631818-10233858333665360-3847575700390393957-n.jpg)
 
