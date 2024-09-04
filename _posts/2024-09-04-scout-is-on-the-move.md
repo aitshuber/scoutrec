@@ -21,7 +21,7 @@ We are excited to announce that Scout Real Estate Co. is making a big move! Star
 
 ### Why the Move?
 
-Our new location at 617 S Buchanan St positions us in the vibrant downtown area, a hub of business activity and community life. As a company rooted in Lafayette, we’re thrilled to be part of the continued revitalization of downtown and to contribute to the energy that makes this city so unique. This move allows us to be closer to our clients, partners, and the community we proudly serve.
+Our new location at 617 S Buchanan St positions us in the vibrant downtown area, a hub of business activity and community life. As a company rooted in Lafayette, we’re thrilled to be part of the continued revitalization of downtown and to contribute to the energy that makes this city so unique. This move represents an exciting milestone for Scout Real Estate Co. — we are proud to announce that we have purchased this building as our new permanent home, transitioning from leasing to ownership. This investment reflects our confidence in the growth and future of Lafayette and our commitment to establishing deep roots in the community we proudly serve. Owning our own space not only allows us to better serve our clients but also aligns with our long-term vision of growth and stability.
 
 ### Continued Commitment to Excellence
 
