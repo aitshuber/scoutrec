@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Scout is on the move! '
+title: Scout is planting roots Downtown Lafayette!
 description: >-
   We are excited to announce that Scout Real Estate Co. is making a big move!
   Starting September 11, 2024, our new office will be located at 617 S Buchanan
