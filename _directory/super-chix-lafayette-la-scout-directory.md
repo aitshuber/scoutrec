@@ -62,4 +62,4 @@ The strategic location of Super Chix next to The Chimes adds to the culinary exc
 
 Stay tuned for more updates on the opening date of Super Chix. Get ready to experience the irresistible taste of their signature sandwiches and sides, right here in Lafayette, next to The Chimes!
 
-Check them out here: [<u>www.superchix.com</u>](http://www.superchix.com/)<u> <br /></u>Visit their Facebook page: <u>https://www.facebook.com/superchixrestaurants<br /></u>Or see more information by our buddy Ben over at Developing Lafayette here: [https://developinglafayette.com/wp/super-chix-lafayettes-newest-chicken-spot-set-to-open-first-week-of-september/]()
+Check them out here: [<u>www.superchix.com</u>](http://www.superchix.com/)<u> <br /></u>Visit their Facebook page: [https://www.facebook.com/superchixrestaurants]()<u><br /></u>Or see more information by our buddy Ben over at Developing Lafayette here: [https://developinglafayette.com/wp/super-chix-lafayettes-newest-chicken-spot-set-to-open-first-week-of-september/]()
