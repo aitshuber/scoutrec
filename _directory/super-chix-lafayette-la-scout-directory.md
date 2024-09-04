@@ -32,7 +32,7 @@ keywords: >-
   Super Chix, Lafayette, LA, coming soon, fast food, best sandwiches, quality
   sandwiches, lafayette fast food, kid friendly restaurant, sub shop, sub
   sandwiches, delicious sandwiches, popular sandwich shop, popular sub shop, new
-  restaurant, eat local
+  restaurant, eat local, developing lafayette
 image: /uploads/superchix.jpeg
 short_description: >-
   Exciting news for Lafayette foodies! Super Chix, a popular fast-casual
