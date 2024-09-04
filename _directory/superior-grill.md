@@ -26,11 +26,12 @@ description: >-
   level. Here’s to good times, great food, and the unstoppable duo of Jeff
   Landry and Rex Moroux of Scout—cheers to Lafayette’s culinary future!
 keywords: >-
-  Superior Grill, Lafayette, LA, Mexican food, sizzling fajitas, mouth-watering
-  enchiladas, cheesy nachos, famous margaritas, Mexican cuisine, Lafayette
-  dining, Superior Grill menu, best fajitas, authentic Mexican, Mexican
-  restaurant, delicious margaritas, cheesy dishes, grilled fajitas, local
-  dining, Tex-Mex, tasty enchiladas, popular restaurant
+  Now Open Superior Grill, Lafayette, LA, Mexican food, sizzling fajitas,
+  mouth-watering enchiladas, cheesy nachos, famous margaritas, Mexican cuisine,
+  Lafayette dining, Superior Grill menu, best fajitas, authentic Mexican,
+  Mexican restaurant, delicious margaritas, cheesy dishes, grilled fajitas,
+  local dining, Tex-Mex, tasty enchiladas, popular restaurant Developing
+  Lafayette
 image: /assets/img/img_8669.jpg
 short_description: >-
   Superior Grill has been rated consistently as one of Louisiana’s best Mexican
@@ -43,7 +44,9 @@ type: Restaurant
 ---
 ![Superior Grill, Lafayette, LA - Mexican Cuisine](/uploads/superior.jpeg "Superior Grill, Lafayette, LA - Mexican Cuisine")
 
-[Superior Grill](https://lafayette.superiorgrill.com/){: target="_blank" rel="noopener"}has been rated consistently as one of Louisiana’s best Mexican restaurants since 1983 when their first establishment opened in Shreveport. The Baton Rouge location opened in 1991 and has become a landmark in fine quality foods with a festive Mexican atmosphere. They're famous for their sizzling fajitas and Superior margaritas.
+Superior Grill Lafayette is now open! Get out there and try their famous margaritas!
+
+[Superior Grill](https://lafayette.superiorgrill.com/){: target="_blank" rel="noopener"} has been rated consistently as one of Louisiana’s best Mexican restaurants since 1983 when their first establishment opened in Shreveport. The Baton Rouge location opened in 1991 and has become a landmark in fine quality foods with a festive Mexican atmosphere. They’re famous for their sizzling fajitas and Superior margaritas.
 
 If you’ve driven past the former Randol’s site lately, you might have noticed a big change! Construction is complete, and Superior Grill is on its way to opening to bring you its vibrant atmosphere and mouthwatering cuisine.
 
