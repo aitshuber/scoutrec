@@ -15,7 +15,7 @@ categories:
   - blog
 image: /uploads/brown-and-white-minimal-we-re-hiring-instagram-post.png
 ---
-![Scout Real Estate - New Location - 617 S Buchanan St. Lafayette, LA](/uploads/brown-and-white-minimal-we-re-hiring-instagram-post.png "Scout Real Estate - New Location - 617 S Buchanan St. Lafayette, LA")<br><br>Scout Real Estate Co. is Moving to Downtown Lafayette!
+![Scout Real Estate - New Location - 617 S Buchanan St. Lafayette, LA](/uploads/brown-and-white-minimal-we-re-hiring-instagram-post-1.png "Scout Real Estate - New Location - 617 S Buchanan St. Lafayette, LA")<br><br>Scout Real Estate Co. is Moving to Downtown Lafayette!
 
 We are excited to announce that Scout Real Estate Co. is making a big move! Starting September 11, 2024, our new office will be located at **617 S Buchanan St, Downtown Lafayette**. This move marks an exciting chapter for our company as we continue to grow and serve our clients in the heart of Lafayette, LA.
 
