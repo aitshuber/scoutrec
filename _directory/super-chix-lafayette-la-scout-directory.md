@@ -32,14 +32,14 @@ keywords: >-
   Super Chix, Lafayette, LA, coming soon, fast food, best sandwiches, quality
   sandwiches, lafayette fast food, kid friendly restaurant, sub shop, sub
   sandwiches, delicious sandwiches, popular sandwich shop, popular sub shop, new
-  restaurant, eat local, developing lafayette
+  restaurant, eat local, developing lafayette now open
 image: /uploads/superchix.jpeg
 short_description: >-
   Exciting news for Lafayette foodies! Super Chix, a popular fast-casual
   restaurant known for its delicious chicken sandwiches and hand-cut fries, is
-  set to open a new location right next to The Chimes on Kaliste Saloom Rd. This
-  much-anticipated arrival promises to bring even more culinary delights to our
-  vibrant city, all thanks to Diana Stephens of Scout Real Estate.
+  now open right next to The Chimes on Kaliste Saloom Rd. This much-anticipated
+  arrival promises to bring even more culinary delights to our vibrant city, all
+  thanks to Diana Stephens of Scout Real Estate.
 location: '1400 Camellia Blvd, Lafayette, LA '
 website: https://www.superchix.com/
 type: Restaurant
