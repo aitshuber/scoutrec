@@ -15,7 +15,7 @@ short_description:
 date: 2024-10-31 08:00:00
 categories:
   - blog
-image: /uploads/1304wpinhook-cafev-4.jpg
+image: /uploads/1304wpinhook-cafev-100.jpg
 ---
 Scout Real Estate Co. is pleased to announce the sale of the historic Café Vermilionville to Park Lane Boutique, a well-known fashion destination currently located in River Ranch. The sale was brokered by Scout Real Estate agents Jeff Landry and Rex Moroux, bringing together two local businesses in an exciting new chapter for this iconic property.
 
