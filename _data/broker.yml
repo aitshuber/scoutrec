@@ -53,17 +53,6 @@
   company:
     - S1 Construction
     - Scout MMC
-- name: Michelle Johnson
-  accreditation:
-  title: Accountant
-  image: /uploads/facetune-19-08-2024-09-36-27.jpg
-  phone: 337-443-0880
-  email: accounting@scoutrec.com
-  listing-link: ''
-  company:
-    - Scout MMC
-    - S1 Construction
-    - Scout
 - name: Tim Skinner
   accreditation: CCIM
   title: Agent
