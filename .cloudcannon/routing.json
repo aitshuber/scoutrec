@@ -16,6 +16,16 @@
 	  "to": "/commercial-real-estate-services"
 	},
 	{
+	  "from": "/commercial-real-estate-consulting/",
+	  "status": 301,
+	  "to": "/commercial-real-partners"
+	},
+	{
+	  "from": "/commercial-property-management/",
+	  "status": 301,
+	  "to": "/commercial-real-partners"
+	},
+	{
 	  "from": "/newsletters",
 	  "status": 301,
 	  "to": "/contact-scout"
