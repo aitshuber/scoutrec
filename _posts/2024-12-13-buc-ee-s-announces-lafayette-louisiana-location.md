@@ -13,7 +13,7 @@ keywords: >-
   Louisiana Avenue Breaking News Lafayette Economic Development Developing
   Lafayette Scouting Lafayette
 short_description:
-date: 2024-12-13 08:00:00
+date: 2024-12-20 08:00:00
 categories:
   - blog
 image: /uploads/coming-soon-announcement-instagram-post-1.png
