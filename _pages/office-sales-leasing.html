@@ -26,12 +26,12 @@ gallery:
   - assets/img/leasing/3639AmbCaf-3 cropped-1.webp
   - assets/img/leasing/RAW-2.jpg
 page_banner:
-    banner_title: Lafayette Office Sales & Leasing
-    sub_text: It's what we do.
+    banner_title: Frustrated by the Endless Hunt for the Right Office Space?
+    sub_text: We understand. Let us handle the work while you focus on growing your business.
     button_link:
     button_text: Schedule Strategy Session
     background_image: /uploads/img-4154.jpg
-permalink: /lafayette-office-leasing
+permalink: /lafayette-office-tenant-guide
 ---
 <!-- Icon Blocks -->
 <div class="overflow-hidden">
@@ -42,7 +42,7 @@ permalink: /lafayette-office-leasing
           streamline your investment
       </span>
       <h2 class="editable">
-          Expert Property Management Solutions
+         Our Free Custom Office Search is the Solution You’ve Been Looking For
       </h2>
     </div>
     <!-- End Heading -->
@@ -56,8 +56,8 @@ permalink: /lafayette-office-leasing
             <i class="fa-duotone fa-list-check fa-2x"></i>
           </span>
 
-          <h4 class="editable">Sales</h4>
-          <p class="editable">Achieve your office buying or selling goals with our up-to-date marketing strategies that connect Lafayette office buyers and sellers seamlessly and efficiently.</p>
+          <h4 class="editable">Comprehensive Access</h4>
+          <p class="editable">We scour every listing in Lafayette across multiple platforms to find the spaces that fit your needs.</p>
         </div>
         <!-- End Icon Blocks -->
       </div>
@@ -69,8 +69,9 @@ permalink: /lafayette-office-leasing
           <span class="svg-icon text-primary mb-3">
            <i class="fa-duotone fa-screwdriver-wrench fa-2x"></i>
           </span>
-          <h4 class="editable">Tenants</h4>
-          <p class="editable">Access the best office spaces in Lafayette with our personalized search and lease review services-provided at no cost to you, so you can secure an ideal workspace with confidence.</p>
+          <h4 class="editable">Receive Your Custom Search Results</h4>
+          <p class="editable">We’ll deliver a personalized report of relevant spaces to your e-mail.
+            (Yes, a human types and clicks to put this together.)</p>
         </div>
         <!-- End Icon Blocks -->
       </div>
@@ -81,12 +82,16 @@ permalink: /lafayette-office-leasing
           <span class="svg-icon text-primary mb-3">
             <i class="fa-duotone fa-file-signature fa-2x"></i>
           </span>
-          <h4 class="editable">Landlords</h4>
-          <p class="editable">Our proficient team of leasing agents oversee leasing operations for property owners, ensuring vacancies are promptly filled with high-quality tenants, thus maximizing investment returns.</p>
+          <h4 class="editable">Hassle-Free Process</h4>
+          <p class="editable">From narrowing options to finalizing leases,
+            we handle the legwork while keeping you in control.</p>
         </div>
         <!-- End Icon Blocks -->
       </div>
       <!-- End Col -->
+      <div class="col-12 text-center mt-8">
+        <p><b>Let us handle the work while you focus on growing your business.</b></p>
+      </div>
     </div>
     <!-- End Row -->
     <!-- SVG Shape -->
@@ -107,15 +112,9 @@ permalink: /lafayette-office-leasing
       <div class="card-body">
         <div class="row text-center align-items-md-center">
           <div class="col-md-9 mx-auto">
-            <h3 class="editable">Find Your Ideal Office Space in Lafayette, LA-For Free</h3>
+            <h3 class="editable">Find Your Ideal Office Space in Lafayette, LA—For Free</h3>
             <p class="editable">
-               Frustrated by the Endless Hunt for the Right Office Space?
-               <br/>
-               We understand.
-            <br/>
-               Sorting through listings, negotiating leases, and finding a location that fits your budget and vision can be overwhelming.
-
-               Without expert guidance, you risk overpaying or settling for less.
+               Where can we send your custom search?
             </p>
             <p>
               <button data-paperform-id="p7mmrdjw" data-popup-button="1" class="btn btn-primary">Schedule Strategy Session!</button>
@@ -130,8 +129,51 @@ permalink: /lafayette-office-leasing
   </div>
 </div>
 <!-- End Card -->
-<!-- Card Grid -->
-<div class="bg-dark rounded-2 mx-3 mx-xl-10" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
+<hr class="mt-10"/>
+<!-- Testimonials -->
+<div class="container content-space-b-1">
+  <div class="row">
+    <div class="col-12 my-8 text-center">
+      <h2>Why Choose Us?</h2>
+      <p>With years of experience in Lafayette commercial real estate, we’ve helped countless businesses like yours find their ideal space without the headache.
+        <br/>
+        Our approach saves time, reduces stress, and ensures you get the best deal.</p>
+    </div>
+  </div>
+  <!-- Swiper Slider -->
+  <div class="js-swiper-single-testimonials swiper">
+    <div class="swiper-wrapper">
+      {% for item in page.testimonials %}
+      <!-- Slide -->
+      <div class="swiper-slide">
+        <!-- Blockquote -->
+        <figure class="w-md-65 text-center mx-md-auto">
+          {% if item.image %}
+          <div class="mb-3">
+            <img class="avatar avatar-xl avatar-circle" src="{{item.image}}" alt="Image Description">
+          </div>
+          {% endif %}
+          <blockquote class="blockquote">â {{item.testimonial}}â</blockquote>
+
+          <figcaption class="blockquote-footer mb-5">
+            {{item.name}}
+            <span class="blockquote-footer-source">{{item.company}}</span>
+          </figcaption>
+        </figure>
+        <!-- End Blockquote -->
+      </div>
+      <!-- End Slide -->
+      {% endfor %}
+    </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="js-swiper-single-testimonials-pagination swiper-pagination"></div>
+  </div>
+  <!-- End Swiper Slider -->
+<!-- End Testimonials -->
+<!-- gallery Grid -->
+<div class="bg-dark rounded-2 mx-3 mx-xl-10 " style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
   <div class=" container-fluid content-space-1 content-space-md-2 px-4 px-md-8 px-lg-10">
     <div class="px-3">
       <!-- Heading -->
@@ -167,42 +209,9 @@ permalink: /lafayette-office-leasing
   </div>
 </div>
 <!-- End Card Grid -->
-<!-- Testimonials -->
-<div class="container content-space-1 content-space-md-3">
-  <!-- Swiper Slider -->
-  <div class="js-swiper-single-testimonials swiper">
-    <div class="swiper-wrapper">
-      {% for item in page.testimonials %}
-      <!-- Slide -->
-      <div class="swiper-slide">
-        <!-- Blockquote -->
-        <figure class="w-md-65 text-center mx-md-auto">
-          {% if item.image %}
-          <div class="mb-3">
-            <img class="avatar avatar-xl avatar-circle" src="{{item.image}}" alt="Image Description">
-          </div>
-          {% endif %}
-          <blockquote class="blockquote">â {{item.testimonial}}â</blockquote>
 
-          <figcaption class="blockquote-footer mb-5">
-            {{item.name}}
-            <span class="blockquote-footer-source">{{item.company}}</span>
-          </figcaption>
-        </figure>
-        <!-- End Blockquote -->
-      </div>
-      <!-- End Slide -->
-      {% endfor %}
-    </div>
-    </div>
-
-    <!-- Pagination -->
-    <div class="js-swiper-single-testimonials-pagination swiper-pagination"></div>
-  </div>
-  <!-- End Swiper Slider -->
-<!-- End Testimonials -->
  <!-- Card Grid -->
-<div class="container content-space-b-1">
+<div class="container content-space-1">
   <div class="row">
     <div class="col-lg-6 mb-3 mb-lg-0">
       <!-- Card -->
