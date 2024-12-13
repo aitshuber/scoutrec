@@ -43,3 +43,7 @@ Construction timelines and the official opening date will be shared in the comin
 ![](/uploads/img-1356-1-2000x923.jpg)
 
 **About Scout Real Estate Co.:** Scout Real Estate Co. is a premier commercial real estate brokerage firm headquartered in Lafayette, Louisiana. The firm specializes in commercial sales, leasing, property management, and construction, with a commitment to excellence and community-driven impact. For more information, visit [www.scoutrec.com](http://www.scoutrec.com).
+
+For more about Buc-ee’s, check out their website at [buc-ees.com](https://buc-ees.com/){: target="_blank" rel="noopener"}
+
+For developing updates, check out out our friends at: [developinglafayette.com](https://developinglafayette.com/){: target="_blank" rel="noopener"}
