@@ -2,12 +2,19 @@
 layout: listing
 business_name: 'Buc-ees '
 title: Buc-ee's, Lafayette LA | Scout Directory
-description:
+description: >-
+  Lafayette, LA — Scout Real Estate Co. is proud to announce that Buc-ee’s, the
+  iconic Texas-based travel center chain known for its pristine restrooms, vast
+  selection of snacks, and unforgettable customer experience, will soon call
+  Lafayette, Louisiana home. The new location is set to be built at the
+  Louisiana Avenue exit, a high-visibility area perfectly positioned to welcome
+  both local residents and travelers alike.
 keywords: >-
-  Buc-ee's, Lafayette, LA, fast food, best sandwiches, quality sandwiches,
-  lafayette fast food, kid friendly restaurant, sub shop, sub sandwiches,
-  delicious sandwiches, popular sandwich shop, popular sub shop, new restaurant,
-  eat local
+  Buc-ee's, Lafayette, LA, fast food, best sandwiches, quality sandwiches, bucee
+  beaver, developing lafayette, scouting lafayette, lafayette fast food, kid
+  friendly restaurant, sub shop, sub sandwiches, delicious sandwiches, popular
+  sandwich shop, new restaurant, eat local, convenience store, louisiana avenue,
+  louisiana ave, I-10, travel, louisiana travel, breaking news, groundbreaking
 image: /uploads/coming-soon2.jpg
 short_description: >-
   Lafayette, LA — Scout Real Estate Co. is proud to announce that Buc-ee’s, the
