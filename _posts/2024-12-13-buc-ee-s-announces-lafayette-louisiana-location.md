@@ -18,9 +18,9 @@ categories:
   - blog
 image: /uploads/coming-soon-announcement-instagram-post-1.png
 ---
-**Deal Brokered by Scout Real Estate’s Tim Skinner, with Key Support from LEDA and Onebane Law Firm**
+&nbsp;
 
-**![](/uploads/coming-soon-announcement-instagram-post-1.png)**
+![](/uploads/coming-soon-announcement-instagram-post-1.png)
 
 **Lafayette, LA —** Scout Real Estate Co. is proud to announce that Buc-ee’s, the iconic Texas-based travel center chain known for its pristine restrooms, vast selection of snacks, and unforgettable customer experience, will soon call Lafayette, Louisiana home. The new location is set to be built at the Louisiana Avenue exit, a high-visibility area perfectly positioned to welcome both local residents and travelers alike.
 
