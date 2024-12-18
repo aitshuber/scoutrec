@@ -1,13 +1,9 @@
 ---
 layout: post
-title: Buc-ee’s Announces Lafayette, Louisiana Location
+title: Buc-ee's Coming to Lafayette, LA - Iconic Travel Center Expands to Louisiana
 description: >-
-  Lafayette, LA — Scout Real Estate Co. is proud to announce that Buc-ee’s, the
-  iconic Texas-based travel center chain known for its pristine restrooms, vast
-  selection of snacks, and unforgettable customer experience, will soon call
-  Lafayette, Louisiana home. The new location is set to be built at the
-  Louisiana Avenue exit, a high-visibility area perfectly positioned to welcome
-  both local residents and travelers alike.
+  Buc-ee's is opening in Lafayette, LA! Enjoy clean restrooms, amazing snacks,
+  and exceptional service at the iconic travel center.
 keywords: >-
   Lafayette Louisiana Restaurant Scout Real Estate Co Buc-ees Bucees Truck Stop
   Louisiana Avenue Breaking News Lafayette Economic Development Developing
@@ -18,9 +14,9 @@ categories:
   - blog
 image: /uploads/coming-soon-announcement-instagram-post-1.png
 ---
-&nbsp;
+# &nbsp;Scout Real Estate Co. is proud to announce that Buc-ee’s is coming to Louisiana
 
-![](/uploads/coming-soon-announcement-instagram-post-1.png)
+![Buc-ees Lafayette Louisiana](/uploads/coming-soon-announcement-instagram-post-1.png)
 
 **Lafayette, LA —** Scout Real Estate Co. is proud to announce that Buc-ee’s, the iconic Texas-based travel center chain known for its pristine restrooms, vast selection of snacks, and unforgettable customer experience, will soon call Lafayette, Louisiana home. The new location is set to be built at the Louisiana Avenue exit, a high-visibility area perfectly positioned to welcome both local residents and travelers alike.
 
