@@ -98,3 +98,6 @@ object-fit: cover;
 #curator-feed-default-feed-layout{
 	padding-bottom: 0 !important;
 }
+#leaseform iframe{
+	max-height: 299px !important;
+}
