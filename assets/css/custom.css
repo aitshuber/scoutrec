@@ -100,4 +100,6 @@ object-fit: cover;
 }
 #leaseform iframe{
 	max-height: 299px !important;
+	height:275px !important;
+	overflow: hidden;
 }
