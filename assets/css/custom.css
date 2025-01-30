@@ -98,8 +98,24 @@ object-fit: cover;
 #curator-feed-default-feed-layout{
 	padding-bottom: 0 !important;
 }
-#leaseform iframe{
-	max-height: 299px !important;
-	height:275px !important;
-	overflow: hidden;
+.iframe-body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.iframe-body .main-content {
+	flex-grow: 1;
+}
+.wrapper {
+  width: 100%;
+  height: auto !important;
+  min-height: 100vh; /* Ensures it takes up full height */
+  overflow: hidden;
+  position: relative;
+}
+.wrapper iframe {
+  width: 100%;
+  min-height: 100vh; /* Adjust if needed */ !important
+  border: none;
+  height: 100vh !important;
 }

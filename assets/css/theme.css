@@ -30523,7 +30523,11 @@ a:hover .text-inherit {
   min-width: none;
   background-color: #00000077;
 }
-
+footer{
+  position: relative;
+  display: block;
+  width: 100%;
+}
 .footeraddress {
   color: rgba(255,255,255,0.5);
 }
