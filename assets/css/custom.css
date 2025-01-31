@@ -98,7 +98,7 @@ object-fit: cover;
 #curator-feed-default-feed-layout{
 	padding-bottom: 0 !important;
 }
-.iframe-body{
+/* .iframe-body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -106,16 +106,10 @@ object-fit: cover;
 .iframe-body .main-content {
 	flex-grow: 1;
 }
-.wrapper {
-  width: 100%;
-  height: auto !important;
-  min-height: 100vh; /* Ensures it takes up full height */
-  overflow: hidden;
-  position: relative;
-}
-.wrapper iframe {
-  width: 100%;
-  min-height: 100vh; /* Adjust if needed */ !important
+iframe {
+ width: 100%;
+ height: calc(100% - 550px); /* Adjust 150px based on your header and footer heights */
   border: none;
-  height: 100vh !important;
-}
+  position: relative;
+  z-index: 10;
+} */

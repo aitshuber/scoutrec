@@ -34,9 +34,9 @@ page_banner:
 permalink: /office-search
 ---
 <!-- Icon Blocks -->
-<div class="vh-100 wrapper iframe-body">
+<div class="" id="myIframe">
   <div class="container-fluid content-space-2">
-    <div class="row mx-5 px-5">
+    <div class="row mx-lg-5 px-lg-5">
     <!-- Heading -->
     <div class="col-12 text-center mx-md-auto mt-9">
       <h1 class="editable fw-bold">
@@ -46,8 +46,16 @@ permalink: /office-search
     </div>
     <!-- End Heading -->
     <div class="main-content">
-      <div class="col-10 mx-auto mt-5">
+      <div class="col-lg-10 col-xl-9 col-12 mx-auto mt-5">
         <div data-paperform-id="p7mmrdjw"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+      </div>
+      <div class="col-12 text-center mx-auto">
+        <p>Just one of many positive remarks on this free service...</p>
+      </div>
+      <div class="col-lg-10 col-xl-9 col-12 mx-auto">
+        <div class="d-flex">
+          <div class="col-3 me-3"> <img src="assets/img/leasing/315SCollege-2-2-1.webp" class="img-fluid" /></div><div class="col-9"> <p>"Scout's Custom Search was paramount in finding us the right space for our business, in a hurry!"</p><p<b>Dan Hughes, Hughes APLC</b></p></div>
+        </div>
       </div>
     </div>
       <!-- End Col -->
@@ -55,3 +63,23 @@ permalink: /office-search
 </div>
 </div>
 <!-- End Icon Blocks -->
+<script>
+  function resizeIframe() {
+      var iframe = document.getElementById('myIframe'); // Replace with your iframe's actual ID
+      var contentContainer = document.getElementById('contentContainer'); // Replace with your container's actual ID
+
+      if (iframe && contentContainer) {
+          iframe.onload = function() {
+              setTimeout(function() {
+                  var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
+                  contentContainer.style.height = iframeHeight + 'px';
+              }, 100);
+          };
+      }
+  }
+
+  // Run function on page load and resize events
+  window.addEventListener('load', resizeIframe);
+  window.addEventListener('resize', resizeIframe);
+
+</script>
