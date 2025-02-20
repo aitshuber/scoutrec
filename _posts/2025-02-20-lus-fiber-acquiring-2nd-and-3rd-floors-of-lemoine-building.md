@@ -16,9 +16,11 @@ image: /uploads/214jefferson-7-2x.jpg
 # LUS Fiber Acquiring 2nd and 3rd Floors of Lemoine Building
 {: .text-center}
 
+&nbsp;
+
 ![](/uploads/214jefferson-3.jpg)
 
-After months of diligent efforts by Jeff and Rex, along with LUS Fiber Director Michael Soileau, Mayor-President Monique Boulet, and the executive team at the Lemoine Company, it is our great privilege to announce this transformative new tenant to Downtown Lafayette.
+###### After months of diligent efforts by Jeff and Rex, along with LUS Fiber Director Michael Soileau, Mayor-President Monique Boulet, and the executive team at the Lemoine Company, it is our great privilege to announce this transformative new tenant to Downtown Lafayette.
 
 <br>LUS Fiber will now be leasing the 2 top floors of the former Lemoine Company Headquarters at 214 Jefferson St.<br>Rex, Jeff and all of Scout want to welcome LUS Fiber into the Downtown community!
 
