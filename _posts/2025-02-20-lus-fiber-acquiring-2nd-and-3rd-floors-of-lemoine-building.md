@@ -63,7 +63,7 @@ See more information below, or give Jeff Landry or Rex Moroux a call for more in
 
 [Sale Listing](https://www.moodyscre.com/marketplace/listing/645cf7694633fd4247ae26a8)
 
-### **Interested in Purchasing or Leasing Commercial Space in Downtown?**
+### **Interested in Purchasing or Leasing Commercial Space in Lafayette, LA?**
 
 If you’re looking for the perfect space for your business in **Downtown Lafayette or beyond**, let our team at **Scout Real Estate Co.** guide you. Contact us today to explore available office and retail spaces that align with your business goals.
 
