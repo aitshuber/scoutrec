@@ -2,7 +2,7 @@
 layout: post
 title: >-
   LUS Fiber Expands to Downtown Lafayette: A Transformative Deal for the Heart
-  of the City of Lafayette
+  of the City
 description: >-
   LUS Fiber will now be leasing the 2 top floors of the former Lemoine Company
   Headquarters at 214 Jefferson St.
@@ -15,7 +15,7 @@ categories:
   - blog
 image: /uploads/214jefferson-7-2x.jpg
 ---
-# LUS Fiber Expands to Downtown Lafayette: A Transformative Deal for the Heart of the City of Lafayette
+# LUS Fiber Expands to Downtown Lafayette: A Transformative Deal for the Heart of the City
 
 &nbsp;
 
