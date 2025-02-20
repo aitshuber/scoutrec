@@ -33,7 +33,7 @@ LUS Fiber, the first municipally owned fiber-optic network in the country, has b
 
 With this new office space in Downtown Lafayette, LUS Fiber continues its commitment to fostering technological advancements and economic development within the city. The move not only enhances their operational footprint but also reinforces their deep-rooted investment in the community.
 
-![](/uploads/214jefferson-88.jpg)
+![](/uploads/214jefferson-13.jpg)
 
 ## **214 Jefferson St: A Prime Location for Growth**
 
@@ -41,7 +41,7 @@ The former Lemoine Company Headquarters at **214 Jefferson St.** is a premier of
 
 By occupying the **top two floors of the building**, LUS Fiber will be positioned at the center of the city’s commercial and technological evolution. This move will bring more activity, energy, and economic momentum to Downtown, attracting additional businesses and reinforcing the area as a vibrant business district.
 
-![](/uploads/214jefferson-7.jpg)
+![](/uploads/214jefferson-11.jpg)
 
 ## **Welcoming LUS Fiber to the Downtown Community**
 
