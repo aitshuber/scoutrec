@@ -10,7 +10,7 @@ keywords: >-
   Lafayette Louisiana Downtown Lafayette Jefferson St LUS Fiber Scout Real
   Estate Co
 short_description:
-date: 2025-02-20 15:00:00
+date: 2025-02-20 14:00:00
 categories:
   - blog
 image: /uploads/214jefferson-7-2x.jpg
