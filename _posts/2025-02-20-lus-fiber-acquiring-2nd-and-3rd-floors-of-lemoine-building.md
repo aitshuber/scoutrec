@@ -21,7 +21,7 @@ image: /uploads/214jefferson-7-2x.jpg
 
 ![](/uploads/214jefferson-3.jpg)
 
-###### After months of strategic planning, collaboration, and diligent efforts, Scout Real Estate Co. is proud to announce a transformative milestone for Downtown Lafayette: **LUS Fiber is officially leasing the top two floors of the former Lemoine Company Headquarters at 214 Jefferson St.**
+After months of strategic planning, collaboration, and diligent efforts, Scout Real Estate Co. is proud to announce a transformative milestone for Downtown Lafayette: **LUS Fiber is officially leasing the top two floors of the former Lemoine Company Headquarters at 214 Jefferson St.**
 
 This deal was made possible through the hard work of **Jeff Landry and Rex Moroux** of Scout Real Estate Co., alongside **LUS Fiber Director Michael Soileau, Mayor-President Monique Boulet, and the executive team at the Lemoine Company**. Their shared vision and dedication to strengthening Lafayette’s infrastructure and economic landscape have resulted in a move that will further establish Downtown as a hub for innovation, technology, and business growth.
 
