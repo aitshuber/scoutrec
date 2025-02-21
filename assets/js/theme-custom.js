@@ -137,7 +137,12 @@
 		}
 	  }
 	});
-
+	var swiper = new Swiper('.js-swiper-single-testimonials', {
+	pagination: {
+	  el: '.js-swiper-single-testimonials-pagination',
+	  clickable: true,
+	},
+	});
 	// Card Grid Swiper
 	let swiperCardBlocks = new Swiper('.js-swiper-card-blocks', {
 	  slidesPerView: 1,
@@ -146,6 +151,10 @@
 		dynamicBullets: true,
 		clickable: true
 	  },
+	  navigation: {
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		},
 	  breakpoints: {
 		620: {
 		  slidesPerView: 2,
@@ -158,4 +167,4 @@
 	  }
 	});
   });
-})();
+})()

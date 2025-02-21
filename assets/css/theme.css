@@ -8385,6 +8385,9 @@ fieldset:disabled .btn {
 .w-55 {
   width: 55% !important;
 }
+.w-65 {
+  width: 65% !important;
+}
 
 .w-75 {
   width: 75% !important;
@@ -30520,7 +30523,13 @@ a:hover .text-inherit {
   min-width: none;
   background-color: #00000077;
 }
-
+footer{
+ position: relative;
+ bottom: 0;
+ left: 0;
+  clear: both;
+  z-index: 5;
+}
 .footeraddress {
   color: rgba(255,255,255,0.5);
 }

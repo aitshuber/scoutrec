@@ -86,6 +86,9 @@ object-fit: cover;
 	color: #fff;
 	text-decoration: none;
 } */
+.object-cover{
+	object-fit: cover
+}
 .sib_class_14_black_reg{display: none;}
 .crt-logo.crt-tag{
 	opacity: 0 !important;
@@ -95,3 +98,18 @@ object-fit: cover;
 #curator-feed-default-feed-layout{
 	padding-bottom: 0 !important;
 }
+/* .iframe-body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.iframe-body .main-content {
+	flex-grow: 1;
+}
+iframe {
+ width: 100%;
+ height: calc(100% - 550px); /* Adjust 150px based on your header and footer heights */
+  border: none;
+  position: relative;
+  z-index: 10;
+} */
