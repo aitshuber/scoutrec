@@ -30,7 +30,7 @@ For decades, the property at **115 McKinley Street** has been a staple of Lafaye
 
 Nestled in the heart of one of Lafayette’s most well-known entertainment corridors, *The Keg* has been a landmark for generations. While the building has seen better days, its history and prime location make it an unparalleled investment opportunity. This isn’t just a property—it’s a piece of Lafayette’s culture and past, waiting to be transformed into something incredible for the future.
 
-With McKinley Street ripe for redevelopment, this property has the potential to **revitalize the entire strip**, breathing new energy into the area. Whether you're considering a full restoration, a creative redevelopment, or something entirely new, the possibilities are endless.
+With McKinley Street ripe for redevelopment, this property has the potential to **revitalize the entire strip**, breathing new energy into the area. Whether you’re considering a full restoration, a creative redevelopment, or something entirely new, the possibilities are endless.
 
 ![](/uploads/twilight-3.jpg)
 
