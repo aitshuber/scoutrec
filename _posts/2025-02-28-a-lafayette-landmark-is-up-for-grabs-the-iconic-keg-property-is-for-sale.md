@@ -32,7 +32,7 @@ Nestled in the heart of one of Lafayette’s most well-known entertainment corri
 
 With McKinley Street ripe for redevelopment, this property has the potential to **revitalize the entire strip**, breathing new energy into the area. Whether you’re considering a full restoration, a creative redevelopment, or something entirely new, the possibilities are endless.
 
-![](/uploads/twilight-3.jpg)
+![](/uploads/screenshot-2025-02-28-at-11-13-36-am.png)
 
 ### More Than Just a Bar—A Prime Location with Potential
 
