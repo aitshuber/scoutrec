@@ -9,11 +9,12 @@ description: >-
   developed retail center in the heart of River Ranch. This deal was brought to
   life by Scout agents Diana Stephens and Teddy Beaullieu.
 keywords: >-
-  Buc-ee's, Lafayette, LA, fast food, best sandwiches, quality sandwiches, bucee
-  beaver, developing lafayette, scouting lafayette, lafayette fast food, kid
-  friendly restaurant, sub shop, sub sandwiches, delicious sandwiches, popular
-  sandwich shop, new restaurant, eat local, convenience store, louisiana avenue,
-  louisiana ave, I-10, travel, louisiana travel, breaking news, groundbreaking
+  Hotworx Lafayette, Hotworx Settlers Trace, Hotworx The Waters Lafayette,
+  infrared fitness Lafayette LA, 24/7 fitness studio Lafayette, virtual workouts
+  Lafayette, Hotworx second location Lafayette, boutique fitness Lafayette LA,
+  infrared sauna workouts, Hotworx gym River Ranch, new fitness studios
+  Lafayette, Scout Real Estate Co Lafayette, Diana Stephens Realtor, Teddy
+  Beaullieu Realtor, 530 Settlers Trace Blvd, commercial real estate Lafayette
 image: /uploads/hotworx.jpg
 short_description: >-
   Hotworx offers 24/7 access to virtually instructed workouts inside patented
