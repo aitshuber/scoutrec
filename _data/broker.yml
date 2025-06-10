@@ -96,10 +96,11 @@
   image: /uploads/img-6052-jpg.jpg
   phone: 337-501-6457
   email: braxton@scoutrec.com
-  listing-link: https://members.moodyscre.com/agent/62eab8d513a7040007a3eb76
+  listing-link: https://lacdb.resimplifi.com/brokers/aebaa90b-braxton-higginbotham
   company:
     - S1 Construction
     - Scout
+    - Scout MMC
 - name: Alex Mouton
   accreditation:
   title: Agent
@@ -124,7 +125,7 @@
   image: /uploads/img-6916-jpg.jpg
   phone: 337-298-3648
   email: conner@scoutrec.com
-  listing-link: ''
+  listing-link: https://members.moodyscre.com/agent/66631358ffafcc02f87ad727
   company:
     - Scout
 - name: Wesley Hebert
