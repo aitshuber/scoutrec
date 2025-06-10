@@ -4,7 +4,7 @@
   image: /uploads/img-5904.jpg
   phone: 337-257-5380
   email: jeff@scoutrec.com
-  listing-link: https://www.lacdb.com/members/#/agent/5cbfb3036ce3f20001b9ce52
+  listing-link: https://lacdb.resimplifi.com/brokers/e493de36-jeff-landry
   company:
     - Scout
 - name: Rex Moroux
@@ -13,7 +13,7 @@
   image: /uploads/rexm.jpg
   phone: 337-257-8133
   email: rex@scoutrec.com
-  listing-link: https://www.lacdb.com/members/#/agent/5cc283b5e26d5a0001ad461d
+  listing-link: https://lacdb.resimplifi.com/brokers/a4afcbcd-rex-moroux
   company:
     - Scout
 - name: Marc McIntyre
@@ -116,7 +116,7 @@
   image: /uploads/img-3120-jpg-2.jpg
   phone: 337-781-9733
   email: jake@scoutrec.com
-  listing-link: https://www.lacdb.com/members/#/agent/6605ea00a04b88590011f862
+  listing-link: https://lacdb.resimplifi.com/brokers/753eda0d-jake-zimmerman
   company:
     - Scout
 - name: Conner Munchrath
