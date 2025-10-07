@@ -27,7 +27,7 @@
     - S1 Construction
 - name: Kendra McKinney
   accreditation:
-  title: Director of Operations
+  title: Commercial Business Development
   image: /uploads/MCKINNEY-KENDRA-1022x1024.png
   phone: 337-303-6820
   email: kendra@scoutrec.com
@@ -177,4 +177,13 @@
   listing-link: ''
   company:
     - Scout MMC
+    - Scout
+- name: Joey Stelly
+  accreditation:
+  title: Agent
+  image: /uploads/img-6660-jpg.jpg
+  phone: 337-250-8996
+  email: joey@scoutrec.com
+  listing-link: ''
+  company:
     - Scout
