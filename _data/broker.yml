@@ -43,16 +43,6 @@
   listing-link:
   company:
     - Scout
-- name: Christa Judice
-  accreditation:
-  title: Property Manager
-  image: /uploads/facetune-02-08-2024-08-58-19.jpg
-  phone: 337-443-0880
-  email: propertymanager@scoutrec.com
-  listing-link:
-  company:
-    - S1 Construction
-    - Scout MMC
 - name: Tim Skinner
   accreditation: CCIM
   title: Agent
@@ -71,25 +61,6 @@
   listing-link: https://lacdb.resimplifi.com/brokers/fd2d15e8-diana-l-stephens
   company:
     - Scout
-- name: Teddy Beaullieu
-  accreditation:
-  title: Agent
-  image: >-
-    assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
-  phone: 337-356-1208
-  email: teddy@scoutrec.com
-  listing-link: https://lacdb.resimplifi.com/brokers/f2fedf13-teddy-beaullieu
-  company:
-    - Scout
-- name: Paul Bako
-  accreditation:
-  title: Agent
-  image: /uploads/paulb2.jpg
-  phone: 337-781-3596
-  email: paul@scoutrec.com
-  listing-link: https://lacdb.resimplifi.com/brokers/8a8d84ba-paul-g-bako
-  company:
-    - Scout
 - name: Braxton Higginbotham
   accreditation:
   title: Agent
@@ -101,6 +72,15 @@
     - S1 Construction
     - Scout
     - Scout MMC
+- name: Paul Bako
+  accreditation:
+  title: Agent
+  image: /uploads/paulb2.jpg
+  phone: 337-781-3596
+  email: paul@scoutrec.com
+  listing-link: https://lacdb.resimplifi.com/brokers/8a8d84ba-paul-g-bako
+  company:
+    - Scout
 - name: Alex Mouton
   accreditation:
   title: Agent
@@ -137,6 +117,35 @@
   listing-link:
   company:
     - Scout
+- name: Joey Stelly
+  accreditation:
+  title: Agent
+  image: /uploads/img-6660-jpg.jpg
+  phone: 337-250-8996
+  email: joey@scoutrec.com
+  listing-link: ''
+  company:
+    - Scout
+- name: Teddy Beaullieu
+  accreditation:
+  title: Agent
+  image: >-
+    assets/img/500x280/TEDDY-BEAULLIEAU-1-psplgpxyvekcz45147fr3bhjs9ygzt9rftq2mr6x1k.jpg
+  phone: 337-356-1208
+  email: teddy@scoutrec.com
+  listing-link: https://lacdb.resimplifi.com/brokers/f2fedf13-teddy-beaullieu
+  company:
+    - Scout
+- name: Christa Judice
+  accreditation:
+  title: Property Manager
+  image: /uploads/facetune-02-08-2024-08-58-19.jpg
+  phone: 337-443-0880
+  email: propertymanager@scoutrec.com
+  listing-link:
+  company:
+    - S1 Construction
+    - Scout MMC
 - name: Wanda Theriot
   accreditation:
   title: Bookkeeping
@@ -177,13 +186,4 @@
   listing-link: ''
   company:
     - Scout MMC
-    - Scout
-- name: Joey Stelly
-  accreditation:
-  title: Agent
-  image: /uploads/img-6660-jpg.jpg
-  phone: 337-250-8996
-  email: joey@scoutrec.com
-  listing-link: ''
-  company:
     - Scout
